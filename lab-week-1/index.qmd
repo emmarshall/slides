@@ -2,6 +2,8 @@
 title: "Welcome to PSYC 350 Laboratory"
 author: "Instructor: Emma Marshall, JD, MA"
 subtitle: "Week 1"
+filters: 
+  - roughnotation
 format: 
   revealjs:
     theme: moon
@@ -39,7 +41,7 @@ execute:
 
 ## Why is this course required? {.incremental}
 
-> "Psych majors" vs. "Psych professionals" distinction is about ability to **GENERATE** and **EVALUATE** new knowledge
+> "Psych majors" vs. "Psych professionals" distinction is about ability to [GENERATE]{.rn} and [EVALUATE]{.rn} new knowledge
 
 ::: columns
 ::: {.column width="50%"}
