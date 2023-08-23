@@ -1,0 +1,16 @@
+---
+pagetitle: "teaching"
+listing:
+  id: lectures
+  fields: [image,title,subtitle]
+  contents: 
+    - judges
+    - methods_lab
+  type: grid
+  image-align: left
+  sort: "priority asc"
+  grid-columns: 3
+---
+
+::: {#lectures}
+:::

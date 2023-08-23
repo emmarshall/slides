@@ -1,0 +1,10 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - "*.css"
+    - "*.pdf"
+
+execute: 
+  freeze: true   
+
