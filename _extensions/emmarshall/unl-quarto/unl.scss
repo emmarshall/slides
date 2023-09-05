@@ -1,0 +1,430 @@
+/*-- scss:defaults --*/
+
+$border-leftright-width: 80px;
+$border-updown-width: 40px;
+
+// colors
+$unl-red: #d00000 !default;
+$dark-grey: #404040 !default;
+$grey: #808080 !default;
+$unl-cream: #f5f1e7 !default;
+$light-cream: #fefdfa !default;
+$yellow: #ffd74f !default;
+$light-blue: #249ab5 !default;
+$blue: #005d84 !default;
+$navy: #001226 !default;
+$orange: #f58a1f !default;
+$green: #bccb2a !default;
+$purple: #a5228d !default;
+$light-grey: #cccccc !default;
+$dark-steel: #393D47 !default;
+
+$accent: $unl-red;
+$accent2: $yellow;
+$right-arrow: "\2192"; // Unicode character for right arrow
+
+// fonts
+  @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500);
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,1000;1,9..40,100;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800&family=Domine:wght@400;500;600;700&display=swap');
+
+$font-family-serif: 'DM Sans' serif !default;
+
+$presentation-font-size-root: 36px;
+$presentation-heading-color: $dark-steel !default;
+$presentation-heading-font-weight: 700;
+
+// headings
+$presentation-heading-font: 'Domine', sans-serif !default;
+
+$h1-font-size: 1.5em !default;
+$h2-font-size: 1.25em !default;
+$h3-font-size: 1em !default;
+
+//code
+$code-color: $dark-steel !default;
+$font-family-monospace: 'Fira Sans','IBM Plex Mono', Monaco, monospace !default;
+
+// quarto variables
+$body-bg: #fff !default;
+$body-color: $dark-steel !default;
+$link-color: $unl-red !default;
+
+/*-- scss:rules --*/
+
+.reveal a {
+  line-height: 1.5em;
+}
+
+.reveal p {
+  font-weight: 300;
+  margin-top: 1.25em;
+}
+
+.reveal h3 {
+  color: $grey;
+  font-style: italic;
+  font-size: 1em;
+}
+
+.reveal h4 {
+  color: $accent2;
+  font-weight: 350;
+  margin-top: 1.25em;
+}
+
+// title and headings
+
+#title-slide {
+  text-align: left;
+
+  .title {
+    color: $unl-red;
+    font-weight: 700;
+  }
+
+  .subtitle {
+    color: $dark-steel;
+    font-size: 1.4em;
+    font-style: italic;
+    margin-top: 0em;
+  }
+
+  .institute,
+  .quarto-title-affiliation,
+  .quarto-title-author-email {
+    font-style: italic;
+      font-size: 70%;
+      color: $unl-red;
+  }
+
+  .author,
+  .quarto-title-author-name {
+    color: $body-color;
+    font-size: 0.9em;
+  }
+
+  .quarto-title-authors {
+    display: flex;
+    justify-content: left;
+
+    .quarto-title-author {
+      padding-left: 0em;
+      padding-right: 0em;
+      width: 100%;
+    }
+  }
+
+}
+
+
+.title h1 {
+  color: $unl-red;
+  font-size: 72px;
+  text-shadow: none;
+  vertical-align: bottom;
+}
+
+.subtitle {
+  color: $unl-red;
+  text-shadow: none;
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.quarto-title-authors {
+  color: $grey;
+  font-size: 64px;
+  font-family: $presentation-heading-font;
+}
+
+.footer {
+  font-family: $presentation-heading-font;
+}
+
+.reveal .slide-number {
+  font-family: $presentation-heading-font;
+}
+
+.reveal .panel-tabset [role=tab] {
+    font-size: 0.8em;
+}
+
+.reveal .footer {
+    color: $dark-steel;
+}
+
+// alerts etc.
+
+.alert {
+  color: $accent;
+}
+
+.fg {
+  color: var(--col, $accent2);
+}
+
+.bg {
+  background-color: var(--col, #fff);
+  padding: 0.1em;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+// lists
+
+// Unordered lists
+
+.reveal ul {
+  font-weight: 300;
+  padding-left: 16px;
+
+  li::marker {
+    color: mix($accent, white, 70%);
+  }
+}
+
+.reveal ul ul {
+  list-style: none;
+
+  li:before {
+    content: $right-arrow;
+    color: mix($accent, white, 60%);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    margin-right: 0.5em;
+  }
+}
+
+a, a > code  {
+  color: $grey;
+  text-decoration: none;
+}
+
+section.has-dark-background a, a > code  {
+  color: $grey;
+  text-decoration: none;
+}
+
+section.has-dark-background code  {
+  color: $blue;
+}
+
+strong {
+  color: $unl-red;
+}
+
+em {
+  color: $unl-red;
+  font-style: normal;
+  font-weight: bold;
+}
+
+del {
+  color: $grey;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  font-size: 125%;
+  list-style-type: none;
+  text-align: left;
+  font-weight: 500;
+  padding-top: 40px;
+}
+
+ul li {
+  padding-bottom: 40px;
+}
+
+ol {
+  counter-reset: my-counter;
+  list-style: none;
+  padding-left: 40px;
+  font-size: 125%;
+  font-weight: bold;
+  text-align: left;
+}
+
+
+.reveal
+  div.sourceCode
+  pre
+  code.has-line-highlights
+  > span:not(.highlight-line) {
+  opacity: 0.1 !important;
+}
+
+.reveal
+  div.sourceCode
+  pre
+  code.has-line-highlights
+  > span.highlight-line {
+  font-weight: bold;
+}
+
+ol li {
+  counter-increment: my-counter;
+  padding-left: 40px;
+  position: relative;
+  font-size: 125%;
+  margin: 20px 0;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+ol li::before {
+  content: counter(my-counter);
+  color: #fff;
+  font-size: 100%;
+  font-weight: bold;
+  position: absolute;
+  left: -40px;
+  line-height: 60px;
+  width: 60px;
+  height: 60px;
+  top: 10%;
+  background: $unl-red;
+  border-radius: 50%;
+  text-align: center;
+}
+
+
+.slide-menu-wrapper {
+  display: none;
+  visibility: hidden;
+}
+
+.middle {
+  vertical-align: middle;
+}
+
+.center img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+
+// button
+
+// Beamer-style button link environment
+
+.button {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: $accent;
+  border: 1px solid $accent;
+  color: #fff !important;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: $unl-red;
+  border-color: $dark-steel;
+}
+
+.button::before {
+  content: "▶";
+  margin-right: 5px;
+}
+
+
+.huge { font-size: 200% }
+.extra-large { font-size: 150% }
+.large { font-size: 130% }
+.medium { font-size: 115% }
+.small { font-size: 70% }
+.tiny { font-size: 50% }
+
+// letterbox
+
+$slide-width: calc(var(--slide-width) + #{$border-leftright-width} * 2);
+$slide-height: calc(var(--slide-height) + #{$border-updown-width} * 2);
+
+@mixin full-screen {
+  position: absolute;
+  top: -$border-updown-width;
+  right: -$border-leftright-width;
+  height: $slide-height !important;
+  width: $slide-width !important;
+  max-height: $slide-height !important;
+  max-width: $slide-width !important;
+  margin: 0 !important;
+  z-index: -1;
+}
+
+.quarto-light {
+  background-color: #fefdfa;
+}
+
+.quarto-dark {
+  background-color: #404040;
+}
+
+html.print-pdf .quarto-light {
+  background-color: $body-bg;
+}
+
+html.print-pdf .quarto-dark {
+  background-color: $body-bg;
+}
+
+.slides {
+  background-color: $body-bg;
+  border-style: solid;
+  border-color: $body-bg;
+  box-shadow: #222222 0px 0px 30px 0px;
+
+  border-left-width: 80px;
+  border-right-width: 80px;
+  border-top-width: 40px;
+  border-bottom-width: 40px;
+}
+
+.image-left {
+  @include full-screen;
+  left: -$border-leftright-width;
+  width: $slide-width / 2 !important;
+  max-width: $slide-width / 2 !important;
+}
+
+.image-right {
+  @include full-screen;
+  right: -$border-leftright-width;
+  width: $slide-width / 2 !important;
+  max-width: $slide-width / 2 !important;
+}
+
+.background-color-div {
+  @include full-screen;
+}
+
+.background-image-div {
+  @include full-screen;
+}

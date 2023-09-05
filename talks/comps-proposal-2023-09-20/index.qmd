@@ -1,0 +1,159 @@
+---
+title: "Fourth Amendment Decision-Making and Pregnancy Loss"
+author: "Emma Marshall, JD, MA"
+subtitle: "Comps Proposal"
+format: 
+  revealjs:
+    theme: moon
+    slide-number: true
+    code-fold: true
+---
+
+# Overview {background-color="#1A936F"}
+
+Descriptive statistics provide a summary that quantitatively describes a sample of data.
+
+# Introduction 
+Map of US with new post-Dobbs abortion restrictions. Expands the scope of criminal liability for pregnancy loss. 
+# The Problems
+
+## Distinguishing between Lawful and Criminal Pregnancy Loss
+
+# Literature Review
+
+## Ambiguity and the Fourth Amendment
+
+### Standards of Suspicion: probable cause and reasonable suspicion
+
+## Hindsight bias and the Fourth Amendment
+
+## Components and Inputs of Hindsight Bias
+
+Hindsight Bias Theory
+-   Tendency to overestimate in hindsight without acknowledgement 
+-   Sense-making process (Pezzo, 2003)
+-   Component theory 
+Inevitability impressions (objective likelihood) 
+Foreseeability impressions (subjective) 
+
+::: notes
+Courts insist that judges can ignore irrelevant outcome information and accurately assess supporting evidence and determine the ex ante probability of a successful search, but a large body of psychological research on the hindsight bias has demonstrated that people often overestimate the predictability of an outcome with the benefit of hindsight (Fischhoff, 1975; Hawkins & Hastie, 1990; Roese & Vohs, 2012). 
+According to the sense-making model, hindsight bias results from biased causal reasoning processes (Pezzo, 2003)
+
+When given outcome information, people try to make sense of what  happened and often reinterpret the events leading up to that outcome in a way that makes it appear more inevitable or foreseeable than it would have been beforehand (Yopchick & Kim, 2012). 
+
+The purpose of this research was to examine the extent to which the sense-making model of hindsight bias explains the tendency for people to overestimate the probability of a successful search in hindsight compared to foresight. 
+
+:::
+## Theoretical Framework
+
+## Timeline
+
+
+```{r}
+#| label: setup
+#| echo: false
+#| eval: true
+#| message: false
+library(tidyverse)
+library(emojifont)
+library(showtext)
+library(reactable)
+library(kableExtra)
+font_add_google("Ubuntu", "Ubuntu")
+showtext_auto()
+set.seed(1234)
+population_df = tibble(ID = 1:200, 
+                       x = rep(1:20, times = 10),
+                       y = rep(1:10, each = 20),
+                       Value = rnorm(200, 250, 50))
+sample_size = 10
+sample_ids = sample(1:200, size = sample_size, replace = FALSE)
+sample_df =  filter(population_df, ID %in% sample_ids)
+```
+
+## Population
+
+**Population** refers to the entire group of individuals that we want to draw conclusions about. 
+
+```{r}
+#| label: pop-people
+#| eval: true
+#| echo: false
+#| fig-align: center
+#| fig-height: 4.16
+ggplot() +
+  geom_text(data = population_df,
+            mapping = aes(x = x,
+                          y = y,
+                          label = fontawesome('fa-user'),
+                          colour = Value),
+            family='fontawesome-webfont', size = 10) +
+  scale_colour_gradient(low = "#F5CCCC", high = "#D00000") +
+  labs(title = "Population: 200 people") +
+  theme_void() +
+  theme(legend.position = "none", 
+        legend.title = element_blank(),
+        plot.margin = margin(10, 10, 10, 10), 
+        plot.title = element_text(face = "bold",
+                                  hjust = 0.5,
+                                  family = "Ubuntu",
+                                  size = 36,
+                                  margin = margin(b = 10)))
+
+```
+
+## Sample
+
+**Sample** refers to the (usually smaller) group of people for which we have collected data on.
+
+```{r}
+#| label: samp-people
+#| eval: true
+#| echo: false
+#| fig-align: center
+#| fig-height: 4.16
+ggplot() +
+  geom_text(data = population_df,
+            mapping = aes(x = x,
+                          y = y,
+                          label = fontawesome('fa-user')),
+            family='fontawesome-webfont', size = 10, colour = "grey") +
+  geom_text(data = sample_df,
+            mapping = aes(x = x,
+                          y = y,
+                          label = fontawesome('fa-user'),
+                          colour = Value),
+            family='fontawesome-webfont', size = 10) +
+  scale_colour_gradient(low = "#F5CCCC", high = "#D00000") +
+  labs(title = glue::glue("Sample: {sample_size} people")) +
+  theme_void() +
+  theme(legend.position = "none", 
+        legend.title = element_blank(),
+        plot.margin = margin(10, 10, 10, 10), 
+        plot.title = element_text(face = "bold",
+                                  hjust = 0.5,
+                                  family = "Ubuntu",
+                                  size = 36,
+                                  margin = margin(b = 10)))
+
+```
+
+
+## Hindsight Bias: Component View
+
+
+```{mermaid}
+flowchart LR
+  A{Outcome} --> B1(Cognitive)
+  A{Outcome} --> B2(Metacognitive)
+  A{Outcome} -->B3(Motivational)
+  B1(Cognitive) -- Knowledge updating --> C1(Memory Distortion)
+  B1(Cognitive) -- Sense-making --> C2(Inevitability)
+  B2(Metacognitive) -- Sense-fluency --> C3(Foreseeability fa:fa-camera-retro)
+  B3(Motivational) -- Self-relevance --> C3(Foreseeability fa:fa-camera-retro)
+  C2(Inevitability) --> D1(Overconfidence)
+  C2(Inevitability) --> D2(Myopia)
+  C3(Foreseeability) --> D2(Myopia)
+```
+

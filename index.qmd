@@ -4,8 +4,10 @@ listing:
   id: lectures
   fields: [image,title,subtitle]
   contents: 
-    - judges
-    - "lab-week-1"
+    - "talks/judges-2023-05"
+    - "lab-resources/wks-1"
+    - "lab-lecture/lab-week-1"
+    - "lab-lecture/lab-week-3"
   type: grid
   image-align: left
   sort: "priority asc"
