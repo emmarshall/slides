@@ -176,7 +176,7 @@ I am definitely not telling you to use an alternative open-source site like [Sci
 -   Don't try to reinvent the wheel!
 :::
 
-## Bibliographic Assignment
+## Bibliographic Assignment {.smaller}
 
 ::: incremental
 
