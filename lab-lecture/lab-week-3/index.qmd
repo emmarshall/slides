@@ -167,9 +167,7 @@ I am definitely not telling you to use an alternative open-source site like [Sci
 
 # Download and install [Zotero](https://www.zotero.org/)
 
-## Lab 3 Assignment
-
-
+## APA References Assignment
 
 ::: callout-tip
 -   Use the Zotero handout!
