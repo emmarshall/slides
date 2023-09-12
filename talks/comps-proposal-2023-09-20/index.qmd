@@ -2,6 +2,8 @@
 title: "Fourth Amendment Decision-Making and Pregnancy Loss"
 author: "Emma Marshall, JD, MA"
 subtitle: "Comps Proposal"
+filters: 
+  - roughnotation
 format: 
   revealjs:
     theme: moon
@@ -11,10 +13,11 @@ format:
 
 # Overview {background-color="#1A936F"}
 
-Descriptive statistics provide a summary that quantitatively describes a sample of data.
+Descriptive statistics provide a summary that quantitatively describes a [sample of data.]{.rn}
 
 # Introduction 
 Map of US with new post-Dobbs abortion restrictions. Expands the scope of criminal liability for pregnancy loss. 
+
 # The Problems
 
 ## Distinguishing between Lawful and Criminal Pregnancy Loss

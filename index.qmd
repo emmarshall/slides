@@ -8,6 +8,7 @@ listing:
     - "lab-resources/wks-1"
     - "lab-lecture/lab-week-1"
     - "lab-lecture/lab-week-3"
+    - "lab-lecture/lab-week-4"
   type: grid
   image-align: left
   sort: "priority asc"

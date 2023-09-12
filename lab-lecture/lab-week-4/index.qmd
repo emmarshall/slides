@@ -1,0 +1,119 @@
+---
+title: "Bibliographies and APA style: Part Duex"
+author: "Instructor: Emma Marshall, JD, MA"
+subtitle: "Lab 4"
+filters:
+  - roughnotation
+format: 
+  revealjs:
+    theme: moon
+    slide-number: true
+execute:
+  echo: false
+---
+
+## Today's Tasks {background-image="images/fitz.png" background-opacity="0.1"}
+
+::: incremental
+-   Wrapping up Lab 3 APA References Assignment
+-   Today's lab:
+    -   Bibliographic Research Assignment (due next week)
+    -   Research Project Pre-Proposal (due next week)
+:::
+
+# APA format & Style and Zotero
+
+# Download and install [Zotero](https://www.zotero.org/)
+
+## APA References Assignment
+
+::: callout-tip
+-   Use the Zotero handout!
+-   Don't try to reinvent the wheel!
+:::
+
+## How to get citation
+
+::: columns
+::: {.column width="50%"}
+![](images/single_item.gif)
+:::
+
+::: {.column width="50%"}
+![](images/zotero_collection.gif)
+:::
+:::
+
+# Questions? {background-image="images/fitz.png" background-opacity="0.1"}
+
+## Bibliographic Assignment {.smaller}
+
+::: incremental
+-   Step 1: Locate variables of interest (i.e., Lab 1&2 question 5 or pick new ones)
+-   Step 2: Find [(classic)]{.rn} articles!
+-   Step 3: Find [MORE (recent)]{.rn} articles!
+-   Step 4: Identify the larger context in which variables are studied to create [search terms]{.rn}
+-   Step 5: Search them terms!
+-   Step 6: Find [EVEN MORE (authors)]{.rn} references!
+-   Step 7: Organize and construct references section in APA format using ZOTERO
+:::
+
+::: callout-note
+The goal is to build a section of your final project--taking your time to do this correctly now will save you hours and energy in the future!
+:::
+
+## Practice: Bibliographic Assignment
+
+[![](images/hindsight-bias.png)](https://web.colby.edu/cogblog/2019/11/25/who-needs-a-crystal-ball-to-see-the-future-when-hindsight-bias-makes-you-feel-as-if-you-knew-it-all-along/)
+
+------------------------------------------------------------------------
+
+::: incremental
+> [Hindsight bias]{.rn} is the tendency for individuals to rely on new knowledge when recalling their initial predictions of an event.
+
+-   Step 1: Locate variables of interest
+    -   Hindsight Bias (construct itself not specific scales!)
+-   Step 2: Find (classic) articles!
+    -   ...to PsychInfo...
+-   Step 3: Find MORE (recent) articles!
+    -   ...within last five years so PsychInfo or Google Scholar
+:::
+
+------------------------------------------------------------------------
+
+::: incremental
+> [Hindsight bias]{.rn} is the tendency for individuals to rely on new knowledge when recalling their initial predictions of an event.
+
+-   Step 4: Identify the larger context in which variables are studied to create search terms
+-   Step 5: Search them terms!
+-   Step 6: Find EVEN MORE (authors) references!
+-   Step 7: Organize and construct references section in APA format using ZOTERO
+:::
+
+# Questions? {background-image="images/fitz.png" background-opacity="0.1"}
+
+## Research Project Pre-Proposal {.smaller}
+
+::: incremental
+-   Step 0: Select Data Source for project
+
+-   Step 1: Select [core variable]{.rn}
+
+-   Step 2: Find (3) references for core variable
+
+-   Step 3: Select [other]{.rn} variables for project
+
+    -   Var 1 (Quant)
+    -   Var 2 (Quant)
+    -   Var 3 (Cat)
+    -   Var 4 (Cat)
+    -   BONUS: Var 5 (Quant) & Var 6 (Cat)
+:::
+
+# Questions? {background-image="images/fitz.png" background-opacity="0.1"}
+
+::: callout-caution
+## Reminder!!
+
+You will only complete and turn in ONE Project Pre-Proposal worksheet!
+:::
