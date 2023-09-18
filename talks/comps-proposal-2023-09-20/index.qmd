@@ -1,6 +1,6 @@
 ---
 title: "Fourth Amendment Decision-Making and Pregnancy Loss"
-subtitle: "Comps Proposal"
+subtitle: "Comprehensive Exam Proposal"
 from: markdown+emoji
 execute:
   cache: true
@@ -19,16 +19,16 @@ callout-appearance: simple
 
 ## Overview
 
-1.  **Criminalizing Abortion and Pregnancy Loss**
-2.  *Fourth Amendment Ambiguity*
-3.  ~~Psychology of Outcome Knowledge~~
-4.  ~~Comps Timeline~~
+1.  **Criminalizing Abortion & Pregnancy Loss**
+2.  ~~Individualized Suspicion & Fourth Amendment Ambiguity~~
+3.  *Psychology of Outcome-Sensitive Decisions*
+4.  **Proposed Projects & Timeline**
 
 ## {{< fa person-pregnant >}} Abortion Post-Dobbs [1]{.circle}
 
 ::: columns
 ::: {.column width="60%"}
-![](images/nyt_abortion_map.jpeg)
+![](images/nyt_abortion_map.jpeg){fig-align="center" width="430"}
 :::
 
 ::: {.column width="40%"}
@@ -75,7 +75,27 @@ The current proposal will explore these issues and discuss the nature of Fourth 
 :::
 
 
-## Criminalization of Pregnancy Loss {.smaller}
+## Individualized Suspicion & Fourth Amendment [2]{.circle} {.smaller}
+
+:::: columns
+::: {.column width="50%"}
+![](images/evidence_pcrs.svg){width="627" height="493"}
+:::
+
+::: {.column width="50%"}
+::: red-box
+1.  Non-technical, common sense approach
+2.  Based on totality of circumstances
+3.  Can use otherwise innocent facts
+:::
+:::
+::::
+
+::: {.cream-box .fragment .fade-up .center}
+<h2>{{< fa ban >}} use Hindsight or Outcome Knowledge</h2>
+:::
+
+## Criminalization of Pregnancy Loss {.smaller visibility="hidden"}
 
 ::: columns
 ::: {.column width="60%"}
@@ -88,17 +108,13 @@ The current proposal will explore these issues and discuss the nature of Fourth 
 -   Most resulted in guilty plea
 -   25% dropped or dismissed but collateral consequences remained
 :::
+:::
+:::
 
-:::
-:::
 :::
 
 ::: notes
- -   Lost custody of other children
-    -   Immigration & deportation
-    -   Fines & fees, etc.
-Pregnant people were already being criminalized for the outcome of their own pregnancies before Dobbs.
-Nearly 1,300 people faced criminalization for pregnancy outcomes, including self-managed abortions, between 2006 and 2020. That's triple the amount between 1973, when Roe v. Wade was decided, and 2005 (a period more than twice as long), according to [National Advocates for Pregnant Women](https://www.pregnancyjusticeus.org/arrests-and-prosecutions-of-pregnant-women-1973-2020/).
+-   Lost custody of other children - Immigration & deportation - Fines & fees, etc. Pregnant people were already being criminalized for the outcome of their own pregnancies before Dobbs. Nearly 1,300 people faced criminalization for pregnancy outcomes, including self-managed abortions, between 2006 and 2020. That's triple the amount between 1973, when Roe v. Wade was decided, and 2005 (a period more than twice as long), according to [National Advocates for Pregnant Women](https://www.pregnancyjusticeus.org/arrests-and-prosecutions-of-pregnant-women-1973-2020/).
 
 https://www.ifwhenhow.org/abortion-criminalization-new-research/ Investigations occurred in 26 states despite the fact that only seven states historically criminalized self-managed abortion; today that number is just three (Nevada, South Carolina, and Oklahoma).
 
@@ -114,45 +130,27 @@ For anyone entangled in the criminal process, the harm lasts. Conviction or not,
 
 ![](images/medication_abortion.svg){.r-stretch fig-align="center"}
 
+::: {.cream-box .fragment .fade-up .center}
+<h2>Abortion pill now used in 54% of US abortions</h2>
+:::
 
 ::: notes
 https://www.guttmacher.org/article/2022/02/medication-abortion-now-accounts-more-half-all-us-abortions
 
 https://www.plancpills.org/
-
-
 :::
 
-
-## Similar to Miscarriage [1]{.circle}
+## But similar to Miscarriage 
 
 ![](images/med_miscarriage.svg){.r-stretch fig-align="center"}
 
----
+::: {.cream-box .center}
+<h2>Abortion pill now used in 54% of US abortions</h2>
+:::
+------------------------------------------------------------------------
 
 ![](images/intent.svg){fig-align="center"}
 
-
-## Individualized Suspicion & Fourth Amendment [2]{.circle} {.smaller}
-
-:::: {.columns}
-
-::: {.column width="50%"}
-
-![](images/evidence_pcrs.svg){width="627" height="493"}
-:::
-
-::: {.column width="50%"}
-::: {.red-box}
-
-1.  Non-technical, common sense approach
-2.  Based on totality of circumstances
-3.  Can use otherwise innocent facts
-:::
-
-:::
-
-::::
 
 ## Which pregnancy losses raise suspicion?
 
@@ -165,7 +163,6 @@ https://www.plancpills.org/
 ![](images/med_miscarriage.svg){fig-align="center"}
 :::
 :::
-
 
 ::: notes
 Abortions by pill are indistinguishable from involuntary pregnancy loss (miscarriages)
@@ -181,7 +178,7 @@ Various legal actors must infer the pregnant person's subjective mental state ("
 Nebraska teen and mother prosecuted for crimes related to self-managed abortion in April 2022
 :::
 
-![](images/jail_nebraska.png){fig-align="center" width="406"}
+![](images/jail_nebraska.png){.r-stretch fig-align="center"}
 
 ## 
 
@@ -452,27 +449,67 @@ August 2022
 :::
 
 
-## Perceptions of Pregnancy Loss [2]{.circle}{.smaller}
+## Individualized Suspicion & Fourth Amendment [2]{.circle} {.smaller}
 
-:::: {.columns}
+::: columns
+::: {.column width="50%"}
+![](images/evidence_pcrs.svg){width="627" height="493"}
+:::
 
+::: {.column width="50%"}
+::: red-box
+1.  Risk of overestimating predictability of event (hindsight bias)
+2.  Risk of evaluating quality of decision based on consequences (outcome bias)
+:::
+:::
+:::
+
+::: {.cream-box .center}
+<h2>{{< fa ban >}} use Hindsight or Outcome Knowledge</h2>
+:::
+
+## Evaluating Individualized Suspicion in Hindsight
+
+![](images/warrant_process.svg){.r-stretch fig-align="center"}
+
+## Evaluating Individualized Suspicion in Hindsight
+
+![](images/oversight.svg){.r-stretch fig-align="center"}
+
+
+------------------------------------------------------------------------
+
+
+![](images/hindsight_components.svg){fig-align="center" width="677"}
+
+------------------------------------------------------------------------
+
+![](images/inputs_cog.svg){fig-align="center" width="677"}
+
+------------------------------------------------------------------------
+
+![](images/inputs_all.svg){fig-align="center" width="677"}
+
+------------------------------------------------------------------------
+
+![](images/hindsight_full.svg){fig-align="center" width="677"}
+
+## Perceptions of Pregnancy Loss [1]{.circle} {.smaller}
+
+::: columns
 ::: {.column width="50%"}
 ![](images/choice_preg.svg){width="627" height="493"}
 :::
 
 ::: {.column width="50%"}
-
-::: {.red-box}
-1.  Outcome bias --\> Hindsight bias
-2.  Moral Luck
+::: red-box
+1.  Outcome & Hindsight effects--\> Mens Rea
+2.  Moral Luck and blameworthiness
+:::
+:::
 :::
 
-:::
-
-::::
-
-
-::: {.cream-box}
+::: {.cream-box .fragment .fade-up}
 <h2>{{< fa pregnant >}} Most investigations triggered by someone reporting pregnancy loss as suspicious</h2>
 :::
 
@@ -485,7 +522,6 @@ Consistent with previous findings, the mediation analysis suggests that the outc
 
 In virtue of the higher perceived risk in the unlucky cases (where the harm does occur), people judge the agents as more negligent and (sometimes) more reckless. Consequently (and reasonably), they deem the agent who is viewed as acting more negligently as more blameworthy. Once subjective probability and negligence are accounted for as mediators, however, no significant direct effects of outcome on blame remain.
 :::
-
 
 ## [Example 1]{.example} :corn: Teen actually 30 weeks pregnant {auto-animate="true" auto-animate-easing="ease-in-out"}
 
@@ -637,12 +673,25 @@ ggplot() +
 
 ```
 
-## Risks of Criminalization {.smaller}
 
+## Perceptions of Pregnancy Loss [1]{.circle} {.smaller}
+
+::: columns
+::: {.column width="50%"}
+![](images/choice_preg.svg){width="627" height="493"}
+:::
+
+::: {.column width="50%"}
+::: red-box
 1.  Rates of miscarriage **higher** for racial and ethnic groups already overcriminalized in other contexts
-2.  Authorities can use other criminal laws to investigate or punish abortion-related activity
-3.  Popular narratives and public tend to underestimate prevalence
+2.  Range of laws used against **abortion**-related activity
+:::
+:::
+:::
 
+::: cream-box
+<h2>{{< fa pregnant >}} Popular narratives and beliefs about pregnancy loss underestimate occurrence</h2>
+:::
 
 ------------------------------------------------------------------------
 
@@ -655,8 +704,6 @@ ggplot() +
 ------------------------------------------------------------------------
 
 ![](images/single_all.svg){fig-align="center" width="677"}
-
-------------------------------------------------------------------------
 
 
 ::: notes
@@ -682,54 +729,6 @@ flowchart LR
   C2(Inevitability) --> D2(Myopia)
   C3(Foreseeability) --> D2(Myopia)
 ```
-
-
-## Individualized Suspicion & Fourth Amendment [2]{.circle} {.smaller}
-
-:::: {.columns}
-
-::: {.column width="50%"}
-![](images/evidence_pcrs.svg){width="627" height="493"}
-:::
-
-::: {.column width="50%"}
-
-::: {.red-box}
-1. Risk of overestimating predictability of event (hindsight bias)
-2. Risk of evaluating quality of decision based on consequences (outcome bias)
-:::
-
-:::
-
-::::
-
-::: {.cream-box}
-<h2>{{< fa ban >}} use Hindsight or Outcome Knowledge</h2>
-:::
-
-## Evaluating Individualized Suspicion in Hindsight
-![](images/warrant_process.svg){.r-stretch fig-align="center"}
-
-## Evaluating Individualized Suspicion in Hindsight
-![](images/oversight.svg){.r-stretch fig-align="center"}
-
-## Hindsight & Outcome Effects in Fourth Amendment Analysis
-![](images/hindsight-bias-mobile.png)
-
-:::: columns
-::: {.column width="30%"}
-x
-:::
-
-::: {.column width="30%"}
-y
-:::
-
-::: {.column width="30%"}
-z
-:::
-
-::::
 
 ## Timeline & Plan for Comprehensive Exam
 
