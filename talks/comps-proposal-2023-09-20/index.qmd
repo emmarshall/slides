@@ -126,7 +126,7 @@ For anyone entangled in the criminal process, the harm lasts. Conviction or not,
 :::
 
 
-## Self-Managed Abortion (SMA) Post-Dobbs [1]{.circle}
+## Self-Managed Abortion (SMA)
 
 ![](images/medication_abortion.svg){.r-stretch fig-align="center"}
 
@@ -689,7 +689,7 @@ ggplot() +
 :::
 :::
 
-::: cream-box
+::: {.cream-box .fragment .fade-up}
 <h2>{{< fa pregnant >}} Popular narratives and beliefs about pregnancy loss underestimate occurrence</h2>
 :::
 
