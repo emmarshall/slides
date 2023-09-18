@@ -1,0 +1,397 @@
+---
+title: maps
+format: 
+  html: 
+    code-fold: true
+---
+
+# Abortion Bans post Dobbs
+
+```{r}
+#| warning: false 
+#| echo: false
+
+library(tidyverse)
+library(ggpattern)
+library(usdata)
+library(usmapdata)
+library(showtext)
+library(geosphere)
+library(data.table)
+
+#get state map coordinates
+state_map<-map_data("state")
+
+#default font from showtext
+font_add_google("Noto Serif", "Noto Serif")
+font_add_google("Roboto", "roboto")
+showtext_auto()
+
+#recreate dataset from New York Times
+prohib<-data.frame(
+  state = c("Texas","Oklahoma","South Dakota","Wisconsin","Missouri","West Virginia","Alabama","Louisiana","Mississippi","Arkansas",
+            "Idaho","North Dakota","Wyoming","Tennessee",
+            "Utah","Arizona","Kentucky"),
+  status = c(rep("Ban in effect",10),rep("Ban expected soon",4), rep("Ban blocked",3)),
+  pattern = c(rep("weave",14),rep("stripe",3))
+)
+
+#merge dataset with original map data 
+map_data<-state_map|>mutate(region=str_to_title(region))|>left_join(prohib, by=c("region"="state"))|>mutate(pattern=case_when(is.na(status)~"weave",TRUE~pattern))
+#create factor with levels for status to arrange the status in different order. defaults to alphabetical
+map_data$status<-factor(map_data$status, levels=c("Ban in effect","Ban expected soon","Ban blocked"))
+#use usdata library function state2abbr to get state abbreviations for our labels
+map_data$state_abbr <- state2abbr(map_data$region)
+#
+
+#centroid labels - https://stackoverflow.com/questions/38699761/getting-the-centroids-of-lat-and-longitude-in-a-data-frame
+findCentroid <- function(Lon, Lat, ...){
+  centroid(cbind(Lon, Lat), ...)
+}
+setDT(map_data)
+map_data[, c("cent_long", "cent_lat") := as.list(findCentroid(long, lat)), by = region]
+map_data
+
+#create labels
+labels<-map_data|>
+  distinct(region, state_abbr, cent_long, cent_lat)|>
+  mutate(color=case_when(region %in% c("Texas","Oklahoma","South Dakota","Wisconsin","Missouri","West Virginia","Alabama","Louisiana","Mississippi","Arkansas") ~ "white",
+                         TRUE ~ "black"))
+
+#plot
+ggplot(map_data,aes(x=long, y=lat, group=group))+
+  #plot base map
+  geom_polygon(fill='#DDDDDD', size=0.3, color="white")+
+  #plot states with statuses
+  geom_polygon_pattern(data=map_data|>filter(!is.na(status)), inherit.aes=FALSE,
+                       mapping=aes(x=long, y=lat, group=group, pattern=status, fill=status),
+                       pattern_density=0.1, pattern_colour=NA, pattern_fill="white", pattern_spacing=0.02,
+                       color="white", size=0.2)+
+  #select colors manually
+  scale_fill_manual(values=c("#86171B","#C17264","#C17264"))+
+  scale_pattern_manual(values=c("none","none","stripe"))+
+  #overlay text labels for each state
+  geom_text(data=labels|>filter(region %in% prohib$state), inherit.aes=FALSE, 
+            mapping=aes(x=cent_long,y=cent_lat, label=state_abbr, color=color), fontface="bold", family="roboto", size=3.25)+
+  #add scale identity for color to map colors for each labels to actual value, e.g. white or black
+  scale_color_identity()+
+  coord_map()+
+  labs(title="Where Abortion Is Prohibited",
+       caption=" Data as of June 2023 (Guttmacher Institute)")+
+  theme_void()+
+  theme(legend.position = "top",
+        legend.title=element_blank(),
+        legend.key.size = unit(0.4, 'cm'),
+        plot.caption=element_text(hjust=0.05, color="grey50", vjust=-12, size=8),
+        plot.title=element_text(hjust=0.5, face="bold", size=20, margin=margin(b=25), family="Noto Serif"))
+```
+
+# Laws that could be used to punish those who self-manage an abortion
+
+```{r}
+#| warning: false 
+#| echo: false
+
+library(tidyverse)
+library(ggpattern)
+library(usdata)
+library(usmapdata)
+library(showtext)
+library(geosphere)
+library(data.table)
+
+#get state map coordinates
+state_map<-map_data("state")
+
+#default font from showtext
+font_add_google("Noto Serif", "Noto Serif")
+font_add_google("Roboto", "roboto")
+showtext_auto()
+
+#recreate dataset from https://www.guttmacher.org/sites/default/files/462-463.png
+ 
+#Mapping abortion criminalization -- at least 61 cases where prosecutions between 2000 and 2020 for allegedly ending their own pregnancy or helping someone else do so. 
+
+sma<-data.frame(
+  state = c("California","Idaho","Nevada","Arizona","Utah","Colorado","Texas","Oklahoma","Arkansas","Iowa","Mississippi","Tennessee","South Carolina","Georgia","Florida","North Carolina","Virginia","Ohio","Indiana","Illinois","Iowa","Wisconsin","Michigan","Pennsylvania","New York","Massachusetts","Maryland"),
+  status = c(rep("SMA Prosecution",27)),
+  pattern = c(rep("weave",20),rep("stripe",7))
+)
+  
+
+
+
+
+#merge dataset with original map data 
+map_data<-state_map|>mutate(region=str_to_title(region))|>left_join(sma, by=c("region"="state"))|>mutate(pattern=case_when(is.na(status)~"weave",TRUE~pattern))
+#create factor with levels for status to arrange the status in different order. defaults to alphabetical
+map_data$status<-factor(map_data$status, levels=c("SMA Prosecution"))
+#use usdata library function state2abbr to get state abbreviations for our labels
+map_data$state_abbr <- state2abbr(map_data$region)
+#
+
+#centroid labels - https://stackoverflow.com/questions/38699761/getting-the-centroids-of-lat-and-longitude-in-a-data-frame
+findCentroid <- function(Lon, Lat, ...){
+  centroid(cbind(Lon, Lat), ...)
+}
+setDT(map_data)
+map_data[, c("cent_long", "cent_lat") := as.list(findCentroid(long, lat)), by = region]
+map_data
+
+#create labels
+labels<-map_data|>
+  distinct(region, state_abbr, cent_long, cent_lat)|>
+  mutate(color=case_when(region %in% c("Texas","Oklahoma","South Dakota","Wisconsin","Missouri","West Virginia","Alabama","Louisiana","Mississippi","Arkansas") ~ "white",
+                         TRUE ~ "black"))
+
+#plot
+ggplot(map_data,aes(x=long, y=lat, group=group))+
+  #plot base map
+  geom_polygon(fill='#DDDDDD', size=0.3, color="white")+
+  #plot states with statuses
+  geom_polygon_pattern(data=map_data|>filter(!is.na(status)), inherit.aes=FALSE,
+                       mapping=aes(x=long, y=lat, group=group, pattern=status, fill=status),
+                       pattern_density=0.1, pattern_colour=NA, pattern_fill="white", pattern_spacing=0.02,
+                       color="white", size=0.2)+
+  #select colors manually
+  scale_fill_manual(values=c("#86171B","#C17264","#C17264"))+
+  scale_pattern_manual(values=c("none","none","stripe"))+
+  #overlay text labels for each state
+  geom_text(data=labels|>filter(region %in% prohib$state), inherit.aes=FALSE, 
+            mapping=aes(x=cent_long,y=cent_lat, label=state_abbr, color=color), fontface="bold", family="roboto", size=3.25)+
+  #add scale identity for color to map colors for each labels to actual value, e.g. white or black
+  scale_color_identity()+
+  coord_map()+
+  labs(title="Where SMA Criminalized between 2000-2020",
+       caption=" Source: IF/WHEN/HOW")+
+  theme_void()+
+  theme(legend.position = "top",
+        legend.title=element_blank(),
+        legend.key.size = unit(0.4, 'cm'),
+        plot.caption=element_text(hjust=0.05, color="grey50", vjust=-12, size=8),
+        plot.title=element_text(hjust=0.5, face="bold", size=20, margin=margin(b=25), family="Noto Serif"))
+```
+
+
+## Population and sample 
+
+
+
+```{r}
+#| label: setup
+#| echo: false
+#| eval: true
+#| message: false
+library(tidyverse)
+library(emojifont)
+library(showtext)
+library(reactable)
+library(kableExtra)
+font_add_google("Ubuntu", "Ubuntu")
+showtext_auto()
+set.seed(1234)
+population_df = tibble(ID = 1:200, 
+                       x = rep(1:20, times = 10),
+                       y = rep(1:10, each = 20),
+                       Value = rnorm(200, 250, 50))
+sample_size = 10
+sample_ids = sample(1:200, size = sample_size, replace = FALSE)
+sample_df =  filter(population_df, ID %in% sample_ids)
+```
+
+## Population
+
+**Population** refers to the entire group of individuals that we want to draw conclusions about.
+
+```{r}
+#| label: pop-people
+#| eval: true
+#| echo: false
+#| fig-align: center
+#| fig-height: 4.16
+ggplot() +
+  geom_text(data = population_df,
+            mapping = aes(x = x,
+                          y = y,
+                          label = fontawesome('fa-user'),
+                          colour = Value),
+            family='fontawesome-webfont', size = 10) +
+  scale_colour_gradient(low = "#F5CCCC", high = "#D00000") +
+  labs(title = "Population: 200 people") +
+  theme_void() +
+  theme(legend.position = "none", 
+        legend.title = element_blank(),
+        plot.margin = margin(10, 10, 10, 10), 
+        plot.title = element_text(face = "bold",
+                                  hjust = 0.5,
+                                  family = "Ubuntu",
+                                  size = 36,
+                                  margin = margin(b = 10)))
+
+```
+
+
+
+```{r}
+#| label: pop-people-icon
+#| eval: true
+#| echo: false
+#| fig-align: center
+#| fig-height: 4.16
+
+library(tidyverse)
+library(showtext)
+library(patchwork)
+library(janitor)
+library(glue)
+library(ggtext)
+
+txt <- "grey20"
+bg <- "#f5f1e7"
+
+font_add("fa-brands", regular = "assets/fonts/fa-brands-400.ttf")
+font_add("fa-solid", regular = "assets/fonts/fa-solid-900.ttf")
+font_add_google("Karla", "karla")
+showtext.auto()
+
+# 🔡 icons --------------------------------------------------------------------
+baby <- "<span style='font-family:fa-solid'>&#xf77c;</span>"
+
+pregnant <- "<span style='font-family:fa-solid'>&#xe31e;</span>"
+
+## plot
+ggplot() +
+  geom_richtext(data = population_df,
+            mapping = aes(x = x,
+                          y = y,
+                          label = baby,
+                          colour = Value), label.colour = NA, size = 7, fill = NA)+
+  scale_colour_gradient(low = "#F5CCCC", high = "#D00000") +
+  labs(title = "Population: 200 people") +
+  theme_void() +
+  coord_cartesian(clip = "off") +
+  theme(legend.position = "none", 
+        legend.title = element_blank(),
+            plot.margin = margin(10, 10, 10, 10), 
+        plot.background = element_rect(fill = NA, colour = NA),
+        plot.title = element_text(face = "bold",
+                                  hjust = 0.5,
+                                  family = "Karla",
+                                  size = 36,
+                                  margin = margin(b = 8)))
+
+```
+
+## Sample
+
+**Sample** refers to the (usually smaller) group of people for which we have collected data on.
+
+```{r}
+#| label: samp-people
+#| eval: true
+#| echo: false
+#| fig-align: center
+#| fig-height: 4.16
+
+
+library(tidyverse)
+library(showtext)
+library(patchwork)
+library(janitor)
+library(glue)
+library(ggtext)
+
+txt <- "grey20"
+bg <- "#f5f1e7"
+
+font_add("fa-brands", regular = "assets/fonts/fa-brands-400.ttf")
+font_add("fa-solid", regular = "assets/fonts/fa-solid-900.ttf")
+font_add_google("Karla", "karla")
+showtext.auto()
+
+# 🔡 icons --------------------------------------------------------------------
+baby <- "<span style='font-family:fa-solid'>&#xf77c;</span>"
+
+pregnant <- "<span style='font-family:fa-solid'>&#xe31e;</span>"
+
+ggplot() +
+  geom_text(data = population_df,
+            mapping = aes(x = x,
+                          y = y,
+                          label = fontawesome('fa-user')),
+            family='fontawesome-webfont', size = 10, colour = "grey") +
+  geom_text(data = sample_df,
+            mapping = aes(x = x,
+                          y = y,
+                          label = fontawesome('fa-user'),
+                          colour = Value),
+            family='fontawesome-webfont', size = 10) +
+  scale_colour_gradient(low = "#F5CCCC", high = "#D00000") +
+  labs(title = glue::glue("Sample: {sample_size} people")) +
+  theme_void() +
+  theme(legend.position = "none", 
+        legend.title = element_blank(),
+        plot.margin = margin(10, 10, 10, 10), 
+        plot.title = element_text(face = "bold",
+                                  hjust = 0.5,
+                                  family = "Ubuntu",
+                                  size = 36,
+                                  margin = margin(b = 10)))
+
+```
+
+
+```{r}
+#| label: samp-people
+#| eval: true
+#| echo: false
+#| fig-align: center
+#| fig-height: 4.16
+
+
+library(tidyverse)
+library(showtext)
+library(patchwork)
+library(janitor)
+library(glue)
+library(ggtext)
+
+txt <- "grey20"
+bg <- "#f5f1e7"
+
+font_add("fa-brands", regular = "assets/fonts/fa-brands-400.ttf")
+font_add("fa-solid", regular = "assets/fonts/fa-solid-900.ttf")
+font_add_google("Karla", "karla")
+showtext.auto()
+
+# 🔡 icons --------------------------------------------------------------------
+baby <- "<span style='font-family:fa-solid'>&#xf77c;</span>"
+
+pregnant <- "<span style='font-family:fa-solid'>&#xe31e;</span>"
+
+ggplot() +
+  geom_text(data = population_df,
+            mapping = aes(x = x,
+                          y = y,
+                          label = fontawesome('fa-user')),
+            family='fontawesome-webfont', size = 10, colour = "grey") +
+  geom_text(data = sample_df,
+            mapping = aes(x = x,
+                          y = y,
+                          label = fontawesome('fa-user'),
+                          colour = Value),
+            family='fontawesome-webfont', size = 10) +
+  scale_colour_gradient(low = "#F5CCCC", high = "#D00000") +
+  labs(title = glue::glue("Sample: {sample_size} people")) +
+  theme_void() +
+  theme(legend.position = "none", 
+        legend.title = element_blank(),
+        plot.margin = margin(10, 10, 10, 10), 
+        plot.title = element_text(face = "bold",
+                                  hjust = 0.5,
+                                  family = "Ubuntu",
+                                  size = 36,
+                                  margin = margin(b = 10)))
+
+```
+
