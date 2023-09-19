@@ -35,9 +35,9 @@ callout-appearance: simple
 ::: red-box
 {{< fa ban >}} 14 states completely ban abortion
 
-{{< fa clock >}} 30 states ban abortion early in pregnancy
-
 {{< fa handcuffs >}} Mix of civil and criminal penalties
+
+{{< fa republican >}} Use political (not medical) language to define terms
 :::
 :::
 :::
@@ -55,6 +55,12 @@ The reasons pregnant people have already faced criminal charges are varied and t
 
 A pregnant person could also be criminalized for eating poppyseeds and testing positive for substance use.
 :::
+
+## End of Pregnancy as Moral Transgression
+
+
+To determine whether an agent’s behavior is wrong, punishable, and blameworthy, people mainly rely on two key factors: intention and outcome. 
+
 
 ## Fourth Amendment
 
@@ -114,7 +120,11 @@ The current proposal will explore these issues and discuss the nature of Fourth 
 :::
 
 ::: notes
--   Lost custody of other children - Immigration & deportation - Fines & fees, etc. Pregnant people were already being criminalized for the outcome of their own pregnancies before Dobbs. Nearly 1,300 people faced criminalization for pregnancy outcomes, including self-managed abortions, between 2006 and 2020. That's triple the amount between 1973, when Roe v. Wade was decided, and 2005 (a period more than twice as long), according to [National Advocates for Pregnant Women](https://www.pregnancyjusticeus.org/arrests-and-prosecutions-of-pregnant-women-1973-2020/).
+-   Lost custody of other children 
+- Immigration & deportation 
+- Fines & fees, etc. Pregnant people were already being criminalized for the outcome of their own pregnancies before Dobbs. 
+
+Nearly 1,300 people faced criminalization for pregnancy outcomes, including self-managed abortions, between 2006 and 2020. That's triple the amount between 1973, when Roe v. Wade was decided, and 2005 (a period more than twice as long), according to [National Advocates for Pregnant Women](https://www.pregnancyjusticeus.org/arrests-and-prosecutions-of-pregnant-women-1973-2020/).
 
 https://www.ifwhenhow.org/abortion-criminalization-new-research/ Investigations occurred in 26 states despite the fact that only seven states historically criminalized self-managed abortion; today that number is just three (Nevada, South Carolina, and Oklahoma).
 
@@ -557,7 +567,7 @@ estimate_ids = sample(1:200, size = estimate_size, replace = FALSE)
 estimate_df =  filter(population_df, ID %in% estimate_ids)
 ```
 
-## Pregnancy Loss is Common
+## Pregnancy Loss is Common{visibility="hidden"}
 
 **Miscarriages** are typically unpreventable, occur early in pregnancy and cannot be attributed to single cause.
 
@@ -617,7 +627,7 @@ ggplot() +
 
 ## Pregnancy Loss is Common
 
-**Miscarriages** are typically unpreventable, occur early in pregnancy and cannot be attributed to single cause.
+**Miscarriages** are typically unpreventable, occurs early in pregnancy and cannot be attributed to single cause.
 
 ```{r}
 #| label: rates-higher

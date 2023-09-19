@@ -1,0 +1,56 @@
+---
+title: Comps proposal script
+---
+
+# Psychology of Outcome-Sensative Decisions
+
+Large body of research in psychology demonstrates that hindsight knowledge often colors our understanding of the past. 
+
+-   Upon learning how an event 
+
+## Inferring intent of actions
+
+There is rich internal structure to the folk concept of
+intentional action, which comprises a series of causal relations
+between mental states, actions and states of affairs in the
+world. Moral judgment shows nuanced patterns of sensitivity to
+all three of these elements: mental states (like beliefs and
+desires), the actions that a person performs, and the
+consequences of those actions.
+
+## Blame for Moral Harms
+
+Theories of blame highlight several critical factors in determining an agent’s blameworthiness for a bad outcome (Alicke, Mandel, Hilton, Gerstenberg, & Lagnado, 2015; Heider, 1958; Malle,
+Guglielmo, & Monroe, 2014; Shaver, 1985; Weiner, 1995). 
+
+The first step is detecting some bad outcome that violates a social norm.
+Next comes an evaluation of whether the agent caused the outcome, followed by an assessment of whether the agent intended
+the outcome. People are considered more blameworthy for harmful actions than equally harmful omissions (Baron, 1994; Baron &
+Ritov, 1994; Cushman, Murray, Gordon-McKeon, Wharton, &
+Greene, 2012; Spranca, Minsk, & Baron, 1991) because the former
+are viewed as more causal than the latter (Cushman & Young,
+2011). 
+
+Moreover, people are blamed more for intentional compared to unintentional (i.e., accidental) harms (Karlovac & Darley,
+1988; Shultz & Wright, 1985; Shultz, Wright, & Schleifer, 1986).
+Causation and malintent are each alone sufficient to ascribe judgments of blame for bad outcomes. 
+
+In the case of accidental harms, people blame agents for bad outcomes that they caused but did not intend (Ahram et al., 2015; Cushman, 2008; Cushman, Dreber, Wang, & Costa, 2009; Martin & Cushman, 2015; Oswald, Orth, Aeberhard, & Schneider, 2005). 
+
+There is also evidence that people blame agents for bad outcomes that they intend or desire but do not cause (Cushman, 2008; Inbar, Pizarro, & Cushman, 2012).
+
+## Person-centered approach to Moral Judgment
+
+-   Research suggests that evaluations of a person’s moral character bleed into evaluations of that person’s actions (Uhlmann, Pizarro, & Diermeier, 2015).
+
+### Attributions of Blame
+    -   When instructed to instructed to assess whether an act is blameworthy, people may instead evaluate whether the person is blameworthy
+    -   Inferences about moral character of individuals impact how people assign blame or praise. 
+    -   Unlikeable people assigned more blame than likeable people for similar offenses (Alicke & Zell, 2009; Kliemann, Young, Scholz, & Saxe, 2008; Nadler, 2012). 
+    
+-   Different Models and Theories of Blame
+    -   Culpable control model of blame - a desire to assign blame to dislike agents influences perceptions of their control over an accident (Alicke, 2000)
+    -   Path Model of Blame - 
+    
+
+

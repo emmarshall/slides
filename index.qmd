@@ -9,6 +9,7 @@ listing:
     - "lab-lecture/lab-week-1"
     - "lab-lecture/lab-week-3"
     - "lab-lecture/lab-week-4"
+    - "lab-lecture/lab-week-5"
     - "talks/comps-proposal-2023-09-20"
   type: grid
   image-align: left
