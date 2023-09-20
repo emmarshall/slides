@@ -1,0 +1,285 @@
+---
+title: "Nebraska Teen Case"
+from: markdown+emoji
+execute:
+  cache: true
+format: 
+  unl-revealjs:
+    css: [../custom.css, ../timeline.css]
+    incremental: true
+    width: 1280
+    height: 720
+author:
+  - name: Emma Marshall, JD, MA
+    affiliations: University of Nebraska-Lincoln
+date: last-modified
+callout-appearance: simple
+---
+
+## {} 
+
+##  {.fragment-remove}
+
+::: {.fragment .fade-out fragment-index="1"}
+### Nebraska teen and mother prosecuted for crimes related to self-managed abortion in April 2022
+:::
+
+::: columns
+::: {.column width="90%"}
+::: {.container .fragment .fade-up fragment-index="1"}
+::: {.timeline .timeline-left style="height: 720px;"}
+::: timeline-block
+::: timeline-icon
+![](images/pol_hat.svg)
+:::
+
+::: timeline-content
+**Detective opens investigation into alleged stillbirth**
+
+::: {.timeline-details .fragment .fade-out fragment-index="2"}
+[:speech_balloon: Anonymous tip that 17-year-old had stillbirth and mother helpt to bury (and burn) fetal remains]{style="padding-top:20px;display:block;"}
+
+[:hospital: (Somehow) accessed teen's medical records revealing \> 23 weeks pregnant]{style="padding-top:20px;display:block;"}
+
+![](images/Investigation_board.png){style="height:160px;float:right;padding-left:10px"}
+:::
+
+::: timeline-date
+April 26
+:::
+:::
+:::
+
+::: {.timeline-block .fragment .fade-up fragment-index="2"}
+::: timeline-icon
+![](images/dig.svg)
+:::
+
+::: timeline-content
+Detective interviews at family home and fetal remains exhumed
+
+::: {.timeline-details .fragment .fade-out fragment-index="3"}
+![](images/waste.svg){style="height:160px;float:right;padding-left:10px"} [:oncoming_police_car: Teen alleged stillbirth at home late at night and woke up mother]{style="padding-top:20px;display:block;"}
+
+[:no_entry: Mom and friend helped teen to bag, transport and bury remains]{style="padding-top:20px;display:block;"}
+
+[:flashlight: Detective taken to burial site, exhumed remains and visually confirmed thermal injuries]{style="padding-top:20px;display:block;"}
+
+[:fire: Confirmed thermal injuries]{style="padding-top:20px;display:block;"}
+:::
+
+::: timeline-date
+April 29
+:::
+:::
+:::
+
+::: {.timeline-block .fragment .fade-up fragment-index="3"}
+::: timeline-icon
+![](images/clipboard.png)
+:::
+
+::: timeline-content
+Autopsy confirmed the fetus was stillborn
+
+::: {.timeline-details .fragment .fade-out fragment-index="4"}
+![](images/abortion.svg){style="height:160px;float:right;padding-left:10px"} [:clipboard: Exact cause of death unknown]{style="padding-top:20px;display:block;"}
+
+[:microscope: But no air in lungs]{style="padding-top:20px;display:block;"}
+:::
+
+::: timeline-date
+April 30
+:::
+:::
+:::
+
+::: {.timeline-block .fragment .fade-up fragment-index="4"}
+::: timeline-icon
+![](images/gavel.png)
+:::
+
+::: timeline-content
+Citations issued to teen, mom & friend for misdemeanors
+
+::: {.timeline-details .fragment .fade-out fragment-index="5"}
+![](images/courthouse.png){style="height:160px;float:right;padding-left:10px"} [:skull:concealing death of another person]{style="padding-top:20px;display:block;"}
+
+[:speech_balloon:false reporting]{style="padding-top:20px;display:block;"}
+
+[:triangular_flag_on_post:Friend pleads no contest]{style="padding-top:20px;display:block;"}
+:::
+
+::: timeline-date
+May 2
+:::
+:::
+:::
+
+::: {.timeline-block .fragment .fade-up fragment-index="5"}
+::: timeline-icon
+![](images/pol_hat.svg)
+:::
+
+::: timeline-content
+**Detective continues investigation**
+
+::: {.timeline-details .fragment .fade-out fragment-index="6"}
+![](images/pol_report.svg){style="height:160px;float:right;padding-left:10px"} [:eyes: Re-interviews teen to determine exact time of alleged stillbirth]{style="padding-top:20px;display:block;"} [:calling: Teen reveals a Facebook DM sent to mom from April, 22 2022 at 3:38am]{style="padding-top:20px;display:block;"}
+:::
+
+::: timeline-date
+Next few weeks
+:::
+:::
+:::
+
+::: {.timeline-block .fragment .fade-up fragment-index="6"}
+::: timeline-icon
+![](images/abortion_crime.svg)
+:::
+
+::: timeline-content
+Prosecutors charge teen and mom with added felony re: body disposal
+
+::: timeline-date
+June 1
+:::
+:::
+:::
+:::
+:::
+:::
+:::
+
+## 
+
+##  {.fragment-remove}
+
+::: {.fragment .fade-out fragment-index="1"}
+### Nebraska law banned abortion after 20 weeks and limited to licensed providers **but SMA not criminalized**
+:::
+
+::: columns
+::: {.column width="90%"}
+::: {.container .fragment .fade-up fragment-index="1"}
+::: {.timeline .timeline-left style="height: 720px;"}
+::: timeline-block
+::: timeline-icon
+![](images/search_warrant.png)
+:::
+
+::: timeline-content
+Detective sought search warrants to access Facebook DMs
+
+::: {.timeline-details .fragment .fade-out fragment-index="2"}
+[:mag: Requested private Facebook activity for teen and mom from April 15-present]{style="padding-top:20px;display:block;"}
+
+[:cop: Court told evidence needed to determine "whether the baby was stillborn or asphyxiated."]{style="padding-top:20px;display:block;"}
+
+[:triangular_flag_on_post: Probable cause based on violation of body disposal law]{style="padding-top:20px;display:block;"}
+
+![](images/fb.svg){style="height:160px;float:right;padding-left:10px"}
+:::
+
+::: timeline-date
+June 7
+:::
+:::
+:::
+
+::: {.timeline-block .fragment .fade-up fragment-index="2"}
+::: timeline-icon
+![](images/pill_evidence.svg)
+:::
+
+::: timeline-content
+Facebook DMs suggest use of abortion pills to end pregnancy
+
+::: {.timeline-details .fragment .fade-out fragment-index="3"}
+![](images/abortion.svg){style="height:160px;float:right;padding-left:10px"} [:pill: Messages obtained revealed discussion between mom and teen about ending the pregnancy with abortion pills beforehand pills]{style="padding-top:20px;display:block;"}
+
+[:credit_card: Mom suggested she purchased the pills and provided teen instructions]{style="padding-top:20px;display:block;"}
+
+[:jeans: Teen said could not wait to get the "thing" out of her body and "finally be able to wear jeans"]{style="padding-top:20px;display:block;"}
+
+[:tea: Days later teen's friend also contacts authorities claiming they saw teen take the pills to cause a miscarriage]{style="padding-top:20px;display:block;"}
+:::
+
+::: timeline-date
+June 9-14
+:::
+:::
+:::
+
+::: {.timeline-block .fragment .fade-up fragment-index="3"}
+::: timeline-icon
+![](images/search_warrant.png)
+:::
+
+::: timeline-content
+Sought second warrant for household electronics
+
+::: {.timeline-details .fragment .fade-out fragment-index="4"}
+![](images/house_warrant.png){style="height:160px;float:right;padding-left:10px"} [:mag: Told court looking for evidence related to medications which could be used for purpose of causing a miscarriage]{style="padding-top:20px;display:block;"}
+
+[:computer: 13 laptops and smartphones seized from the family]{style="padding-top:20px;display:block;"}
+
+[:floppy_disk: 24 gigabytes of data including images, messages, and web histories from their phones extracted]{style="padding-top:20px;display:block;"}
+:::
+
+::: timeline-date
+June 15
+:::
+:::
+:::
+
+::: {.timeline-block .fragment .fade-up fragment-index="4"}
+::: timeline-icon
+![](images/court.svg)
+:::
+
+::: timeline-content
+**Dobbs v. Jackson Women's Health Organization overturns Roe**
+:::
+
+::: timeline-date
+June 24
+:::
+:::
+
+::: {.timeline-block .fragment .fade-up fragment-index="5"}
+::: timeline-icon
+![](images/abortion_crime.svg)
+:::
+
+::: timeline-content
+Mom charged with two more felonies for daughter's abortion
+
+::: {.timeline-details .fragment .fade-out fragment-index="6"}
+![](images/pill_evidence.svg){style="height:160px;float:right;padding-left:10px"} [:calendar: Conducting an abortion after 20 weeks]{style="padding-top:20px;display:block;"} [:hospital: Abortion by someone other than a licensed physician]{style="padding-top:20px;display:block;"}
+:::
+
+::: timeline-date
+July 12
+:::
+:::
+:::
+
+::: {.timeline-block .fragment .fade-up fragment-index="6"}
+::: timeline-icon
+![](images/news.svg)
+:::
+
+::: timeline-content
+**National news reports on Meta's cooperation with post-Dobbs "abortion" investigation creating backlash**
+
+::: timeline-date
+August 2022
+:::
+:::
+:::
+:::
+:::
+:::
+:::

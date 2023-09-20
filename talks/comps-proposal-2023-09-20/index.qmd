@@ -17,25 +17,89 @@ date: last-modified
 callout-appearance: simple
 ---
 
-## Overview
+## Overview {visibility="hidden"}
 
-1.  **Criminalizing Abortion & Pregnancy Loss**
-2.  ~~Individualized Suspicion & Fourth Amendment Ambiguity~~
-3.  *Psychology of Outcome-Sensitive Decisions*
+1.  *Psychology of Outcome-Sensitive Decisions*
+2.  **Criminalizing Abortion & Pregnancy Loss**
+3.  ~~Individualized Suspicion & Fourth Amendment Ambiguity~~
 4.  **Proposed Projects & Timeline**
 
-## {{< fa person-pregnant >}} Abortion Post-Dobbs [1]{.circle}
+------------------------------------------------------------------------
+
+![](images/for_hind.svg){fig-align="center" width="677"}
+
+------------------------------------------------------------------------
+
+![](images/hind_intro.svg){fig-align="center" width="677"}
+
+------------------------------------------------------------------------
+
+![](images/hindsight_components.svg){fig-align="center" width="677"}
+
+------------------------------------------------------------------------
+
+![](images/inputs_cog.svg){fig-align="center" width="677"}
+
+------------------------------------------------------------------------
+
+![](images/inputs_all.svg){fig-align="center" width="677"}
+
+------------------------------------------------------------------------
+
+![](images/hind_opp.svg){fig-align="center" width="677"}
+
+------------------------------------------------------------------------
+
+![](images/outcome_bias_1.svg){fig-align="center" width="677"}
+
+------------------------------------------------------------------------
+
+![](images/outcome_bias_2.svg){fig-align="center" width="677"}
+
+------------------------------------------------------------------------
+
+![](images/moral_1.svg){fig-align="center" width="677"}
+
+------------------------------------------------------------------------
+
+![](images/moral_2.svg){fig-align="center" width="677"}
+
+------------------------------------------------------------------------
+
+![](images/moral_inp_out.svg){fig-align="center" width="677"}
+
+------------------------------------------------------------------------
+
+![](images/hind_out.svg){fig-align="center" width="677"}
+
+------------------------------------------------------------------------
+
+::: columns
+::: {.column width="50%"}
+![](images/hind_out.svg){fig-align="center" width="677"}
+:::
+
+::: {.column width="50%"}
+![](images/moral_inp_out.svg){fig-align="center" width="677"}
+:::
+:::
+
+## {{< fa handcuffs >}} Criminalization of Pregnancy Loss After Dobbs
+
+[![Source: NYT Sept 2023](images/nyt_abortion_map.png){fig-align="center" width="651"}](https://www.nytimes.com/interactive/2022/us/abortion-laws-roe-v-wade.html)
+
+## {{< fa handcuffs >}} Criminalization of Pregnancy Loss After Dobbs {visibility="hidden"}
 
 ::: columns
 ::: {.column width="60%"}
-![](images/nyt_abortion_map.jpeg){fig-align="center" width="430"}
+[![Source: NYT Sept 2023](images/nyt_abortion_map.png){fig-align="center" width="651"}](https://www.nytimes.com/interactive/2022/us/abortion-laws-roe-v-wade.html)
 :::
 
 ::: {.column width="40%"}
 ::: red-box
 {{< fa ban >}} 14 states completely ban abortion
 
-{{< fa handcuffs >}} Mix of civil and criminal penalties
+{{< fa person-pregnant >}} Mix of civil and criminal penalties
 
 {{< fa republican >}} Use political (not medical) language to define terms
 :::
@@ -46,59 +110,6 @@ callout-appearance: simple
 Map of US with new post-Dobbs abortion restrictions. Expands the scope of criminal liability for pregnancy loss.
 
 Dobbs opened the door let states expand the criminalization of pregnancy loss and abortion.
-
-New post-dobbs bans include a mix of civil and criminal penalties BUT perhaps more importantly by restricting access to legal abortion the result will be more SMA.
-
-The end of Roe effectively transforms all pregnant people's bodies into sites of criminal suspicion, subject to (even more) state surveillance and policing.
-
-The reasons pregnant people have already faced criminal charges are varied and terrifying: surviving violence that resulted in pregnancy loss, experiencing stillbirth and "improperly" disposing of fetal remains, choosing to have a home birth and experiencing complications, even just Googling medication abortion pills.
-
-A pregnant person could also be criminalized for eating poppyseeds and testing positive for substance use.
-:::
-
-## End of Pregnancy as Moral Transgression
-
-
-To determine whether an agent’s behavior is wrong, punishable, and blameworthy, people mainly rely on two key factors: intention and outcome. 
-
-
-## Fourth Amendment
-
-![](images/procedural.svg){.r-stretch fig-align="center"}
-
-## But what protections exist without Roe?
-
-![](images/pregnant_people.svg){.r-stretch fig-align="center"}
-
-::: notes
-Understandably, focus of abortion debate and scholarship is on the implications of limiting access to legal abortion care.
-
-This rapid expansion of the scope of criminal liability for abortion raises important questions about how other Constitutional privacy protections, including the Fourth Amendment right to be free from unreasonable government searches and seizures, will protect people who experience pregnancy loss in the wake of Dobbs.
-
-For example, which facts and circumstances can be used to draw inferences about the cause of a person's pregnancy loss? How do legal actors---including police, judges, prosecutors, and even child welfare workers---make these inferences and approach decisions about which pregnancy losses to investigate as suspected criminal activity? And what factors determine how various officials interpret the meaning of standards like reasonable suspicion or probable cause in this context?
-
-The current proposal will explore these issues and discuss the nature of Fourth Amendment restrictions on criminal investigations of abortion-related activity. It will also discuss psychological research on hindsight bias, social perception, and legal decision-making that could be used to help guide courts in their approach to these cases.
-:::
-
-
-## Individualized Suspicion & Fourth Amendment [2]{.circle} {.smaller}
-
-:::: columns
-::: {.column width="50%"}
-![](images/evidence_pcrs.svg){width="627" height="493"}
-:::
-
-::: {.column width="50%"}
-::: red-box
-1.  Non-technical, common sense approach
-2.  Based on totality of circumstances
-3.  Can use otherwise innocent facts
-:::
-:::
-::::
-
-::: {.cream-box .fragment .fade-up .center}
-<h2>{{< fa ban >}} use Hindsight or Outcome Knowledge</h2>
 :::
 
 ## Criminalization of Pregnancy Loss {.smaller visibility="hidden"}
@@ -120,9 +131,9 @@ The current proposal will explore these issues and discuss the nature of Fourth 
 :::
 
 ::: notes
--   Lost custody of other children 
-- Immigration & deportation 
-- Fines & fees, etc. Pregnant people were already being criminalized for the outcome of their own pregnancies before Dobbs. 
+-   Lost custody of other children
+-   Immigration & deportation
+-   Fines & fees, etc. Pregnant people were already being criminalized for the outcome of their own pregnancies before Dobbs.
 
 Nearly 1,300 people faced criminalization for pregnancy outcomes, including self-managed abortions, between 2006 and 2020. That's triple the amount between 1973, when Roe v. Wade was decided, and 2005 (a period more than twice as long), according to [National Advocates for Pregnant Women](https://www.pregnancyjusticeus.org/arrests-and-prosecutions-of-pregnant-women-1973-2020/).
 
@@ -134,7 +145,6 @@ Ultimately, the majority of cases proceeded and most often concluded in a guilty
 
 For anyone entangled in the criminal process, the harm lasts. Conviction or not, several people lost custody of their children temporarily or permanently. In one case, while local authorities declined to prosecute the woman after acknowledging the self-managed abortion was not unlawful, they still turned her over to immigration authorities for deportation.
 :::
-
 
 ## Self-Managed Abortion (SMA)
 
@@ -150,361 +160,23 @@ https://www.guttmacher.org/article/2022/02/medication-abortion-now-accounts-more
 https://www.plancpills.org/
 :::
 
-## But similar to Miscarriage 
+## Involuntary Miscarriages
 
-![](images/med_miscarriage.svg){.r-stretch fig-align="center"}
+![](images/not_abortion.svg){.r-stretch fig-align="center"}
 
-::: {.cream-box .center}
-<h2>Abortion pill now used in 54% of US abortions</h2>
+::: {.cream-box .fragment .fade-up .center}
+<h2>SMA results in same outcome, physical symptoms and behaviors</h2>
 :::
-------------------------------------------------------------------------
-
-![](images/intent.svg){fig-align="center"}
-
 
 ## Which pregnancy losses raise suspicion?
 
-::: columns
-::: {.column width="50%"}
-![](images/medication_abortion.svg){fig-align="center"}
-:::
-
-::: {.column width="50%"}
-![](images/med_miscarriage.svg){fig-align="center"}
-:::
-:::
-
-::: notes
-Abortions by pill are indistinguishable from involuntary pregnancy loss (miscarriages)
-
-Only distinction is intent
-
-Various legal actors must infer the pregnant person's subjective mental state ("mens rea") to decide whether their actions make them guilty of a crime.
-:::
-
-## [Example 1]{.example} :corn: Investigating "Abortion" {auto-animate="true" auto-animate-easing="ease-in-out"}
-
-::: notes
-Nebraska teen and mother prosecuted for crimes related to self-managed abortion in April 2022
-:::
-
-![](images/jail_nebraska.png){.r-stretch fig-align="center"}
-
-## 
-
-##  {.fragment-remove}
-
-::: {.fragment .fade-out fragment-index="1"}
-### Nebraska teen and mother prosecuted for crimes related to self-managed abortion in April 2022
-:::
-
-::: columns
-::: {.column width="90%"}
-::: {.container .fragment .fade-up fragment-index="1"}
-::: {.timeline .timeline-left style="height: 720px;"}
-::: timeline-block
-::: timeline-icon
-![](images/pol_hat.svg)
-:::
-
-::: timeline-content
-**Detective opens investigation into alleged stillbirth**
-
-::: {.timeline-details .fragment .fade-out fragment-index="2"}
-[:speech_balloon: Anonymous tip that 17-year-old had stillbirth and mother helpt to bury (and burn) fetal remains]{style="padding-top:20px;display:block;"}
-
-[:hospital: (Somehow) accessed teen's medical records revealing \> 23 weeks pregnant]{style="padding-top:20px;display:block;"}
-
-![](images/Investigation_board.png){style="height:160px;float:right;padding-left:10px"}
-:::
-
-::: timeline-date
-April 26
-:::
-:::
-:::
-
-::: {.timeline-block .fragment .fade-up fragment-index="2"}
-::: timeline-icon
-![](images/dig.svg)
-:::
-
-::: timeline-content
-Detective interviews at family home and fetal remains exhumed
-
-::: {.timeline-details .fragment .fade-out fragment-index="3"}
-![](images/waste.svg){style="height:160px;float:right;padding-left:10px"} [:oncoming_police_car: Teen alleged stillbirth at home late at night and woke up mother]{style="padding-top:20px;display:block;"}
-
-[:no_entry: Mom and friend helped teen to bag, transport and bury remains]{style="padding-top:20px;display:block;"}
-
-[:flashlight: Detective taken to burial site, exhumed remains and visually confirmed thermal injuries]{style="padding-top:20px;display:block;"}
-
-[:fire: Confirmed thermal injuries]{style="padding-top:20px;display:block;"}
-:::
-
-::: timeline-date
-April 29
-:::
-:::
-:::
-
-::: {.timeline-block .fragment .fade-up fragment-index="3"}
-::: timeline-icon
-![](images/clipboard.png)
-:::
-
-::: timeline-content
-Autopsy confirmed the fetus was stillborn
-
-::: {.timeline-details .fragment .fade-out fragment-index="4"}
-![](images/abortion.svg){style="height:160px;float:right;padding-left:10px"} [:clipboard: Exact cause of death unknown]{style="padding-top:20px;display:block;"}
-
-[:microscope: But no air in lungs]{style="padding-top:20px;display:block;"}
-:::
-
-::: timeline-date
-April 30
-:::
-:::
-:::
-
-::: {.timeline-block .fragment .fade-up fragment-index="4"}
-::: timeline-icon
-![](images/gavel.png)
-:::
-
-::: timeline-content
-Citations issued to teen, mom & friend for misdemeanors
-
-::: {.timeline-details .fragment .fade-out fragment-index="5"}
-![](images/courthouse.png){style="height:160px;float:right;padding-left:10px"} [:skull:concealing death of another person]{style="padding-top:20px;display:block;"}
-
-[:speech_balloon:false reporting]{style="padding-top:20px;display:block;"}
-
-[:triangular_flag_on_post:Friend pleads no contest]{style="padding-top:20px;display:block;"}
-:::
-
-::: timeline-date
-May 2
-:::
-:::
-:::
-
-::: {.timeline-block .fragment .fade-up fragment-index="5"}
-::: timeline-icon
-![](images/pol_hat.svg)
-:::
-
-::: timeline-content
-**Detective continues investigation**
-
-::: {.timeline-details .fragment .fade-out fragment-index="6"}
-![](images/pol_report.svg){style="height:160px;float:right;padding-left:10px"} [:eyes: Re-interviews teen to determine exact time of alleged stillbirth]{style="padding-top:20px;display:block;"} [:calling: Teen reveals a Facebook DM sent to mom from April, 22 2022 at 3:38am]{style="padding-top:20px;display:block;"}
-:::
-
-::: timeline-date
-Next few weeks
-:::
-:::
-:::
-
-::: {.timeline-block .fragment .fade-up fragment-index="6"}
-::: timeline-icon
-![](images/abortion_crime.svg)
-:::
-
-::: timeline-content
-Prosecutors charge teen and mom with added felony re: body disposal
-
-::: timeline-date
-June 1
-:::
-:::
-:::
-:::
-:::
-:::
-:::
-
-## 
-
-##  {.fragment-remove}
-
-::: {.fragment .fade-out fragment-index="1"}
-### Nebraska law banned abortion after 20 weeks and limited to licensed providers **but SMA not criminalized**
-:::
+![](images/intent_only.svg){fig-align="center"}
 
-::: columns
-::: {.column width="90%"}
-::: {.container .fragment .fade-up fragment-index="1"}
-::: {.timeline .timeline-left style="height: 720px;"}
-::: timeline-block
-::: timeline-icon
-![](images/search_warrant.png)
+::: {.cream-box .fragment .fade-up}
+<h2>{{< fa pregnant >}} Most investigations triggered by someone reporting loss to law enforcement</h2>
 :::
-
-::: timeline-content
-Detective sought search warrants to access Facebook DMs
-
-::: {.timeline-details .fragment .fade-out fragment-index="2"}
-[:mag: Requested private Facebook activity for teen and mom from April 15-present]{style="padding-top:20px;display:block;"}
-
-[:cop: Court told evidence needed to determine "whether the baby was stillborn or asphyxiated."]{style="padding-top:20px;display:block;"}
-
-[:triangular_flag_on_post: Probable cause based on violation of body disposal law]{style="padding-top:20px;display:block;"}
-
-![](images/fb.svg){style="height:160px;float:right;padding-left:10px"}
-:::
-
-::: timeline-date
-June 7
-:::
-:::
-:::
-
-::: {.timeline-block .fragment .fade-up fragment-index="2"}
-::: timeline-icon
-![](images/pill_evidence.svg)
-:::
-
-::: timeline-content
-Facebook DMs suggest use of abortion pills to end pregnancy
-
-::: {.timeline-details .fragment .fade-out fragment-index="3"}
-![](images/abortion.svg){style="height:160px;float:right;padding-left:10px"} [:pill: Messages obtained revealed discussion between mom and teen about ending the pregnancy with abortion pills beforehand pills]{style="padding-top:20px;display:block;"}
-
-[:credit_card: Mom suggested she purchased the pills and provided teen instructions]{style="padding-top:20px;display:block;"}
-
-[:jeans: Teen said could not wait to get the "thing" out of her body and "finally be able to wear jeans"]{style="padding-top:20px;display:block;"}
-
-[:tea: Days later teen's friend also contacts authorities claiming they saw teen take the pills to cause a miscarriage]{style="padding-top:20px;display:block;"}
-:::
-
-::: timeline-date
-June 9-14
-:::
-:::
-:::
-
-::: {.timeline-block .fragment .fade-up fragment-index="3"}
-::: timeline-icon
-![](images/search_warrant.png)
-:::
-
-::: timeline-content
-Sought second warrant for household electronics
-
-::: {.timeline-details .fragment .fade-out fragment-index="4"}
-![](images/house_warrant.png){style="height:160px;float:right;padding-left:10px"} [:mag: Told court looking for evidence related to medications which could be used for purpose of causing a miscarriage]{style="padding-top:20px;display:block;"}
-
-[:computer: 13 laptops and smartphones seized from the family]{style="padding-top:20px;display:block;"}
-
-[:floppy_disk: 24 gigabytes of data including images, messages, and web histories from their phones extracted]{style="padding-top:20px;display:block;"}
-:::
-
-::: timeline-date
-June 15
-:::
-:::
-:::
-
-::: {.timeline-block .fragment .fade-up fragment-index="4"}
-::: timeline-icon
-![](images/court.svg)
-:::
-
-::: timeline-content
-**Dobbs v. Jackson Women's Health Organization overturns Roe**
-:::
-
-::: timeline-date
-June 24
-:::
-:::
-
-::: {.timeline-block .fragment .fade-up fragment-index="5"}
-::: timeline-icon
-![](images/abortion_crime.svg)
-:::
-
-::: timeline-content
-Mom charged with two more felonies for daughter's abortion
-
-::: {.timeline-details .fragment .fade-out fragment-index="6"}
-![](images/pill_evidence.svg){style="height:160px;float:right;padding-left:10px"} [:calendar: Conducting an abortion after 20 weeks]{style="padding-top:20px;display:block;"} [:hospital: Abortion by someone other than a licensed physician]{style="padding-top:20px;display:block;"}
-:::
-
-::: timeline-date
-July 12
-:::
-:::
-:::
-
-::: {.timeline-block .fragment .fade-up fragment-index="6"}
-::: timeline-icon
-![](images/news.svg)
-:::
-
-::: timeline-content
-**National news reports on Meta's cooperation with post-Dobbs "abortion" investigation creating backlash**
-
-::: timeline-date
-August 2022
-:::
-:::
-:::
-:::
-:::
-:::
-:::
-
-
-## Individualized Suspicion & Fourth Amendment [2]{.circle} {.smaller}
-
-::: columns
-::: {.column width="50%"}
-![](images/evidence_pcrs.svg){width="627" height="493"}
-:::
-
-::: {.column width="50%"}
-::: red-box
-1.  Risk of overestimating predictability of event (hindsight bias)
-2.  Risk of evaluating quality of decision based on consequences (outcome bias)
-:::
-:::
-:::
-
-::: {.cream-box .center}
-<h2>{{< fa ban >}} use Hindsight or Outcome Knowledge</h2>
-:::
-
-## Evaluating Individualized Suspicion in Hindsight
-
-![](images/warrant_process.svg){.r-stretch fig-align="center"}
-
-## Evaluating Individualized Suspicion in Hindsight
-
-![](images/oversight.svg){.r-stretch fig-align="center"}
-
-
-------------------------------------------------------------------------
-
-
-![](images/hindsight_components.svg){fig-align="center" width="677"}
-
-------------------------------------------------------------------------
-
-![](images/inputs_cog.svg){fig-align="center" width="677"}
-
-------------------------------------------------------------------------
-
-![](images/inputs_all.svg){fig-align="center" width="677"}
-
-------------------------------------------------------------------------
-
-![](images/hindsight_full.svg){fig-align="center" width="677"}
 
-## Perceptions of Pregnancy Loss [1]{.circle} {.smaller}
+## End of Pregnancy as Moral Harm {.smaller}
 
 ::: columns
 ::: {.column width="50%"}
@@ -513,33 +185,27 @@ August 2022
 
 ::: {.column width="50%"}
 ::: red-box
-1.  Outcome & Hindsight effects--\> Mens Rea
-2.  Moral Luck and blameworthiness
+![](images/moral_2.svg){fig-align="center" width="677"}
 :::
 :::
-:::
-
-::: {.cream-box .fragment .fade-up}
-<h2>{{< fa pregnant >}} Most investigations triggered by someone reporting pregnancy loss as suspicious</h2>
 :::
 
 ::: notes
-We have argued that the folk-concept of punishment is outcome-sensitive, whereas the concept of blame is not. In ordinary life situations and in court, outcome information might thus distort ascriptions of moral or legal culpability.
 
-What, exactly, is it that drives the outcome effect?
+1.  Outcome & Hindsight Effects
+2.  Inferring intentions
+3.  Punishment, Culpability & Blameworthiness
 
-Consistent with previous findings, the mediation analysis suggests that the outcome effect on culpability is in large parts a consequence of the hindsight bias (see Kamin & Rachlinski, 1995; Kneer & Machery, 2019; Rachlinski, 1998, Rachlinski, 2000): Participants view the subjective and objective likelihood of possible events that actually come to pass as higher ex post than those that do not come to pass.
+To determine whether an agent's behavior is wrong, punishable, and blameworthy, people mainly rely on two key factors: intention and outcome.
 
-In virtue of the higher perceived risk in the unlucky cases (where the harm does occur), people judge the agents as more negligent and (sometimes) more reckless. Consequently (and reasonably), they deem the agent who is viewed as acting more negligently as more blameworthy. Once subjective probability and negligence are accounted for as mediators, however, no significant direct effects of outcome on blame remain.
+In virtue of the higher perceived risk in the unlucky cases (where the harm does occur), people judge the agents as more negligent and (sometimes) more reckless. Consequently (and reasonably), they deem the agent who is viewed as acting more negligently as more blameworthy.
+
+Once subjective probability and negligence are accounted for as mediators, however, no significant direct effects of outcome on blame remain.
 :::
-
-## [Example 1]{.example} :corn: Teen actually 30 weeks pregnant {auto-animate="true" auto-animate-easing="ease-in-out"}
-
-![](images/jail_nebraska.png){fig-align="center" width="406"}
 
 ## Pregnancy Loss is Common
 
-**Miscarriages** are typically unpreventable, occur early in pregnancy and cannot be attributed to single cause.
+**Miscarriages** are typically unpreventable, occur early in pregnancy and cannot be attributed to single (or any) cause
 
 ```{r}
 #| label: setup
@@ -567,9 +233,9 @@ estimate_ids = sample(1:200, size = estimate_size, replace = FALSE)
 estimate_df =  filter(population_df, ID %in% estimate_ids)
 ```
 
-## Pregnancy Loss is Common{visibility="hidden"}
+## Pregnancy Loss is Common {visibility="hidden"}
 
-**Miscarriages** are typically unpreventable, occur early in pregnancy and cannot be attributed to single cause.
+**Miscarriages** are typically unpreventable, occur early in pregnancy and cannot be attributed to single (or any) cause
 
 ```{r}
 #| label: samp-people
@@ -627,7 +293,7 @@ ggplot() +
 
 ## Pregnancy Loss is Common
 
-**Miscarriages** are typically unpreventable, occurs early in pregnancy and cannot be attributed to single cause.
+**Miscarriages** are typically unpreventable, occur early in pregnancy and cannot be attributed to single (or any) cause
 
 ```{r}
 #| label: rates-higher
@@ -677,30 +343,26 @@ ggplot() +
         plot.margin = margin(10, 10, 10, 10), 
         plot.title = element_text(face = "bold",
                                   hjust = 0.5,
-                                  family = "Ubuntu",
+                                  family = "Karla",
                                   size = 36,
                                   margin = margin(b = 10)))
 
 ```
 
-
-## Perceptions of Pregnancy Loss [1]{.circle} {.smaller}
+## Risks of criminalization {.smaller}
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="40%"}
 ![](images/choice_preg.svg){width="627" height="493"}
 :::
 
-::: {.column width="50%"}
+::: {.column width="60%"}
 ::: red-box
 1.  Rates of miscarriage **higher** for racial and ethnic groups already overcriminalized in other contexts
 2.  Range of laws used against **abortion**-related activity
+3.  Public underestimates occurrence
 :::
 :::
-:::
-
-::: {.cream-box .fragment .fade-up}
-<h2>{{< fa pregnant >}} Popular narratives and beliefs about pregnancy loss underestimate occurrence</h2>
 :::
 
 ------------------------------------------------------------------------
@@ -715,7 +377,6 @@ ggplot() +
 
 ![](images/single_all.svg){fig-align="center" width="677"}
 
-
 ::: notes
 Both sides of abortion debate promote single path narrative of pregnancy - idea that pregnancy ends in live birth unless interrupted by abortion.
 
@@ -724,21 +385,109 @@ For pro-abortion advocates, pregnancy loss and fetal personhood thought to under
 For anti-abortion forces, pregnancy loss narratives blur the line between abortion and lawful behavior.
 :::
 
-## Components and Inputs of Hindsight Bias {visibility="hidden"}
+## Which pregnancy losses raise suspicion?
 
-```{mermaid}
-flowchart LR
-  A{Outcome} --> B1(Cognitive)
-  A{Outcome} --> B2(Metacognitive)
-  A{Outcome} -->B3(Motivational)
-  B1(Cognitive) -- Knowledge updating --> C1(Memory Distortion)
-  B1(Cognitive) -- Sense-making --> C2(Inevitability)
-  B2(Metacognitive) -- Sense-fluency --> C3(Foreseeability fa:fa-camera-retro)
-  B3(Motivational) -- Self-relevance --> C3(Foreseeability fa:fa-camera-retro)
-  C2(Inevitability) --> D1(Overconfidence)
-  C2(Inevitability) --> D2(Myopia)
-  C3(Foreseeability) --> D2(Myopia)
-```
+::: columns
+::: {.column width="50%"}
+![](images/medication_abortion.svg){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+![](images/med_miscarriage.svg){fig-align="center"}
+:::
+:::
+
+::: notes
+Abortions by pill are indistinguishable from involuntary pregnancy loss (miscarriages)
+
+Only distinction is intent
+
+Various legal actors must infer the pregnant person's subjective mental state ("mens rea") to decide whether their actions make them guilty of a crime.
+:::
+
+
+## [Example 1]{.example} :corn: Teen ended pregnancy at >30 weeks {auto-animate="true" auto-animate-easing="ease-in-out"}
+
+![](images/jail_nebraska.png){fig-align="center" width="406"}
+
+
+## Fourth Amendment
+
+![](images/procedural.svg){.r-stretch fig-align="center"}
+
+## Fourth Amendment without Roe?
+
+![](images/pregnant_fourth.svg){.r-stretch fig-align="center"}
+
+::: notes
+Understandably, focus of abortion debate and scholarship is on the implications of limiting access to legal abortion care.
+
+This rapid expansion of the scope of criminal liability for abortion raises important questions about how other Constitutional privacy protections, including the Fourth Amendment right to be free from unreasonable government searches and seizures, will protect people who experience pregnancy loss in the wake of Dobbs.
+
+For example, which facts and circumstances can be used to draw inferences about the cause of a person's pregnancy loss? How do legal actors---including police, judges, prosecutors, and even child welfare workers---make these inferences and approach decisions about which pregnancy losses to investigate as suspected criminal activity? And what factors determine how various officials interpret the meaning of standards like reasonable suspicion or probable cause in this context?
+
+The current proposal will explore these issues and discuss the nature of Fourth Amendment restrictions on criminal investigations of abortion-related activity. It will also discuss psychological research on hindsight bias, social perception, and legal decision-making that could be used to help guide courts in their approach to these cases.
+:::
+
+## Individualized Suspicion Requirement {.smaller}
+
+::: columns
+::: {.column width="50%"}
+![](images/evidence_pcrs.svg){width="627" height="493"}
+:::
+
+::: {.column width="50%"}
+::: red-box
+1.  Non-technical, common sense approach
+2.  Based on totality of circumstances
+3.  Can use otherwise innocent facts
+:::
+:::
+:::
+
+::: {.cream-box .fragment .fade-up .center}
+<h2>{{< fa ban >}} use Hindsight or Outcome Knowledge</h2>
+:::
+
+## Evaluating Individualized Suspicion
+
+![](images/warrant.svg){.r-stretch fig-align="center"}
+
+## Evaluating Individualized Suspicion
+
+![](images/warrant_process.svg){.r-stretch fig-align="center"}
+
+## Evaluating Individualized Suspicion in Hindsight
+
+![](images/oversight.svg){.r-stretch fig-align="center"}
+
+
+## {{< fa ban >}} use Hindsight or Outcome Knowledge
+
+::: columns
+::: {.column width="50%"}
+![](images/evidence_pcrs.svg){width="627" height="493"}
+:::
+
+::: {.column width="50%"}
+::: red-box
+![](images/hind_out.svg){fig-align="center" width="677"}
+:::
+:::
+:::
+
+
+------------------------------------------------------------------------
+
+![](images/hindsight_full.svg){fig-align="center" width="677"}
+
+------------------------------------------------------------------------
+
+![](images/hind_out.svg){fig-align="center" width="677"}
+
+------------------------------------------------------------------------
+
+![](images/preg_moral.svg){fig-align="center" width="677"}
 
 ## Timeline & Plan for Comprehensive Exam
 
