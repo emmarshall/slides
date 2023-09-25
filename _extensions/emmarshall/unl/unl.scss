@@ -50,7 +50,7 @@ $font-family-monospace: 'IBM Plex Mono', Monaco, monospace !default;
 $body-bg: #fff !default;
 $body-color: $dark-steel !default;
 $link-color: $unl-red !default;
-$presentation-heading-color: lighten($unl-red, 15%);
+$presentation-heading-color: $unl-red !default;
 
 /*-- scss:rules --*/
 
@@ -58,7 +58,7 @@ $presentation-heading-color: lighten($unl-red, 15%);
 .reveal h2 {
 	background-color:  #d00000;
 	padding: 5px 0px 5px 10px;
-	color: lighten($unl-red, 50%);
+	color: lighten($unl-red, 55%);
 	border-radius: 12px; // not a fan of rounded borders
 }
 
@@ -71,15 +71,21 @@ $presentation-heading-color: lighten($unl-red, 15%);
   max-height: unset !important;
 }
 
-
-// title slide
-.title-slide {
-	background-color: $unl-cream;
-	text-align: left;
-	border-top: 80px solid $unl-red; // do not change this, it implements a bumper
+.reveal a {
+  line-height: 1.5em;
 }
 
-h1.title {
+.reveal p {
+  font-weight: 300;
+  margin-top: 1.25em;
+}
+
+// title and headings
+
+#title-slide {
+  text-align: left;
+  
+p.title {
 	color: $unl-red;
 	font-size: 2.5em;
 	text-shadow: none;
@@ -114,12 +120,6 @@ p.author,
   color: $unl-red;
 }
 
-p.date {
-	color: $dark-steel;
-	text-shadow: none;
-	font-weight: 300;
-	font-size: 0.8em;
-}
 
 p.subtitle:after {
 	content: "";
@@ -130,6 +130,7 @@ p.subtitle:after {
 	height: 5px;
 	margin: 25px 0 25px;
 }
+}
 
 
 // boxes & fun lists
@@ -139,10 +140,7 @@ p.subtitle:after {
   padding: 25px;
   border: 5px solid $unl-red;
   text-align: center;
-  width: 80%;
   margin-left: 5em;
-  margin: 0 auto; /* Center horizontally */
-  position: absolute; /* For vertical centering */
   font-family: $presentation-heading-font;
 }
 
@@ -153,7 +151,9 @@ p.subtitle:after {
   border: 5px solid $dark-steel;
   padding: 10px;
   font-size: 20px;
-  background-color: $unl-cream;
+  background-color: $light-cream;
+  font-family: $presentation-heading-font;
+
 }
 
 .boxit {
@@ -566,4 +566,3 @@ html.print-pdf .quarto-dark {
   width: $slide-width !important;
   left: -$border-leftright-width;
 }
-

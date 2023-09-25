@@ -4,13 +4,13 @@ listing:
   id: lectures
   fields: [image,title,subtitle]
   contents: 
-    - "talks/judges-2023-05"
     - "lab-resources/wks-1"
     - "lab-lecture/lab-week-1"
     - "lab-lecture/lab-week-3"
     - "lab-lecture/lab-week-4"
     - "lab-lecture/lab-week-5"
     - "talks/comps-proposal-2023-09-20"
+    - "talks/judges-2023-05"
   type: grid
   image-align: left
   sort: "priority asc"
