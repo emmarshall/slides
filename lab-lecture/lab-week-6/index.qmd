@@ -204,11 +204,20 @@ Have you ever watched dance challenge videos on TikTok? If so, you probably noti
 :::
 :::
 
-## Study 2: What was the purpose?
+## Study 2: What was the purpose?{.smaller}
 
+
+::: columns
+::: {.column width="50%"}
+![](images/fig_1.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
 -   Replicate study 1 results
 -   Identify **why** IV -\> DV
 -   Task/stimulus
+:::
+:::
 
 ## Study 2: Task/stimulus changes?
 
@@ -342,6 +351,30 @@ Here's how the researchers concluded an interview about their studies:
 > I would like to add that this study shows that watching TikTok videos is not universally negative and that there are positive and negative effects...
 
 > The findings also raise the possibility that TikTok could change its algorithm and show a wider variety of body types, and this could have a major public health benefits. Body dissatisfaction is major risk factor for eating disorders and eating disorders have the highest mortality rate of all psychiatric diseases due to medical complications or suicide.
+
+## TRAAP Method
+
+> How to evaluate sources but remember that context matters (assignement vs. paper vs. other?)
+
+1.  Timeframe
+2.  Relevance
+3.  Authority
+4.  Accuracy
+5.  Purpose
+
+::: notes
+The TRAAP method is a way to help you critically think about your information and decide whether or not it is appropriate for your needs.
+:::
+
+## Avoiding the TRAAP of relying on bad sources
+
+> How to evaluate sources but remember that context matters (assignement vs. paper vs. other?)
+
+1.  Timeframe - *Is it too old to be useful?*
+2.  Relevance - Does it give me the info I need right now?
+3.  Authority - Who wrote it and why?
+4.  Accuracy - Can claims be verified and how does it relate to other research?
+5.  Purpose - Who is publishing this and why?
 
 # How to Improve your Writing
 
@@ -592,28 +625,6 @@ Organized papers are easier to read because they provide a road map.
 -   Restate findings in own terms
 :::
 
-## TRAAP Method
 
-> How to evaluate sources but remember that context matters (assignement vs. paper vs. other?)
-
-1.  Timeframe
-2.  Relevance
-3.  Authority
-4.  Accuracy
-5.  Purpose
-
-::: notes
-The TRAAP method is a way to help you critically think about your information and decide whether or not it is appropriate for your needs.
-:::
-
-## Avoiding the TRAAP of relying on bad sources
-
-> How to evaluate sources but remember that context matters (assignement vs. paper vs. other?)
-
-1.  Timeframe - *Is it too old to be useful?*
-2.  Relevance - Does it give me the info I need right now?
-3.  Authority - Who wrote it and why?
-4.  Accuracy - Can claims be verified and how does it relate to other research?
-5.  Purpose - Who is publishing this and why?
 
 # Questions? {background-image="images/fitz.png" background-opacity="0.1"}
