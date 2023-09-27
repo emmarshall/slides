@@ -68,49 +68,37 @@ execute:
 
 As computers, especially desktop computers, became more affordable and were adopted into business and educational settings, there was an immediate need to provide instruction to new users (Slighter, 1983). Previously this need had been met through printed instructional and procedural manuals. While these manuals were sufficient to provide information to computer specialists, it was discovered that they were not as useful for novice computer users (Clayton & Clayton, 1985). Most of the early efforts to improve the information provided to such novices was focused on improving the formatting (Slighter, 1983) and the clarity (Clayton & Clayton, 1985) of the instructional manuals. However, literature reviews by Slighter (1983) and Warkowe (1991) revealed little evidence that these efforts improved the functioning of the [printed]{.rn} materials.
 
-With the advent of faster computers and better-suited programming languages, the potential for on-computer animated instructional materials was revealed (Tradford, 1988). Newer operating systems that allowed the user to view both the software being learned and the instructional materials on a single screen quickly made these sorts of on-computer instructional materials preferred to [video-tape]{.rn} instructional materials that had predominated until that time (Slighter, 1993).
+With the advent of faster computers and better-suited programming languages, the potential for on-computer animated instructional materials was revealed (Tradford, 1988). Newer operating systems that allowed the user to view both the software being learned and the instructional materials on a single screen quickly made these sorts of on-computer instructional materials preferred to [`video-tape`]{.rn} instructional materials that had predominated until that time (Slighter, 1993).
 
 ## Method {.smaller}
 
 ### Participants
 
-[Fifteen undergraduates]{.rn} from a large southern state university participated in each of the two training conditions. [Students taking "advanced statistics" courses in the Sociology, Psychology and Political Science departments were invited to participate]{.rn} in the project for a \$10.00 payment and course credit. The only [criterion for participation in the study was that participants must have previously had a statistics or research methods course in which they used SPSS to complete at least 5 data analysis assignments.]{.rn} Separate signup lists were provided to instructors of each class, each of which [requested the participation of five males and five females.]{.rn} APA guidelines for informed consent were followed.
+[`Fifteen undergraduates`]{.rn} from a large southern state university participated in each of the two training conditions. [`Students taking "advanced statistics" courses in the Sociology, Psychology and Political Science departments were invited to participate`]{.rn} in the project for a \$10.00 payment and course credit. The only [c`riterion for participation in the study was that participants must have previously had a statistics or research methods course in which they used SPSS to complete at least 5 data analysis assignments.`]{.rn} Separate signup lists were provided to instructors of each class, each of which [`requested the participation of five males and five females.`]{.rn} APA guidelines for informed consent were followed.
 
 ## Materials {.smaller}
 
-All participants, working individually, [used the academic version of SPSS 9.1 for Windows to complete a single data analysis exercise. The exercise involved entering and saving a 20-case data set including 5 variables, performing various transformations and computing univariate and correlational analyses, and obtaining a printout of the session activities.]{.rn} For [those in the instruction manual condition a single copy of the instruction manual provided by SPSS was made available on a desk at the front of the room. The manual includes all aspects of SPSS procedures; approximately 10 pages of which were directly pertinent to the assignment. Those in the instructional video condition were supplied with a copy of the instructional video prepared by the researchers and were given explicit instruction and a demonstration of the portion of the video they would be using. The video was running and visible on the same computer participants in the video condition used to complete their analyses. The full video requires about 45 minutes to complete, however the section pertinent to the assignment requires about 9 minutes to view.]{.rn}
+All participants, working individually, [`used the academic version of SPSS 9.1 for Windows to complete a single data analysis exercise. The exercise involved entering and saving a 20-case data set including 5 variables, performing various transformations and computing univariate and correlational analyses, and obtaining a printout of the session activities.`]{.rn} For [t`hose in the instruction manual condition a single copy of the instruction manual provided by SPSS was made available on a desk at the front of the room. The manual includes all aspects of SPSS procedures; approximately 10 pages of which were directly pertinent to the assignment. Those in the instructional video condition were supplied with a copy of the instructional video prepared by the researchers and were given explicit instruction and a demonstration of the portion of the video they would be using. The video was running and visible on the same computer participants in the video condition used to complete their analyses. The full video requires about 45 minutes to complete, however the section pertinent to the assignment requires about 9 minutes to view.`]{.rn}
 
 ## Materials {.smaller}
 
-[A 20-item questionnaire was used to collect each participant's evaluation of the instructional material they used. These included 10 questions about the ease of use of the materials and 10 questions about the quality of information provided by the materials. Each question had three possible responses: 0) poor, 1) adequate and 2) good.]{.rn rn-color="red"}
+[`A 20-item questionnaire was used to collect each participant's evaluation of the instructional material they used. These included 10 questions about the ease of use of the materials and 10 questions about the quality of information provided by the materials. Each question had three possible responses: 0) poor, 1) adequate and 2) good.`]{.rn rn-color="red"}
 
 ## Procedure {.smaller}
 
-All participants completed the procedure [in a single computer resource room]{.rn} during [one of 10 sessions that were conducted by one of the researchers or one of their four under-graduate research assistants.]{.rn} [Sessions included 2-6 participants]{.rn} each of whom was individually assigned to one of the instructional conditions. Participants were \]{.rn} [randomly assigned to instructional conditions with the single constraint that participants from the Psychology class were all assigned to the instructional manual condition because they had used the instructional CD while in the introductory psychology statistics course.]{.rn}
-
-## Procedure {.smaller}
-
-[Participants in the instruction manual condition were provided with a copy of the assignment, seated at a computer, and told they would have 20 minutes to complete the assignment and the location of the instructional manual. At the end of 20 minutes they were stopped, and their work saved to be analyzed later. Those in the instructional video condition were provided a copy of the assignment and seated at a computer. SPSS and the instructional video program were opened for them, and they were shown how to navigate between the two pieces of software and how to find the sections of the instructional video that detailed the procedural steps related to their assignment. These participants were encouraged to view the example of each activity required to complete a portion of the assignment, then stop the video and complete that part of the assignment. They were also shown how to replay portions of the video and how to have a video example running while working on SPSS. Before leaving the research session each participant completed the questionnaire.]{.rn}
-
-## Results {.smaller}
-
-Each participant's output file was reviewed, and [two scores were compiled. The accuracy of their final answers was measured on a % scale. The number of programming errors they made before getting their final answer was also recorded.]{.rn} Responses to the [questionnaires were aggregated to form two scores, ease of use and quality of information, each of which was scored on a 20-point scale.]{.rn} For these last [two measures, scores for the instruction manual condition were based on the six students in that condition who actually examined the instructional manual.]{.rn}
+All participants completed the procedure [`in a single computer resource room`]{.rn} during [`one of 10 sessions that were conducted by one of the researchers or one of their four under-graduate research assistants.`]{.rn} [`Sessions included 2-6 participants`]{.rn} each of whom was individually assigned to one of the instructional conditions. Participants were [`randomly assigned to instructional conditions with the single constraint that participants from the Psychology class were all assigned to the instructional manual condition because they had used the instructional CD while in the introductory psychology statistics course.`]{.rn}
 
 ## Table {.smaller}
 
-Table 1 summarizes the comparison of the instructional manual and video conditions. As can be seen the instructional video [led to]{.rn} [higher scores on each of the four measures, though the differences were only statistically significantly different for the ease of use rating, F(1, 19) = 4.22, p \< .05, Mse = 15.43, and the quality of information rating, F(1, 19) = 3.99, p \< .05, Mse = 21.23, and not for the accuracy of final answers, F(1,28) = .98, p \> .05, Mse = 4.12, nor for the number of programming errors, F(1,28) = 1.12, p \> .05, Mse = 4.42.]{.rn}
+Table 1 summarizes the comparison of the instructional manual and video conditions. As can be seen the instructional video [`led to`]{.rn}`higher scores on each of the four measures, though the differences were only statistically significantly different for the ease of use rating, F(1, 19) = 4.22, p < .05, Mse = 15.43, and the quality of information rating, F(1, 19) = 3.99, p < .05, Mse = 21.23, and not for the accuracy of final answers, F(1,28) = .98, p > .05, Mse = 4.12, nor for the number of programming errors, F(1,28) = 1.12, p > .05, Mse = 4.42.`
 
 ![](images/table_1.png){.r-stretch}
 
 ## Discussion {.smaller}
 
-[Previous research has consistently demonstrated the tremendous advantage of video-based instruction for novice users.]{.rn} The purpose of this research was to further examine the utility of CD-based video instruction, specifically its utility for learning statistical software packages. This is an important topic of study because learning to navigate and apply these packages is often a source of challenge and difficulty to undergraduates studying behavioral science topics (Gliven, 1997).
+[`Previous research has consistently demonstrated the tremendous advantage of video-based instruction for novice users.`]{.rn} The purpose of this research was to further examine the utility of CD-based video instruction, specifically its utility for learning statistical software packages. This is an important topic of study because learning to navigate and apply these packages is often a source of challenge and difficulty to undergraduates studying behavioral science topics (Gliven, 1997).
 
-The current findings support previous results about the utility of this type of instructional aid. [Here it was found that using the video instruction led to improvements in both the accuracy of the statistical results but also reduced the number of programming errors that were committed.]{.rn} In addition, the video instruction was clearly preferred by users to the instructional manuals.
-
-## Discussion {.smaller}
-
-Further research might be done to bolster evidence for the superiority of this instructional approach. However, it is our opinion that the combination of prior research showing its advantage for teaching office workers to function with word processing and spreadsheet programs and the [current research showing its advantage for improving the performance of novice data analysts]{.rn} would [provide ample evidence that video-based instruction can be expected to outperform instructional manuals in any context.]{.rn}
+The current findings support previous results about the utility of this type of instructional aid. [H`ere it was found that using the video instruction led to improvements in both the accuracy of the statistical results but also reduced the number of programming errors that were committed.`]{.rn} In addition, the video instruction was clearly preferred by users to the instructional manuals.
 
 ## Handouts!!
 
@@ -204,8 +192,7 @@ Have you ever watched dance challenge videos on TikTok? If so, you probably noti
 :::
 :::
 
-## Study 2: What was the purpose?{.smaller}
-
+## Study 2: What was the purpose? {.smaller}
 
 ::: columns
 ::: {.column width="50%"}
@@ -624,7 +611,5 @@ Organized papers are easier to read because they provide a road map.
 
 -   Restate findings in own terms
 :::
-
-
 
 # Questions? {background-image="images/fitz.png" background-opacity="0.1"}
