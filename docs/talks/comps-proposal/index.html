@@ -515,20 +515,15 @@ SMA results in same outcome, physical symptoms and behaviors
 <section id="pregnancy-loss-is-common" class="slide level2">
 <h2>Pregnancy Loss is Common</h2>
 <p><strong>Miscarriages</strong> are typically unpreventable, occur early in pregnancy and cannot be attributed to single (or any) cause</p>
-</section>
 
-<section id="pregnancy-loss-is-common-2" class="slide level2">
-<h2>Pregnancy Loss is Common</h2>
-<p><strong>Miscarriages</strong> are typically unpreventable, occur early in pregnancy and cannot be attributed to single (or any) cause</p>
-
-<img data-src="index_files/figure-revealjs/rates-higher-1.png" width="960" class="r-stretch quarto-figure-center"></section>
-<section id="risks-of-criminalization" class="slide level2 smaller">
+<img data-src="images/perc-birth.png" class="r-stretch quarto-figure-center"></section>
+<section id="risks-of-criminalization" class="slide level2">
 <h2>Risks of criminalization</h2>
 <div class="columns">
 <div class="column" style="width:40%;">
 <p><img data-src="images/choice_preg.svg" width="627" height="493"></p>
 </div><div class="column" style="width:60%;">
-<div class="red-box">
+<div class="red-box small">
 <ol type="1">
 <li class="fragment">Rates of miscarriage <strong>higher</strong> for racial and ethnic groups already overcriminalized in other contexts</li>
 <li class="fragment">Range of laws used against <strong>abortion</strong>-related activity</li>
@@ -929,44 +924,6 @@ SMA results in same outcome, physical symptoms and behaviors
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
