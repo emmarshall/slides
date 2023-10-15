@@ -22,6 +22,8 @@ website:
     right:
       - href:  https://github.com/emmarshall
         text: My Site
+      - href: gallery.qmd
+        text: Gallery
       - icon: github
         href: https://github.com/emmarshall
     

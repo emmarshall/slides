@@ -1,0 +1,20 @@
+{
+  "hash": "ee96cb472c1767626962221e57433a60",
+  "result": {
+    "markdown": "---\ntitle: \"Fitz gallery\"\nsubtitle: |\n  Pictures of Fitz being adorable. See if this works. \npage-layout: full\ncode-tools: false\nfilters:\n   - lightbox\nlightbox: auto\n---\n\n\n\n# Fitz \n\nThis is a collection of picture of my dog. The purpose of this page is to test this feature and see how it can be applied to other contexts. Also, to look at pictures of my dog.\n\n::: {.column-body}\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n```{=html}\n<div id=\"htmlwidget-06b34085ab0c38e42b1e\" style=\"width:100%;height:100%;\" class=\"pixgallery html-widget \"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-06b34085ab0c38e42b1e\">{\"x\":{\"path\":[\"images/fitz/baby.png\",\"images/fitz/park.png\",\"images/fitz/play.png\",\"images/fitz/silly.png\"],\"caption\":[\"play\",\"silly\",\"baby\",\"park\"],\"dim\":\"100px\",\"gap\":\"10px\",\"shuffle\":true,\"type\":\"grid\"},\"evals\":[],\"jsHooks\":[]}</script>\n```\n:::\n:::\n\n\n:::",
+    "supporting": [
+      "gallery_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"site_libs/htmlwidgets-1.6.2/htmlwidgets.js\"></script>\n<link href=\"site_libs/simplelightbox-0/css/simplelightbox.css\" rel=\"stylesheet\" />\n<script src=\"site_libs/simplelightbox-0/js/simplelightbox.js\"></script>\n<link href=\"site_libs/pixgallery-0/css/pixgallery.css\" rel=\"stylesheet\" />\n<script src=\"site_libs/pixgallery-binding-0.0.2.3000/pixgallery.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
