@@ -1,7 +1,7 @@
 ---
 title: "Welcome to PSYC 350 Laboratory"
 subtitle: "Lab 1"
-image: "images/fiz.png"
+image: 'https://annotatedgilmoregirls.files.wordpress.com/2022/11/yale-university.jpg'
 author: "Instructor: Emma Marshall, JD, MA"
 from: markdown+emoji
 date: '2023-10-20'

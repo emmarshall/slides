@@ -1,6 +1,7 @@
 ---
 title: "Judges and Judicial Decision-Making"
 author: "Emma Marshall, JD, MA"
+subtitle: 'Guest Lecture'
 image: judges-lecture.png
 format: 
   revealjs:
