@@ -4,7 +4,45 @@ project:
   resources:
     - "*.css"
     - "*.pdf"
+    
+  render:
+    - "*.qmd"
 
-execute: 
-  freeze: true   
+website:
+  title: "emmarshall-slides"
+  
+  favicon: "assets/fitz.ico"
+  
+  search: false
+  
+  open-graph: 
+    site-name: Emma Marshall
+    description: "Emma Marshall's presentations and lectures"
+    image: "assets/corn.png"
+    
+  navbar:
+    logo: "images/light-logo.svg"
+    title: false
+    background: primary
+    right:
+      - href:  https://github.com/emmarshall
+        text: My Site
+      - icon: github
+        href: https://github.com/emmarshall
+    
+  page-footer:
+    background: light
+    left: "© 2023 Emma Marshall"
+    center: "Made with [Quarto](https://quarto.org/)"
 
+  
+format:
+  html:
+    theme: 
+      light: 
+        - assets/em-light.scss
+    css: 
+      - assets/styles.css
+      - assets/academicons.css
+    toc: false
+    

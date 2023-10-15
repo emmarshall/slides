@@ -1,0 +1,1278 @@
+/*-- scss:defaults --*/
+
+
+// use lumen as the base
+// https://bootswatch.com/lumen/
+
+$theme: "lumen" !default;
+
+// Import partial files 
+
+@import 'mixins';
+
+// My colors
+
+$white:    #fff;
+$gray:     #adb5bd;
+$gray-100: #f8f9fa;
+$gray-200: #eee;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #aaa;
+$gray-600: #777;
+$gray-700: #495057;
+$gray-800: #333;
+$gray-900: #212529;
+$black:    #000;
+
+
+$blue:      #202C39 !default;
+$blueish:   #19647E !default;
+$indigo:  #2B4162 !default;
+$purple:  #bc5090 !default;
+$pink:    #eb6864 !default; 
+$coral:   #ff6361 !default;
+$red:     #91171F !default;
+$orange:  #FBAF00 !default;
+$yellow:  #FFFD82!default;
+$green:   #15B097 !default;
+$teal:    #0892A5 !default;
+$cyan:    #3DD6D0 !default;
+
+
+$primary:       $coral !default;
+$secondary:     $blue !default;
+$success:       $teal !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-200 !default;
+$dark:          $black !default;
+
+// links
+a {
+  color: $dark;
+  text-decoration-thickness: 1px;
+  //text-underline-offset: .1rem;
+  //text-underline-position: under;
+}
+
+a:hover {
+  color: $primary;
+  text-decoration-color: $primary;
+}
+
+.toc-actions a {
+  text-decoration: none !important;  
+  border-bottom: 0;
+}
+
+.toc-actions a:hover {
+  color: $primary;
+}
+
+div.tippy-content a:hover {
+  text-decoration-color: $primary;
+}
+
+
+// main content
+$body-bg:  #fdfdfd !default;
+$body-color:  $dark !default;
+$headings-color: $dark !default;
+$form-select-border-color: $primary !default; 
+
+$card-bg-color: #fff;
+$card-border-color: #000;
+$btn-shadow: 5px 5px 0px 0px #000;
+$btn-padding: 0.5rem 1rem;
+$transition-time: 150ms;
+$card-width: 15rem;
+$card-padding: 2em;
+$avatar-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+$avatar-border-color: #000;
+$box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+
+
+// footer
+$footer-bg: $white;
+$footer-fg: $secondary;
+
+// fonts
+
+@font-face {
+    font-family: 'optiamadeussolid';
+    src: url('assets/fonts/optiamadeus-solid-webfont.woff2') format('woff2'),
+         url('assets/fonts/optiamadeus-solid-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700;1,900&display=swap');
+  
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=DM+Serif+Display:ital@0;1&display=swap');
+
+
+@font-face {
+  font-family: "MonoLisaemw";
+  font-weight: "Regular";
+  font-style: normal;
+  src: url("assets/fonts/MonoLisaemw-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "MonoLisaemw";
+  font-weight: "Regular";
+  font-style: italic;
+  src: url("assets/fonts/MonoLisaemw-RegularItalic.woff") format("woff");
+}
+
+
+// fonts
+$gilmore:'optiamadeussolid', !default;
+$monolisa: 'MonoLisa', 'Fira Mono',monospace !default;
+
+$font-family-sans-serif: "DM Sans", sans-serif !default;
+$font-family-monospace: "MonoLisa", "Fira Mono", monospace !default;
+$headings-font-family: 'DM Serif Display', sans-serif !default;
+
+
+// theme colors
+$code-color: $secondary !default; //color for the font of inline code
+$code-block-border-color: $primary !default; //color for the border of blocks of code
+$btn-code-copy-color-active: $primary !default;
+
+// callouts
+$callout-color-note: $primary;
+$callout-color-tip: $secondary;
+$callout-color-caution: $orange;
+$callout-color-warning: $orange;
+$callout-color-important: $red;
+
+// nav bar
+$navbar-bg: $primary;
+$navbar-fg: $white;
+$navbar-hl: $gray-900;
+
+// event-cards
+
+$event-card-width: 350px;
+$event-card-height: 350px;
+$thumb-height: 260px;
+$transition: cubic-bezier(.17,.67,.5,1.03);
+$timing-1: .4s .15s;
+$timing-2: .5s .25s;
+
+/*-- scss:rules --*/
+
+
+
+
+@media screen and (min-width: 56em) {
+  html {
+    font-size: 1.1em;
+  }
+}
+
+
+// code
+pre.sourceCode {
+  border-radius: 0;
+  border-left-color: $gray-300;
+}
+
+
+
+// navbar
+
+.navbar {
+  border-bottom: 3px solid #000 !important;
+}
+
+.navbar-brand > img {
+    max-height: 50px;
+}
+
+
+// navbar title
+.navbar-title {
+  font-size: $font-size-base * 1.75;
+}
+
+// hover on navbar
+
+.navbar-title:hover > .icon-line {
+  animation-duration: 600ms;
+  animation-name: line-expand;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 1.2rem;
+}
+    
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: $white;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active {
+  color: #000;
+}
+
+
+// then override colors 
+
+
+#navbarCollapse > ul > li:nth-child(1) > a:hover,
+#navbarCollapse > ul > li:nth-child(1) > a:hover {
+  color: $white;
+}
+  
+#navbarCollapse > ul > li:nth-child(2) > a:hover,
+#navbarCollapse > ul > li:nth-child(4) > a:hover {
+  color: $white;
+}
+
+#navbarCollapse > ul > li:nth-child(2) > a.nav-link.active,
+#navbarCollapse > ul > li:nth-child(4) > a.nav-link.active {
+  color: $white;
+}
+
+#navbarCollapse > ul > li:nth-child(3) > a:hover,
+#navbarCollapse > ul > li:nth-child(5) > a:hover {
+  color: $white;
+}
+
+#navbarCollapse > ul > li:nth-child(3) > a.nav-link.active,
+#navbarCollapse > ul > li:nth-child(5) > a.nav-link.active {
+  color: $white;
+}
+
+#navbarCollapse > ul > li:nth-child(4) > a:hover,
+#navbarCollapse > ul > li:nth-child(6) > a:hover {
+  color: $white;
+}
+
+#navbarCollapse > ul > li:nth-child(4) > a.nav-link.active,
+#navbarCollapse > ul > li:nth-child(6) > a.nav-link.active {
+  color: $white;
+}
+
+
+// animated underline on hover, when navbar shows as row
+@media screen and (min-width: 992px) {
+  a.nav-link {
+    position: relative;
+  }
+  
+  .navbar .navbar-nav .nav-item {
+    position: relative;
+  }
+  
+  .navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: $secondary;
+    width: 0%;
+    content: "";
+    height: 4px;
+    transition: all 0.3s;
+  }
+  
+  .navbar .navbar-nav .nav-item:nth-child(1)::after, 
+  .navbar .navbar-nav .nav-item:nth-child(1)::after {
+    background-color: $white;
+  }
+  
+  .navbar .navbar-nav .nav-item:nth-child(2)::after, 
+  .navbar .navbar-nav .nav-item:nth-child(4)::after {
+    background-color: $white;
+  }
+  
+  .navbar .navbar-nav .nav-item:nth-child(3)::after, 
+  .navbar .navbar-nav .nav-item:nth-child(5)::after {
+    background-color: $white;
+  }
+  
+  .navbar .navbar-nav .nav-item:nth-child(4)::after, 
+  .navbar .navbar-nav .nav-item:nth-child(6)::after {
+    background-color: $white;
+  }
+  
+  .navbar .navbar-nav .nav-item:hover::after {
+    width: 90%;
+  }
+}
+
+// nav footer
+
+.nav-footer {
+    align-items: flex-start;  // Align all flex items to the top
+    flex-wrap: wrap;
+    border: 0 !important;
+    min-height: 3rem;
+
+    a {
+        color: $primary;
+    }
+
+    .faux-block {
+        display: block;
+        padding-bottom: 0.4rem;
+    }
+
+    // In the default Quarto template, .nav-footer-center has position: absolute 
+    // turned on, which makes the div not be a flex item
+    // This changes that so that it *is* a flex item
+    .nav-footer-center {
+        text-align: center;
+        position: inherit;
+        margin-top: 0;
+
+        @media (max-width: map-get($grid-breakpoints, md)) {
+            margin-top: 0.5em;
+            margin-bottom: 1.5em;
+        }
+    }
+
+    // When the screen is medium or smaller, make each footer chunk be 100% width 
+    // and centered; otherwise make them be 33% width and left/right/centerd
+    .nav-footer-left,
+    .nav-footer-right,
+    .nav-footer-center {
+        text-align: center;
+        width: 100%;
+        min-height: 2em;
+    }
+
+    @media (min-width: map-get($grid-breakpoints, md)) {
+        .nav-footer-left {
+            text-align: left;
+        }
+
+        .nav-footer-right {
+            text-align: right;
+        }
+
+        .nav-footer-left,
+        .nav-footer-right,
+        .nav-footer-center {
+            flex: 1 1 33%;
+        }
+    }
+}
+
+.custom-subtitle {
+  font-size: 1.2rem;
+  font-family: $font-family-sans-serif;
+  margin-bottom: 0.15em;
+}
+
+.custom-subtitle2 {
+  font-size: 1.1rem;
+  font-style: italic;
+  font-family: $font-family-sans-serif;
+}
+
+
+.topbr {
+    display: block;
+    margin-top: 1em;
+}
+
+.center {
+  text-align: center;
+  left: 50%;
+}
+
+
+
+
+// set callout styles
+
+.top-callout {
+  font-family: $font-family-sans-serif;
+}
+
+// blocks of colored content 
+
+.content-block {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.alt-background {
+  background-color: $primary;
+  font-weight: 600;
+  font-size: 1.5em;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+}
+
+.simple-info {
+   text-align: center;
+   color: black;
+   padding-bottom: 2rem;
+}
+
+.simple-info h2 {
+   margin-top: 1rem;
+   color: #fff;
+   margin-bottom: 2rem;
+}
+.simple-info h3 {
+   margin-top: 1rem;
+   color: #fff;
+   margin-bottom: 2rem;
+}
+
+// dark-alternative
+
+.content-block-blue {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+
+.alt-background-blue {
+  background-color: $secondary;
+  border-top: 1px solid $secondary;
+  border-bottom: 1px solid $secondary;
+}
+.simple-info-blue {
+   text-align: center;
+   color: $secondary;
+   padding-bottom: 2rem;
+}
+
+.simple-info-blue h2 {
+   margin-top: 1rem;
+   color: $secondary;
+   margin-bottom: 2rem;
+}
+.simple-info-blue h3 {
+   margin-top: 1rem;
+   color: black;
+   margin-bottom: 2rem;
+}
+
+
+// tabset panels
+
+.tab-pane {
+  padding: 0;
+}
+
+
+.tab-content {
+  //border-radius: 1rem;
+  border: 2px solid #000;
+  box-shadow: 0.75rem 0.5rem 0 0 rgba(0, 0, 0, 1);
+}
+
+.nav-tabs {
+  border-bottom: 4px solid #000;
+}
+
+.nav-tabs .nav-link {
+  text-align: center;
+  background-color: $primary;
+  color: #fff;
+  //border-radius: 1em;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.4em;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-tabs .nav-link:hover {
+  background-color: #ffffff;
+  color: $primary;
+  border-color: $primary;
+}
+
+
+.nav-tabs .nav-link.active {
+  border-color: black;
+  border-style: solid;
+  border-width: 0.4em;
+  background-color: #fff;
+}
+
+
+// light box wrapper
+.presentWrap {
+  position: relative;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23);
+  z-index: 1;
+}
+
+/* boxed feature grid */
+
+.feature-grid {
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  @media only screen and (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+.feature-grid__item {
+    text-align: center;
+    padding: 30px;
+  }
+
+.feature-grid__icon {
+    padding-bottom: 15px;
+  }
+.feature-grid__link {
+    border-bottom: 0px;
+    text-decoration: none;
+  }
+
+.feature-grid__i {
+    font-size: 3.75rem;
+    color: $primary;
+
+    &:hover {
+      color: $secondary;
+      transition: all 0.3s ease;
+    }
+  }
+}
+
+ 
+
+
+/* boxed feature grid */
+
+.bg-pink {
+  background-color: $primary !important;
+}
+.bg-breakout {
+  position: relative;
+  width: 100vw !important;
+  left: calc(-1 * (100vw - 100%) / 2);
+}
+
+.inner-container {
+  width: 100%;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 4rem !important;
+  margin-bottom: 4rem !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  background-color: $primary;
+  border: 4px solid black;
+}
+
+.boxed-wrapper {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+
+
+.boxed-feature-grid {
+  width: 100%;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.boxed-feature-grid__item {
+  width: 50%;
+  padding: 2rem 1rem;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  min-height: 8.375rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: .5vmin solid #05060f;
+  box-shadow: .4rem .4rem #05060f;
+  overflow: hidden;
+  color: black;
+
+  &:hover {
+    text-decoration: bold; // Keeps the underline off during hover
+    background-color: $primary;
+    border: 2px solid black;
+    transition: background-color 0.3s ease, border 0.3s ease; // Specify properties to transition
+  }
+
+  &:active {
+    transform: translateY(4px);
+    box-shadow: 1px 2px 0px 0px $card-border-color;
+  }
+}
+
+
+.boxed-feature-grid__item {
+  width: calc(100% / 5);
+  /* Adjust the width as necessary to display the desired number of items per row */
+}
+
+@media (max-width: 767px) {
+  .boxed-feature-grid__item {
+    width: calc(100% / 2);
+    /* Adjust the width as necessary for smaller screens */
+  }
+}
+
+
+
+.boxed-feature-grid__icon {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+    i {
+    font-size: 3.75rem;
+    color: black;
+  }
+  
+  &:hover {
+    color: $white;
+  }
+}
+
+.boxed-feature-grid__title {
+      color: black;
+      margin-top: 1rem;
+      font-weight: 600;
+      text-align: center;
+      font-size: 1.1rem;
+    }
+
+.boxed-feature-grid__link {
+      border-bottom: 0px;
+      text-decoration: none;
+    }
+
+// cards 
+
+.card-shadow {
+  filter: drop-shadow(7px 7px 0 rgba(0, 0, 0, 1));
+  transition: all;
+  transition-duration: 0.5s;
+  animation: ease-in-out;
+  
+  &:hover {
+    filter: drop-shadow(5px 5px 0 rgba(0, 0, 0, 1));
+  }
+}
+
+
+
+// card 
+
+.card {
+  margin-bottom: 2.2rem;
+  border: none;
+  box-shadow: 5px 5px #141414;
+  border-radius: 8px;
+  border: 2px solid #141414;
+  
+}
+
+  
+.card-link {
+    background-color: $primary;
+    color: $body-bg;
+    border: 4px solid $primary;
+    border-color: $primary;
+    padding: 5px .5rem 5px .5rem !important;
+    margin: 0;
+    border-radius: 5px; 
+    display: inline-block;
+    text-decoration: none;  
+    font-size: $h5-font-size;
+}
+
+
+.image-card {
+  width: 250px;
+  overflow: hidden;
+  border-radius: .375rem; // This is an approximation for rounded-md, you may need to adjust
+  border-width: 2px;
+  border-color: black;
+  background-color: $primary;
+  font-weight: bold;
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+
+  &__img {
+    width: 100%;
+  }
+
+  &__caption {
+    border-top-width: 2px;
+    border-top-color: black;
+    padding: .5rem 1rem; // Adjust to match your tailwind configuration for p-4
+  }
+}
+
+
+// button card
+
+.card-container {
+  margin: 100px auto;
+  max-width: 600px;
+}
+
+.button-card {
+  background: $card-bg-color;
+  border-radius: 20px;
+  font-size: clamp(0.5rem, 0.6rem + 0.8vw, 1.25rem);
+  filter: drop-shadow(8px 8px 0px $card-border-color);
+  padding: $card-padding;
+  border: 4px solid $card-border-color;
+  
+  .header {
+    display: flex;
+    align-items: center;
+    background: hsla(185, 100%, 50%, 1);
+    border-radius: 1rem 1rem 0 0;
+    padding: 1rem;
+    font-size: clamp(0.6rem, 0.7rem + 1vw, 1.5rem);
+    font-weight: bold;
+    position: relative;
+
+    .header-left {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      transition: transform 200ms linear;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+   @media screen and (min-width: 368px) {
+        max-width: 12rem;
+        top: -3.5rem;
+        right: 1rem;
+      }
+    }
+  .button-card-image {
+    max-width: 100%;
+    max-height: 30%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+  }
+
+  .content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.btn-container {
+  text-align: left;
+  display: inline-block;
+}
+
+button {
+  margin: 0 5px;
+  background: $card-bg-color;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 3px solid $card-border-color;
+  box-shadow: $btn-shadow;
+  cursor: pointer;
+
+  &.primary {
+    background: $primary;
+    color: $card-bg-color;
+  }
+  
+  &.secondary {
+    background: $secondary;
+    color: $card-bg-color;
+  }
+  
+  &.bright {
+    background: $yellow;
+    color: $dark;
+  }
+
+  &:active {
+    transform: translateY(4px);
+    box-shadow: 1px 2px 0px 0px $card-border-color;
+  }
+}
+
+
+.neo-btn {
+  margin: 0 5px;
+  background: $card-bg-color;
+  font-size: 1.1rem;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 3px solid $card-border-color;
+  box-shadow: $btn-shadow;
+  font-variant: small-caps;
+  cursor: pointer;
+
+  &.dark {
+    background: $secondary;
+    color: $card-bg-color;
+  }
+  
+  &.pink {
+    background: $primary;
+    color: $yellow;
+  }
+  
+  &.yellow {
+    background: $yellow;
+    color: $dark;
+  }
+  
+   &.blue {
+    background: $cyan;
+    color: $dark;
+  }
+
+  &:active {
+    transform: translateY(4px);
+    box-shadow: 1px 2px 0px 0px $card-border-color;
+  }
+}
+
+
+// icon button 
+
+.icon-button {
+  display: inline-block; // Ensures full styling and maintains inline behavior
+  margin: 0 5px;
+  background: $card-bg-color;
+  font-size: .9rem;
+  font-style: bold;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 3px solid $card-border-color;
+  box-shadow: $btn-shadow;
+  cursor: pointer;
+  text-decoration: none; // Removes default underline of anchor tags
+  text-align: center;
+  text-transform: uppercase;
+  float: right; // Positions it to the right
+
+  &:hover {
+    text-decoration: none; // Keeps the underline off during hover
+  background-color:white;
+  border:2px solid black;
+  transition: all 0.3s ease;
+  }
+
+  &:active {
+    transform: translateY(4px);
+    box-shadow: 1px 2px 0px 0px $card-border-color;
+  }
+
+  &.pink {
+    background: $primary;
+    color: #fff;
+  }
+}
+
+// about me button
+
+.about-button {
+  display: inline-block; // Ensures full styling and maintains inline behavior
+  margin: 0 5px;
+  background: $card-bg-color;
+  font-size: .9rem;
+  font-style: bold;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 3px solid $card-border-color;
+  box-shadow: $btn-shadow;
+  cursor: pointer;
+  text-decoration: none; // Removes default underline of anchor tags
+  text-align: center;
+  text-transform: uppercase;
+  float: right; // Positions it to the right
+
+  &:hover {
+    text-decoration: none; // Keeps the underline off during hover
+  background-color:white;
+  border:2px solid black;
+  transition: all 0.3s ease;
+  }
+
+  &:active {
+    transform: translateY(4px);
+    box-shadow: 1px 2px 0px 0px $card-border-color;
+  }
+
+  &::after {
+    display: inline-block;
+    content: "→";
+    margin-left: 2px;
+    vertical-align: middle;
+  }
+
+  &.pink {
+    background: $primary;
+    color: #fff;
+  }
+}
+
+
+
+// back-button
+
+.back-button {
+  display: inline-block; // Ensures full styling and maintains inline behavior
+  margin: 0 5px;
+  background: $card-bg-color;
+  font-size: .9rem;
+  font-style: bold;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 3px solid $card-border-color;
+  box-shadow: $btn-shadow;
+  cursor: pointer;
+  text-decoration: none; // Removes default underline of anchor tags
+  text-align: center;
+  text-transform: uppercase;
+  float: left; // Positions it to the left
+
+  &:hover {
+    text-decoration: none; // Keeps the underline off during hover
+  }
+
+  &:active {
+    transform: translateY(4px);
+    box-shadow: 1px 2px 0px 0px $card-border-color;
+  }
+
+  &::before {
+    display: inline-block;
+    content: "\2190";
+    margin-left: 2px;
+    vertical-align: middle;
+  }
+
+  &.pink {
+    background: $primary;
+    color: #fff;
+  }
+}
+
+// avatar
+
+.avatar {
+   width: 250px;
+   height: 250px;
+   margin-bottom: 70px;
+   margin-right: 50px;
+   position: relative;
+   float: left;
+  //height: 16rem; // 16 * 0.25rem = 4rem
+  //width: 16rem; // 16 * 0.25rem = 4rem
+  border-radius: 50%;
+  border: 4px solid $avatar-border-color;
+  background-size: cover;
+  background-position: center;
+  box-shadow: $avatar-shadow;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: translateX(3px) translateY(3px);
+    box-shadow: none;
+  }
+}
+
+
+.fun-icon {
+   width: 50px;
+   height: 50px;
+   margin-bottom: 70px;
+   margin-right: 50px;
+   position: relative;
+   float: left;
+  //height: 16rem; // 16 * 0.25rem = 4rem
+  //width: 16rem; // 16 * 0.25rem = 4rem
+  border-radius: 50%;
+  border: 1px solid $avatar-border-color;
+  background-size: cover;
+  background-position: center;
+  box-shadow: $avatar-shadow;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: translateX(3px) translateY(3px);
+    box-shadow: none;
+  }
+}
+
+// special-callouts
+
+.corn {
+  margin: 1em 0;
+  border: 2px solid black;
+  border-left: 10px solid $red; 
+  border-radius: 10px;
+}
+
+.corn-header {
+  margin-left: 0em;
+  padding-left:  60px;
+  padding-top:  5px;
+  padding-bottom: 0.1em;
+  color: black;
+  background-color: $red;
+  border-top-right-radius: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  background-image: url("images/corn-icon.svg");
+}
+
+.corn-container {
+  padding-top: 5px;
+  padding-left: 10px;
+  color: black;
+  background-color: white;
+  border-bottom-right-radius: 10px;
+}
+
+// iframes for slides embedded in talks pages
+iframe.slide-deck {
+  border: 3px solid $gray-700;
+  width: 100%;
+}
+
+.ar4x3 {
+  aspect-ratio: 4 / 3;  
+}
+
+.ar3x2 {
+  aspect-ratio: 3 / 2;  
+}
+
+// icon-links
+.icon-link, div.quarto-about-jolla .about-link {
+    background-color: transparent;
+    color: $primary;
+    //border: 2px solid !important;
+    border: 2px solid;
+    border-color: $primary;
+    padding: 5px .4rem 5px .4rem !important;
+    margin-top: 4px;
+    margin-right: 8px;
+    margin-bottom: 4px;
+    border-radius: 5px; 
+    display: inline-block;
+    text-decoration: none;
+}
+
+.icon-link:hover, div.quarto-about-jolla .about-link:hover{
+    background-color: $primary;
+    color: $body-bg;
+    border-color: $primary;
+    text-decoration: none;
+}
+
+//buttons
+
+.button {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border-radius: .375rem; 
+  border-width: 2px;
+  border-color: black;
+  background-color: $primary;
+  padding: 3rem 10rem; 
+  font-weight: bold;
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+  transition: all;
+
+  
+  &:hover {
+    transform: translateX(3px) translateY(3px);
+    box-shadow: none;
+  }
+}
+
+.brutal-btn{
+  background-color: white;
+  border: 2px solid black;
+  padding:20px 50px;
+  border-radius: .375rem;
+  font-weight: bold;
+  font-size:30px;
+  position:relative;
+  color:$primary;
+}
+
+.brutal-btn:after{
+  content:'';
+  position:absolute;
+  background-color:$primary;
+  top:8px;
+  left:8px;
+  right:-8px;
+  bottom:-8px;
+  z-index:-1;
+}
+
+.brutal-btn:hover,brutalist-btn:active{
+  color:white;
+  background-color:$primary;
+  transition: all 0.3s ease;
+}
+
+.brutal-btn:hover:after,brutalist-btn:hover:active{
+  background-color:white;
+  border:2px solid $primary;
+  transition: all 0.3s ease;
+} 
+
+// article cards with hover-https://codepen.io/makaveli-dev-web/pen/Roxoqa
+
+@mixin pos($pos, $left:null, $top:null, $right:null, $bottom:null) {
+	position:$pos;
+	left:$left;
+	@if $top { top: $top; }
+	@if $left { left: $left; }
+	@if $right { right: $right; }
+	@if $bottom { bottom: $bottom; }
+}
+
+@mixin size($width, $height) {
+	width:$width;
+	height:$height;
+}
+
+
+// Hover event cards
+
+.article-card {
+  @include size($event-card-width, $event-card-height);
+  box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 1);
+  overflow: hidden;
+  border-radius: .375rem; 
+  border-width: 3px;
+  border-color: black;
+	.img-thumb {
+    @include size(auto, $thumb-height);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: .375rem; 
+  }
+	.infos {
+		@include size(auto, $event-card-height);
+		position: relative;
+		padding: 14px 24px;
+		border-radius: .375rem;
+		border-width: 3px;
+    border-color: black;
+		background: white;
+		transition: $timing-1 $transition;
+		.title {
+			position: relative;
+			margin: 10px 0;
+			letter-spacing: 3px;
+			color: $secondary;
+			//font-family: $gilmore;
+			font-size: 1rem;
+			text-transform: uppercase;
+			text-shadow: 0 0 0px lighten($secondary, 20);
+		}
+		.flag {
+			position: absolute;
+			top: 50%;
+			right: 0;
+			transform: translateY(-50%);
+			@include size(35px, 23px);
+			background: url('https://annotatedgilmoregirls.files.wordpress.com/2022/11/yale-university.jpg') no-repeat top right;
+			background-size: 100% auto;
+			display: inline-block;
+		}
+		.date, .seats {
+			margin-bottom: 5px;
+			text-transform: uppercase;
+			font-size: .85rem;
+			color: $secondary;
+			//font-family: $gilmore;
+		}
+		.seats {
+			display: inline-block;
+			margin-bottom: 10px;
+			padding-bottom: 10px;
+			border-bottom: 2px solid black;
+			opacity: 0;
+			transition: $timing-2 $transition;
+		}
+		.txt {
+			font-family: $gilmore;
+			line-height: 1.5;
+			font-size: .95rem;
+			color: $primary;
+			opacity: 0;
+			transition: $timing-2 $transition;
+		}
+		.details {
+			position: abolute;
+			left: 0;
+			bottom: 0;
+			margin: 10px 0;
+			padding: 20px 24px;
+			letter-spacing: 1px;
+			color:$secondary;
+			font-family: $gilmore;
+			font-size: .9rem;
+			text-transform: uppercase;
+			cursor: pointer;
+			opacity: 0;
+			transition: $timing-2 $transition;
+		}
+	}
+	&:hover .infos {
+		transform:translateY(-$thumb-height);
+		.seats, .txt, .details {
+			opacity:1;
+		}
+	}
+}
+
