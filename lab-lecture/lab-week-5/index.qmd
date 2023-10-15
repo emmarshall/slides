@@ -2,6 +2,7 @@
 title: "Reading, Writing & Critiquing Research"
 author: "Instructor: Emma Marshall, JD, MA"
 subtitle: "Lab 5"
+image: "images/fiz.png"
 from: markdown+emoji
 date: '2023-10-20'
 format:

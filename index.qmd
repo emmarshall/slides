@@ -10,6 +10,7 @@ listing:
     - "lab-lecture/lab-week-5"
     - "lab-lecture/lab-week-6"
     - "talks/judges"
+    - "talks/comps-prop"
   type: grid
   image-align: left
   sort: "priority asc"

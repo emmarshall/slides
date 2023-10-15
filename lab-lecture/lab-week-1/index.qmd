@@ -1,6 +1,7 @@
 ---
 title: "Welcome to PSYC 350 Laboratory"
 subtitle: "Lab 1"
+image: "images/fiz.png"
 author: "Instructor: Emma Marshall, JD, MA"
 from: markdown+emoji
 date: '2023-10-20'

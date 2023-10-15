@@ -41,3 +41,6 @@ format:
       - assets/academicons.css
     toc: false
     
+execute:
+    freeze: auto
+    

@@ -2,6 +2,7 @@
 title: "Literature Reviews"
 author: "Instructor: Emma Marshall, JD, MA"
 subtitle: "Lab 6"
+image: "images/fiz.png"
 from: markdown+emoji
 date: '2023-10-20'
 format:

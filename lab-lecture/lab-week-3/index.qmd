@@ -2,6 +2,7 @@
 title: "Bibliographies and APA style"
 author: "Instructor: Emma Marshall, JD, MA"
 subtitle: "Lab 3"
+image: "images/fiz.png"
 from: markdown+emoji
 date: '2023-10-20'
 format:

@@ -1,6 +1,7 @@
 ---
 title: "Data Sets & Variables"
 subtitle: "Lab 2"
+image: "images/fiz.png"
 from: markdown+emoji
 author: "Instructor: Emma Marshall, JD, MA"
 date: '2023-10-20'
