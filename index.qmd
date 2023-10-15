@@ -9,7 +9,6 @@ listing:
     - "lab-lecture/lab-week-4"
     - "lab-lecture/lab-week-5"
     - "lab-lecture/lab-week-6"
-    - "talks/comps-proposal"
     - "talks/judges"
   type: grid
   image-align: left
