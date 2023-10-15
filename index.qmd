@@ -1,17 +1,16 @@
 ---
-pagetitle: "teaching"
+title: "slides"
 listing:
   id: lectures
   fields: [image,title,subtitle]
   contents: 
-    - "lab-resources/wks-1"
     - "lab-lecture/lab-week-1"
     - "lab-lecture/lab-week-3"
     - "lab-lecture/lab-week-4"
     - "lab-lecture/lab-week-5"
     - "lab-lecture/lab-week-6"
-    - "talks/comps-proposal-2023-09-20"
-    - "talks/judges-2023-05"
+    - "talks/comps-proposal"
+    - "talks/judges"
   type: grid
   image-align: left
   sort: "priority asc"

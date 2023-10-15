@@ -2,13 +2,25 @@
 title: "Literature Reviews"
 author: "Instructor: Emma Marshall, JD, MA"
 subtitle: "Lab 6"
-filters:
-  - roughnotation
-format: 
-  revealjs:
-    incremental: true
-    theme: moon
+from: markdown+emoji
+date: '2023-10-20'
+format:
+  revealjs: 
+    logo: assets/logo.svg
+    theme: assets/unl.scss
+    menu:
+      side: left
     slide-number: true
+    date-format: long
+    show-slide-number: all
+    preview-links: true
+    code-overflow: wrap
+    incremental: true
+    auto-animate: true
+    transition: fade
+    background-transition: fade
+    transition-speed: fast
+
 execute:
   echo: false
 ---
@@ -28,77 +40,46 @@ execute:
 
 ## Research Critique Assignments
 
-## [Research Critique 1](https://uofnelincoln-my.sharepoint.com/:w:/g/personal/mwilliamson3_unl_edu/EdxkpxmY9yVHha22CLXvr0sBWz_H2V8h14sj9Yo_fj3-DA){.smaller}
-
 > **Purpose:** Practice identifying and evaluating each of these important parts of a research report.
 
 -   Step 1: Read (quickly-ish) the article
 -   Step 2: Identify basics and big take-aways (main purpose, key design, etc.)
 -   Step 3: Read (CAREFULLY) and take notes
 
-## What to look for {.smaller}
+## What to look for {.small}
 
-::: non-incremental
-1.  Hypotheses.
+[1]{.circle}  Hypotheses.
 
-    | [Look for all statements about the research hypothesis.]{.rn} Remember can be explicit or implied.
-
-2.  External validity components.
-
-    | What looks good? What raises red flags? What is unclear? Relate [generalizability]{.rn} back to stated goals of study.
-
-3.  Internal validity components.
-
-    | What looks good? What raises red flags? What is unclear? Relate [confounds or causal interpretation]{.rn} back to stated goals of study.
-
-4.  Anything else of interest you find!
-
-5.  Review your annotations and brainstorm alternatives.
-
-    | Make suggestions or identify gaps in knowledge, **do not** change the purpose, hypothesis, or overall design.
+::: {.info-box .fragment .fade-up}
+Look for all statements about the [research hypothesis.]{.highlight} - Remember can be explicit or implied - Common phrases like "lead to"
 :::
 
-## Advantages of Video-Based Software Instruction {.smaller}
+[2]{.circle}  External validity components.
 
-***Clefton D. Slighter and A. Lindits DeLaroughe Sledver State College***
+::: {.info-box .fragment .fade-up}
+What looks good? What raises red flags? What is unclear? Relate [generalizability]{.highlight} back to stated goals of study.
+:::
 
-**Abstract:** The proliferation of CD-based instructional materials and their avowed success has led several researchers to undertake formal evaluation of the utility of this educational technology. In general, these evaluations have been quite positive. Users often report that the CD-based learning materials are more pleasant and engaging than traditional print materials. In addition, there is some evidence of better learning using the CDs. Our study sought to evaluate the utility of this educational technology for teaching computer-based statistical data analysis. Participants completed a short series of computational exercises guided either by a CD-based presentation or by printed materials. Results were generally consistent with previous findings, supporting the claims of the utility of this technology.
+[3]{.circle}   Internal validity components.
 
-## Introduction {.smaller}
+::: {.info-box .fragment .fade-up}
+What looks good? What raises red flags? What is unclear? Relate [confounds or causal interpretation]{.highlight} back to stated goals of study.
+:::
 
-As computers, especially desktop computers, became more affordable and were adopted into business and educational settings, there was an immediate need to provide instruction to new users (Slighter, 1983). Previously this need had been met through printed instructional and procedural manuals. While these manuals were sufficient to provide information to computer specialists, it was discovered that they were not as useful for novice computer users (Clayton & Clayton, 1985). Most of the early efforts to improve the information provided to such novices was focused on improving the formatting (Slighter, 1983) and the clarity (Clayton & Clayton, 1985) of the instructional manuals. However, literature reviews by Slighter (1983) and Warkowe (1991) revealed little evidence that these efforts improved the functioning of the [printed]{.rn} materials.
+## What to look for {.small}
 
-With the advent of faster computers and better-suited programming languages, the potential for on-computer animated instructional materials was revealed (Tradford, 1988). Newer operating systems that allowed the user to view both the software being learned and the instructional materials on a single screen quickly made these sorts of on-computer instructional materials preferred to [`video-tape`]{.rn} instructional materials that had predominated until that time (Slighter, 1993).
+[4]{.circle}  Anything else of interest you find!
 
-## Method {.smaller}
+::: {.info-box .fragment .fade-up}
+-   Measurement/Construct validity - how did they [operationalize]{.highlight} key concepts?
+-   Statistical Conclusion validity - can findings [replicate?]{.highlight} what about effect sizes?
+:::
 
-### Participants
+[5]{.circle}  Review your annotations and brainstorm alternatives.
 
-[`Fifteen undergraduates`]{.rn} from a large southern state university participated in each of the two training conditions. [`Students taking "advanced statistics" courses in the Sociology, Psychology and Political Science departments were invited to participate`]{.rn} in the project for a \$10.00 payment and course credit. The only [c`riterion for participation in the study was that participants must have previously had a statistics or research methods course in which they used SPSS to complete at least 5 data analysis assignments.`]{.rn} Separate signup lists were provided to instructors of each class, each of which [`requested the participation of five males and five females.`]{.rn} APA guidelines for informed consent were followed.
-
-## Materials {.smaller}
-
-All participants, working individually, [`used the academic version of SPSS 9.1 for Windows to complete a single data analysis exercise. The exercise involved entering and saving a 20-case data set including 5 variables, performing various transformations and computing univariate and correlational analyses, and obtaining a printout of the session activities.`]{.rn} For [t`hose in the instruction manual condition a single copy of the instruction manual provided by SPSS was made available on a desk at the front of the room. The manual includes all aspects of SPSS procedures; approximately 10 pages of which were directly pertinent to the assignment. Those in the instructional video condition were supplied with a copy of the instructional video prepared by the researchers and were given explicit instruction and a demonstration of the portion of the video they would be using. The video was running and visible on the same computer participants in the video condition used to complete their analyses. The full video requires about 45 minutes to complete, however the section pertinent to the assignment requires about 9 minutes to view.`]{.rn}
-
-## Materials {.smaller}
-
-[`A 20-item questionnaire was used to collect each participant's evaluation of the instructional material they used. These included 10 questions about the ease of use of the materials and 10 questions about the quality of information provided by the materials. Each question had three possible responses: 0) poor, 1) adequate and 2) good.`]{.rn rn-color="red"}
-
-## Procedure {.smaller}
-
-All participants completed the procedure [`in a single computer resource room`]{.rn} during [`one of 10 sessions that were conducted by one of the researchers or one of their four under-graduate research assistants.`]{.rn} [`Sessions included 2-6 participants`]{.rn} each of whom was individually assigned to one of the instructional conditions. Participants were [`randomly assigned to instructional conditions with the single constraint that participants from the Psychology class were all assigned to the instructional manual condition because they had used the instructional CD while in the introductory psychology statistics course.`]{.rn}
-
-## Table {.smaller}
-
-Table 1 summarizes the comparison of the instructional manual and video conditions. As can be seen the instructional video [`led to`]{.rn}`higher scores on each of the four measures, though the differences were only statistically significantly different for the ease of use rating, F(1, 19) = 4.22, p < .05, Mse = 15.43, and the quality of information rating, F(1, 19) = 3.99, p < .05, Mse = 21.23, and not for the accuracy of final answers, F(1,28) = .98, p > .05, Mse = 4.12, nor for the number of programming errors, F(1,28) = 1.12, p > .05, Mse = 4.42.`
-
-![](images/table_1.png){.r-stretch}
-
-## Discussion {.smaller}
-
-[`Previous research has consistently demonstrated the tremendous advantage of video-based instruction for novice users.`]{.rn} The purpose of this research was to further examine the utility of CD-based video instruction, specifically its utility for learning statistical software packages. This is an important topic of study because learning to navigate and apply these packages is often a source of challenge and difficulty to undergraduates studying behavioral science topics (Gliven, 1997).
-
-The current findings support previous results about the utility of this type of instructional aid. [H`ere it was found that using the video instruction led to improvements in both the accuracy of the statistical results but also reduced the number of programming errors that were committed.`]{.rn} In addition, the video instruction was clearly preferred by users to the instructional manuals.
+::: {.info-box .fragment .fade-up}
+Make suggestions or identify gaps in knowledge, **do not** always want to change the purpose, hypothesis, or overall design.
+:::
 
 ## Handouts!!
 
@@ -109,9 +90,13 @@ The current findings support previous results about the utility of this type of 
 -   [All the words](https://uofnelincoln-my.sharepoint.com/personal/mwilliamson3_unl_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmwilliamson3%5Funl%5Fedu%2FDocuments%2F350%2F350%20Lab%2FUNIT%201%20LABS%2FRevised%5FFall%5F2023%5FUnit%5F1%5FLabs%2Fwk%5F5%5Funit%5F1%5Flab%5F5%2Fallthewords%5Fans%2Epdf&parent=%2Fpersonal%2Fmwilliamson3%5Funl%5Fedu%2FDocuments%2F350%2F350%20Lab%2FUNIT%201%20LABS%2FRevised%5FFall%5F2023%5FUnit%5F1%5FLabs%2Fwk%5F5%5Funit%5F1%5Flab%5F5&ga=1)
 -   [Types of Validity](https://uofnelincoln-my.sharepoint.com/personal/mwilliamson3_unl_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmwilliamson3%5Funl%5Fedu%2FDocuments%2F350%2F350%20Lab%2FUNIT%201%20LABS%2FRevised%5FFall%5F2023%5FUnit%5F1%5FLabs%2Fwk%5F5%5Funit%5F1%5Flab%5F5%2Fvalidity%5Fnet%2Epdf&parent=%2Fpersonal%2Fmwilliamson3%5Funl%5Fedu%2FDocuments%2F350%2F350%20Lab%2FUNIT%201%20LABS%2FRevised%5FFall%5F2023%5FUnit%5F1%5FLabs%2Fwk%5F5%5Funit%5F1%5Flab%5F5&ga=1)
 
-## [Validity and Design Practice](https://www.psypost.org/2023/08/dance-challenge-videos-on-tiktok-can-influence-womens-body-image-perceptions-study-shows-168504)
+## Validity and Design Practice
 
 ![](images/tik-tok-study.png){.r-stretch fig-align="center"}
+
+::: footer
+[On the interwebs](https://www.psypost.org/2023/08/dance-challenge-videos-on-tiktok-can-influence-womens-body-image-perceptions-study-shows-168504)
+:::
 
 ::: notes
 Have you ever watched dance challenge videos on TikTok? If so, you probably noticed the skill and appearance of the dance model. Some psychologists have started to study how TikTok dance models affect viewers. A set of three studies asked, can the size of the dancer on TikTok influence the body satisfaction of a viewer? Journalists at PsyPost wrote up a summary of this empirical work. The research was originally published in the journal, Computers in Human Behavior; may be paywalled.
@@ -123,21 +108,16 @@ Have you ever watched dance challenge videos on TikTok? If so, you probably noti
 [??](https://www.youtube.com/watch?v=n-22Ph1ofcI%22)
 :::
 
-# What is the theory {.smaller}
+## What is the theory
 
--   The theory behind the study is related to the potential of social media to impact body esteem:
+The theory behind the study is related to the potential of social media to impact body esteem:
 
--   <div>
+::: {.info-box .small .fragmant .fragment-up}
 
-    > Media, especially its portrayal of the "thin ideal," where extremely slim bodies are considered attractive, has a significant impact on shaping these negative body perceptions.
+1.  Media, especially its portrayal of the ["thin ideal,"]{.highlight} where extremely slim bodies are considered attractive, has a significant impact on shaping these negative body perceptions.
 
-    </div>
-
--   <div>
-
-    > With the rise of social media platforms like TikTok, researchers are curious about how this new form of media might influence people's body image.
-
-    </div>
+2.  With the rise of [social media platforms]{.highlight} like TikTok, researchers are curious about how this new form of media might influence people's body image.
+:::
 
 ## Study 1 {.smaller}
 
@@ -151,13 +131,15 @@ Have you ever watched dance challenge videos on TikTok? If so, you probably noti
     -   overall appearance satisfaction
     -   body shape satisfaction
 
-# Study 1: What Type of Experiment? {background-image="images/thin-cow.png" background-opacity="0.3"}
+# Study 1: What type of Design? {background-image="images/thin-cow.png" background-opacity="0.3"}
 
 ## Study 1: What were the Variables? {.smaller}
 
-+---------------+------------------+--------------------------+----------------+------------------+
-| Variable Name | Levels or scale? | Manipulated or measured? | IV or DV or ?? | If IV, WG or BG? |
-+---------------+------------------+--------------------------+----------------+------------------+
+1.  Variable Name 
+2.  Levels or scale?
+3.  Manipulated or measured? 
+IV or DV or ?? 
+If IV, WG or BG?
 
 ## Study 1: What were the Variables? {.smaller}
 
@@ -218,10 +200,13 @@ Have you ever watched dance challenge videos on TikTok? If so, you probably noti
 :::
 :::
 
-## [Internal or External validity?](https://www.youtube.com/watch?v=n-22Ph1ofcI%22)
+## [Internal or External validity?
 
 ![](images/thin-cow.png){.r-stretch fig-align="center"}
 
+::: footer
+[Control for potential confounds by turning them into constants...](https://www.youtube.com/watch?v=n-22Ph1ofcI%22)
+:::
 ## Study 2: Variables changes?
 
 ::: r-fit-text
@@ -331,13 +316,34 @@ Even after concealing the true purpose of the study, the results consistently in
 -   When you address external validity, think about the samples used in these studies.
 :::
 
-## Beware the Conclusions!! {.smaller}
+## Generalizing results? {.smaller}
 
 Here's how the researchers concluded an interview about their studies:
 
-> I would like to add that this study shows that watching TikTok videos is not universally negative and that there are positive and negative effects...
+::: {.info-box .small}
+"The findings also [raise the possibility that TikTok could change its algorithm and show a wider variety of body types]{.highlight}, and this could have a major public health benefits. Body dissatisfaction is major risk factor for eating disorders and eating disorders have the highest mortality rate of all psychiatric diseases due to medical complications or suicide..."
 
-> The findings also raise the possibility that TikTok could change its algorithm and show a wider variety of body types, and this could have a major public health benefits. Body dissatisfaction is major risk factor for eating disorders and eating disorders have the highest mortality rate of all psychiatric diseases due to medical complications or suicide.
+::: 
+
+::: {.cream-box .fragment .fade-up}
+## Can we generalize to the algorithm on a users' feed? 
+
+:::
+
+## Limits of generalization
+
+
+::: columns
+::: {.column width="50%"}
+## Sample :arrow_right: Population?
+![](images/fig_1.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+## Setting/Task/Stimulus 
+![](images/fig_1.png){fig-align="center"}
+:::
+:::
 
 ## TRAAP Method
 

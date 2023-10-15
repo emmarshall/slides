@@ -1,0 +1,161 @@
+---
+title: "Data Sets & Variables"
+subtitle: "Lab 2"
+from: markdown+emoji
+author: "Instructor: Emma Marshall, JD, MA"
+date: '2023-10-20'
+format:
+  revealjs: 
+    logo: assets/logo.svg
+    theme: assets/unl.scss
+    menu:
+      side: left
+    slide-number: true
+    date-format: long
+    show-slide-number: all
+    preview-links: true
+    code-overflow: wrap
+    incremental: true
+    auto-animate: true
+    transition: fade
+    background-transition: fade
+    transition-speed: fast
+
+execute:
+  echo: false
+---
+
+## Lab Instructor {background-image="images/fitz.png" background-opacity="0.2"}
+
+::: info-box
+Emma Marshall, JD, MA
+:::
+
+::: {.non-incremental}
+-   Law-Psychology (Joint JD/PhD) Program
+-   Studies legal decision-making
+:::
+
+::: r-stack
+![](images/searches.jpg){.fragment width="400" height="300"}
+
+![](images/warrants.png){.fragment width="250" height="250"}
+
+![](images/judges.png){.fragment width="250" height="250"}
+:::
+
+## Today's Tasks {background-image="images/fitz.png" background-opacity="0.2"}
+
+::: {.non-incremental}
+-   Today's lab:
+    -   Introduction to final project datasets
+    -   Introduction to SPSS
+    
+:::
+
+## Lab 1 & 2 Activities {.scrollable}
+
+![](images/assn1.png)
+
+![](images/assn2.png)
+
+## Operationalization
+
+> Operational definition -- how will you measure it?
+
+-   Spells out precisely how the concept will be measured
+
+## Operationalize
+
+> Describing the steps, procedures & concepts used to identify and measure variables
+
+::: incremental
+-   How to define the variables within the language of research?
+
+-   How to measure/observe those variables?
+
+    -   Often look to what others have done
+:::
+
+::: aside
+**Measurement:** Assigning numbers or labels to units of analysis in order to represent the conceptual properties
+:::
+
+## Define (Operationalize) Herbie Husker
+
+![](images/herbie.jpeg){.r-stretch}
+
+## Qualtitative vs. Quantitative Variables
+
+> All observations are qualitative at the outset
+
+::: incremental
+-   **Qualitative:** Nonnumerical
+-   **Quantitative:** Numerical
+-   Both are useful and legitimate
+    -   Can choose based on topic or combine aspects of both
+:::
+
+## :bar_chart: Quantitative Variables {.center}
+
+::: columns
+::: {.column width="50%"}
+### Discrete data
+
+![](images/smallville.png){fig-align="center" width="350" height="228"}
+
+-   You **count** discrete data
+:::
+
+::: {.column width="50%"}
+### Continuous data
+
+![](images/poll-results.png){fig-align="center" width="350" height="233"}
+
+-   You **measure** continuous
+:::
+:::
+
+## Example: Survivor
+
+![Variables related to the greatest game ever played...Survivor!](images/survivor.jpeg){fig-align="center"}
+
+## Confessionals = discrete data
+
+::: columns
+::: {.column width="50%"}
+![Confessional: is when they sit there and talk to the camera one-on-one](https://vignette.wikia.nocookie.net/survivor/images/3/34/Jerri_confesiiona.jpg/revision/latest?cb=20140726210646)
+:::
+
+::: {.column width="50%"}
+[![Credit to Dan Oehm](images/survivor_confess.png){fig-align="center"}](https://gradientdescending.com/survivor/tables/castaway-confessionals.html)
+:::
+:::
+
+::: notes
+What is Discrete Data? Discrete variables can only assume specific values that you cannot subdivide. Typically, you count them, and the results are integers. For example, if you work at an animal shelter, you'll count the number of cats.
+
+Discrete data can only take on specific values. For example, you might count 20 cats at the animal shelter. These variables cannot have fractional or decimal values. You can have 20 or 21 cats, but not 20.5! Natural numbers have discrete values.
+
+Examples of discrete data include The number of books you check out from the library. The number of heads in a sequence of coin tosses. The result of rolling a die. The number of patients in a hospital. The population of a country.
+:::
+
+## IMDB Rating = Continuous
+
+::: columns
+::: {.column width="50%"}
+![IMDB score: user generated ratings of quality](https://static1.colliderimages.com/wordpress/wp-content/uploads/cinemath-imdb-slice.jpg)
+:::
+
+::: {.column width="50%"}
+![Credit to reddit user u/Crogan11](images/survivor_cont.jpeg){fig-align="center"}
+:::
+:::
+
+::: notes
+What is Continuous Data? Continuous variables can assume any numeric value and can be meaningfully split into smaller parts. Consequently, they have valid fractional and decimal values. In fact, continuous data have an infinite number of potential values between any two points. Generally, you measure them using a scale.
+
+When you see decimal places for individual values, you're looking at a continuous variable.
+
+Examples of continuous data include weight, height, length, time, and temperature.
+:::

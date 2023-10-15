@@ -2,12 +2,25 @@
 title: "Bibliographies and APA style: Part Duex"
 author: "Instructor: Emma Marshall, JD, MA"
 subtitle: "Lab 4"
-filters:
-  - roughnotation
-format: 
-  revealjs:
-    theme: moon
+from: markdown+emoji
+date: '2023-10-20'
+format:
+  revealjs: 
+    logo: assets/logo.svg
+    theme: assets/unl.scss
+    menu:
+      side: left
     slide-number: true
+    date-format: long
+    show-slide-number: all
+    preview-links: true
+    code-overflow: wrap
+    incremental: true
+    auto-animate: true
+    transition: fade
+    background-transition: fade
+    transition-speed: fast
+
 execute:
   echo: false
 ---
