@@ -32,7 +32,7 @@ execute:
 Emma Marshall, JD, MA
 :::
 
-::: {.non-incremental}
+::: non-incremental
 -   Law-Psychology (Joint JD/PhD) Program
 -   Studies legal decision-making
 :::
@@ -47,11 +47,10 @@ Emma Marshall, JD, MA
 
 ## Today's Tasks {background-image="images/fitz.png" background-opacity="0.2"}
 
-::: {.non-incremental}
+::: non-incremental
 -   Today's lab:
     -   Introduction to final project datasets
-    -   Introduction to SPSS
-    
+    -   Introduction to SPSS & JAMOVI
 :::
 
 ## Lab 1 & 2 Activities {.scrollable}
@@ -62,15 +61,26 @@ Emma Marshall, JD, MA
 
 ## Operationalization
 
-> Operational definition -- how will you measure it?
+::: inner-container
+::: post-it
+Operational definition -- how will you measure it?
+:::
+:::
 
+::: {.body .incremental}
 -   Spells out precisely how the concept will be measured
+    -   **Measurement:** Process of assigning `numbers` or `labels` to units of analysis in order to represent the **conceptual** properties
+:::
 
 ## Operationalize
 
-> Describing the steps, procedures & concepts used to identify and measure variables
+::: inner-container
+::: post-it
+Describing the steps, procedures & concepts used to identify and measure variables
+:::
+:::
 
-::: incremental
+::: {.body .incremental}
 -   How to define the variables within the language of research?
 
 -   How to measure/observe those variables?
@@ -78,17 +88,17 @@ Emma Marshall, JD, MA
     -   Often look to what others have done
 :::
 
-::: aside
-**Measurement:** Assigning numbers or labels to units of analysis in order to represent the conceptual properties
-:::
-
 ## Define (Operationalize) Herbie Husker
 
 ![](images/herbie.jpeg){.r-stretch}
 
-## Qualtitative vs. Quantitative Variables
+## Qualitative vs. Quantitative Variables
 
-> All observations are qualitative at the outset
+::: inner-container
+::: post-it
+All observations are qualitative at the outset
+:::
+:::
 
 ::: incremental
 -   **Qualitative:** Nonnumerical
@@ -98,6 +108,9 @@ Emma Marshall, JD, MA
 :::
 
 ## :bar_chart: Quantitative Variables {.center}
+
+::: vspace2
+:::
 
 ::: columns
 ::: {.column width="50%"}
@@ -121,7 +134,7 @@ Emma Marshall, JD, MA
 
 ![Variables related to the greatest game ever played...Survivor!](images/survivor.jpeg){fig-align="center"}
 
-## Confessionals = discrete data
+## \# of Confessionals = discrete data
 
 ::: columns
 ::: {.column width="50%"}
@@ -141,7 +154,10 @@ Discrete data can only take on specific values. For example, you might count 20 
 Examples of discrete data include The number of books you check out from the library. The number of heads in a sequence of coin tosses. The result of rolling a die. The number of patients in a hospital. The population of a country.
 :::
 
-## IMDB Rating = Continuous
+## Quality of episode = Continuous
+
+::: vspace2
+:::
 
 ::: columns
 ::: {.column width="50%"}

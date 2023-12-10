@@ -2,13 +2,16 @@
   {
     "listing": "/index.html",
     "items": [
-      "/lab-lecture/lab-week-1/index.html",
-      "/lab-lecture/lab-week-3/index.html",
       "/lab-lecture/lab-week-4/index.html",
+      "/lab-lecture/lab-week-3/index.html",
+      "/lab-lecture/lab-week-2/index.html",
       "/lab-lecture/lab-week-5/index.html",
       "/lab-lecture/lab-week-6/index.html",
+      "/lab-lecture/lab-week-1/index.html",
+      "/lab-lecture/research-project/index.html",
+      "/talks/comps-prop/index.html",
       "/talks/judges/index.html",
-      "/talks/comps-prop/index.html"
+      "/talks/psychlaw/psychlaw_research.html"
     ]
   }
 ]

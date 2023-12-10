@@ -242,7 +242,7 @@ Abstract, Discussion
 
 -   Write "formally" -- without slang, contractions, etc.
 
--   Use sentences and paragraphs (not "lists")
+-   Use sentences and paragraphs (not "lists" unless hypotheses)
 
 -   Give credit to others for their ideas
 :::

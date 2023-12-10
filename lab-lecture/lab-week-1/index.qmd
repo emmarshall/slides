@@ -28,13 +28,15 @@ execute:
 
 ## Lab Instructor {background-image="images/fitz.png" background-opacity="0.2"}
 
-::: info-box
-Emma Marshall, JD, MA
+::: inner-container
+::: post-it
+-   Emma Marshall, JD, MA
+    -   Law-Psychology (Joint JD/PhD) Program
+    -   Studies legal decision-making
+:::
 :::
 
 ::: incremental
--   Law-Psychology (Joint JD/PhD) Program
--   Studies legal decision-making
 :::
 
 ::: r-stack
@@ -47,31 +49,36 @@ Emma Marshall, JD, MA
 
 ## Today's Tasks {background-image="images/fitz.png" background-opacity="0.1"}
 
+::: body
 -   Brief Introduction: The Purpose of Lab
 -   Overview of where to find lab materials
 -   Today's lab:
     -   Introduction to final project datasets
-    -   Introduction to SPSS
+    -   Introduction to SPSS (OR JAMOVI)
+    
+:::
 
-## Why is this course required? {.incremental}
+## Why is this course required?
 
-::: {.info-box .fragment .fade-out}
-"Psych majors" vs. "Psych professionals" distinction is about ability to [GENERATE]{.highlight} and [EVALUATE]{.highlight} new knowledge
+::: inner-container
+::: post-it
+"Psych majors" vs. "Psych professionals" distinction is about ability to **GENERATE** and **EVALUATE** new knowledge
+:::
 :::
 
 ::: columns
 ::: {.column width="50%"}
 ### Creating Knowledge
+
+![](images/scales.jpeg){.fragment .fade-up fig-align="center" width="307"}
 :::
 
 ::: {.column width="50%"}
 ### Evaluate Knowledge
+
+![](images/line.png){.fragment .fade-up fig-align="center" width="307"}
 :::
 :::
-
-![](images/scales.jpeg){.fragment .fade-up .absolute bottom="0" left="50" width="350" height="300"}
-
-![](images/line.png){.fragment .fade-up .absolute bottom="0" right="50" width="350" height="300"}
 
 ::: notes
 Possible Question- "Why is this course required???"
@@ -83,38 +90,49 @@ To do your job, you'll have to know to find and evaluate knowledge that others h
 
 ## Empirical Research {.smaller}
 
+::: {.body .incremental}
 -   Informs variety of real world decisions & processes
     -   Ex: Psychologists (clinicians) use research to make key diagnosis & treatment decisions
 -   Peer-review & replication provide credibility
     -   & ensure ethical or legal compliance
 -   Not limited to psychology
     -   Ex: HR, criminal justice, business, education, engineering all depend on and use psychological knowledge
+:::
 
 ::: notes
 The importance of empirical research is that it- - Informs every decision and action by professionals - Every decision and action made by psychological professionals is dependent upon research -- maybe their own, probably someone else's. - In order to be ethical (also legal and bill-able), each diagnosis, treatment choice, evaluation, and decision to stop treatment must be defended in terms of replicated, peer-reviewed, published research. - Not just clinical/treatment decisions but those made within areas of human resources, criminal justice, business, education, engineering, etc. -- all depend on, and use, knowledge acquired by psychological researchers.
 :::
 
-------------------------------------------------------------------------
+## Evaluating Knowledge {.smaller}
 
-## Evaluating Knowledge
-
-::: {.info-box .fragment .fade-out}
-Not everyone [produces]{.highlight} empirical research...
+::: inner-container
+::: post-it
+Not everyone produces empirical research...
+:::
 :::
 
-![](images/anecdotes.jpg){fig-align="center" width="500" height="167"}
+::: columns
+::: {.column width="50%"}
 
-::: {.info-box .fragment .fade-in-then-semi-out}
-But **ALL psychology** professionals need to be skilled research [consumers]{.highlight}
+
 :::
 
-## Evaluating Knowledge
-
-::: info-box
-Competent research [consumers]{.highlight} can...
+::: {.column width="50%"}
+![](images/anecdotes.jpg){figure-align="center" width="500" height="150"}
+:::
 :::
 
-::: incremental
+## Evaluating Knowledge {.smaller}
+
+::: inner-container
+::: post-it
+But **ALL psychology** professionals need to be skilled research consumers
+:::
+:::
+
+#### Competent research consumers can:
+
+::: {.body .incremental}
 -   **Find** relevant research
 -   **Evaluate (& critique)** research quality (theory, methods, stats)
 -   **Apply (& integrate)** valuable research information to own work
@@ -140,15 +158,14 @@ While not everyone needs to be a producer of empirical research, every psycholog
 What might be some problems with this headline? Not peer reviewed. What about the pandemic might have changed the experiences and testing environment for babies?
 :::
 
-## Creating Knowledge
+## Creating Knowledge {.smaller}
 
-::: info-box
--   Most jobs (not just academia) require skills related to [producing]{.highlight} research and knowledge
+::: {.body .incremental}
+-   Most jobs (not just academia) require skills related to **producing** research and knowledge
 -   Funding sources, clients & employers look for:
     -   Evidence-based decision-making
     -   Efficiency and cost related concerns
     -   Competitive advantage
-
 :::
 
 ::: notes
@@ -163,15 +180,19 @@ It is not enough that you "do it better" than the others. You need evidence that
 This evidence comes from research conducted, analyzed, and reported by you using your own patients/clients.
 :::
 
-## Research Skills?
+## Research Skills? {.smaller}
 
-### Still needed outside of academia!!
+::: inner-container
+::: post-it
+Still needed outside of academia!!
+:::
+:::
 
-::: info-box
--   If you understand the research process and can evaluate, integrate, and apply [empirical]{.highlight} research you will have:
-    -   Better job prospects
-    -   Improved job performance
-    -   More job flexibility!
+::: {.body .incremental}
+-   People who understand the research process and can **evaluate**, **integrate**, and **apply** empirical have:
+    -   Better prospects
+    -   Improved performance
+    -   More flexibility!
 :::
 
 ::: notes
@@ -180,27 +201,29 @@ The point is...Research is going to be a more important part of your ongoing pro
 Professionals who better understand the research process and know how to evaluate, integrate, and apply the results from empirical research have greater employment potential do their jobs better!
 :::
 
-------------------------------------------------------------------------
-
 ## Psychology is competitive! {.smaller}
 
-::: incremental
+::: inner-container
+::: post-it
 -   "Helping" professions are attractive and appealing
 -   Positions often require advanced degrees
+:::
+:::
 
 ::: columns
 ::: {.column width="40%"}
 ![](images/lawpsych.png)
 :::
 
-::: {.column width="40%"}
-::: info-box
+::: {.column width="60%"}
+::: {.body .incremental}
 -   Clinical Program accepts 10-12 of 200+ applicants
 -   Law-Psych accepts 4-5 of 60 applicants
 -   Ed Psych Counseling program accepts 6-8 of 100+ applicants
 :::
 :::
 :::
+
 :::
 
 ::: notes
@@ -221,11 +244,14 @@ The Educational Psychology Counseling program takes 6-8 of 100+
 And within those programs -- the number of jobs available after also vary by industry and other factors.
 :::
 
-## So, what does this mean?
+## So, what does this mean? {.smaller}
+
+::: vspace
+:::
 
 ### Schools (& employers) look for...
 
-::: info-box
+::: {.body .incremental}
 -   Excellent performance in research methods/stats courses
 
 -   Excellent performance in 400-level courses (writing & critical thinking skills)
@@ -245,27 +271,34 @@ Excellent performance in 400-level courses, especially writing and critical thin
 Research experience (which will be easier to find if you do well in here and have the resultant skills)
 :::
 
-## Summary
+## Why is this course required?
 
-#### Why is this course required?
+::: vspace
+:::
 
-::: info-box
+::: columns
+::: {.column width="50%"}
+![](images/p-value-statistics-meme.jpg){figure-align="center" width="340"}
+:::
+
+::: {.column width="50%"}
+::: body
 -   Research skills are at the heart of psychological practice
 -   Needed to succeed in upper level psych courses
     -   & related careers and industries
 :::
-
-![](images/p-value-statistics-meme.jpg){figure-align="center" fig-align="center" width="340"}
+:::
+:::
 
 ::: notes
 -   Because research is at the heart of Psychological practice
--   \- Because the best way to get the education and training you need for your desired career is to master the procedures, techniques, skills, and tricks you will learn in this course.
+-   Because the best way to get the education and training you need for your desired career is to master the procedures, techniques, skills, and tricks you will learn in this course.
 -   Every assignment done in this class tracks directly to knowledge and skills that will be expected to perform in 300/400-level classes FYI: advanced courses in this topic (Psyc 491/2)
 :::
 
 ## You will learn to...
 
-::: info-box
+::: {.body .incremental}
 -   [Locate, summarize, critique, & integrate]{.highlight} primary research and research reviews
 -   [Propose]{.highlight} original research hypotheses based on your consideration of previous research
 -   [Plan]{.highlight} the procedures & materials for data collection & analysis relevant to research hypotheses
@@ -276,7 +309,7 @@ Research experience (which will be easier to find if you do well in here and hav
 Useful skills you'll acquire in this course: Learn to locate, summarize, critique, and integrate primary research and research reviews Learn to propose original research hypotheses based on your consideration of previous research Learn to plan the procedures and materials for data collection and analysis relevant to research hypotheses Learn to report all of the above using a standard (i.e., APA) format and style
 :::
 
-## Keep in Mind {background-color="black"}
+## Keep in Mind
 
 ::: callout-important
 You need a "C" (not a "C-") for this course to count toward the Psychology Major
@@ -296,8 +329,6 @@ You need a "C" (not a "C-") for this course to count toward the Psychology Major
 ![](images/ahh.jpeg){.fragment width="615"}
 
 ![](images/documents.jpeg){.fragment width="578"}
-
-![](images/fitz.png){.fragment width="536"}
 :::
 
 ## Lab 1 & 2 Activities {.scrollable}

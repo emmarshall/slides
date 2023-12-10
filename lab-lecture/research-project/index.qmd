@@ -1,0 +1,237 @@
+---
+title: "Research Project Report"
+subtitle: "How to "
+image: 'https://annotatedgilmoregirls.files.wordpress.com/2022/11/yale-university.jpg'
+author: "Instructor: Emma Marshall, JD, MA"
+from: markdown+emoji
+date: 'Fall 2023'
+format:
+  revealjs: 
+    logo: assets/logo.svg
+    theme: assets/unl.scss
+    menu:
+      side: left
+    slide-number: true
+    date-format: long
+    show-slide-number: all
+    preview-links: true
+    code-overflow: wrap
+    incremental: true
+    auto-animate: true
+    transition: fade
+    background-transition: fade
+    transition-speed: fast
+
+execute:
+  echo: false
+---
+
+## Lab Instructor {background-image="images/fitz.png" background-opacity="0.2"}
+
+::: inner-container
+::: post-it
+-   Emma Marshall, JD, MA
+    -   Law-Psychology (Joint JD/PhD) Program
+    -   Studies legal decision-making
+:::
+:::
+
+::: incremental
+:::
+
+::: r-stack
+![](images/searches.jpg){.fragment width="400" height="300"}
+
+![](images/warrants.png){.fragment width="250" height="250"}
+
+![](images/judges.png){.fragment width="250" height="250"}
+:::
+
+## Today's Tasks {background-image="images/fitz.png" background-opacity="0.1"}
+
+::: body
+-   Brief Introduction: The Purpose of Lab
+-   Overview of where to find lab materials
+-   Today's lab:
+    -   Introduction to final project datasets
+    -   Introduction to SPSS (OR JAMOVI)
+:::
+
+## :eyes: Correlation
+
+::: {.body layout-ncol="3"}
+::: {.fragment .fade-in fragment-index="1"}
+![Hometown Population](images/smallville.png){width="372"}
+:::
+
+::: {.fragment .fade-in fragment-index="2"}
+![](images/dotted-line.png)
+:::
+
+::: {.fragment .fade-in fragment-index="3"}
+![Liking People Scale (LPS)](images/poll-results.png){width="400"}
+:::
+:::
+
+::: inner-container
+::: post-it
+-   Are these two things related in any way?
+-   How strong is the association?
+-   What direction (+/-) is the association?
+:::
+:::
+
+## :alembic: Regression
+
+::: {.body layout-ncol="3"}
+::: {.fragment .fade-in fragment-index="1"}
+![Hometown Population](images/smallville.png){width="372"}
+:::
+
+::: {.fragment .fade-in fragment-index="2"}
+![](images/arrow.png)
+:::
+
+::: {.fragment .fade-in fragment-index="3"}
+![Liking People Scale (LPS)](images/poll-results.png){width="400"}
+:::
+:::
+
+::: vspace2
+:::
+
+::: {.body layout-ncol="3"}
+::: {.fragment .fade-in fragment-index="4"}
+![Independent Variable (IV)](images/smallville.png){width="372"}
+:::
+
+::: {.fragment .fade-in fragment-index="4"}
+![](images/arrow.png)
+:::
+
+::: {.fragment .fade-in fragment-index="4"}
+![Dependent Variable (DV)](images/poll-results.png){width="400"}
+:::
+:::
+
+# APA Style Review
+
+::: {layout-ncol="2"}
+::: col
+:::
+:::
+
+## In-text Citations {.smaller}
+
+::: inner-container
+::: post-it
+For someone's "...ideas, theories, or research..." <br> (APA publication manual, 2019, p. 281).
+:::
+:::
+
+::: fragment
+> Hindsight bias has been demonstrated in a variety of legal decision-making settings (Harley, 2007).
+
+:::
+
+::: fragment
+Basic format for an In-text citation is *(author(s) name(s), publication year)*. When the source has *3 or more authors*, you should just cite the first author followed by *et. al*:
+
+> Children with autism spectrum disorder are often very selective about what food they will eat and experience difficulties during mealtimes (Blank **et al.**, 2015).
+:::
+
+::: fragment
+Finally, you can also cite someone by using them as the sentence subject:
+
+> **Blank et al. (2015)** discussed how children with autism spectrum disorder are often very selective about what food they will eat and experience difficulties during mealtimes.
+:::
+
+## Multiple In-text citations & </br> Direct quotes {.smaller}
+
+::: fragment
+Sometimes, you need to cite multiple sources to back up one of your statements. If so, remember that the sources should be *ordered alphabetically* and separated by a "*;*":
+
+> Studies demonstrate that hindsight bias can occur in various circumstances (**B**lank & Peters, 2010; **C**hristensen--Szalanski & Willham, 1991; **H**arley, 2007; **F**ischhoff, 1975, 1977).
+:::
+
+</br>
+
+::: fragment
+**Direct quotes** from other sources function very similar to in-text citations, but have a few differences; when the quote is *under 40 words*, the only addition necessary is enclosing the sentence within *quotations* and including the *page number*:
+
+According to a recent paper, "quotes can be useful in academic writing" (Singh et al., 2019**, p. 25**).
+:::
+
+::: fragment
+When the quote is *over 40 words*, you need to enclose the sentence within a [block-quote](https://www.scribbr.com/working-with-sources/block-quote/){target="_blank"}.
+
+However, I don't think that this case should come up in your lab reports.
+:::
+
+## References: Journal Article {.small}
+
+At its end, every APA style manuscript should have a "references" section including the full references of all the sources cited in the main text. <u> The format of the reference changes depending on the source </u>(e.g., journal article, [book chapter](https://guides.library.uq.edu.au/referencing/apa7/book-chapter){target="\"_blank"}, poster presentation, etc..).
+
+By far, the most common type of sources are *journal articles*. The general format for journal article references is:
+
+[Author, A. A., Author, B. B., & Author, C. C.]{.fragment fragment-index="1" style="color: red;"}[(Year of publication).]{.fragment fragment-index="2" style="color: blue;"}[Title of article.]{.fragment fragment-index="3" style="color: orange;"}[*Title of Journal*,]{.fragment fragment-index="4" style="color: magenta;"}[*volume number*]{.fragment fragment-index="5" style="color: grey;"}[(issue number),]{.fragment fragment-index="6" style="color: HotPink;"} [pages.]{.fragment fragment-index="7" style="color: purple;"}
+
+::: {.fragment fragment-index="1"}
+> [Azen, R., & Budescu, D. V.]{.fragment fragment-index="1" style="color: red;"} [(2006).]{.fragment fragment-index="2" style="color: blue;"} [Comparing predictors in multivariate regression models: An extension of dominance analysis.]{.fragment fragment-index="3" style="color: orange;"} [*Journal of Educational and Behavioral Statistics*,]{.fragment fragment-index="4" style="color: magenta;"} [*31*]{.fragment fragment-index="5" style="color: grey;"}[(2),]{.fragment fragment-index="6" style="color: HotPink;"} [157--180.]{.fragment fragment-index="7" style="color: purple;"}
+:::
+
+<br /> <br />
+
+::: {.fragment fragment-index="8"}
+<p style="text-align: center;">
+
+**There are many types of sources, so always make sure you are using the correct reference format given the source.**
+
+</p>
+:::
+
+## Numbers {.smaller}
+
+::: body
+1.  Always spell out numbers when the number in question is not a statistic, below 10 OR is at the beginning of a line (e.g., "two" instead of "2"). Always use numerals for 10 or above.
+
+2.  Round all numbers to **2 decimal places**. However, always round **p-values** to **3 decimal place**.
+
+3.  Use a leading 0 only for numbers that can be larger than 1. For example, correlations and *p*-values can only range between -1/1 and 0/1 respectively, and do not need a leading 0 (e.g., "*r* = .57" instead of "*r* = 0.57")
+:::
+
+## Abbreviations
+
+Abbreviations are usually employed for words that are repeated multiple times throughout a manuscript (e.g., "APA" in these slides).
+
+</br>
+
+::: fragment
+The only rule to remember is to introduce the abbreviation the *1~st~ time the full word is presented*, and then *only* use the abbreviation for the rest of the paper:
+
+> **Response time (RT)** was used as a measure of reaction speed. However, one has to keep in mind that pure **RT** may not fully capture the construct under investigation.
+:::
+
+::: fragment
+Finally, Remember that using too many abbreviations may cause confusion.
+:::
+
+## APA Style Resources 
+
+::: fragment
+-   [APA style Handouts and guides](https://apastyle.apa.org/instructional-aids/handouts-guides#mastering){preview-link="true"}: Checklists and examples of common APA style practices.
+:::
+
+::: fragment
+-   [Purdue OWL](https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/index.html){preview-link="true"}: Comprehensive and neatly packaged APA style guides.
+:::
+
+::: fragment
+-   [APA Publication Manual](https://apastyle.apa.org/products/publication-manual-7th-edition){preview-link="true"}: Goes without saying, but contains everything you need to know about APA.
+:::
+
+::: fragment
+-   [Google](https://letmegooglethat.com/){target="_blank"} it!
+:::
+
+# Questions? {background-image="images/fitz.png" background-opacity="0.2"}

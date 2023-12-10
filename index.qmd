@@ -4,13 +4,8 @@ listing:
   id: lectures
   fields: [image,title,subtitle]
   contents: 
-    - "lab-lecture/lab-week-1"
-    - "lab-lecture/lab-week-3"
-    - "lab-lecture/lab-week-4"
-    - "lab-lecture/lab-week-5"
-    - "lab-lecture/lab-week-6"
-    - "talks/judges"
-    - "talks/comps-prop"
+    - "lab-lecture"
+    - "talks"
   type: grid
   image-align: left
   sort: "priority asc"
