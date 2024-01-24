@@ -1,0 +1,219 @@
+---
+title: "Research Opportunities"
+subtitle: "Lab 1"
+image: 'https://annotatedgilmoregirls.files.wordpress.com/2022/11/yale-university.jpg'
+author: "Emma Marshall, JD, MA"
+from: markdown+emoji
+format:
+  revealjs: 
+    logo: ../assets/logo.svg
+    theme: ../assets/unl.scss
+    menu:
+      side: left
+    slide-number: true
+    date-format: long
+    show-slide-number: all
+    preview-links: true
+    code-overflow: wrap
+    incremental: true
+    auto-animate: true
+    transition: fade
+    background-transition: fade
+    transition-speed: fast
+    footer: "Brank Law & Policy Law Basics"
+
+execute:
+  echo: false
+---
+
+##  {background-image="../images/fitz.png" background-opacity="0.1"}
+
+
+
+## Research Project Requirements
+
+
+The grading rubric follows the classical scientific journal article structure (i.e., Introduction, Method, etc...).
+
+</br>
+
+:::{.fragment} 
+
+Your paper needs to follow APA formatting: 
+
+<strong><center> Abstract &rarr; Introduction &rarr;  Method &rarr; Results &rarr; Discussion &rarr; References </center></strong>
+
+:::
+
+</br>
+
+:::{.fragment}
+
+<center> Every section of the article is necessary for the audience to fully understand the presented material. </center>
+
+:::
+
+## DOs and DON'Ts 
+
+
+<center> <p style= "padding-bottom:20px;"> Finally, Some general advice on what to do and not do when presenting a journal article. </p> </center>
+
+
+<style>
+.vl {
+  border-left: 3px solid #404040;
+  height: 500px;
+  position: absolute;
+  left: 49%;
+  margin-left: 10px;
+  top: 30%;
+}
+</style>
+
+<div class="vl"></div>
+
+::: {layout-ncol="2"}
+
+::: col
+
+<center> **DOs** 
+
+<ul style = "font-size: 30px">
+
+:::{.fragment fragment-index="1"}
+
+<li> Use lots of figures and tables (if you can). </li>
+
+:::
+
+:::{.fragment fragment-index="2"}
+
+<li> Have slides with low word count. ([40 words tops?](https://www.siue.edu/sites/midweek-mentor/pages/2014/slides.shtml){preview-link="true"})</li>
+
+:::
+
+:::{.fragment fragment-index="3"}
+
+<li> Make use of animations to present content *sequentially*. </li>
+
+
+:::
+
+:::{.fragment fragment-index="4"}
+
+<li> Some journal articles have multiple experiments; follow this structure:<br> Method 1 &rarr;<span style="color:green"> **results 1** </span> &rarr; method 2 &rarr; results 2. </li>
+
+:::
+
+</ul>
+
+</center>
+
+:::
+
+
+:::col
+
+<center> **DON'Ts** 
+
+<ul style = "font-size: 30px">
+
+:::{.fragment fragment-index="1"}
+
+<li>  Only use text.  </li> 
+
+:::
+
+:::{.fragment fragment-index="2"}
+
+<li>  <p style= "padding-bottom:40px;"> Have [too much text](https://24slides.com/presentbetter/content/images/wordpress/2019/09/too-much-text.png){preview-link="true"} on a single slide. </p> </li> 
+
+:::
+
+
+
+:::{.fragment fragment-index="3"}
+
+<li> <p style= "padding-bottom:40px;">  Present the whole slide at once. </p> </li>
+
+
+:::
+
+:::{.fragment fragment-index="4"}
+
+<li>  Do not present multiple experiments this way: <br> Method 1 &rarr; <span style="color:red"> **Method 2** </span> &rarr; results 1 &rarr; results 2. </li>
+
+:::
+
+</ul>
+
+</center>
+:::
+
+
+:::
+## Report Grading Rubric {.smaller}
+
+<center> The grading rubric is a divided in APA sections: </center>
+
+</br>
+
+::: {layout-ncol="3"}
+
+:::{.fragment}
+:::col
+<center> <a href="#/abstract">**Title Page & Abstract:**</a> 
+</br>
+Includes APA formated Title page and short abstract (100-200 words) that describes behaviors/variables studied, population/sample and summary of results.   (**15~pts~**)
+</center>
+:::
+:::
+
+:::{.fragment}
+:::col
+<center> <a href="#/introduction">**Introduction:**</a>
+</br>
+Includes summary of each (three total) article (uses proper citation, discusses relevant findings in 2-3 sentences), 2-3 sentences that integrates the literature and states the research hypotheses with full pattern predicted. (**65~pts~**) </center>
+:::
+:::
+:::{.fragment}
+:::col
+<center> <a href="#/method">**Method:**</a> 
+</br>
+Includes all APA-required sections. Describes study *participants*, *materials*, and *procedures* in past tense and with sufficient detail. (**35~pts~**)
+</center>
+:::
+:::
+
+:::
+
+::: {layout-ncol="3"}
+
+:::{.fragment}
+:::col
+<center> <a href="#/results">**Results:**</a> 
+</br>
+Includes APA table with univariate statistics as well as complete description of each RH (statment/implication, complete pattern of data, support or not, presentation of apa-style statistics).  (**90~pts~**)
+</center>
+:::
+:::
+
+:::{.fragment}
+:::col
+<center> <a href="#/discussion">**Discussion (& Proposal):**</a> 
+</br>
+The results are quickly summarized, and the main discussion points (i.e., possible explanation of results, implications, limitations) are identified in a clear and organized manner. Includes discussion of future directions for research including (at least two) new, related RHs. (**175~pts~**)
+</center>
+:::
+:::
+:::{.fragment}
+:::col
+<center> <a href="#/delivery">**References:**</a>
+</br>
+The student delivers the presentation in an engaging way, without using any notes. Some notes are fine, but *clearly reading from notes will result in high point deduction*. (**20~pts~**)
+</center>
+:::
+:::
+:::
+
+:::

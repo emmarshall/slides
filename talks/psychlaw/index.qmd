@@ -373,7 +373,7 @@ tab_df <- ex_df |>
 # Create a gt table with gt_plt_bar_stack
 tab_df |> 
   gt() |> 
-  gt_theme_538() |>
+  gt_theme_dark() |>
     gt_highlight_rows(rows = 6, fill = "gray",
     bold_target_only = TRUE,) |> 
   gt_plt_bar_stack(column = list_data, palette = c("#d00000", "#005d84"), labels = c("2017", "2022"),
@@ -459,49 +459,58 @@ Finally, we also coded for connection to psychology -- the specific area of psyc
 
 library(ggplot2)
 library(dplyr)
+library(scales)
 
-cbPalette <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+bar_data <- lhb |> 
+  janitor::clean_names() |> 
+   mutate (gen_area = as.character(gen_area),
+# Create factor decade variable 
+  gen_area = case_when(
+      gen_area=="1" ~ "jury decision making",
+      gen_area=="2" ~ "eyewitness memory",
+      gen_area=="7"  ~ "child witnesses",
+      gen_area=="8"  ~ "expert witnesses",
+      gen_area=="3" ~ "risk assessment",
+      gen_area=="6" ~ "public policy",
+      gen_area=="11" ~ "juvenile law",
+      gen_area=="21" ~ "mental health",
+      gen_area=="24" ~ "mental health"),
+    gen_area = factor(gen_area, levels=c("jury decision making", "eyewitness memory", "child witnesses", "expert witnesses", "risk assessment", "public policy", "juvenile law", "mental health"))
+  ) |> 
+    ## remove NA values
+  filter(!is.na(gen_area)) 
 
-area_bar <- full_bar |>
-  mutate(perc = paste0(sprintf("%4.1f", n / sum(n) * 100), "%"),
-  perc = if_else(row_number() == 1, paste(perc, "of all articles"), perc),
-    color = case_when(
-      row_number() == 1 ~ "#d00000",
-      row_number() == 2 ~ "#F0E442",
-      row_number() == 3 ~ "#56B4E9",
-      row_number() == 4 ~ "#009E73",
-      row_number() == 5 ~ "#CC79A7",
-      row_number() == 6 ~ "#0072B2",
-      row_number() == 7 ~ "#D55E00",
-      TRUE ~ "gray70"
-    ),
-  perc = paste(" ", perc, " ")
-  )
-
-area_bar |>
-  mutate(
-    place = if_else(row_number() == 1, 1, 0),
-    ## add some spacing to labels since we cant use nudge_x anymore
-    perc = paste(" ", perc, " ")
-  ) %>% 
-  ggplot(aes(x = n, y = gen_area, fill = color)) +
-  geom_col() +
-  geom_text(
-    aes(label = perc, hjust = place), 
-    color = "white", size = 7, family = "Architects Daughter", fontface = "bold"
-  ) +
-  scale_x_continuous(expand = c(.01, .01)) +
-  scale_fill_identity(guide = "none") +
-  theme_void() +
-  theme(
-    axis.text.y = element_text(color = "white", family = "Architects Daughter", size = 14, hjust = 1),
-    plot.margin = margin(rep(15, 4)),
-    plot.background = element_rect(fill = "#242423",
-                                color = "#aa2233",
-                                size = 3),
-    
-  )
+bar_data
 ```
+bar_data |> 
+  mutate(gen_area = stringr::str_to_title(gen_area))  |> 
+  summarize(prop = n() / nrow(bar_data))  |> 
+  mutate(gen_area = forcats::fct_reorder(gen_area, -prop))  |> 
+  ggplot(aes(prop, gen_area)) +
+  geom_col(aes(fill = as.numeric(gen_area) == 1)) +
+  theme_void() +
+  scale_x_continuous(
+    name = "Percentage of articles", expand = c(0, 0),
+    limits = c(0, 0.42), labels = scales::label_percent()
+  ) +
+  scale_y_discrete(
+    name = "Sample used",
+    guide = "none", expand = expansion(add = c(.8, .6))
+  ) +
+  scale_fill_manual(
+    values = c("#B0B0B0D0", "#ff8281"),
+    guide = "none"
+  ) +
+  theme(
+  legend.position = element_blank(),
+  axis.text.y = element_text(color = "white", family = "Architects Daughter", size = 14, hjust = 1),
+  plot.margin = margin(rep(15, 4)),
+  plot.background = element_rect(fill = "#242423", color = "#aa2233", size = 3)
+  )
+
+```
+
+
 
 ::: notes
 Here are the 6 most popular research areas. Together they account for \~60% of the research articles published in 'Law and Human Behavior' during this time.
@@ -612,6 +621,9 @@ But another factor that has influenced the popularity of certain research topics
 ::: notes
 Given that this data refers to thousands of individual research articles published over several decades of time. It is still worth taking a closer look at how the popularity of certain research areas has shifted over time.
 :::
+
+---
+![](images/areas-time.gif){.r-stretch}
 
 ## :hourglass_flowing_sand: Witnesses
 

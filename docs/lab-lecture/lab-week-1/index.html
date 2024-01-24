@@ -12,7 +12,6 @@
   <meta name="generator" content="quarto-1.3.433">
 
   <meta name="author" content="Instructor: Emma Marshall, JD, MA">
-  <meta name="dcterms.date" content="2023-10-20">
   <title>emmarshall-slides - Welcome to PSYC 350 Laboratory</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -342,7 +341,6 @@ Instructor: Emma Marshall, JD, MA
 </div>
 </div>
 
-  <p class="date">October 20, 2023</p>
 </section>
 <section id="lab-instructor" class="slide level2" data-background-image="images/fitz.png" data-background-opacity="0.2">
 <h2>Lab Instructor</h2>
@@ -374,29 +372,201 @@ Instructor: Emma Marshall, JD, MA
 <li class="fragment">Overview of where to find lab materials</li>
 <li class="fragment">Today’s lab:
 <ul>
-<li class="fragment">Introduction to final project datasets</li>
+<li class="fragment">Introduction to final project data sets</li>
 <li class="fragment">Introduction to SPSS (OR JAMOVI)</li>
 </ul></li>
 </ul>
 </div>
 </section>
+<section id="test-button" class="slide level2">
+<h2>Test Button</h2>
+<script>
+  let arr = ["Annie B.", 
+             "Vlera B.",
+             "Tenzing C.", 
+             "Pia D.",
+             "Thalia G.",
+             "Marjorie M.",
+             "Taylor G.",
+             "Yu Jin I.",
+             "Jacklyn J.",
+             "Caroline L.",
+             "Elisabeth M.",
+             "Gabriela O.",
+             "Mary S.",
+             "Sara S.",
+             "Katherine S.",
+             "Gabby T."];
+ 
+function GFG_Fun() {
+
+  if (arr.length > 0)
+    
+    { 
+
+      let index = Math.floor(Math.random() * arr.length);
+      
+      let student_name = arr[index];
+      
+      
+      arr.splice(index, 1);
+      
+      let container = document.getElementById("student_names");
+      
+      container.innerHTML = ""
+      
+      let text = document.createTextNode(student_name);
+      
+      container.appendChild(text)
+    
+    }
+    
+  else
+
+    {
+     
+      let container = document.getElementById("student_names");
+      
+      container.innerHTML = ""
+      
+      let text = document.createTextNode("...and that's everyone!");
+      
+      container.appendChild(text)
+    
+    }
+    
+    
+}
+
+
+</script>
+<style>
+
+.button-1 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover {
+  background-color: #fff;
+}
+
+.button-1:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-1 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+</style>
+<div class="fragment" data-fragment-index="1">
+<p style="font-size:28px;">
+For presentations sign-ups, you will have to pick a <strong>date</strong> to present on and an <strong>article</strong> to present.
+</p>
+</div>
+<p><br></p>
+<div class="fragment" data-fragment-index="2">
+<p style="font-size:28px;">
+So, who goes first? Let’s let the button pick for us!
+</p>
+<center>
+<button class="button-1" role="button" onclick="GFG_Fun()">
+<p><span class="text"> Who’s next?<br>
+</span></p>
+</button>
+<p><br></p>
+<div id="student_names">
+
+</div>
+</center>
+</div>
+<p>:::</p>
+</section>
+<section id="lab-information" class="slide level2">
+<h2>Lab Information</h2>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Instructor</a></li><li><a href="#tabset-1-2">155 Section</a></li><li><a href="#tabset-1-3">159 Section</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
+<p><strong>Lab instructor</strong>: Emma Marshall J.D., M.A.&nbsp;<br> <ins> (But you can call me “Emma”) <ins></ins></ins></p>
+<ul>
+<li class="fragment">Email: emma.marshall@husker.unl.edu</li>
+<li class="fragment">Office: <a href="https://unl.zoom.us/j/6374970867">zoom</a> | Burnett 230</li>
+</ul>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>If for some reason you need/want to find another TA’s office hours see the main PSYCH 350 course page.</p>
+</div>
+</div>
+</div>
+<p><strong>Contact</strong>: Emma Marshall</p>
+<ul>
+<li class="fragment">Email: emma.marshall@huskers.unl.edu</li>
+<li class="fragment">Office: <a href="https://unl.zoom.us/j/6374970867">zoom</a></li>
+<li class="fragment">Office hours: (TBD)</li>
+</ul>
+<p>Need to contact me by email? If you need to reach me outside of Lab, or have questions about anything, email is your best bet (emma.marshall@huskers.unl.edu). But please, please, PLEASE, include a clear subject header on your email so I know what it is about and can get back to you as quickly as possible.</p>
+<p>Other things to keep in mind:</p>
+<p>If you have a question about a specific assignment or issue–please include ALL the relevant information I need to locate what you are talking about. For example, if you have a question about Assignment 4 refer to it in your email as “Assignment 4” and not just “the assignment”</p>
+<p>I will generally do my best to get back to you within 24hrs of receiving your email (except for weekends).</p>
+<p>If you have not heard back from me, feel free to send another message! Chances are I didn’t see your message and will appreciate the reminder!</p>
+</div>
+<div id="tabset-1-2">
+<p><strong>Meting time</strong>: Tuesday, <ins> 10:00am – 11:20am <ins></ins></ins></p>
+<p><strong>Lab Room</strong>: Burnett 233</p>
+</div>
+<div id="tabset-1-3">
+<p><strong>Meting time</strong>: Thursday, <ins> 1:00pm - 2:20pm <ins></ins></ins></p>
+<p><strong>Lab Room</strong>: Burnett 233</p>
+</div>
+</div>
+</div>
+</section>
 <section id="why-is-this-course-required" class="slide level2">
 <h2>Why is this course required?</h2>
+<p><img data-src="images/p-value-statistics-meme.jpg" class="absolute" style="top: 0px; right: 10px; width: 75px; height: 75px; "></p>
 <div class="inner-container">
 <div class="post-it">
-<p>“Psych majors” vs.&nbsp;“Psych professionals” distinction is about ability to <strong>GENERATE</strong> and <strong>EVALUATE</strong> new knowledge</p>
+<p>“Psych majors” vs.&nbsp;“Psych professionals” - …distinction is about ability to <strong>GENERATE</strong> and <strong>EVALUATE</strong> new knowledge</p>
 </div>
 </div>
 <div class="columns">
 <div class="column" style="width:50%;">
-<h3 id="creating-knowledge">Creating Knowledge</h3>
+<h3 id="creating-knowledge">📋 <strong>Creating</strong> Knowledge</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="images/scales.jpeg" class="fragment fade-up" width="307"></p>
 </figure>
 </div>
 </div><div class="column" style="width:50%;">
-<h3 id="evaluate-knowledge">Evaluate Knowledge</h3>
+<h3 id="section-2">💭 <span class="emoji" data-emoji="thought_balloon">💭</span></h3>
+<p><strong>Evaluate</strong> Knowledge</p>
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="images/line.png" class="fragment fade-up" width="307"></p>
@@ -420,23 +590,32 @@ Instructor: Emma Marshall, JD, MA
           display:block!important;
       }</style></aside>
 </section>
-<section id="empirical-research" class="slide level2 smaller">
+<section id="empirical-research" class="slide level2 smaller nonincremental">
 <h2>Empirical Research</h2>
-<div class="body">
+<p><img data-src="images/anecdotes.jpg" class="absolute" style="top: 0px; right: 10px; width: 200px; height: 70px; "></p>
+<div class="inner-container">
+<div class="post-it">
 <ul>
-<li class="fragment">Informs variety of real world decisions &amp; processes
+<li>Informs various <strong>real world</strong> decisions &amp; processes
 <ul>
-<li class="fragment">Ex: Psychologists (clinicians) use research to make key diagnosis &amp; treatment decisions</li>
-</ul></li>
-<li class="fragment">Peer-review &amp; replication provide credibility
-<ul>
-<li class="fragment">&amp; ensure ethical or legal compliance</li>
-</ul></li>
-<li class="fragment">Not limited to psychology
-<ul>
-<li class="fragment">Ex: HR, criminal justice, business, education, engineering all depend on and use psychological knowledge</li>
+<li>Peer-review &amp; replication provide <strong>credibility</strong></li>
+<li><strong>Not</strong> limited to academic psychology</li>
 </ul></li>
 </ul>
+</div>
+</div>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="fragment fade-in quarto-layout-cell" data-fragment-index="2" style="flex-basis: 34.8%;justify-content: center;">
+<p><img data-src="https://emmarshall.github.io/runza/img/icons/find-jobs-on-newspaper-icon.svg" width="200"></p>
+</div>
+<div class="fragment fade-in quarto-layout-cell" data-fragment-index="3" style="flex-basis: 30.4%;justify-content: center;">
+<p><img data-src="https://emmarshall.github.io/runza/img/icons/knowledge-icon.svg" width="175"></p>
+</div>
+<div class="fragment fade-in quarto-layout-cell" data-fragment-index="4" style="flex-basis: 34.8%;justify-content: center;">
+<p><img data-src="https://emmarshall.github.io/runza/img/icons/direction-road-sign-icon.svg" width="200"></p>
+</div>
+</div>
 </div>
 <aside class="notes">
 <p>The importance of empirical research is that it- - Informs every decision and action by professionals - Every decision and action made by psychological professionals is dependent upon research – maybe their own, probably someone else’s. - In order to be ethical (also legal and bill-able), each diagnosis, treatment choice, evaluation, and decision to stop treatment must be defended in terms of replicated, peer-reviewed, published research. - Not just clinical/treatment decisions but those made within areas of human resources, criminal justice, business, education, engineering, etc. – all depend on, and use, knowledge acquired by psychological researchers.</p>
@@ -452,35 +631,22 @@ Instructor: Emma Marshall, JD, MA
           display:block!important;
       }</style></aside>
 </section>
-<section id="evaluating-knowledge" class="slide level2 smaller">
-<h2>Evaluating Knowledge</h2>
+<section id="section-3" class="slide level2">
+<h2>💭 <span class="emoji" data-emoji="thought_balloon">💭</span></h2>
+<p>Evaluating Knowledge {.smaller}</p>
+<p><img data-src="images/anecdotes.jpg" class="absolute" style="top: 0px; right: 10px; width: 200px; height: 70px; "></p>
+<h3 id="everyone-needs-to-know-how-to-understand-empirical-research"><strong>Everyone</strong> needs to know how to <del>understand</del> empirical research</h3>
 <div class="inner-container">
 <div class="post-it">
-<p>Not everyone produces empirical research…</p>
-</div>
-</div>
-<div class="columns">
-<div class="column" style="width:50%;">
-
-</div><div class="column" style="width:50%;">
-<p><img data-src="images/anecdotes.jpg" data-figure-align="center" width="500" height="150"></p>
-</div>
-</div>
-</section>
-<section id="evaluating-knowledge-1" class="slide level2 smaller">
-<h2>Evaluating Knowledge</h2>
-<div class="inner-container">
-<div class="post-it">
-<p>But <strong>ALL psychology</strong> professionals need to be skilled research consumers</p>
-</div>
-</div>
-<h4 id="competent-research-consumers-can">Competent research consumers can:</h4>
-<div class="body">
 <ul>
-<li class="fragment"><strong>Find</strong> relevant research</li>
-<li class="fragment"><strong>Evaluate (&amp; critique)</strong> research quality (theory, methods, stats)</li>
-<li class="fragment"><strong>Apply (&amp; integrate)</strong> valuable research information to own work</li>
+<li class="fragment"><p><strong>Competent</strong> research consumers can:</p>
+<ul>
+<li class="fragment"><span class="emoji" data-emoji="mag">🔍</span> <strong>Find</strong> relevant research</li>
+<li class="fragment"><span class="emoji" data-emoji="clipboard">📋</span> <strong>Evaluate (&amp; critique)</strong> research quality (theory, methods, stats)</li>
+<li class="fragment"><span class="emoji" data-emoji="dart">🎯</span> <strong>Apply (&amp; integrate)</strong> valuable research information to own work</li>
+</ul></li>
 </ul>
+</div>
 </div>
 <aside class="notes">
 <p>While not everyone needs to be a producer of empirical research, every psychological professional needs to be a competent consumer of research. Being a competent consumer of research means being able to … - locate research that is relevant to your work - critique (evaluate) the quality of the research (theory, methodology, &amp; stats) - integrate the useful information (that passes your evaluation) from the research into your own work</p>
@@ -498,6 +664,7 @@ Instructor: Emma Marshall, JD, MA
 </section>
 <section id="example" class="slide level2 smaller">
 <h2>Example</h2>
+<p><img data-src="images/anecdotes.jpg" class="absolute" style="top: 0px; right: 10px; width: 200px; height: 70px; "></p>
 <div class="columns">
 <div class="column" style="width:40%;">
 <p><img data-src="images/web_parent.png"></p>
@@ -522,17 +689,19 @@ Instructor: Emma Marshall, JD, MA
       }</style></aside>
 </section>
 <section id="creating-knowledge-1" class="slide level2 smaller">
-<h2>Creating Knowledge</h2>
-<div class="body">
+<h2><span class="emoji" data-emoji="clipboard">📋</span> Creating Knowledge</h2>
+<h3 id="many-jobs-require-research-skills">Many jobs require research skills</h3>
+<div class="inner-container">
+<div class="post-it">
 <ul>
-<li class="fragment">Most jobs (not just academia) require skills related to <strong>producing</strong> research and knowledge</li>
 <li class="fragment">Funding sources, clients &amp; employers look for:
 <ul>
-<li class="fragment">Evidence-based decision-making</li>
-<li class="fragment">Efficiency and cost related concerns</li>
-<li class="fragment">Competitive advantage</li>
+<li class="fragment"><span class="emoji" data-emoji="bar_chart">📊</span> Evidence-based decision-making</li>
+<li class="fragment"><span class="emoji" data-emoji="hourglass_flowing_sand">⏳</span> Efficiency and cost related concerns</li>
+<li class="fragment"><span class="emoji" data-emoji="traffic_light">🚥</span> Competitive advantage</li>
 </ul></li>
 </ul>
+</div>
 </div>
 <aside class="notes">
 <p>Most people (not just those in academia) find that they do need to produce research to do their jobs …</p>
@@ -552,22 +721,20 @@ Instructor: Emma Marshall, JD, MA
           display:block!important;
       }</style></aside>
 </section>
-<section id="research-skills" class="slide level2 smaller">
-<h2>Research Skills?</h2>
+<section id="creating-knowledge-2" class="slide level2 smaller">
+<h2>Creating Knowledge <span class="emoji" data-emoji="clipboard">📋</span></h2>
+<h3 id="research-skills-used-in-many-industries">Research skills used in many industries</h3>
 <div class="inner-container">
 <div class="post-it">
-<p>Still needed outside of academia!!</p>
-</div>
-</div>
-<div class="body">
 <ul>
 <li class="fragment">People who understand the research process and can <strong>evaluate</strong>, <strong>integrate</strong>, and <strong>apply</strong> empirical have:
 <ul>
-<li class="fragment">Better prospects</li>
-<li class="fragment">Improved performance</li>
-<li class="fragment">More flexibility!</li>
+<li class="fragment"><span class="emoji" data-emoji="money_with_wings">💸</span> Better job prospects</li>
+<li class="fragment"><span class="emoji" data-emoji="trophy">🏆</span> Improved job performance</li>
+<li class="fragment"><span class="emoji" data-emoji="bookmark">🔖</span> More flexibility!</li>
 </ul></li>
 </ul>
+</div>
 </div>
 <aside class="notes">
 <p>The point is…Research is going to be a more important part of your ongoing professional activities (and your successes) than you may realize.</p>
@@ -585,29 +752,20 @@ Instructor: Emma Marshall, JD, MA
       }</style></aside>
 </section>
 <section id="psychology-is-competitive" class="slide level2 smaller">
-<h2>Psychology is competitive!</h2>
+<h2><span class="emoji" data-emoji="cold_sweat">😰</span> Psychology is competitive</h2>
+<p><img data-src="images/lawpsych.png" class="absolute" style="top: 0px; right: 10px; width: 75px; height: 75px; "></p>
+<h3 id="positions-often-require-advanced-degrees">Positions often require <strong>advanced</strong> degrees</h3>
 <div class="inner-container">
 <div class="post-it">
 <ul>
-<li class="fragment">“Helping” professions are attractive and appealing</li>
-<li class="fragment">Positions often require advanced degrees</li>
-</ul>
-</div>
-</div>
-<div class="columns">
-<div class="column" style="width:40%;">
-<p><img data-src="images/lawpsych.png"></p>
-</div><div class="column" style="width:60%;">
-<div class="body">
+<li class="fragment">Important skills for grad schools
 <ul>
-<li class="fragment">Clinical Program accepts 10-12 of 200+ applicants</li>
-<li class="fragment">Law-Psych accepts 4-5 of 60 applicants</li>
-<li class="fragment">Ed Psych Counseling program accepts 6-8 of 100+ applicants</li>
+<li class="fragment">Ex: UNL Psych Admissions</li>
+</ul></li>
 </ul>
 </div>
 </div>
-</div>
-<p>:::</p>
+<p><img data-src="images/lawpsych.png" class="fragment absolute" style="left: 50px; bottom: 0px; right: 50px; width: 300px; "></p>
 <aside class="notes">
 <p>The psychological professions are competitive… for multiple reasons!!!</p>
 <ul>
@@ -631,18 +789,1776 @@ Instructor: Emma Marshall, JD, MA
           display:block!important;
       }</style></aside>
 </section>
+<section id="psychology-is-competitive-1" class="slide level2 smaller">
+<h2>Psychology is competitive!</h2>
+<p><img data-src="images/lawpsych.png" class="absolute" style="top: 0px; right: 10px; width: 75px; height: 75px; "></p>
+<div class="inner-container">
+<div class="post-it">
+<p>UNL <strong>Clinical</strong> Program accepts <br> 10-12 of 200+ applicants</p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="phosphor-waffle-container" style="width:600px; margin: auto;">
+<div class="phosphor-waffle-grid" style="display: grid; grid-template-columns: repeat(15, 1fr); grid-template-rows: repeat(8, 1fr); grid-auto-flow: row;">
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#404040">
+<path d="M227.79,52.62l-96-32a11.85,11.85,0,0,0-7.58,0l-96,32A12,12,0,0,0,20,63.37,6.05,6.05,0,0,0,20,64v80a12,12,0,0,0,24,0V80.65l23.71,7.9a67.92,67.92,0,0,0,18.42,85A100.36,100.36,0,0,0,46,209.44a12,12,0,1,0,20.1,13.11C80.37,200.59,103,188,128,188s47.63,12.59,61.95,34.55a12,12,0,1,0,20.1-13.11,100.36,100.36,0,0,0-40.18-35.92,67.92,67.92,0,0,0,18.42-85l39.5-13.17a12,12,0,0,0,0-22.76Zm-99.79-8L186.05,64,128,83.35,70,64ZM172,120A44,44,0,1,1,90.94,96.29l33.27,11.09a11.89,11.89,0,0,0,7.58,0l33.27-11.09A43.85,43.85,0,0,1,172,120Z"></path>
+<title>student-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#404040">
+<path d="M227.79,52.62l-96-32a11.85,11.85,0,0,0-7.58,0l-96,32A12,12,0,0,0,20,63.37,6.05,6.05,0,0,0,20,64v80a12,12,0,0,0,24,0V80.65l23.71,7.9a67.92,67.92,0,0,0,18.42,85A100.36,100.36,0,0,0,46,209.44a12,12,0,1,0,20.1,13.11C80.37,200.59,103,188,128,188s47.63,12.59,61.95,34.55a12,12,0,1,0,20.1-13.11,100.36,100.36,0,0,0-40.18-35.92,67.92,67.92,0,0,0,18.42-85l39.5-13.17a12,12,0,0,0,0-22.76Zm-99.79-8L186.05,64,128,83.35,70,64ZM172,120A44,44,0,1,1,90.94,96.29l33.27,11.09a11.89,11.89,0,0,0,7.58,0l33.27-11.09A43.85,43.85,0,0,1,172,120Z"></path>
+<title>student-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#404040">
+<path d="M227.79,52.62l-96-32a11.85,11.85,0,0,0-7.58,0l-96,32A12,12,0,0,0,20,63.37,6.05,6.05,0,0,0,20,64v80a12,12,0,0,0,24,0V80.65l23.71,7.9a67.92,67.92,0,0,0,18.42,85A100.36,100.36,0,0,0,46,209.44a12,12,0,1,0,20.1,13.11C80.37,200.59,103,188,128,188s47.63,12.59,61.95,34.55a12,12,0,1,0,20.1-13.11,100.36,100.36,0,0,0-40.18-35.92,67.92,67.92,0,0,0,18.42-85l39.5-13.17a12,12,0,0,0,0-22.76Zm-99.79-8L186.05,64,128,83.35,70,64ZM172,120A44,44,0,1,1,90.94,96.29l33.27,11.09a11.89,11.89,0,0,0,7.58,0l33.27-11.09A43.85,43.85,0,0,1,172,120Z"></path>
+<title>student-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#404040">
+<path d="M227.79,52.62l-96-32a11.85,11.85,0,0,0-7.58,0l-96,32A12,12,0,0,0,20,63.37,6.05,6.05,0,0,0,20,64v80a12,12,0,0,0,24,0V80.65l23.71,7.9a67.92,67.92,0,0,0,18.42,85A100.36,100.36,0,0,0,46,209.44a12,12,0,1,0,20.1,13.11C80.37,200.59,103,188,128,188s47.63,12.59,61.95,34.55a12,12,0,1,0,20.1-13.11,100.36,100.36,0,0,0-40.18-35.92,67.92,67.92,0,0,0,18.42-85l39.5-13.17a12,12,0,0,0,0-22.76Zm-99.79-8L186.05,64,128,83.35,70,64ZM172,120A44,44,0,1,1,90.94,96.29l33.27,11.09a11.89,11.89,0,0,0,7.58,0l33.27-11.09A43.85,43.85,0,0,1,172,120Z"></path>
+<title>student-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#404040">
+<path d="M227.79,52.62l-96-32a11.85,11.85,0,0,0-7.58,0l-96,32A12,12,0,0,0,20,63.37,6.05,6.05,0,0,0,20,64v80a12,12,0,0,0,24,0V80.65l23.71,7.9a67.92,67.92,0,0,0,18.42,85A100.36,100.36,0,0,0,46,209.44a12,12,0,1,0,20.1,13.11C80.37,200.59,103,188,128,188s47.63,12.59,61.95,34.55a12,12,0,1,0,20.1-13.11,100.36,100.36,0,0,0-40.18-35.92,67.92,67.92,0,0,0,18.42-85l39.5-13.17a12,12,0,0,0,0-22.76Zm-99.79-8L186.05,64,128,83.35,70,64ZM172,120A44,44,0,1,1,90.94,96.29l33.27,11.09a11.89,11.89,0,0,0,7.58,0l33.27-11.09A43.85,43.85,0,0,1,172,120Z"></path>
+<title>student-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#404040">
+<path d="M227.79,52.62l-96-32a11.85,11.85,0,0,0-7.58,0l-96,32A12,12,0,0,0,20,63.37,6.05,6.05,0,0,0,20,64v80a12,12,0,0,0,24,0V80.65l23.71,7.9a67.92,67.92,0,0,0,18.42,85A100.36,100.36,0,0,0,46,209.44a12,12,0,1,0,20.1,13.11C80.37,200.59,103,188,128,188s47.63,12.59,61.95,34.55a12,12,0,1,0,20.1-13.11,100.36,100.36,0,0,0-40.18-35.92,67.92,67.92,0,0,0,18.42-85l39.5-13.17a12,12,0,0,0,0-22.76Zm-99.79-8L186.05,64,128,83.35,70,64ZM172,120A44,44,0,1,1,90.94,96.29l33.27,11.09a11.89,11.89,0,0,0,7.58,0l33.27-11.09A43.85,43.85,0,0,1,172,120Z"></path>
+<title>student-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#404040">
+<path d="M227.79,52.62l-96-32a11.85,11.85,0,0,0-7.58,0l-96,32A12,12,0,0,0,20,63.37,6.05,6.05,0,0,0,20,64v80a12,12,0,0,0,24,0V80.65l23.71,7.9a67.92,67.92,0,0,0,18.42,85A100.36,100.36,0,0,0,46,209.44a12,12,0,1,0,20.1,13.11C80.37,200.59,103,188,128,188s47.63,12.59,61.95,34.55a12,12,0,1,0,20.1-13.11,100.36,100.36,0,0,0-40.18-35.92,67.92,67.92,0,0,0,18.42-85l39.5-13.17a12,12,0,0,0,0-22.76Zm-99.79-8L186.05,64,128,83.35,70,64ZM172,120A44,44,0,1,1,90.94,96.29l33.27,11.09a11.89,11.89,0,0,0,7.58,0l33.27-11.09A43.85,43.85,0,0,1,172,120Z"></path>
+<title>student-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+</div>
+<div class="phosphor-waffle-legend" style="margin-top: 20px; text-align: center;">
+<span class="phosphor-waffle-legend-item" style="margin-right: 20px;">
+<svg class="phosphor-svg" fill="#404040" height="1.3333em" style="vertical-align:-0.25em; vertical-align: -0.25em;" viewbox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+<path d="M227.79,52.62l-96-32a11.85,11.85,0,0,0-7.58,0l-96,32A12,12,0,0,0,20,63.37,6.05,6.05,0,0,0,20,64v80a12,12,0,0,0,24,0V80.65l23.71,7.9a67.92,67.92,0,0,0,18.42,85A100.36,100.36,0,0,0,46,209.44a12,12,0,1,0,20.1,13.11C80.37,200.59,103,188,128,188s47.63,12.59,61.95,34.55a12,12,0,1,0,20.1-13.11,100.36,100.36,0,0,0-40.18-35.92,67.92,67.92,0,0,0,18.42-85l39.5-13.17a12,12,0,0,0,0-22.76Zm-99.79-8L186.05,64,128,83.35,70,64ZM172,120A44,44,0,1,1,90.94,96.29l33.27,11.09a11.89,11.89,0,0,0,7.58,0l33.27-11.09A43.85,43.85,0,0,1,172,120Z"></path>
+<title>student-bold</title>
+</svg>
+Accepted
+</span>
+<span class="phosphor-waffle-legend-item" style="margin-right: 20px;">
+<svg class="phosphor-svg" fill="#d00000" height="1.3333em" style="vertical-align:-0.25em; vertical-align: -0.25em;" viewbox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+Rejected
+</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="psychology-is-competitive-2" class="slide level2 smaller">
+<h2>Psychology is competitive!</h2>
+<p><img data-src="images/lawpsych.png" class="absolute" style="top: 0px; right: 10px; width: 75px; height: 75px; "></p>
+<div class="inner-container">
+<div class="post-it">
+<p>UNL <strong>Law-Psych</strong> Program accepts <br> 4-5 of 60 applicants</p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="phosphor-waffle-container" style="width:500px; margin: auto;">
+<div class="phosphor-waffle-grid" style="display: grid; grid-template-columns: repeat(10, 1fr); grid-template-rows: repeat(6, 1fr); grid-auto-flow: row;">
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#404040">
+<path d="M227.79,52.62l-96-32a11.85,11.85,0,0,0-7.58,0l-96,32A12,12,0,0,0,20,63.37,6.05,6.05,0,0,0,20,64v80a12,12,0,0,0,24,0V80.65l23.71,7.9a67.92,67.92,0,0,0,18.42,85A100.36,100.36,0,0,0,46,209.44a12,12,0,1,0,20.1,13.11C80.37,200.59,103,188,128,188s47.63,12.59,61.95,34.55a12,12,0,1,0,20.1-13.11,100.36,100.36,0,0,0-40.18-35.92,67.92,67.92,0,0,0,18.42-85l39.5-13.17a12,12,0,0,0,0-22.76Zm-99.79-8L186.05,64,128,83.35,70,64ZM172,120A44,44,0,1,1,90.94,96.29l33.27,11.09a11.89,11.89,0,0,0,7.58,0l33.27-11.09A43.85,43.85,0,0,1,172,120Z"></path>
+<title>student-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#404040">
+<path d="M227.79,52.62l-96-32a11.85,11.85,0,0,0-7.58,0l-96,32A12,12,0,0,0,20,63.37,6.05,6.05,0,0,0,20,64v80a12,12,0,0,0,24,0V80.65l23.71,7.9a67.92,67.92,0,0,0,18.42,85A100.36,100.36,0,0,0,46,209.44a12,12,0,1,0,20.1,13.11C80.37,200.59,103,188,128,188s47.63,12.59,61.95,34.55a12,12,0,1,0,20.1-13.11,100.36,100.36,0,0,0-40.18-35.92,67.92,67.92,0,0,0,18.42-85l39.5-13.17a12,12,0,0,0,0-22.76Zm-99.79-8L186.05,64,128,83.35,70,64ZM172,120A44,44,0,1,1,90.94,96.29l33.27,11.09a11.89,11.89,0,0,0,7.58,0l33.27-11.09A43.85,43.85,0,0,1,172,120Z"></path>
+<title>student-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#404040">
+<path d="M227.79,52.62l-96-32a11.85,11.85,0,0,0-7.58,0l-96,32A12,12,0,0,0,20,63.37,6.05,6.05,0,0,0,20,64v80a12,12,0,0,0,24,0V80.65l23.71,7.9a67.92,67.92,0,0,0,18.42,85A100.36,100.36,0,0,0,46,209.44a12,12,0,1,0,20.1,13.11C80.37,200.59,103,188,128,188s47.63,12.59,61.95,34.55a12,12,0,1,0,20.1-13.11,100.36,100.36,0,0,0-40.18-35.92,67.92,67.92,0,0,0,18.42-85l39.5-13.17a12,12,0,0,0,0-22.76Zm-99.79-8L186.05,64,128,83.35,70,64ZM172,120A44,44,0,1,1,90.94,96.29l33.27,11.09a11.89,11.89,0,0,0,7.58,0l33.27-11.09A43.85,43.85,0,0,1,172,120Z"></path>
+<title>student-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#404040">
+<path d="M227.79,52.62l-96-32a11.85,11.85,0,0,0-7.58,0l-96,32A12,12,0,0,0,20,63.37,6.05,6.05,0,0,0,20,64v80a12,12,0,0,0,24,0V80.65l23.71,7.9a67.92,67.92,0,0,0,18.42,85A100.36,100.36,0,0,0,46,209.44a12,12,0,1,0,20.1,13.11C80.37,200.59,103,188,128,188s47.63,12.59,61.95,34.55a12,12,0,1,0,20.1-13.11,100.36,100.36,0,0,0-40.18-35.92,67.92,67.92,0,0,0,18.42-85l39.5-13.17a12,12,0,0,0,0-22.76Zm-99.79-8L186.05,64,128,83.35,70,64ZM172,120A44,44,0,1,1,90.94,96.29l33.27,11.09a11.89,11.89,0,0,0,7.58,0l33.27-11.09A43.85,43.85,0,0,1,172,120Z"></path>
+<title>student-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+</div>
+<div class="phosphor-waffle-legend" style="margin-top: 20px; text-align: center;">
+<span class="phosphor-waffle-legend-item" style="margin-right: 20px;">
+<svg class="phosphor-svg" fill="#404040" height="1.3333em" style="vertical-align:-0.25em; vertical-align: -0.25em;" viewbox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+<path d="M227.79,52.62l-96-32a11.85,11.85,0,0,0-7.58,0l-96,32A12,12,0,0,0,20,63.37,6.05,6.05,0,0,0,20,64v80a12,12,0,0,0,24,0V80.65l23.71,7.9a67.92,67.92,0,0,0,18.42,85A100.36,100.36,0,0,0,46,209.44a12,12,0,1,0,20.1,13.11C80.37,200.59,103,188,128,188s47.63,12.59,61.95,34.55a12,12,0,1,0,20.1-13.11,100.36,100.36,0,0,0-40.18-35.92,67.92,67.92,0,0,0,18.42-85l39.5-13.17a12,12,0,0,0,0-22.76Zm-99.79-8L186.05,64,128,83.35,70,64ZM172,120A44,44,0,1,1,90.94,96.29l33.27,11.09a11.89,11.89,0,0,0,7.58,0l33.27-11.09A43.85,43.85,0,0,1,172,120Z"></path>
+<title>student-bold</title>
+</svg>
+Accepted
+</span>
+<span class="phosphor-waffle-legend-item" style="margin-right: 20px;">
+<svg class="phosphor-svg" fill="#d00000" height="1.3333em" style="vertical-align:-0.25em; vertical-align: -0.25em;" viewbox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+Rejected
+</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="psychology-is-competitive-3" class="slide level2 smaller">
+<h2>Psychology is competitive!</h2>
+<p><img data-src="images/lawpsych.png" class="absolute" style="top: 0px; right: 10px; width: 75px; height: 75px; "></p>
+<div class="inner-container">
+<div class="post-it">
+<p>UNL <strong>Ed Psych</strong> Program accepts <br> 6-8 of 100+ applicants</p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="phosphor-waffle-container" style="width:600px; margin: auto;">
+<div class="phosphor-waffle-grid" style="display: grid; grid-template-columns: repeat(12, 1fr); grid-template-rows: repeat(8, 1fr); grid-auto-flow: row;">
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#404040">
+<path d="M227.79,52.62l-96-32a11.85,11.85,0,0,0-7.58,0l-96,32A12,12,0,0,0,20,63.37,6.05,6.05,0,0,0,20,64v80a12,12,0,0,0,24,0V80.65l23.71,7.9a67.92,67.92,0,0,0,18.42,85A100.36,100.36,0,0,0,46,209.44a12,12,0,1,0,20.1,13.11C80.37,200.59,103,188,128,188s47.63,12.59,61.95,34.55a12,12,0,1,0,20.1-13.11,100.36,100.36,0,0,0-40.18-35.92,67.92,67.92,0,0,0,18.42-85l39.5-13.17a12,12,0,0,0,0-22.76Zm-99.79-8L186.05,64,128,83.35,70,64ZM172,120A44,44,0,1,1,90.94,96.29l33.27,11.09a11.89,11.89,0,0,0,7.58,0l33.27-11.09A43.85,43.85,0,0,1,172,120Z"></path>
+<title>student-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#404040">
+<path d="M227.79,52.62l-96-32a11.85,11.85,0,0,0-7.58,0l-96,32A12,12,0,0,0,20,63.37,6.05,6.05,0,0,0,20,64v80a12,12,0,0,0,24,0V80.65l23.71,7.9a67.92,67.92,0,0,0,18.42,85A100.36,100.36,0,0,0,46,209.44a12,12,0,1,0,20.1,13.11C80.37,200.59,103,188,128,188s47.63,12.59,61.95,34.55a12,12,0,1,0,20.1-13.11,100.36,100.36,0,0,0-40.18-35.92,67.92,67.92,0,0,0,18.42-85l39.5-13.17a12,12,0,0,0,0-22.76Zm-99.79-8L186.05,64,128,83.35,70,64ZM172,120A44,44,0,1,1,90.94,96.29l33.27,11.09a11.89,11.89,0,0,0,7.58,0l33.27-11.09A43.85,43.85,0,0,1,172,120Z"></path>
+<title>student-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#404040">
+<path d="M227.79,52.62l-96-32a11.85,11.85,0,0,0-7.58,0l-96,32A12,12,0,0,0,20,63.37,6.05,6.05,0,0,0,20,64v80a12,12,0,0,0,24,0V80.65l23.71,7.9a67.92,67.92,0,0,0,18.42,85A100.36,100.36,0,0,0,46,209.44a12,12,0,1,0,20.1,13.11C80.37,200.59,103,188,128,188s47.63,12.59,61.95,34.55a12,12,0,1,0,20.1-13.11,100.36,100.36,0,0,0-40.18-35.92,67.92,67.92,0,0,0,18.42-85l39.5-13.17a12,12,0,0,0,0-22.76Zm-99.79-8L186.05,64,128,83.35,70,64ZM172,120A44,44,0,1,1,90.94,96.29l33.27,11.09a11.89,11.89,0,0,0,7.58,0l33.27-11.09A43.85,43.85,0,0,1,172,120Z"></path>
+<title>student-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#404040">
+<path d="M227.79,52.62l-96-32a11.85,11.85,0,0,0-7.58,0l-96,32A12,12,0,0,0,20,63.37,6.05,6.05,0,0,0,20,64v80a12,12,0,0,0,24,0V80.65l23.71,7.9a67.92,67.92,0,0,0,18.42,85A100.36,100.36,0,0,0,46,209.44a12,12,0,1,0,20.1,13.11C80.37,200.59,103,188,128,188s47.63,12.59,61.95,34.55a12,12,0,1,0,20.1-13.11,100.36,100.36,0,0,0-40.18-35.92,67.92,67.92,0,0,0,18.42-85l39.5-13.17a12,12,0,0,0,0-22.76Zm-99.79-8L186.05,64,128,83.35,70,64ZM172,120A44,44,0,1,1,90.94,96.29l33.27,11.09a11.89,11.89,0,0,0,7.58,0l33.27-11.09A43.85,43.85,0,0,1,172,120Z"></path>
+<title>student-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+<span class="icon-waffle" style="text-align: center;">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 256 256" class="phosphor-svg" height="1.33em" style="vertical-align:-0.25em;" fill="#d00000">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+</span>
+</div>
+<div class="phosphor-waffle-legend" style="margin-top: 20px; text-align: center;">
+<span class="phosphor-waffle-legend-item" style="margin-right: 20px;">
+<svg class="phosphor-svg" fill="#404040" height="1.3333em" style="vertical-align:-0.25em; vertical-align: -0.25em;" viewbox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+<path d="M227.79,52.62l-96-32a11.85,11.85,0,0,0-7.58,0l-96,32A12,12,0,0,0,20,63.37,6.05,6.05,0,0,0,20,64v80a12,12,0,0,0,24,0V80.65l23.71,7.9a67.92,67.92,0,0,0,18.42,85A100.36,100.36,0,0,0,46,209.44a12,12,0,1,0,20.1,13.11C80.37,200.59,103,188,128,188s47.63,12.59,61.95,34.55a12,12,0,1,0,20.1-13.11,100.36,100.36,0,0,0-40.18-35.92,67.92,67.92,0,0,0,18.42-85l39.5-13.17a12,12,0,0,0,0-22.76Zm-99.79-8L186.05,64,128,83.35,70,64ZM172,120A44,44,0,1,1,90.94,96.29l33.27,11.09a11.89,11.89,0,0,0,7.58,0l33.27-11.09A43.85,43.85,0,0,1,172,120Z"></path>
+<title>student-bold</title>
+</svg>
+Accepted
+</span>
+<span class="phosphor-waffle-legend-item" style="margin-right: 20px;">
+<svg class="phosphor-svg" fill="#d00000" height="1.3333em" style="vertical-align:-0.25em; vertical-align: -0.25em;" viewbox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+<path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path>
+<title>x-bold</title>
+</svg>
+Rejected
+</span>
+</div>
+</div>
+</div>
+</div>
+</section>
 <section id="so-what-does-this-mean" class="slide level2 smaller">
 <h2>So, what does this mean?</h2>
-<div class="vspace">
-
-</div>
-<h3 id="schools-employers-look-for">Schools (&amp; employers) look for…</h3>
-<div class="body">
+<p><img data-src="images/p-value-statistics-meme.jpg" class="absolute" style="top: 0px; right: 10px; width: 70px; height: 70px; "></p>
+<h3 id="research-skills-are-foundational"><strong>Research</strong> skills are <del>foundational</del></h3>
+<div class="inner-container">
+<div class="post-it">
 <ul>
-<li class="fragment"><p>Excellent performance in research methods/stats courses</p></li>
-<li class="fragment"><p>Excellent performance in 400-level courses (writing &amp; critical thinking skills)</p></li>
-<li class="fragment"><p>Research experience</p></li>
+<li class="fragment">Schools (&amp; employers) look for…
+<ul>
+<li class="fragment"><span class="emoji" data-emoji="bar_chart">📊</span> Excellent performance in research methods/stats courses</li>
+<li class="fragment"><span class="emoji" data-emoji="thought_balloon">💭</span> Excellent performance in 400-level courses (writing &amp; critical thinking skills)</li>
+<li class="fragment"><span class="emoji" data-emoji="chart_with_upwards_trend">📈</span> Research experience</li>
+</ul></li>
 </ul>
+</div>
 </div>
 <aside class="notes">
 <p>So, we’re here to pursue those activities together during your undergraduate “career” to increase your ability to compete for graduate school or a job.</p>
@@ -662,31 +2578,32 @@ Instructor: Emma Marshall, JD, MA
           display:block!important;
       }</style></aside>
 </section>
-<section id="why-is-this-course-required-1" class="slide level2">
+<section id="why-is-this-course-required-1" class="slide level2 smaller">
 <h2>Why is this course required?</h2>
+<p><img data-src="images/p-value-statistics-meme.jpg" class="absolute" style="top: 0px; right: 10px; width: 70px; height: 70px; "></p>
+<center>
+<h3>
+<strong>Research</strong> skills are at the heart of <del>ALL</del> psychological practice!
+</h3>
 <div class="vspace">
 
 </div>
 <div class="columns">
-<div class="column" style="width:50%;">
-<p><img data-src="images/p-value-statistics-meme.jpg" data-figure-align="center" width="340"></p>
-</div><div class="column" style="width:50%;">
-<div class="body">
-<ul>
-<li class="fragment">Research skills are at the heart of psychological practice</li>
-<li class="fragment">Needed to succeed in upper level psych courses
-<ul>
-<li class="fragment">&amp; related careers and industries</li>
-</ul></li>
-</ul>
+<div class="column fragment" style="width:50%;">
+<!-- -->
+<h4 id="creating-knowledge-3"><strong>Creating</strong> Knowledge</h4>
+<p><img data-src="images/scales.jpeg" class="absolute" style="left: 100px; bottom: 0px; width: 307px; "></p>
+</div><div class="column fragment" style="width:50%;">
+<!-- -->
+<h4 id="evaluate-knowledge"><strong>Evaluate</strong> Knowledge</h4>
+<p><img data-src="images/line.png" class="absolute" style="bottom: 0px; right: 100px; width: 307px; "></p>
 </div>
 </div>
-</div>
+</center>
 <aside class="notes">
 <ul>
 <li>Because research is at the heart of Psychological practice</li>
 <li>Because the best way to get the education and training you need for your desired career is to master the procedures, techniques, skills, and tricks you will learn in this course.</li>
-<li>Every assignment done in this class tracks directly to knowledge and skills that will be expected to perform in 300/400-level classes FYI: advanced courses in this topic (Psyc 491/2)</li>
 </ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -700,17 +2617,25 @@ Instructor: Emma Marshall, JD, MA
           display:block!important;
       }</style></aside>
 </section>
-<section id="you-will-learn-to" class="slide level2">
-<h2>You will learn to…</h2>
-<div class="body">
+<section id="learning-objectives" class="slide level2 smaller">
+<h2>Learning Objectives <span class="emoji" data-emoji="dart">🎯</span></h2>
+<div class="inner-container">
+<div class="post-it">
 <ul>
-<li class="fragment"><span class="highlight">Locate, summarize, critique, &amp; integrate</span> primary research and research reviews</li>
-<li class="fragment"><span class="highlight">Propose</span> original research hypotheses based on your consideration of previous research</li>
-<li class="fragment"><span class="highlight">Plan</span> the procedures &amp; materials for data collection &amp; analysis relevant to research hypotheses</li>
-<li class="fragment"><span class="highlight">Report</span> all of the above using a standard (i.e., APA) format and style</li>
+<li class="fragment">You will learn to…
+<ul>
+<li class="fragment"><span class="emoji" data-emoji="mag">🔍</span> <strong>Locate, summarize, critique, &amp; integrate</strong> primary research and research reviews</li>
+<li class="fragment"><span class="emoji" data-emoji="thought_balloon">💭</span> <strong>Propose</strong> original research hypotheses based on your consideration of previous research</li>
+<li class="fragment"><span class="emoji" data-emoji="clipboard">📋</span> <strong>Plan</strong> the procedures &amp; materials for data collection &amp; analysis relevant to research hypotheses</li>
+<li class="fragment"><span class="emoji" data-emoji="speech_balloon">💬</span> <strong>Report</strong> all of the above using a standard (i.e., APA) format and style</li>
+</ul></li>
 </ul>
 </div>
+</div>
 <aside class="notes">
+<ul>
+<li>Every assignment done in this class tracks directly to knowledge and skills that will be expected to perform in 300/400-level classes FYI: advanced courses in this topic (Psyc 491/2)</li>
+</ul>
 <p>Useful skills you’ll acquire in this course: Learn to locate, summarize, critique, and integrate primary research and research reviews Learn to propose original research hypotheses based on your consideration of previous research Learn to plan the procedures and materials for data collection and analysis relevant to research hypotheses Learn to report all of the above using a standard (i.e., APA) format and style</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -725,19 +2650,9 @@ Instructor: Emma Marshall, JD, MA
       }</style></aside>
 </section>
 <section id="keep-in-mind" class="slide level2">
-<h2>Keep in Mind</h2>
-<div class="callout callout-important callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Important</strong></p>
-</div>
-<div class="callout-content">
-<p>You need a “C” (not a “C-”) for this course to count toward the Psychology Major</p>
-</div>
-</div>
+<h2>Keep in Mind <span class="emoji" data-emoji="eyes">👀</span></h2>
+<div class="vspace2">
+
 </div>
 <div class="callout callout-warning callout-titled callout-style-default">
 <div class="callout-body">
@@ -749,32 +2664,30 @@ Instructor: Emma Marshall, JD, MA
 </div>
 <div class="callout-content">
 <ul>
-<li class="fragment"><p>You <strong>must</strong> complete <span class="highlight">all exams to receive a passing grade</span> in this course</p></li>
-<li class="fragment"><p>You <strong>must</strong> complete <span class="highlight">all the take-home laboratory assignments</span> to receive a passing grade in this class</p></li>
-<li class="fragment"><p>You <strong>must</strong> attend <span class="highlight">lab classes</span> to receive a passing grade in this class</p></li>
+<li class="fragment"><p>You need a “C” (not a “C-”) for this course to count toward the Psychology Major</p>
+<ul>
+<li class="fragment">You <strong>must</strong> complete all exams to receive a passing grade in this course</li>
+<li class="fragment">You <strong>must</strong> complete all the take-home laboratory assignments to receive a passing grade in this class</li>
+<li class="fragment">You <strong>must</strong> attend lab classes to receive a passing grade in this class</li>
+</ul></li>
 </ul>
 </div>
 </div>
 </div>
 </section>
 <section id="dont-freak-out" class="slide level2">
-<h2>Don’t freak out!</h2>
+<h2>Don’t freak out! <span class="emoji" data-emoji="full_moon_with_face">🌝</span></h2>
 <div class="r-stack">
 <p><img data-src="images/ahh.jpeg" class="fragment" width="615"></p>
 <p><img data-src="images/documents.jpeg" class="fragment" width="578"></p>
 </div>
-</section>
-<section id="lab-1-2-activities" class="slide level2 scrollable">
-<h2>Lab 1 &amp; 2 Activities</h2>
-<p><img data-src="images/assn1.png"></p>
-<p><img data-src="images/assn2.png"></p>
 </section>
 <section id="questions" class="title-slide slide level1 center" data-background-image="images/fitz.png" data-background-opacity="0.2">
 <h1>Questions?</h1>
 
 
 <img src="assets/logo.svg" class="slide-logo r-stretch"><div class="footer footer-default">
-
+<p>Lab 1: Introduction to Psych 230 Lab</p>
 </div>
 </section>
     </div>
@@ -988,6 +2901,44 @@ Instructor: Emma Marshall, JD, MA
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

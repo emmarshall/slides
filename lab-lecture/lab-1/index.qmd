@@ -1,0 +1,544 @@
+---
+title: "Welcome to PSYC 350 Laboratory"
+subtitle: "Lab 1"
+image: 'https://annotatedgilmoregirls.files.wordpress.com/2022/11/yale-university.jpg'
+author: "Instructor: Emma Marshall, JD, MA"
+from: markdown+emoji
+format:
+  revealjs: 
+    logo: ../assets/logo.svg
+    theme: ../assets/unl.scss
+    menu:
+      side: left
+    slide-number: true
+    date-format: long
+    show-slide-number: all
+    preview-links: true
+    code-overflow: wrap
+    incremental: true
+    auto-animate: true
+    transition: fade
+    background-transition: fade
+    transition-speed: fast
+    footer: "Introduction to Psych 350 Lab"
+
+execute:
+  echo: false
+---
+
+## Today's Tasks {background-image="../images/fitz.png" background-opacity="0.1"}
+
+::: v-center-container
+::: post-it
+-   Brief Introduction to:
+    -   **Who** I am 
+    -   **What** you will learn
+    -   **Why** this class matters
+    -   **How** things will work
+:::
+:::
+
+## Lab Instructor {.smaller}
+
+::: columns
+::: {.column width="50%"}
+![](https://emmarshall.github.io/runza/img/emw-avatar.png)
+
+Emma Marshall, JD, MA :e-mail: [Email](emma.marshall@husker.unl.edu) :alarm_clock: Office Hours: [zoom](https://unl.zoom.us/j/6374970867) \| BURN 230
+:::
+
+::: {.column width="50%"}
+::: {.body .v-center-container}
+-   Law-Psychology (Joint JD/PhD) Program
+    -   Studies legal decision-making
+    -   Brank Law & Policy Lab
+
+::: r-stack
+![](../images/searches.jpg){.fragment fig-align="center" width="400" height="300"}
+
+![](../images/warrants.png){.fragment fig-align="center" width="250" height="250"}
+
+![](../images/judges.png){.fragment fig-align="center" width="250" height="250"}
+:::
+:::
+:::
+:::
+
+# What you will learn {background-image="images/fitz.png" background-opacity="0.1"}
+
+## Learning Objectives :dart: {.smaller}
+
+::: v-center-container
+::: body
+-   How to...
+    -   :mag: **Locate, summarize, critique, & integrate** primary research and research reviews
+    -   :thought_balloon: **Propose** original research hypotheses based on your consideration of previous research
+    -   :clipboard: **Plan** the procedures & materials for data collection & analysis relevant to research hypotheses
+    -   :speech_balloon: **Report** all of the above using a standard (i.e., APA) format and style
+:::
+:::
+
+## Lab Materials :books: {.smaller}
+
+::: vspace
+:::
+
+::: {.body .nonincremental .fragment .fade-in fragment-index="1"}
+-   **Canvas:** Lab section page for links to materials, lectures & assignments
+-   [Zotero](https://www.zotero.org/){preview-link="true"}: APA-citation manager
+-   [SPSS](https://itprocurement.unl.edu/ibm-spss-product-information) or [Jamovi](https://www.jamovi.org/): Data analysis
+:::
+
+::: {layout-ncol="3"}
+::: {.fragment .fade-in fragment-index="3"}
+![SPSS](../images/spss.png){width="260"}
+:::
+
+::: {.fragment .fade-in fragment-index="2"}
+![Zotero](../images/zotero.png){width="250"}
+:::
+
+::: {.fragment .fade-in fragment-index="3"}
+![Jamovi](../images/jamovi.png){width="250"}
+:::
+:::
+
+## SPSS vs. Jamovi
+
+::: {layout-ncol="2"}
+::: col
+::: {.body .nonincremental}
+<center>
+
+![SPSS](../images/spss.png){width="150"}
+
+[Download](https://itprocurement.unl.edu/ibm-spss-product-information)
+
+-   Available in Lab
+    -   Costs \$\$
+    -   Widely used
+
+</center>
+:::
+:::
+
+::: col
+::: {.body .nonincremental}
+
+<center>
+
+![Jamovi](../images/jamovi.png){width="150"}
+
+[Download](%22https://www.jamovi.org/%22)
+
+-   Personal only
+    -   FREE
+    -   Built on R
+
+</center>
+
+:::
+:::
+:::
+
+## Lab Grade [(40% total)]{.tiny}
+
+::: vspace2
+:::
+
+::: {.columns .v-center-container}
+::: {.column width="50%"}
+::: {.body .nonincremental}
+-   Lab assignments [(20%)]{.tiny}
+    -   In-Class
+    -   Take-Home
+:::
+:::
+
+::: {.column width="50%"}
+::: {.body .nonincremental}
+-   Research project [(20%)]{.tiny}
+    -   Literature Review
+    -   APA-Style Report
+:::
+:::
+:::
+
+# Questions? {background-image="images/fitz.png" background-opacity="0.2"}
+
+# Why is this **lab** required?
+
+## Psych [majors]{.yellow}  <br> vs. Psych [professionals]{.yellow} {.smaller}
+
+![](../images/p-value-statistics-meme.jpg){.absolute top="0" right="10" width="75" height="75"}
+
+::: inner-container
+::: {.post-it .nonincremental}
+The **key** distinction is ability <br> to **EVALUATE** and **CREATE** new knowledge
+:::
+:::
+
+::: vspace
+:::
+
+::: columns
+::: {.column width="50%"}
+<center>
+
+#### :thought_balloon: **Evaluate** Knowledge
+
+![](../images/line.png){.fragment .fade-up fig-align="center" width="307"}
+
+</center>
+:::
+
+::: {.column width="50%"}
+<center>
+
+#### :clipboard: **Create** Knowledge
+
+![](../images/scales.jpeg){.fragment .fade-up fig-align="center" width="307"}
+
+</center>
+:::
+:::
+
+::: notes
+Possible Question- "Why is this course required???"
+
+The fundamental difference between "Psych majors" and "Psych professionals" is the ability to GENERATE and EVALUATE new knowledge
+
+To do your job, you'll have to know to find and evaluate knowledge that others have generated! You will sometimes have to generate new knowledge so you can do your job!
+:::
+
+## Empirical Research {.smaller .nonincremental}
+
+![](../images/anecdotes.jpg){.absolute top="0" right="10" width="200" height="70"}
+
+::: inner-container
+::: {.post-it .nonincremental}
+-   Informs various **real world** decisions & processes
+    -   :loudspeaker: Peer-review & replication provide **credibility**
+    -   :briefcase: **Not** limited to academic psychology
+:::
+:::
+
+::: {layout-ncol="3"}
+::: {.fragment .fade-in fragment-index="2"}
+![](https://emmarshall.github.io/runza/img/icons/find-jobs-on-newspaper-icon.svg){width="215"} <br> Who does what
+:::
+
+::: {.fragment .fade-in fragment-index="3"}
+![](https://emmarshall.github.io/runza/img/icons/knowledge-icon.svg){width="175"} <br> What is known
+:::
+
+::: {.fragment .fade-in fragment-index="4"}
+![](https://emmarshall.github.io/runza/img/icons/direction-road-sign-icon.svg){width="200"} <br> How to decide
+:::
+:::
+
+::: notes
+The importance of empirical research is that it- - Informs every decision and action by professionals - Every decision and action made by psychological professionals is dependent upon research -- maybe their own, probably someone else's. - In order to be ethical (also legal and bill-able), each diagnosis, treatment choice, evaluation, and decision to stop treatment must be defended in terms of replicated, peer-reviewed, published research. - Not just clinical/treatment decisions but those made within areas of human resources, criminal justice, business, education, engineering, etc. -- all depend on, and use, knowledge acquired by psychological researchers.
+:::
+
+## Evaluating Knowledge :thought_balloon: {.smaller}
+
+![](../images/anecdotes.jpg){.absolute top="0" right="10" width="200" height="70"}
+
+### Everyone needs to know how to **understand** & **consume** empirical research...
+
+::: {.columns .v-center-container}
+::: {.column width="55%"}
+![](../images/example.png)
+:::
+
+::: {.column width="45%"}
+::: body
+-   **Competent** consumers can:
+    -   :mag: **Find** relevant research
+    -   :clipboard: **Evaluate (& critique)** research quality (theory, methods, stats)
+    -   :dart: **Apply (& integrate)** valuable research information to own work
+:::
+:::
+:::
+
+::: notes
+While not everyone needs to be a producer of empirical research, every psychological professional needs to be a competent consumer of research. Being a competent consumer of research means being able to ... - locate research that is relevant to your work - critique (evaluate) the quality of the research (theory, methodology, & stats) - integrate the useful information (that passes your evaluation) from the research into your own work
+
+What might be some problems with this headline? Not peer reviewed. What about the pandemic might have changed the experiences and testing environment for babies?
+:::
+
+## Creating Knowledge :clipboard: {.smaller}
+
+### Many jobs **require** research skills
+
+::: vspace
+:::
+
+::: {.columns .v-center-container}
+::: {.column width="60%"}
+::: vspace
+:::
+
+::: body
+-   Funding sources, clients & employers look for:
+    -   :bar_chart: Evidence-based decision-making
+    -   :hourglass_flowing_sand: Efficiency and cost related concerns
+    -   :traffic_light: Competitive advantage
+:::
+:::
+
+::: {.column width="40%"}
+::: vspace
+:::
+
+![](../images/business.jpg){fig-align="center" width="300"}
+:::
+:::
+
+::: notes
+Most people (not just those in academia) find that they do need to produce research to do their jobs ...
+
+Why?
+
+Funding sources, clients, & bosses need evidence that what you are doing "works" and is "worth the expense".
+
+It is not enough that you "do it better" than the others. You need evidence that what you're doing works, and that it works better than your competitors.
+
+This evidence comes from research conducted, analyzed, and reported by you using your own patients/clients.
+:::
+
+## Creating Knowledge :clipboard: {.smaller}
+
+### Many jobs **require** research skills
+
+::: vspace
+:::
+
+
+::: {.columns .v-center-container}
+::: {.column width="60%"}
+::: vspace
+:::
+
+::: body
+-   People who understand the research process and can **evaluate**, **integrate**, and **apply** empirical research have:
+    -   :money_with_wings: Better job prospects
+    -   :trophy: Improved job performance
+    -   :bookmark: More flexibility!
+:::
+:::
+
+::: {.column width="40%"}
+![](../images/dogs-with-jobs.jpeg){fig-align="center" width="300"}
+:::
+:::
+
+::: notes
+The point is...Research is going to be a more important part of your ongoing professional activities (and your successes) than you may realize.
+
+Professionals who better understand the research process and know how to evaluate, integrate, and apply the results from empirical research have greater employment potential do their jobs better!
+:::
+
+
+## Lecture vs. Lab {.smaller}
+
+::: vspace
+:::
+
+::: {layout-ncol="2"}
+::: col
+
+<center>
+
+![](https://emmarshall.github.io/runza/img/icons/instruction-manuals-book-icon.svg){width="175"}
+
+</center>
+
+::: {.body .nonincremental}
+-   Purpose of **LECTURE** is to **LEARN**... 
+    -   Vocabulary
+    -   Underlying concepts
+
+
+:::
+:::
+
+::: col
+
+
+<center>
+
+![](https://emmarshall.github.io/runza/img/icons/clipboard-question-icon.svg){width="175"}
+
+</center>
+::: {.body .nonincremental}
+-   Purpose of **LAB** is to **PRACTICE**...
+    -   Application
+    -   Research skills
+
+
+
+:::
+:::
+
+:::
+
+
+##  {background-color="#fefdfa"}
+
+![](https://emmarshall.github.io/runza/img/emw-avatar.png){.absolute top="0" right="10" width="75" height="75"}
+
+::: r-stack
+![](../images/avg_recipe.png){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
+
+![](../images/avg_egg_tools.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
+
+![](../images/beh-recipe.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
+
+![](../images/avg_ingred.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="3"}
+
+![](../images/stats-kitchen.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="4"}
+
+![](../images/avg_eggs.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="5"}
+
+:::
+
+## So, what does this mean? {.smaller}
+
+::: inner-container
+::: post-it
+**Research** skills are not only **foundational** but also **iterative**...
+:::
+:::
+
+::: vspace
+:::
+
+::: {.columns .v-center-container}
+::: {.column width="40%"}
+![](../images/p-value-statistics-meme.jpg){fig-align="center" width="346"}
+:::
+
+::: {.column width="60%"}
+::: body
+-   You cannot bull:poop: success in this class...
+    -   :mega: Build a solid foundation
+    -   :thought_balloon: Develop strategies that work for **YOU**
+    -   :alarm_clock: Take the time to learn how to read a recipe **AND** cook it
+:::
+:::
+:::
+
+::: notes
+So, we're here to pursue those activities together during your undergraduate "career" to increase your ability to compete for graduate school or a job.
+
+What do schools & employers look for ??
+
+Excellent performance in research methods/stats courses
+
+Excellent performance in 400-level courses, especially writing and critical thinking skills (which can be improved using the knowledge and skills you'll have an opportunity to learn in here)
+
+Research experience (which will be easier to find if you do well in here and have the resultant skills)
+:::
+
+
+
+## TL;DR
+
+![](https://emmarshall.github.io/runza/img/emw-avatar.png){.absolute top="0" right="10" width="75" height="75"}
+
+::: v-center-container
+::: callout-important
+-   Take this course seriously...
+    -   ...if you want a good grade.
+    -   ...if you want to go to graduate school.
+    -   ...if you want a job in [any]{.underline} industry.
+    -   ...if you want to understand ... the world!
+:::
+:::
+
+
+## Keep in Mind :eyes:
+
+![](https://emmarshall.github.io/runza/img/emw-avatar.png){.absolute top="0" right="10" width="75" height="75"}
+
+::: v-center-container
+::: callout-warning
+-   You need a "C" (not a "C-") for this course to count toward the Psychology Major
+    -   You **must** complete all exams to receive a passing grade in this course
+    -   You **must** complete all the take-home laboratory assignments to receive a passing grade in this class
+    -   You **must** attend lab classes to receive a passing grade in this class
+:::
+:::
+
+## How to Succeed :dart:
+
+![](https://emmarshall.github.io/runza/img/emw-avatar.png){.absolute top="0" right="10" width="75" height="75"}
+
+::: vspace
+:::
+
+::: {.columns .v-center-container}
+::: {.column width="60%"}
+::: vspace2
+:::
+
+::: body
+-   Do the work...
+-   Come to lab...
+-   Be professional...
+    -   Embrace the **process**!
+:::
+:::
+
+::: {.column width="40%"}
+
+::: vspace2
+:::
+
+![](../images/random.jpg){width="311"}
+:::
+:::
+
+## Don't freak out! :full_moon_with_face:
+
+![](https://emmarshall.github.io/runza/img/emw-avatar.png){.absolute top="0" right="10" width="75" height="75"}
+
+![](../images/documents.jpeg){.center fig-align="center" width="550"}
+
+
+##  {background-color="#fefdfa"}
+
+![](https://emmarshall.github.io/runza/img/emw-avatar.png){.absolute top="0" right="10" width="75" height="75"}
+
+![](../images/avg_recipe.png){fig-align="center" width="700"}
+
+
+##  {background-color="black" background-image="images/r_movie_poster.jpeg" background-size="100px" background-repeat="repeat" background-opacity="0.2"}
+
+![](https://emmarshall.github.io/runza/img/emw-avatar.png){.absolute top="0" right="10" width="75" height="75"}
+
+::: r-stack
+
+![](../images/ratatouille.png){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
+
+![](../images/acc-1.png){.fragment .fade-in fig-align="center" width="560" fragment-index="1"}
+
+![](../images/acc-2.png){.fragment .fade-in-then-out fig-align="center" width="560" fragment-index="2"}
+
+:::
+
+##  {background-color="#fefdfa"}
+
+![](https://emmarshall.github.io/runza/img/emw-avatar.png){.absolute top="0" right="10" width="75" height="75"}
+
+::: r-stack
+
+![](../images/acc-full.png){fig-align="center" width="700"}
+
+![](../images/me-helping.png){.fragment .fade-in fig-align="center" width="600" fragment-index="1"}
+
+:::
+
+# Questions? {background-image="images/fitz.png" background-opacity="0.2"}
