@@ -6,8 +6,8 @@ author: "Instructor: Emma Marshall, JD, MA"
 from: markdown+emoji
 format:
   revealjs: 
-    logo: ../assets/logo.svg
-    theme: ../assets/unl.scss
+    logo: assets/logo.svg
+    theme: assets/unl.scss
     menu:
       side: left
     slide-number: true
@@ -26,7 +26,7 @@ execute:
   echo: false
 ---
 
-## Today's Tasks {background-image="../images/fitz.png" background-opacity="0.1"}
+## Today's Tasks {background-image="images/fitz.png" background-opacity="0.1"}
 
 ::: v-center-container
 ::: post-it
@@ -54,11 +54,11 @@ Emma Marshall, JD, MA :e-mail: [Email](emma.marshall@husker.unl.edu) :alarm_cloc
     -   Brank Law & Policy Lab
 
 ::: r-stack
-![](../images/searches.jpg){.fragment fig-align="center" width="400" height="300"}
+![](images/searches.jpg){.fragment fig-align="center" width="400" height="300"}
 
-![](../images/warrants.png){.fragment fig-align="center" width="250" height="250"}
+![](images/warrants.png){.fragment fig-align="center" width="250" height="250"}
 
-![](../images/judges.png){.fragment fig-align="center" width="250" height="250"}
+![](images/judges.png){.fragment fig-align="center" width="250" height="250"}
 :::
 :::
 :::
@@ -91,15 +91,15 @@ Emma Marshall, JD, MA :e-mail: [Email](emma.marshall@husker.unl.edu) :alarm_cloc
 
 ::: {layout-ncol="3"}
 ::: {.fragment .fade-in fragment-index="3"}
-![SPSS](../images/spss.png){width="260"}
+![SPSS](images/spss.png){width="260"}
 :::
 
 ::: {.fragment .fade-in fragment-index="2"}
-![Zotero](../images/zotero.png){width="250"}
+![Zotero](images/zotero.png){width="250"}
 :::
 
 ::: {.fragment .fade-in fragment-index="3"}
-![Jamovi](../images/jamovi.png){width="250"}
+![Jamovi](images/jamovi.png){width="250"}
 :::
 :::
 
@@ -110,7 +110,7 @@ Emma Marshall, JD, MA :e-mail: [Email](emma.marshall@husker.unl.edu) :alarm_cloc
 ::: {.body .nonincremental}
 <center>
 
-![SPSS](../images/spss.png){width="150"}
+![SPSS](images/spss.png){width="150"}
 
 [Download](https://itprocurement.unl.edu/ibm-spss-product-information)
 
@@ -127,7 +127,7 @@ Emma Marshall, JD, MA :e-mail: [Email](emma.marshall@husker.unl.edu) :alarm_cloc
 
 <center>
 
-![Jamovi](../images/jamovi.png){width="150"}
+![Jamovi](images/jamovi.png){width="150"}
 
 [Download](%22https://www.jamovi.org/%22)
 
@@ -170,7 +170,7 @@ Emma Marshall, JD, MA :e-mail: [Email](emma.marshall@husker.unl.edu) :alarm_cloc
 
 ## Psych [majors]{.yellow}  <br> vs. Psych [professionals]{.yellow} {.smaller}
 
-![](../images/p-value-statistics-meme.jpg){.absolute top="0" right="10" width="75" height="75"}
+![](images/p-value-statistics-meme.jpg){.absolute top="0" right="10" width="75" height="75"}
 
 ::: inner-container
 ::: {.post-it .nonincremental}
@@ -187,7 +187,7 @@ The **key** distinction is ability <br> to **EVALUATE** and **CREATE** new knowl
 
 #### :thought_balloon: **Evaluate** Knowledge
 
-![](../images/line.png){.fragment .fade-up fig-align="center" width="307"}
+![](images/line.png){.fragment .fade-up fig-align="center" width="307"}
 
 </center>
 :::
@@ -197,7 +197,7 @@ The **key** distinction is ability <br> to **EVALUATE** and **CREATE** new knowl
 
 #### :clipboard: **Create** Knowledge
 
-![](../images/scales.jpeg){.fragment .fade-up fig-align="center" width="307"}
+![](images/scales.jpeg){.fragment .fade-up fig-align="center" width="307"}
 
 </center>
 :::
@@ -213,7 +213,7 @@ To do your job, you'll have to know to find and evaluate knowledge that others h
 
 ## Empirical Research {.smaller .nonincremental}
 
-![](../images/anecdotes.jpg){.absolute top="0" right="10" width="200" height="70"}
+![](images/anecdotes.jpg){.absolute top="0" right="10" width="200" height="70"}
 
 ::: inner-container
 ::: {.post-it .nonincremental}
@@ -243,13 +243,13 @@ The importance of empirical research is that it- - Informs every decision and ac
 
 ## Evaluating Knowledge :thought_balloon: {.smaller}
 
-![](../images/anecdotes.jpg){.absolute top="0" right="10" width="200" height="70"}
+![](images/anecdotes.jpg){.absolute top="0" right="10" width="200" height="70"}
 
 ### Everyone needs to know how to **understand** & **consume** empirical research...
 
 ::: {.columns .v-center-container}
 ::: {.column width="55%"}
-![](../images/example.png)
+![](images/example.png)
 :::
 
 ::: {.column width="45%"}
@@ -292,7 +292,7 @@ What might be some problems with this headline? Not peer reviewed. What about th
 ::: vspace
 :::
 
-![](../images/business.jpg){fig-align="center" width="300"}
+![](images/business.jpg){fig-align="center" width="300"}
 :::
 :::
 
@@ -330,7 +330,7 @@ This evidence comes from research conducted, analyzed, and reported by you using
 :::
 
 ::: {.column width="40%"}
-![](../images/dogs-with-jobs.jpeg){fig-align="center" width="300"}
+![](images/dogs-with-jobs.jpeg){fig-align="center" width="300"}
 :::
 :::
 
@@ -390,17 +390,17 @@ Professionals who better understand the research process and know how to evaluat
 ![](https://emmarshall.github.io/runza/img/emw-avatar.png){.absolute top="0" right="10" width="75" height="75"}
 
 ::: r-stack
-![](../images/avg_recipe.png){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
+![](images/avg_recipe.png){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
 
-![](../images/avg_egg_tools.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
+![](images/avg_egg_tools.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
 
-![](../images/beh-recipe.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
+![](images/beh-recipe.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
 
-![](../images/avg_ingred.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="3"}
+![](images/avg_ingred.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="3"}
 
-![](../images/stats-kitchen.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="4"}
+![](images/stats-kitchen.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="4"}
 
-![](../images/avg_eggs.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="5"}
+![](images/avg_eggs.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="5"}
 
 :::
 
@@ -417,7 +417,7 @@ Professionals who better understand the research process and know how to evaluat
 
 ::: {.columns .v-center-container}
 ::: {.column width="40%"}
-![](../images/p-value-statistics-meme.jpg){fig-align="center" width="346"}
+![](images/p-value-statistics-meme.jpg){fig-align="center" width="346"}
 :::
 
 ::: {.column width="60%"}
@@ -497,7 +497,7 @@ Research experience (which will be easier to find if you do well in here and hav
 ::: vspace2
 :::
 
-![](../images/random.jpg){width="311"}
+![](images/random.jpg){width="311"}
 :::
 :::
 
@@ -505,14 +505,14 @@ Research experience (which will be easier to find if you do well in here and hav
 
 ![](https://emmarshall.github.io/runza/img/emw-avatar.png){.absolute top="0" right="10" width="75" height="75"}
 
-![](../images/documents.jpeg){.center fig-align="center" width="550"}
+![](images/documents.jpeg){.center fig-align="center" width="550"}
 
 
 ##  {background-color="#fefdfa"}
 
 ![](https://emmarshall.github.io/runza/img/emw-avatar.png){.absolute top="0" right="10" width="75" height="75"}
 
-![](../images/avg_recipe.png){fig-align="center" width="700"}
+![](images/avg_recipe.png){fig-align="center" width="700"}
 
 
 ##  {background-color="black" background-image="images/r_movie_poster.jpeg" background-size="100px" background-repeat="repeat" background-opacity="0.2"}
@@ -521,11 +521,11 @@ Research experience (which will be easier to find if you do well in here and hav
 
 ::: r-stack
 
-![](../images/ratatouille.png){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
+![](images/ratatouille.png){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
 
-![](../images/acc-1.png){.fragment .fade-in fig-align="center" width="560" fragment-index="1"}
+![](images/acc-1.png){.fragment .fade-in fig-align="center" width="560" fragment-index="1"}
 
-![](../images/acc-2.png){.fragment .fade-in-then-out fig-align="center" width="560" fragment-index="2"}
+![](images/acc-2.png){.fragment .fade-in-then-out fig-align="center" width="560" fragment-index="2"}
 
 :::
 
@@ -535,9 +535,9 @@ Research experience (which will be easier to find if you do well in here and hav
 
 ::: r-stack
 
-![](../images/acc-full.png){fig-align="center" width="700"}
+![](images/acc-full.png){fig-align="center" width="700"}
 
-![](../images/me-helping.png){.fragment .fade-in fig-align="center" width="600" fragment-index="1"}
+![](images/me-helping.png){.fragment .fade-in fig-align="center" width="600" fragment-index="1"}
 
 :::
 
