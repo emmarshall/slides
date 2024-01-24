@@ -6,8 +6,8 @@ from: markdown+emoji
 author: "Instructor: Emma Marshall, JD, MA"
 format:
   revealjs: 
-    logo: ../assets/logo.svg
-    theme: ../assets/unl.scss
+    logo: assets/logo.svg
+    theme: assets/unl.scss
     menu:
       side: left
     slide-number: true
@@ -38,7 +38,7 @@ execute:
 
 ## Lab 1 & 2 Activities
 
-![](../images/lab-1.png)
+![](images/lab-1.png)
 
 # The Research Process
 
@@ -47,9 +47,9 @@ execute:
 ![](https://emmarshall.github.io/runza/img/emw-avatar.png){.absolute top="0" right="10" width="75" height="75"}
 
 ::: r-stack
-![](../images/research-cycle.png){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
+![](images/research-cycle.png){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
 
-![](../images/scientific-method-meme.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
+![](images/scientific-method-meme.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
 
 ![](../images/research_process.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
 :::
@@ -57,38 +57,38 @@ execute:
 ##  {background-color="#fefdfa"}
 
 ::: r-stack
-![](../images/rq-blank.png){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
+![](images/rq-blank.png){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
 
 ![](../images/rq-superman.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
 
-![](../images/rq-superman-concepts.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
+![](images/rq-superman-concepts.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
 :::
 
 ##  {background-color="#fefdfa"}
 
 ::: r-stack
-![](../images/operationalize.png){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
+![](images/operationalize.png){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
 
-![](../images/example-pet1.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
+![](images/example-pet1.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
 
-![](../images/rq-define.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
+![](images/rq-define.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
 
 :::
 
 ##  {background-color="#fefdfa"}
 
 ::: r-stack
-![](../images/rq-define-superman.png){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
+![](images/rq-define-superman.png){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
 
-![](../images/example-search1.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
+![](images/example-search1.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
 
-![](../images/example-search2.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
+![](images/example-search2.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
 
-![](../images/example-search3.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="3"}
+![](images/example-search3.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="3"}
 
-![](../images/superman-images.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="4"}
+![](images/superman-images.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="4"}
 
-![](../images/superman-live-action.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="5"}
+![](images/superman-live-action.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="5"}
 
 
 :::
@@ -101,36 +101,31 @@ execute:
 
 :::
 :::
-![](../images/operationalize-superman.png){fig-align="center" width="700"}
-
-
-::: aside
-
-:::
+![](images/operationalize-superman.png){fig-align="center" width="700"}
 
 ##  {#operationalize-big background-color="#fefdfa"}
 
 
 
 ::: r-stack
-![](../images/example-big.png){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
+![](images/example-big.png){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
 
 
 ![](../images/operationalize-big1.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
 
-![](../images/operationalize-big2.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
+![](images/operationalize-big2.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
 
-![](../images/rq-edited.png){.fragment .fade-in fig-align="center" width="700" fragment-index="3"}
+![](images/rq-edited.png){.fragment .fade-in fig-align="center" width="700" fragment-index="3"}
 
-![](../images/researcher-dof2.png){.fragment .fade-in fig-align="center" width="700" fragment-index="4"}
+![](images/researcher-dof2.png){.fragment .fade-in fig-align="center" width="700" fragment-index="4"}
 
-![](../images/researcher-dof1.png){.fragment .fade-in fig-align="center" width="400" fragment-index="5"}
+![](images/researcher-dof1.png){.fragment .fade-in fig-align="center" width="400" fragment-index="5"}
 :::
 
 
 ------------------------------------------------------------------------
 
-<center>![](../images/var-chart1.png){width="700"}</center>
+<center>![](images/var-chart1.png){width="700"}</center>
 
 ## Measurement {.smaller}
 ::: inner-container
@@ -140,30 +135,30 @@ execute:
 :::
 
 :::{.fragment fragment-index="1"}
-<center>![](../images/measurement.png){width="600"}</center>
+<center>![](images/measurement.png){width="600"}</center>
 :::
 
 ------------------------------------------------------------------------
 
-<center>![](../images/var-chart2.png){width="700"}</center>
+<center>![](images/var-chart2.png){width="700"}</center>
 
 ------------------------------------------------------------------------
 
-<center>![](../images/var-chart3.png){width="700"}</center>
+<center>![](images/var-chart3.png){width="700"}</center>
 
 ------------------------------------------------------------------------
 
-<center>![](../images/var-chart4.png){width="700"}</center>
+<center>![](images/var-chart4.png){width="700"}</center>
 
 ------------------------------------------------------------------------
 
-<center>![](../images/var-chart5.png){width="700"}</center>
+<center>![](images/var-chart5.png){width="700"}</center>
 
 ------------------------------------------------------------------------
 
 
 
-<center>![](../images/var-chart6.png){width="700"}</center>
+<center>![](images/var-chart6.png){width="700"}</center>
 
 ## [Quant]{.yellow}itative Variables
 
@@ -180,7 +175,7 @@ execute:
 
 #### **Discrete** data
 
-![](../images/smallville.png){.fragment .fade-up fig-align="center" width="307"}
+![](images/smallville.png){.fragment .fade-up fig-align="center" width="307"}
 
 </center>
 :::
@@ -190,7 +185,7 @@ execute:
 
 #### **Continuous** data
 
-![](../images/poll-results.png){.fragment .fade-up fig-align="center" width="307"}
+![](images/poll-results.png){.fragment .fade-up fig-align="center" width="307"}
 
 </center>
 :::
@@ -198,7 +193,7 @@ execute:
 
 ## Example: Survivor
 
-![Quantifying Behavior within the greatest game ever played...](../images/survivor.jpeg){fig-align="center"}
+![Quantifying Behavior within the greatest game ever played...](images/survivor.jpeg){fig-align="center"}
 
 ## Example: [Quantifying]{.yellow} structure
 
@@ -266,7 +261,7 @@ All observations are **qual**itative at the outset!
 
 #### **Numerical** variable
 
-![](../images/dog-hat2.png){.fragment .fade-up fig-align="center" width="407"}
+![](images/dog-hat2.png){.fragment .fade-up fig-align="center" width="407"}
 
 </center>
 :::
@@ -276,7 +271,7 @@ All observations are **qual**itative at the outset!
 
 #### **Nonnumerical** variables
 
-![](../images/dog-hat2-VAR.png){.fragment .fade-up fig-align="center" width="407"}
+![](images/dog-hat2-VAR.png){.fragment .fade-up fig-align="center" width="407"}
 
 </center>
 :::
@@ -287,5 +282,5 @@ All observations are **qual**itative at the outset!
 
 
 
-<center>![](../images/var-chart6.png){width="700"}</center>
+<center>![](images/var-chart6.png){width="700"}</center>
 

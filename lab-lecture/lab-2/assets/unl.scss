@@ -18,55 +18,70 @@ $light-grey: #cccccc !default;
 $dark-steel: #010B13 !default;
 
 $accent: $unl-red;
-$accent2: $yellow;
-$right-arrow: "\2192"; // Unicode character for right arrow
-
-// load fonts from UNL 2023 refresh
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200;0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,700;0,8..60,800;0,8..60,900;1,8..60,200;1,8..60,300;1,8..60,500;1,8..60,600;1,8..60,700;1,8..60,800;1,8..60,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500);
+$accent2: $light-grey;
+$right-arrow: "➭"; // Unicode character for right arrow https://unicode-explorer.com/c/27AD
 
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
+@font-face {
+  font-family: "MonoLisaemw";
+  font-weight: "Regular";
+  font-style: normal;
+  src: url("assets/fonts/MonoLisaemw-Regular.woff") format("woff");
+}
 
 // main text
-$font-family-serif: 'Work Sans', sans-serif !default;
+$font-family-serif: 'Architects Daughter', cursive !default;
 $font-handwriting: 'Architects Daughter', cursive !default;
 
 // headings
-$presentation-heading-font: 'Source Serif 4', sans-serif !default;
+$presentation-heading-font: 'Architects Daughter', cursive  !default;
 $presentation-heading-color: $dark-steel !default;
 $presentation-heading-font-weight: 700;
 
-$h1-font-size: 1.5em !default;
-$h2-font-size: 1.25em !default;
-$h3-font-size: 1em !default;
+$h1-font-size: 1.4rem !default;
+$h2-font-size: 1.2rem !default;
+//$h3-font-size: .9rem !default;
 
 //code
 $code-color: $dark-steel !default;
-$font-family-monospace: 'Oswald', sans-serif !default;
+$font-family-monospace: 'MonoLisaemw', "Fira Mono", monospace !default;
 $code-block-border-color: $grey !default;
 $code-color: $unl-red	!default;	
-$code-bg: $unl-cream !default;	
+$code-bg: $light-cream !default;	
 
 
 // quarto variables
 $body-bg: #fff !default;
 $body-color: $dark-steel !default;
-$link-color: $unl-red !default;
-$link-color-hover: $grey !default;
+$link-color: $navy !default;
+$link-color-hover: lighten($navy, 30%) !default;
 $presentation-heading-color: $unl-red !default;
 
 //tabsets
-$tabset-border-color: $unl-cream !default;
+$tabset-border-color: $unl-red !default;
 
 /*-- scss:rules --*/
 
+//callouts 
+
+.callout.callout-style-default .callout-body {
+    font-size: 1.1rem;
+    font-family: $font-family-monospace;
+}
+
 // headers
 .reveal h2 {
-	background-color:  #d00000;
+	background-color:  $unl-red;
 	padding: 5px 0px 5px 10px;
 	color: lighten($unl-red, 55%);
 	border-radius: 12px; // not a fan of rounded borders
+}
+
+.reveal h3 {
+  color: #404040;
+  font-size: 1.1rem;
+  font-family: $font-handwriting;
 }
 
 // logo size
@@ -78,13 +93,14 @@ $tabset-border-color: $unl-cream !default;
   max-height: unset !important;
 }
 
+// links
 .reveal a {
-  line-height: 1.5em;
+  text-decoration: underline;
 }
 
 .reveal p {
-  font-weight: 300;
-  margin-top: 1.25em;
+  font-family: $font-handwriting;
+  margin-top: 1.15em;
 }
 
 // title page
@@ -181,30 +197,40 @@ p.subtitle:after {
 }
 
 
+
+// vertical center
+.v-center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
 // body-text
 .body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   position: relative;
   border: none;
   flex: 1 1 100%;
   margin: 31px 0;
-  padding: 15px 0;
-  margin-left: 30px; 
-  padding-top: 30px;
+  padding: 1rem;
+  font-family: $font-handwriting;
+  margin-left: 30px; /* Adjust starting position from the left */
+  padding-top: 1rem;
+  margin-top: 1rem;
   background: lighten(#f8f8f8, 3%);
-  box-shadow:  0.3px 0.5px 0.7px hsl(0, 100%, 23%, 0.36),
-   0.8px 1.6px 2px -0.8px hsl(0, 100%, 23%, 0.36),
+  box-shadow: 0.3px 0.5px 0.7px hsl(0, 100%, 23%, 0.36),
+    0.8px 1.6px 2px -0.8px hsl(0, 100%, 23%, 0.36),
     2.1px 4.1px 5.2px -1.7px hsl(0, 100%, 23%, 0.36),
     5px 10px 12.6px -2.5px hsl(0, 100%, 23%, 0.36);
-  
-  &-title {
-    color: inherit;
-  }
 
   @media screen and (min-width: 768px) {
     flex-basis: calc(33.33% - (#{31px * 2} + #{20px * 2}));
     margin: 0 31px;
   }
- 
 }
 
 
@@ -271,6 +297,8 @@ p.subtitle:after {
     text-align: center;
     font-weight: bold;
     font-family: $presentation-heading-font;
+    margin-left: 30px;
+    margin-right: 10px; /* Adjust the number of pixels as needed */
 }
 
 .example {
@@ -369,12 +397,24 @@ h2::after.title {
 
 // Unordered lists
 
-.reveal ul {
-  font-weight: 300;
-  padding-left: 16px;
+// Unordered lists
 
-  li::marker {
-    color: mix($accent, white, 70%);
+.tab-pane ul {
+  list-style: none;
+}
+
+.reveal ul {
+  list-style: none;
+
+  li::before {
+    content: url('https://emmarshall.github.io/runza/img/icons/corn-icon.svg'); /* Replace 'path/to/' with the actual path to your SVG */
+    //content: $right-arrow;
+    font-family: $font-handwriting;
+    //color: mix($accent, white, 90%);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    margin-right: 0.5em;
   }
 }
 
@@ -383,7 +423,8 @@ h2::after.title {
 
   li:before {
     content: $right-arrow;
-    color: mix($accent, white, 60%);
+    font-family: $font-handwriting;
+    color: mix($accent, white, 90%);
     display: inline-block;
     width: 1em;
     margin-left: -1em;
@@ -391,18 +432,19 @@ h2::after.title {
   }
 }
 
+
 a, a > code  {
   color: $grey;
   text-decoration: none;
 }
 
-section.has-dark-background a, a > code  {
-  color: $grey;
-  text-decoration: none;
+
+.gray {
+  color: $accent2;
 }
 
-section.has-dark-background code  {
-  color: $blue;
+.yellow {
+  color: $yellow;
 }
 
 strong {
@@ -421,97 +463,17 @@ del {
   font-weight: bold;
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-ol {
-  counter-reset: my-counter;
-  list-style: none;
-  padding-left: 40px;
-  font-size: 125%;
-  font-weight: bold;
-  text-align: left;
-}
-
-
-ol li {
-  counter-increment: my-counter;
-  padding-left: 40px;
-  position: relative;
-  font-size: 125%;
-  margin: 20px 0;
-  display: block;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-}
-
-ol li::before {
-  content: counter(my-counter);
-  color: #fff;
-  font-size: 100%;
-  font-weight: bold;
-  position: absolute;
-  left: -40px;
-  line-height: 60px;
-  width: 60px;
-  height: 60px;
-  top: 10%;
-  background: $unl-red;
-  border-radius: 50%;
-  text-align: center;
-}
-
 .middle {
   vertical-align: middle;
 }
 
-.center img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.center {
-  text-align: center;
-}
-
-
-// button
-
-// Beamer-style button link environment
-
-.button {
-  display: inline-block;
-  padding: 6px 12px;
-  margin-bottom: 0;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.42857143;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  cursor: pointer;
-  background-color: $accent;
-  border: 1px solid $accent;
-  color: #fff !important;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: all 0.2s ease-in-out;
-}
-
-.button:hover {
-  background-color: $light-grey;
-  border-color: $dark-steel;
-}
-
-.button::before {
-  content: "▶";
-  margin-right: 5px;
+.vl {
+  border-left: 3px solid #404040;
+  height: 500px;
+  position: absolute;
+  left: 49%;
+  margin-left: 10px;
+  top: 30%;
 }
 
 // sizeing options
@@ -521,44 +483,6 @@ ol li::before {
 .medium { font-size: 115% }
 .small { font-size: 70% }
 .tiny { font-size: 50% }
-
-
-
-
-// block-quote
-
-.blockquote {
-  min-height: 5em;
-  padding: 1em 4em;
-  font: 1em/150% $font-handwriting;
-  position: relative;
-  background-color: lightgoldenrodyellow;
-
-  &::before,
-  &::after {
-    position: absolute;
-    height: 3rem;
-  }
-
-  &::before {
-    content: "“";
-    top: 0.3rem;
-    left: 0.9rem;
-  }
-
-  &::after {
-    content: "”";
-    bottom: 0.3rem;
-    right: 0.8rem;
-  }
-
-  i {
-    display: block;
-    font-size: 0.8em;
-    margin-top: 1rem;
-    text-align: right;
-  }
-}
 
 
 .vspace {
@@ -574,17 +498,5 @@ ol li::before {
      margin-left: 5cm;
      padding: 1%;
   }
-  
-//Mermaid theme for diagraming
 
-$mermaid-bg-color: $unl-red;
-$mermaid-edge-color: $dark-grey;
-$mermaid-node-fg-color: $body-color;
-$mermaid-fg-color: $unl-cream;
-$mermaid-fg-color--lighter: lighten($body-color, 10%);
-$mermaid-fg-color--lightest: lighten($body-color, 20%);
-$mermaid-font-family: $font-handwriting;
-$mermaid-label-bg-color: $body-bg;
-$mermaid-label-fg-color: $primary;
-$mermaid-node-bg-color: rgba($primary, 0.1);
-$mermaid-node-fg-color: $primary;
+  
