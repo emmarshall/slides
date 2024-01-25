@@ -2510,7 +2510,7 @@
     "href": "lab-lecture/lab-2/index.html#quantitative-qualitative",
     "title": "Data Sets & Variables",
     "section": "Quantitative → Qualitative",
-    "text": "Quantitative → Qualitative\n\n\n\nBoth are useful and legitimate\n\nCan choose based on topic…\nCan choose based on RH…\nCombine aspects of both…\n\n\n\n\n\n\n\nNumerical variable\n\n\n\n\n\n\n\n\nNonnumerical variables"
+    "text": "Quantitative → Qualitative\n\n\n\nBoth are useful and legitimate\n\nCan choose based on topic…\nCan choose based on RH…\nCombine aspects of both…"
   },
   {
     "objectID": "lab-lecture/lab-2/index.html#using-jamovi",
@@ -2531,7 +2531,7 @@
     "href": "lab-lecture/lab-2/index.html#section-4",
     "title": "Data Sets & Variables",
     "section": "",
-    "text": "MUST define within language/context of YOUR research\nBut look to what others have done…"
+    "text": "MUST define within language/context of YOUR research\n\nLook to what others have done"
   },
   {
     "objectID": "lab-lecture/lab-2/index.html#operationalize-big",
@@ -2539,5 +2539,19 @@
     "title": "Data Sets & Variables",
     "section": "",
     "text": "MUST define within language/context of YOUR research but also look to what others have done"
+  },
+  {
+    "objectID": "lab-lecture/lab-2/index.html#qualitative-quantitative",
+    "href": "lab-lecture/lab-2/index.html#qualitative-quantitative",
+    "title": "Data Sets & Variables",
+    "section": "Qualitative → Quantitative",
+    "text": "Qualitative → Quantitative\n\n\n\nBoth are useful and legitimate\n\nCan choose based on topic…\nCombine aspects of both…"
+  },
+  {
+    "objectID": "lab-lecture/lab-2/index.html#example-final",
+    "href": "lab-lecture/lab-2/index.html#example-final",
+    "title": "Data Sets & Variables",
+    "section": "",
+    "text": "::: r-stack"
   }
 ]

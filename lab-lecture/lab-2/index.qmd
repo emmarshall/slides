@@ -72,7 +72,6 @@ execute:
 ![](images/example-pet1.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
 
 ![](images/rq-define.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
-
 :::
 
 ##  {background-color="#fefdfa"}
@@ -89,27 +88,40 @@ execute:
 ![](images/superman-images.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="4"}
 
 ![](images/superman-live-action.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="5"}
-
-
 :::
 
-##  {background-color="#fefdfa" .smaller} 
+##  {.smaller background-color="#fefdfa"}
+
 ::: inner-container
 ::: post-it
--   **MUST** define within language/context of **YOUR** research 
--   But look to what others have done...
+-   **MUST** define within language/context of **YOUR** research
+    -   Look to what others have done
+:::
+:::
 
-:::
-:::
 ![](images/operationalize-superman.png){fig-align="center" width="700"}
+
+------------------------------------------------------------------------
+
+<center>![](images/var-chart1.png){width="700"}</center>
+
+## Measurement {.smaller}
+
+::: inner-container
+::: {.post-it .nonincremental}
+-   Assigning **numbers** or **labels** to units of analysis <br> in order to represent the **conceptual** properties
+:::
+:::
+
+::: {.fragment fragment-index="1"}
+<center>![](images/example-big.png){width="600"}</center>
+:::
+
 
 ##  {#operationalize-big background-color="#fefdfa"}
 
-
-
 ::: r-stack
 ![](images/example-big.png){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
-
 
 ![](../images/operationalize-big1.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
 
@@ -122,43 +134,10 @@ execute:
 ![](images/researcher-dof1.png){.fragment .fade-in fig-align="center" width="400" fragment-index="5"}
 :::
 
-
-------------------------------------------------------------------------
-
-<center>![](images/var-chart1.png){width="700"}</center>
-
-## Measurement {.smaller}
-::: inner-container
-::: {.post-it .nonincremental}
--   Assigning **numbers** or **labels** to units of analysis <br> in order to represent the **conceptual** properties
-:::
-:::
-
-:::{.fragment fragment-index="1"}
-<center>![](images/measurement.png){width="600"}</center>
-:::
-
 ------------------------------------------------------------------------
 
 <center>![](images/var-chart2.png){width="700"}</center>
 
-------------------------------------------------------------------------
-
-<center>![](images/var-chart3.png){width="700"}</center>
-
-------------------------------------------------------------------------
-
-<center>![](images/var-chart4.png){width="700"}</center>
-
-------------------------------------------------------------------------
-
-<center>![](images/var-chart5.png){width="700"}</center>
-
-------------------------------------------------------------------------
-
-
-
-<center>![](images/var-chart6.png){width="700"}</center>
 
 ## [Quant]{.yellow}itative Variables
 
@@ -205,9 +184,7 @@ execute:
 
 </center>
 
-
 ## Example: [Quantifying]{.yellow} quality
-
 
 <center>
 
@@ -216,7 +193,6 @@ execute:
 -   User quality **rating** per episode → `continuous var`
 
 <center>
-
 
 ::: notes
 What is Discrete Data? Discrete variables can only assume specific values that you cannot subdivide. Typically, you count them, and the results are integers. For example, if you work at an animal shelter, you'll count the number of cats.
@@ -231,56 +207,71 @@ When you see decimal places for individual values, you're looking at a continuou
 
 Examples of continuous data include weight, height, length, time, and temperature.
 :::
+------------------------------------------------------------------------
+
+<center>![](images/var-chart3.png){width="700"}</center>
+
+------------------------------------------------------------------------
+
+<center>![](images/var-chart4.png){width="700"}</center>
+
+------------------------------------------------------------------------
+
+<center>![](images/var-chart5.png){width="700"}</center>
+
+------------------------------------------------------------------------
+
+<center>![](images/var-chart6.png){width="700"}</center>
+
 
 ## Selecting Variables
 
 <center>
+
 ::: callout-tip
 ## Keep in Mind :eyes:
+
 All observations are **QUAL**ITATIVE at the outset!
 :::
 
 ![](../images/dog-hat1.png){.fragment .fade-in fig-align="center" width="500"}
 
-## [Quant]{.yellow}itative → [Qual]{.yellow}itative {.smaller}
-
+## [Qual]{.yellow}itative → [Quant]{.yellow}itative {.smaller}
 
 ::: inner-container
 ::: post-it
 -   Both are useful and legitimate
     -   Can choose based on topic...
-    -   Can choose based on RH...
     -   Combine aspects of both...
-    
 :::
 :::
 
 ::: columns
 ::: {.column width="50%"}
-<center>
-
-#### **Numerical** variable
-
-![](images/dog-hat2.png){.fragment .fade-up fig-align="center" width="407"}
-
-</center>
+<center>![](../images/dog-hat1.png){.fragment .fade-up fig-align="center" width="407"}</center>
 :::
 
 ::: {.column width="50%"}
-<center>
-
-#### **Nonnumerical** variables
-
-![](images/dog-hat2-VAR.png){.fragment .fade-up fig-align="center" width="407"}
-
-</center>
+<center>![](images/dog-hat-qual.png){.fragment .fade-up fig-align="center" width="407"}</center>
 :::
 :::
 
+
+##  {#example-final background-color="#fefdfa"}
+
+::: r-stack
+![](images/final-superman-rq.png){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
+
+![](images/movie1.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
+
+![](images/movie-quant.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
+
+![](images/movie-qual.png){.fragment .fade-in fig-align="center" width="700" fragment-index="3"}
+
+![](images/superman_data.png){.fragment .fade-in fig-align="center" width="700" fragment-index="4"}
+
+:::
 
 ------------------------------------------------------------------------
 
-
-
 <center>![](images/var-chart6.png){width="700"}</center>
-
