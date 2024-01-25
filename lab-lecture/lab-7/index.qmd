@@ -4,6 +4,7 @@ subtitle: "Lab 7"
 image: 'https://annotatedgilmoregirls.files.wordpress.com/2022/11/yale-university.jpg'
 author: "Instructor: Emma Marshall, JD, MA"
 from: markdown+emoji
+draft: true
 format:
   revealjs: 
     logo: ../assets/logo.svg

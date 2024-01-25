@@ -2,6 +2,7 @@
 title: "Literature Reviews"
 author: "Instructor: Emma Marshall, JD, MA"
 subtitle: "Lab 6"
+draft: true
 image: 'https://annotatedgilmoregirls.files.wordpress.com/2022/11/yale-university.jpg'
 from: markdown+emoji
 date: '2023-10-20'

@@ -237,10 +237,10 @@ Examples of continuous data include weight, height, length, time, and temperatur
 <center>
 ::: callout-tip
 ## Keep in Mind :eyes:
-All observations are **qual**itative at the outset!
+All observations are **QUAL**ITATIVE at the outset!
 :::
 
-![](../images/dog-hat1.png){.fragment .fade-in}
+![](../images/dog-hat1.png){.fragment .fade-in fig-align="center" width="500"}
 
 ## [Quant]{.yellow}itative → [Qual]{.yellow}itative {.smaller}
 
