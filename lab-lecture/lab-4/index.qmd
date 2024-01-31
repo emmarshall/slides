@@ -29,41 +29,46 @@ execute:
 ## Today's Tasks {background-image="images/fitz.png" background-opacity="0.1"}
 
 ::: incremental
--   Wrapping up Lab 3 APA References Assignment
--   Today's lab:
-    -   Bibliographic Research Assignment (due next week)
-    -   Research Project Pre-Proposal (due next week)
+-   Lab 4:
+    -   Bibliographic Research Assignment
+    -   Research Project Pre-Proposal
 :::
 
-# APA format & Style and Zotero
+# Bibliographic research
 
-# Download and install [Zotero](https://www.zotero.org/)
+![](https://imgs.xkcd.com/comics/types_of_scientific_paper.png){fig-align="center" width="783"}
 
-## APA References Assignment
+## Library resources walkthrough
+
+> Don't try to reinvent the wheel!
+
+## Internet-ing as an academic
+
+-   UNL [Library Resources](https://unl.libguides.com/researchtools)
+    -   [PSYC-350 Guide](https://unl.libguides.com/psyc350)
+    -   [Interlibrary loan service](https://unl.illiad.oclc.org/illiad/logon.html)
+-   [Google Scholar](https://unl.libguides.com/scholar)
+-   [Boolean Searching](https://libguides.usc.edu/searching/boolean)
+-   Be creative!
+    -   Faculty websites?
+    -   Email authors?
+
+If you need help or have questions, visit https://libraries.unl.edu/askus-1 
+
+
+## IYKYK
 
 ::: callout-tip
--   Use the Zotero handout!
--   Don't try to reinvent the wheel!
+I am definitely not telling you to use an alternative open-source site like [Sci-hub](https://en.wikipedia.org/wiki/Sci-Hub) because I would never tell you to do that because IP & copyright law is super-duper moral and uncomplicated.
 :::
 
-## How to get citation
-
-::: columns
-::: {.column width="50%"}
-![](images/single_item.gif)
-:::
-
-::: {.column width="50%"}
-![](images/zotero_collection.gif)
-:::
-:::
 
 # Questions? {background-image="images/fitz.png" background-opacity="0.1"}
 
-
 ## Bibliographic Assignment {.smaller}
 
-::: incremental
+
+::: {.body .nonincremental}
 -   Step 1: Locate variables of interest (i.e., Lab 1&2 question 5 or pick new ones)
 -   Step 2: Find [(classic)]{.rn} articles!
 -   Step 3: Find [MORE (recent)]{.rn} articles!
@@ -79,23 +84,24 @@ The goal is to build a section of your final project--taking your time to do thi
 
 ## Practice: Finding articles
 
+::: inner-container
+::: post-it
+**Hindsight bias** is the tendency for individuals to rely on new knowledge when recalling their initial predictions of an event.
+:::
+:::
+
 [![](images/hindsight-bias.png)](https://web.colby.edu/cogblog/2019/11/25/who-needs-a-crystal-ball-to-see-the-future-when-hindsight-bias-makes-you-feel-as-if-you-knew-it-all-along/)
 
-------------------------------------------------------------------------
-
-
-
-**Hindsight bias** is the tendency for individuals to rely on new knowledge when recalling their initial predictions of an event.
+## Practice Finding References {.scrollable}
 
 ::: inner-container
 ::: post-it
--   **Step 1: Locate variables of interest**
-    -   Hindsight Bias (construct itself not specific scales!)
--   **Step 2: Find (classic) articles!**
-    -   ...to PsychInfo...
+-   **Step 1: Identify `concept` or `construct` of interest**
+    -   Hindsight Bias (construct itself not specific scales or variables!)
+-   **Step 2: Find (classic) articles**
+    -   GO to [APA PsychInfo](https://unl.libguides.com/az.php?s=14107)!!!
 -   **Step 3: Find MORE (recent) articles!**
     -   ...within last five years so PsychInfo or Google Scholar
-
 :::
 :::
 
@@ -105,35 +111,42 @@ The goal is to build a section of your final project--taking your time to do thi
 > [Hindsight bias]{.rn} is the tendency for individuals to rely on new knowledge when recalling their initial predictions of an event.
 
 -   **Step 4:** Identify the larger context to create search terms
-    -   ...hindsight bias is a cognitive bias and relates to how people make sense of events 
--   **Step 5: Search them terms!**
-    -   
+
+    -   ...hindsight bias is a cognitive bias and relates to how people make sense of events
+
+-   
+
+    ## **Step 5: Search them terms!**
+
 -   **Step 6: Find EVEN MORE (authors) references!**
-    -   ...reference section of newer articles is a great place to look 
+
+    -   ...reference section of newer articles is a great place to look
+
 -   Step 7: Organize and construct references section in APA format using ZOTERO
-    -  ...always double-check meta-data is accurate and includes APA components
-    
+
+    -   ...always double-check meta-data is accurate and includes APA components
 :::
 
 ## How to select `good` articles
 
-[Journal impact factor](https://www.apa.org/pubs/journals/resources/impact-factors
-)
+[Journal impact factor](https://www.apa.org/pubs/journals/resources/impact-factors)
 
 [Open Science Badges]()
 
-[Target audience]()
-# Questions? {background-image="images/fitz.png" background-opacity="0.1"}
+[Target audience]() \# Questions? {background-image="images/fitz.png" background-opacity="0.1"}
 
 ## Research Project Pre-Proposal {.smaller}
 
-::: callout-warning 
-You **CANNOT** use **gender** as one of the variables for your project. 
+::: callout-warning
+You **CANNOT** use **gender** as one of the variables for your project.
 :::
 
 -   Step 0: Select Data Source for project
+
 -   Step 1: Select **CORE** variable
+
 -   Step 2: Find (3) references related to the **CONCEPT** measured by core variable
+
 -   Step 3: Select ~~other~~ variables for RHs in project
 
     -   Var 1 (Quant)
@@ -141,8 +154,6 @@ You **CANNOT** use **gender** as one of the variables for your project.
     -   Var 3 (Cat)
     -   Var 4 (Cat)
     -   BONUS: Var 5 (Quant) & Var 6 (Cat)
-
-
 
 # Questions? {background-image="images/fitz.png" background-opacity="0.1"}
 

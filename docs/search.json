@@ -2069,7 +2069,7 @@
     "href": "lab-lecture/lab-2/index.html#todays-tasks",
     "title": "Data Sets & Variables",
     "section": "Today’s Tasks",
-    "text": "Today’s Tasks\n\n\n\nLab 1 & 2:\n\nMeasuring variables\nIntroduction to final project datasets\nIntroduction to SPSS & JAMOVI"
+    "text": "Today’s Tasks\n\n\n\nLab 1 & 2:\n\nIdentifying & Measuring variables\nIntroduction to final project datasets\nIntroduction to SPSS & JAMOVI"
   },
   {
     "objectID": "lab-lecture/lab-2/index.html#lab-1-2-activities",
@@ -2118,7 +2118,7 @@
     "href": "lab-lecture/lab-2/index.html#quantitative-variables",
     "title": "Data Sets & Variables",
     "section": "Quantitative Variables",
-    "text": "Quantitative Variables\n\n\n\nYou count discrete data\nYou measure continuous data\n\n\n\n\n\n\nDiscrete data\n\n\n\n\n\n\n\n\nContinuous data"
+    "text": "Quantitative Variables"
   },
   {
     "objectID": "lab-lecture/lab-2/index.html#example-survivor",
@@ -2264,8 +2264,8 @@
     "objectID": "lab-lecture/lab-2/index.html#qualitative-vs.-quantitative-variables",
     "href": "lab-lecture/lab-2/index.html#qualitative-vs.-quantitative-variables",
     "title": "Data Sets & Variables",
-    "section": "Qualitative vs. Quantitative Variables",
-    "text": "Qualitative vs. Quantitative Variables\n\n\n\n\n\n\n\n\nNote\n\n\nAll observations are qualitative at the outset!\n\n\n\n\nQualitative: Nonnumerical\nQuantitative: Numerical\nBoth are useful and legitimate\n\nCan choose based on topic or combine aspects of both"
+    "section": "Qualitative vs. Quantitative: Variables",
+    "text": "Qualitative vs. Quantitative: Variables\n\n\n\nAll observations start as QUALITATIVE\nBoth are useful and legitimate\n\nCan choose based on topic\nOR Combine aspects of both"
   },
   {
     "objectID": "lab-lecture/lab-2/index.html#survivor-understanding-an-episode",
@@ -2489,7 +2489,7 @@
     "href": "lab-lecture/lab-2/index.html#selecting-variables",
     "title": "Data Sets & Variables",
     "section": "Selecting Variables",
-    "text": "Selecting Variables\n\n\n\n\n\n\n\nKeep in Mind 👀\n\n\nAll observations are QUALITATIVE at the outset!"
+    "text": "Selecting Variables\n\n\n\n\n\n\n\nKeep in Mind 👀"
   },
   {
     "objectID": "lab-lecture/lab-2/index.html#example-quantifying-structure",
@@ -2545,7 +2545,7 @@
     "href": "lab-lecture/lab-2/index.html#qualitative-quantitative",
     "title": "Data Sets & Variables",
     "section": "Qualitative → Quantitative",
-    "text": "Qualitative → Quantitative\n\n\n\nBoth are useful and legitimate\n\nCan choose based on topic…\nCombine aspects of both…"
+    "text": "Qualitative → Quantitative\n\n\n\nBoth are useful and legitimate\n\nCan choose based on topic…\nCombine aspects of both…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAll observations are QUALITATIVE at the outset!"
   },
   {
     "objectID": "lab-lecture/lab-2/index.html#example-final",
@@ -2553,5 +2553,110 @@
     "title": "Data Sets & Variables",
     "section": "",
     "text": "::: r-stack"
+  },
+  {
+    "objectID": "lab-lecture/lab-2/index.html#quantitative-variables-1",
+    "href": "lab-lecture/lab-2/index.html#quantitative-variables-1",
+    "title": "Data Sets & Variables",
+    "section": "Quantitative Variables",
+    "text": "Quantitative Variables\n\n\n\nYou count discrete data\nYou measure continuous data\n\n\n\n\n\n\nDiscrete data\n\n\n\n\n\n\n\n\nContinuous data"
+  },
+  {
+    "objectID": "lab-lecture/lab-2/index.html#quantitative-variables-2",
+    "href": "lab-lecture/lab-2/index.html#quantitative-variables-2",
+    "title": "Data Sets & Variables",
+    "section": "Quantitative Variables",
+    "text": "Quantitative Variables\n\n\n\nYou count discrete data\nYou measure continuous data\n\n\n\n\n\n\nDiscrete data\n\n\n\n\n\n\n\n\nContinuous data"
+  },
+  {
+    "objectID": "lab-lecture/lab-2/index.html#quantitative-variables-3",
+    "href": "lab-lecture/lab-2/index.html#quantitative-variables-3",
+    "title": "Data Sets & Variables",
+    "section": "Quantitative Variables",
+    "text": "Quantitative Variables"
+  },
+  {
+    "objectID": "lab-lecture/lab-2/index.html#qualitative-variables",
+    "href": "lab-lecture/lab-2/index.html#qualitative-variables",
+    "title": "Data Sets & Variables",
+    "section": "Qualitative Variables",
+    "text": "Qualitative Variables"
+  },
+  {
+    "objectID": "lab-lecture/lab-2/index.html#selecting-variables-qualitative-vs.-quantitative",
+    "href": "lab-lecture/lab-2/index.html#selecting-variables-qualitative-vs.-quantitative",
+    "title": "Data Sets & Variables",
+    "section": "Selecting Variables:  Qualitative vs. Quantitative",
+    "text": "Selecting Variables:  Qualitative vs. Quantitative\n\n\n\nAll observations start as QUALITATIVE\nBoth are useful and legitimate\n\nCan choose based on topic\nOR Combine aspects of both"
+  },
+  {
+    "objectID": "lab-lecture/lab-2/index.html#practice-survivor",
+    "href": "lab-lecture/lab-2/index.html#practice-survivor",
+    "title": "Data Sets & Variables",
+    "section": "Practice: Survivor",
+    "text": "Practice: Survivor\n\nQuantifying Behavior within the greatest game ever played…"
+  },
+  {
+    "objectID": "lab-lecture/lab-2/index.html#practice-quantifying-structure",
+    "href": "lab-lecture/lab-2/index.html#practice-quantifying-structure",
+    "title": "Data Sets & Variables",
+    "section": "Practice: Quantifying structure",
+    "text": "Practice: Quantifying structure\n\n\n\n\nConfessional: is when they sit there and talk to the camera one-on-one\n\n\n\nConfessional count per episode → discrete var"
+  },
+  {
+    "objectID": "lab-lecture/lab-2/index.html#practice-quantifying-quality",
+    "href": "lab-lecture/lab-2/index.html#practice-quantifying-quality",
+    "title": "Data Sets & Variables",
+    "section": "Practice: Quantifying quality",
+    "text": "Practice: Quantifying quality\n\n\n\n\nIMDB score: user generated ratings of quality\n\n\n\nUser quality rating per episode → continuous var\n\n\n\nWhat is Discrete Data? Discrete variables can only assume specific values that you cannot subdivide. Typically, you count them, and the results are integers. For example, if you work at an animal shelter, you’ll count the number of cats.\nDiscrete data can only take on specific values. For example, you might count 20 cats at the animal shelter. These variables cannot have fractional or decimal values. You can have 20 or 21 cats, but not 20.5! Natural numbers have discrete values.\nExamples of discrete data include The number of books you check out from the library. The number of heads in a sequence of coin tosses. The result of rolling a die. The number of patients in a hospital. The population of a country.\nWhat is Continuous Data? Continuous variables can assume any numeric value and can be meaningfully split into smaller parts. Consequently, they have valid fractional and decimal values. In fact, continuous data have an infinite number of potential values between any two points. Generally, you measure them using a scale.\nWhen you see decimal places for individual values, you’re looking at a continuous variable.\nExamples of continuous data include weight, height, length, time, and temperature."
+  },
+  {
+    "objectID": "lab-lecture/lab-2/index.html#how-big-is-superman",
+    "href": "lab-lecture/lab-2/index.html#how-big-is-superman",
+    "title": "Data Sets & Variables",
+    "section": "How Big is Superman?",
+    "text": "How Big is Superman?"
+  },
+  {
+    "objectID": "lab-lecture/lab-2/index.html#example",
+    "href": "lab-lecture/lab-2/index.html#example",
+    "title": "Data Sets & Variables",
+    "section": "Example",
+    "text": "Example"
+  },
+  {
+    "objectID": "lab-lecture/lab-2/index.html#section-5",
+    "href": "lab-lecture/lab-2/index.html#section-5",
+    "title": "Data Sets & Variables",
+    "section": "",
+    "text": ":::"
+  },
+  {
+    "objectID": "lab-lecture/lab-2/index.html#identifying-variables-qualitative-vs.-quantitative",
+    "href": "lab-lecture/lab-2/index.html#identifying-variables-qualitative-vs.-quantitative",
+    "title": "Data Sets & Variables",
+    "section": "Identifying Variables  Qualitative vs. Quantitative",
+    "text": "Identifying Variables  Qualitative vs. Quantitative\n\n\n\nAll observations start as QUALITATIVE\nBoth are useful and legitimate\n\nCan choose based on topic\nOR Combine aspects of both"
+  },
+  {
+    "objectID": "lab-lecture/lab-2/index.html#measuring-variables-qualitative-vs.-quantitative",
+    "href": "lab-lecture/lab-2/index.html#measuring-variables-qualitative-vs.-quantitative",
+    "title": "Data Sets & Variables",
+    "section": "Measuring Variables: Qualitative vs. Quantitative",
+    "text": "Measuring Variables: Qualitative vs. Quantitative\n\n\n\nAll observations start as QUALITATIVE\nBoth are useful and legitimate\n\nCan choose based on topic\nOR Combine aspects of both"
+  },
+  {
+    "objectID": "lab-lecture/lab-2/index.html#section-6",
+    "href": "lab-lecture/lab-2/index.html#section-6",
+    "title": "Data Sets & Variables",
+    "section": "",
+    "text": "::: columns ::: {.column width=“50%”} ::: r-stack \n\n\n\n\n\n ::: :::"
+  },
+  {
+    "objectID": "lab-lecture/lab-2/index.html#qualitative-vs.-quantitative",
+    "href": "lab-lecture/lab-2/index.html#qualitative-vs.-quantitative",
+    "title": "Data Sets & Variables",
+    "section": "Qualitative vs. Quantitative",
+    "text": "Qualitative vs. Quantitative\n\n\n\nAll observations start as QUALITATIVE\nBoth are useful and legitimate\n\nCan choose based on topic\nOR Combine aspects of both"
   }
 ]

@@ -30,15 +30,11 @@ execute:
 ::: inner-container
 ::: post-it
 -   Lab 1 & 2:
-    -   Measuring variables
+    -   Identifying & Measuring variables
     -   Introduction to final project datasets
     -   Introduction to SPSS & JAMOVI
 :::
 :::
-
-## Lab 1 & 2 Activities
-
-![](images/lab-1.png)
 
 # The Research Process
 
@@ -50,8 +46,6 @@ execute:
 ![](images/research-cycle.png){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
 
 ![](images/scientific-method-meme.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
-
-![](../images/research_process.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
 :::
 
 ##  {background-color="#fefdfa"}
@@ -101,45 +95,77 @@ execute:
 
 ![](images/operationalize-superman.png){fig-align="center" width="700"}
 
+# Identifying & Measuring Variables
+
 ------------------------------------------------------------------------
 
 <center>![](images/var-chart1.png){width="700"}</center>
 
-## Measurement {.smaller}
-
-::: inner-container
-::: {.post-it .nonincremental}
--   Assigning **numbers** or **labels** to units of analysis <br> in order to represent the **conceptual** properties
-:::
-:::
-
-::: {.fragment fragment-index="1"}
-<center>![](images/example-big.png){width="600"}</center>
-:::
-
-
-##  {#operationalize-big background-color="#fefdfa"}
+##  {background-color="#fefdfa"}
 
 ::: r-stack
-![](images/example-big.png){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
+![](images/example-big.png){.fragment .fade-out fig-align="center" width="600" fragment-index="1"}
 
-![](../images/operationalize-big1.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
+![](../images/operationalize-big1.png){.fragment .fade-in-then-out fig-align="center" width="600" fragment-index="1"}
 
-![](images/operationalize-big2.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
+![](images/operationalize-big2.png){.fragment .fade-in-then-out fig-align="center" width="600" fragment-index="2"}
 
-![](images/rq-edited.png){.fragment .fade-in fig-align="center" width="700" fragment-index="3"}
+![](images/measurement-big.png){.fragment .fade-in fig-align="center" width="600" fragment-index="3"}
 
-![](images/researcher-dof2.png){.fragment .fade-in fig-align="center" width="700" fragment-index="4"}
+![](images/researcher-dof2.png){.fragment .fade-in fig-align="center" width="600" fragment-index="4"}
 
-![](images/researcher-dof1.png){.fragment .fade-in fig-align="center" width="400" fragment-index="5"}
+![](images/researcher-dof1.png){.fragment .fade-in fig-align="center" width="300" fragment-index="5"}
 :::
 
 ------------------------------------------------------------------------
 
 <center>![](images/var-chart2.png){width="700"}</center>
 
+## [Qual]{.yellow}itative vs. [Quant]{.yellow}itative {.smaller}
+
+::: inner-container
+::: post-it
+-   All observations start as **QUAL**ITATIVE
+-   Both are useful and legitimate
+    -   Can choose based on topic
+    -   OR Combine aspects of both
+:::
+:::
+
+::: columns
+::: {.column width="50%"}
+<center>![](../images/dog-hat1.png){.fragment .fade-up fig-align="center" width="407"}</center>
+:::
+
+::: {.column width="50%"}
+<center>![](images/dog-hat-qual.png){.fragment .fade-up fig-align="center" width="407"}</center>
+:::
+:::
+
+
+------------------------------------------------------------------------
+
+<center>![](images/var-chart2.png){width="700"}</center>
+
+
+## [Qual]{.yellow}itative Variables
+
+<center>![](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/38f5ed46-9dcd-4981-9ae0-497fb20aa65c_rw_3840.png?h=5d4e996401523aa75bebe6ef2841e847){width="612"}</center>
+
+
+------------------------------------------------------------------------
+
+<center>![](images/var-chart3.png){width="700"}</center>
+
+------------------------------------------------------------------------
+
+<center>![](images/var-chart4.png){width="700"}</center>
 
 ## [Quant]{.yellow}itative Variables
+
+<center>![](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/5c0b4bea-b51d-42cb-b0bb-1bc1d59ac0c5_rw_3840.png?h=1693caa96119852fb071a0c4562cb076){width="560"}</center>
+
+## [Quant]{.yellow}itative Variables {.smaller}
 
 ::: inner-container
 ::: post-it
@@ -154,7 +180,7 @@ execute:
 
 #### **Discrete** data
 
-![](images/smallville.png){.fragment .fade-up fig-align="center" width="307"}
+![](images/smallville.png){fig-align="center" width="307"}
 
 </center>
 :::
@@ -164,17 +190,19 @@ execute:
 
 #### **Continuous** data
 
-![](images/poll-results.png){.fragment .fade-up fig-align="center" width="307"}
+![](images/poll-results.png){fig-align="center" width="307"}
 
 </center>
 :::
 :::
 
-## Example: Survivor
+</center>
 
-![Quantifying Behavior within the greatest game ever played...](images/survivor.jpeg){fig-align="center"}
+## Practice: Survivor {.smaller}
 
-## Example: [Quantifying]{.yellow} structure
+![Quantifying Behavior within the greatest game ever played...](images/survivor.jpeg){fig-align="center" width="448"}
+
+## Practice: [Quant]{.yellow}ifying structure
 
 <center>
 
@@ -184,7 +212,7 @@ execute:
 
 </center>
 
-## Example: [Quantifying]{.yellow} quality
+## Practice: [Quant]{.yellow}ifying quality
 
 <center>
 
@@ -207,70 +235,44 @@ When you see decimal places for individual values, you're looking at a continuou
 
 Examples of continuous data include weight, height, length, time, and temperature.
 :::
-------------------------------------------------------------------------
 
-<center>![](images/var-chart3.png){width="700"}</center>
+##  {background-color="#fefdfa"}
 
-------------------------------------------------------------------------
+::: r-stack
+![](images/final-rq.png){.fragment .fade-out fig-align="center" width="350" fragment-index="1"}
 
-<center>![](images/var-chart4.png){width="700"}</center>
+![](images/var-quant.png){.fragment .fade-in-then-out fig-align="center" width="350" fragment-index="1"}
 
-------------------------------------------------------------------------
+![](images/var-qual.png){.fragment .fade-in-then-out fig-align="center" width="350" fragment-index="2"}
 
-<center>![](images/var-chart5.png){width="700"}</center>
-
-------------------------------------------------------------------------
-
-<center>![](images/var-chart6.png){width="700"}</center>
-
-
-## Selecting Variables
-
-<center>
-
-::: callout-tip
-## Keep in Mind :eyes:
-
-All observations are **QUAL**ITATIVE at the outset!
-:::
-
-![](../images/dog-hat1.png){.fragment .fade-in fig-align="center" width="500"}
-
-## [Qual]{.yellow}itative → [Quant]{.yellow}itative {.smaller}
-
-::: inner-container
-::: post-it
--   Both are useful and legitimate
-    -   Can choose based on topic...
-    -   Combine aspects of both...
-:::
+![](images/superman_data.png){.fragment .fade-in fig-align="center" width="700" fragment-index="3"}
 :::
 
 ::: columns
 ::: {.column width="50%"}
-<center>![](../images/dog-hat1.png){.fragment .fade-up fig-align="center" width="407"}</center>
+::: r-stack
+![](images/movie-heights.png){.fragment .fade-out fig-align="center" fragment-index="1"}
+
+![](images/movie-heights-quant.png){.fragment .fade-in-then-out fig-align="center" fragment-index="1"}
+
+![](images/movie-heights-qual.png){.fragment .fade-in fig-align="center" fragment-index="2"}
+:::
 :::
 
 ::: {.column width="50%"}
-<center>![](images/dog-hat-qual.png){.fragment .fade-up fig-align="center" width="407"}</center>
-:::
-:::
-
-
-##  {#example-final background-color="#fefdfa"}
-
 ::: r-stack
-![](images/final-superman-rq.png){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
+![](images/tv-heights.png){.fragment .fade-out fig-align="center" fragment-index="1"}
 
-![](images/movie1.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
+![](images/tv-heights-quant.png){.fragment .fade-in-then-out fig-align="center" fragment-index="1"}
 
-![](images/movie-quant.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
-
-![](images/movie-qual.png){.fragment .fade-in fig-align="center" width="700" fragment-index="3"}
-
-![](images/superman_data.png){.fragment .fade-in fig-align="center" width="700" fragment-index="4"}
-
+![](images/tv-heights-qual.png){.fragment .fade-in fig-align="center" fragment-index="2"}
 :::
+:::
+:::
+
+## Lab 1 & 2 Activities
+
+![](images/lab-1.png)
 
 ------------------------------------------------------------------------
 

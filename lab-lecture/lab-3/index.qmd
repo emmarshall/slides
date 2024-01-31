@@ -31,47 +31,13 @@ execute:
 
 ::: inner-container
 ::: post-it
--   Today's lab:
-    -   Library resources walk-through
+-   Lab 3:
     -   Overview of APA format
     -   Intro to Zotero
     
 :::
 :::
 
-# Lab 3: Bibliographic research
-
-![](https://imgs.xkcd.com/comics/types_of_scientific_paper.png){fig-align="center" width="783"}
-
-## Library resources walkthrough
-
-> Don't try to reinvent the wheel!
-
-::: incremental
--   UNL Library tab (on Canvas)
-    -   Download ALL the linked handouts & guides
-    -   [Powerpoint demo](https://docs.google.com/presentation/d/19H3m-sIVZJrdI0NuGTayNg0JcdCAi8ok9QeC3RwEp_s/edit#slide=id.g13284654aef_0_9)
-    -   [Boolean Searching](https://libguides.usc.edu/searching/boolean)
-:::
-
-## Internet-ing as an academic {.incremental}
-
--   [APA Psych-info](https://unl.libguides.com/az.php?s=14107)
--   [Google Scholar](https://unl.libguides.com/scholar)
--   Be creative!
-    -   Faculty websites?
-    -   Email authors?
-
-
-::: aside
-If you can't find full text access through Google Scholar, request it via [UNL Libraries' interlibrary loan service](https://unl.illiad.oclc.org/illiad/logon.html). DO THIS!
-:::
-
-## IYKYK
-
-::: callout-warning
-I am definitely not telling you to use an alternative open-source site like [Sci-hub](https://en.wikipedia.org/wiki/Sci-Hub) because I would never tell you to do that because IP & copyright law is super-duper moral and uncomplicated.
-:::
 
 # APA format & Style and Zotero
 
@@ -80,7 +46,7 @@ I am definitely not telling you to use an alternative open-source site like [Sci
 ## APA References Assignment
 
 ::: callout-tip
--   Use the Zotero handout!
+-   Zotero [LibGuide](https://unl.libguides.com/zotero)!
 -   Don't try to reinvent the wheel!
 :::
 
