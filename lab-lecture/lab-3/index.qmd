@@ -48,11 +48,9 @@ execute:
 ::: {.columns .v-center-container}
 ::: {.column width="45%"}
 ![](images/types_psych_papers.png){fig-align="center" width="234"}
-
 :::
 
 ::: {.column width="55%"}
-
 ::: vspace
 :::
 
@@ -66,32 +64,25 @@ execute:
 :::
 :::
 
-
-
 ## Why use Zotero?
 
 ![](images/zotero.png){.absolute top="0" right="10" width="75" height="75"}
 
 ::: {.columns .v-center-container}
 ::: {.column width="50%"}
-
-:::vspace2
+::: vspace2
 :::
 
 ::: r-stack
-
 ![](images/zotero-youths.png){.fragment .fade-out fig-align="center" width="560" fragment-index="1"}
 
 ![](images/zotero-manual-entry.png){.fragment .fade-in fig-align="center" width="560" fragment-index="1"}
-
 :::
-
 :::
 
 ::: {.column width="50%"}
 ![](images/reference_page.png)
 :::
-
 :::
 
 ## Downloading [Zotero](https://www.zotero.org/)
@@ -100,93 +91,149 @@ execute:
 
 ![](images/zotero-basic.png){fig-align="center" width="700"}
 
-## Using Zotero
+## Zotero Basics
 
 ![](images/zotero.png){.absolute top="0" right="10" width="75" height="75"}
 
 ::: r-stack
+![](images/zotero-blank.png){.fragment .fade-out fig-align="center" width="800" fragment-index="1"}
 
-![](images/zotero-blank.png){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
+![](images/zotero-sections.png){.fragment .fade-in-then-out fig-align="center" width="800" fragment-index="1"}
 
+![](images/toolbar-basics.png){.fragment .fade-in-then-out fig-align="center" width="800" fragment-index="2"}
 
-![](images/zotero-sections.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
+![](images/meta-type.png){.fragment .fade-in fig-align="center" width="800" fragment-index="3"}
 
-![](images/toolbar-basics.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
+![](images/select-item-type.png){.fragment .fade-in-then-out fig-align="left" width="200" fragment-index="4"}
 
-
-![](images/meta-type.png){.fragment .fade-in fig-align="center" width="700" fragment-index="3"}
-
-:::
-
-## Adding Items
-
-![](images/zotero.png){.absolute top="0" right="10" width="75" height="75"}
-
-
-:::vspace
-:::
-::: {.columns .v-center-container}
-::: {.column width="50%"}
-
-Internet Browser Extension
-
-::: r-stack
-
-![](images/apa-paper-safari.png){.fragment .fade-out fig-align="center" width="560" fragment-index="1"}
-
-![](images/article-info-annotated.png){.fragment .fade-in-then-out fig-align="center" width="560" fragment-index="1"}
-:::
-
-:::
-
-::: {.column width="50%"}
-
-Local File <br> (i.e., Downloaded PDF)
-
-![](images/pdf.png){fig-align="center" width="560"}
-
-
-:::
-:::
+![](images/select-item-type.png){.fragment .fade-in fig-align="left" width="200" fragment-index="4"}
 :::
 
 
-## Journal Articles
+## APA 7: Journal Articles {.smaller}
 
 ![](images/reference_page.png){.absolute top="0" right="10" width="65" height="70"}
 
-The general [APA 7]{.underline} format is:
 
 ::: body
+The general format is:
+
+::: {style="text-indent: -1em; padding-left: 2em"}
 
 [Author, A. A., Author, B. B., & Author, C. C.]{.fragment fragment-index="1" style="color: red;"} [(Year of publication).]{.fragment fragment-index="2" style="color: blue;"} [Title of article.]{.fragment fragment-index="3" style="color: orange;"} [*Title of Journal*,]{.fragment fragment-index="4" style="color: magenta;"} [*volume number*]{.fragment fragment-index="5" style="color: grey;"} [(issue number),]{.fragment fragment-index="6" style="color: HotPink;"} [pages.]{.fragment fragment-index="7" style="color: purple;"}
-
+:::
 
 ::: callout-tip
 ## EXAMPLE
+
 ::: {.fragment fragment-index="1"}
+::: {style="text-indent: -1em; padding-left: 2em"}
 [Rachlinski, J. J., Guthrie, C., & Wistrich, A. J.]{.fragment fragment-index="1" style="color: red;"} [(2011).]{.fragment fragment-index="2" style="color: blue;"} [Probable Cause, Probability, and Hindsight.]{.fragment fragment-index="3" style="color: orange;"} [*Journal of Empirical Legal Studies*,]{.fragment fragment-index="4" style="color: magenta;"} [*72*]{.fragment fragment-index="5" style="color: green;"}[(51),]{.fragment fragment-index="6" style="color: HotPink;"} [157--180.]{.fragment fragment-index="7" style="color: purple;"} [https://doi-org.libproxy.unl.edu/10.1111/j.1740-1461.2011.01230.x]{.fragment fragment-index="8" style="color: grey;"}
 :::
 :::
+:::
+:::
+
+## Generate APA 7 Citations
+
+![](images/zotero.png){.absolute top="0" right="10" width="75" height="75"}
+
+::: r-stack
+
+![](images/journal-meta-entry.png){.fragment .fade-out fig-align="center" width="800" fragment-index="1"}
+
+
+![](images/create-citation-item.png){.fragment .fade-in-then-out fig-align="left" width="800" fragment-index="1"}
+
+![](images/create-citation-item1.png){.fragment .fade-in-then-out fig-align="left" width="200" fragment-index="1"}
+
+![](images/create-citation-item2.png){.fragment fig-align="center" width="800" fragment-index="2"}
 
 :::
 
+# Creating Collections
 
-## APA References Assignment
+## Add Collection
 
+![](images/zotero-collection.png){.absolute top="0" right="10" width="75" height="75"}
+
+![](images/new-collection-options.png){fig-align="center" width="600"}
+
+## Collection "Reports"
+
+![](images/zotero-collection.png){.absolute top="0" right="10" width="75" height="75"}
+
+::: r-stack
+
+![](images/generate-report1.png){.fragment .fade-out fig-align="center" width="800" fragment-index="2"}
+
+![](images/generate-report2.png){.fragment .fade-in-then-out fig-align="left" width="200" fragment-index="1"}
+
+![](images/zotero-report.png){.fragment .fade-in-then-out fig-align="left" width="800" fragment-index="2"}
+:::
+
+
+# Adding Items
+
+## Local File (Drag & Drop)
+
+![](images/downloaded_pdf.png){.absolute top="0" right="10" width="75" height="75"}
+
+![](images/drag_pdf.png){fig-align="center" width="600"}
+
+
+## No Metadata? 
+
+![](images/downloaded_pdf.png){.absolute top="0" right="10" width="75" height="75"}
+
+::: r-stack
+
+![](images/journal-meta-entry.png){.fragment .fade-out fig-align="center" width="800" fragment-index="1"}
+
+![](images/child-parent-item.png){.fragment .fade-in-then-out fig-align="center" width="800" fragment-index="1"}
+
+![](images/add-parent-item.png){.fragment .fade-in-then-out fig-align="left" width="200" fragment-index="1"}
+
+![](images/add-parent-item2.png){.fragment .fade-in-then-out fig-align="left" width="800" fragment-index="2"}
+
+![](images/parent-add-meta.png){.fragment .fade-in-then-out fig-align="left" width="800" fragment-index="3"}
+:::
+
+## :crystal_ball: Magic Wand (DOI, ISSBN, etc.)
+
+
+::: r-stack
+
+![](images/magic-wand-entry.png){.fragment .fade-out fig-align="center" width="800" fragment-index="1"}
+
+
+![](images/view-cited-references.png){.fragment .fade-in-then-out fig-align="center" width="800" fragment-index="1"}
+:::
+
+
+
+## Lab 3: APA References
+
+::: v-center-container
 ::: callout-tip
 -   Zotero [LibGuide](https://unl.libguides.com/zotero)!
--   Don't try to reinvent the wheel!
+-   Use Examples!
+:::
 :::
 
-## How to export [collection]{.underline} or [item]{.underline}
+## [Collection]{.underline} vs. [Item]{.underline} 
 
 ::: columns
 ::: {.column width="50%"}
-![](images/single_item.gif)
+![](images/zotero_collection.gif)
 :::
 
 ::: {.column width="50%"}
-![](images/zotero_collection.gif)
+![](images/single_item.gif)
 :::
 :::
+
+
+
+
+

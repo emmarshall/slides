@@ -28,16 +28,25 @@ execute:
 
 ## Today's Tasks {background-image="images/fitz.png" background-opacity="0.1"}
 
-::: incremental
+::: v-center-container
+::: post-it
 -   Lab 4:
     -   Bibliographic Research Assignment
     -   Research Project Pre-Proposal
+    
+:::
 :::
 
-# Bibliographic research
+# Literature Reviews
 
-![](https://imgs.xkcd.com/comics/types_of_scientific_paper.png){fig-align="center" width="783"}
+![](images/types_psych_papers.png){fig-align="center" width="783"}
 
+
+##  {background-color="#fefdfa"}
+
+![](https://emmarshall.github.io/runza/img/emw-avatar.png){.absolute top="0" right="10" width="75" height="75"}
+::: r-stack
+![](images/research-cycle.png){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
 ## Library resources walkthrough
 
 > Don't try to reinvent the wheel!
