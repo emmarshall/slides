@@ -88,11 +88,10 @@ execute:
 -   [Google Scholar](https://unl.libguides.com/scholar)
 -   [Boolean Searching](https://libguides.usc.edu/searching/boolean)
     -   Be creative!
-    
 :::
 
 ::: callout-tip
-If you need help or have questions, ask a [Librarian](https://libraries.unl.edu/askus-1)! 
+If you need help or have questions, ask a [Librarian](https://libraries.unl.edu/askus-1)!
 :::
 
 ## IYKYK
@@ -149,7 +148,6 @@ I am definitely not telling you to use an alternative open-source site like [Sci
 ![](images/sort-by-date.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="3"}
 
 ![](images/older-article.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="4"}
-
 :::
 
 ## Finding a `Hot New` reference
@@ -160,18 +158,14 @@ I am definitely not telling you to use an alternative open-source site like [Sci
 ![](images/psychinfo-newer-article.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
 
 ![](images/article-info-annotated){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
-
 :::
 
-## Expanding the search 
-
+## Expanding the search
 
 ::: r-stack
 ![](images/psychinfo-search4){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
 
-
 ![](images/google-search-terms2){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
-
 :::
 
 ## Using Key Terms
@@ -183,16 +177,15 @@ I am definitely not telling you to use an alternative open-source site like [Sci
 ```{=html}
 <script src="https://pressbooks.nebraska.edu/app/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
 ```
-
 ## How to select `good` articles
 
 [Journal impact factor](https://www.apa.org/pubs/journals/resources/impact-factors)
 
 [Open Science Badges]()
 
-[Target audience]() 
+[Target audience]()
 
-## Lab 4: Bibliographic Research
+## Lab 4: Bibliographic Research {.smaller}
 
 ::: {.body .nonincremental}
 -   Step 1: Find a stating point (identify topic/concept of interest)
@@ -206,7 +199,7 @@ I am definitely not telling you to use an alternative open-source site like [Sci
     -   Locate any review articles or encyclopedia entries
 -   Step 5: Search key **terms** in PsycINFO
 -   Step 6: Expand with key **author** search
--   Step 7: Organize, track & take notes for each article
+-   Step 7: Organize, track & take notes for each article (use Zotero for APA references)
 :::
 
 ## Research Project Pre-Proposal {.smaller}
@@ -215,7 +208,8 @@ I am definitely not telling you to use an alternative open-source site like [Sci
 You **CANNOT** use **gender** as one of the variables for your project.
 :::
 
-{.body .nonincremental}
+::: {.body .nonincremental}
+
 -   Step 0: Select Data Source for project
 -   Step 1: Select **CORE** variable
 -   Step 2: Find (3) references related to the **CONCEPT** measured by core variable
