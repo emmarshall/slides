@@ -179,11 +179,11 @@ I am definitely not telling you to use an alternative open-source site like [Sci
 ```
 ## How to select `good` articles
 
-[Journal impact factor](https://www.apa.org/pubs/journals/resources/impact-factors)
+::: callout-tip
 
-[Open Science Badges]()
+Check the [Journal impact factor](https://www.apa.org/pubs/journals/resources/impact-factors)!!
 
-[Target audience]()
+:::
 
 ## Lab 4: Bibliographic Research {.smaller}
 
@@ -202,10 +202,16 @@ I am definitely not telling you to use an alternative open-source site like [Sci
 -   Step 7: Organize, track & take notes for each article (use Zotero for APA references)
 :::
 
-## Research Project Pre-Proposal {.smaller}
+## Research Project Pre-Proposal {.tiny}
+
+::: vspace
+:::
 
 ::: callout-warning
 You **CANNOT** use **gender** as one of the variables for your project.
+:::
+
+::: vspace
 :::
 
 ::: {.body .nonincremental}
