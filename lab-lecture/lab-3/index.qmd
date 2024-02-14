@@ -120,7 +120,7 @@ The general format is:
 
 ::: {style="text-indent: -1em; padding-left: 2em"}
 
-[Author, A. A., Author, B. B., & Author, C. C.]{.fragment fragment-index="1" style="color: red;"} [(Year of publication).]{.fragment fragment-index="2" style="color: blue;"} [Title of article.]{.fragment fragment-index="3" style="color: orange;"} [*Title of Journal*,]{.fragment fragment-index="4" style="color: magenta;"} [*volume number*]{.fragment fragment-index="5" style="color: grey;"} [(issue number),]{.fragment fragment-index="6" style="color: HotPink;"} [pages.]{.fragment fragment-index="7" style="color: purple;"}
+[Author, A. A., Author, B. B., & Author, C. C.]{.fragment fragment-index="1" style="color: red;"} [(Year of publication).]{.fragment fragment-index="2" style="color: blue;"} [Title of article.]{.fragment fragment-index="3" style="color: orange;"} [*Title of Journal*,]{.fragment fragment-index="4" style="color: magenta;"} [*volume number*]{.fragment fragment-index="5" style="color: grey;"} [(issue number),]{.fragment fragment-index="6" style="color: HotPink;"} [pages.]{.fragment fragment-index="7" style="color: purple;"} [https://doi-org.libproxy.unl.edu/10.1111/j.1740-1461.2011.01230.x]{.fragment fragment-index="8" style="color: grey;"}
 :::
 
 ::: callout-tip

@@ -31,67 +31,102 @@ execute:
 ::: v-center-container
 ::: post-it
 -   Lab 4:
+    -   Literature Reviews
     -   Bibliographic Research Assignment
     -   Research Project Pre-Proposal
-    
 :::
 :::
 
-# Literature Reviews
-
-![](images/types_psych_papers.png){fig-align="center" width="783"}
-
+# The Research Process
 
 ##  {background-color="#fefdfa"}
 
 ![](https://emmarshall.github.io/runza/img/emw-avatar.png){.absolute top="0" right="10" width="75" height="75"}
+
 ::: r-stack
 ![](images/research-cycle.png){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
-## Library resources walkthrough
 
-> Don't try to reinvent the wheel!
+![](images/rq-blank.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
 
-## Internet-ing as an academic
+![](../images/rq-superman.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
 
+![](images/rq-superman-concepts.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="3"}
+
+![](images/operationalize.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="4"}
+
+![](images/operationalize-superman.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="5"}
+
+![](images/example-search1.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="6"}
+
+![](images/example-search2.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="7"}
+
+![](images/research_process_full.png){.fragment .fade-in fig-align="center" width="700" fragment-index="8"}
+:::
+
+## Reviewing the Literature {.smaller}
+
+::: vspace
+:::
+
+![](images/source-knowledge.png){fig-align="center" width="700"}
+
+::: inner-container
+::: post-it
+-   Function of **literature review** is to:
+    -   :tada: **define** relevant constructs
+    -   :bulb: **build** on prior work
+    -   :construction: **design** program of research
+    -   :microphone: **demonstrate** credibility
+:::
+:::
+
+## Internet-ing as an academic {.smaller}
+
+::: {.body .nonincremental}
 -   UNL [Library Resources](https://unl.libguides.com/researchtools)
     -   [PSYC-350 Guide](https://unl.libguides.com/psyc350)
     -   [Interlibrary loan service](https://unl.illiad.oclc.org/illiad/logon.html)
 -   [Google Scholar](https://unl.libguides.com/scholar)
 -   [Boolean Searching](https://libguides.usc.edu/searching/boolean)
--   Be creative!
-    -   Faculty websites?
-    -   Email authors?
+    -   Be creative!
+    
+:::
 
-If you need help or have questions, visit https://libraries.unl.edu/askus-1 
-
+::: callout-tip
+If you need help or have questions, ask a [Librarian](https://libraries.unl.edu/askus-1)! 
+:::
 
 ## IYKYK
+
+::: vspace
+:::
+
+![](images/reference-acess.png){fig-align="center" width="700"}
 
 ::: callout-tip
 I am definitely not telling you to use an alternative open-source site like [Sci-hub](https://en.wikipedia.org/wiki/Sci-Hub) because I would never tell you to do that because IP & copyright law is super-duper moral and uncomplicated.
 :::
 
-
 # Questions? {background-image="images/fitz.png" background-opacity="0.1"}
 
-## Bibliographic Assignment {.smaller}
-
+## Lit Review: Practice {.smaller}
 
 ::: {.body .nonincremental}
--   Step 1: Locate variables of interest (i.e., Lab 1&2 question 5 or pick new ones)
--   Step 2: Find [(classic)]{.rn} articles!
--   Step 3: Find [MORE (recent)]{.rn} articles!
--   Step 4: Identify the larger context in which variables are studied to create [search terms]{.rn}
--   Step 5: Search them terms!
--   Step 6: Find [EVEN MORE (authors)]{.rn} references!
--   Step 7: Organize and construct references section in APA format using ZOTERO
+-   **Step 1:** Find a stating point (identify topic/concept of interest)
+    -   Find a **"classic"** (older) reference on subject
+    -   Find a **"hot new"** reference
+-   **Step 2:** Expand the search: Find more **recent** articles
+    -   Identify current state of field (within \~5 years)
+-   **Step 3:** Expand the search: Find more **older** articles
+    -   Identify articles cited in recent literature (building blocks of field)
+-   **Step 4:** Defining the “Scope” and “Structure” of your topic
+    -   Locate any review articles or encyclopedia entries
+-   **Step 5:** Search key **terms** in PsycINFO
+-   **Step 6:** Expand with key **author** search
+-   **Step 7:** Organize, track & take notes for each article
 :::
 
-::: callout-note
-The goal is to build a section of your final project--taking your time to do this correctly now will save you hours and energy in the future!
-:::
-
-## Practice: Finding articles
+## Step 1: Getting started {.smaller}
 
 ::: inner-container
 ::: post-it
@@ -99,42 +134,56 @@ The goal is to build a section of your final project--taking your time to do thi
 :::
 :::
 
-[![](images/hindsight-bias.png)](https://web.colby.edu/cogblog/2019/11/25/who-needs-a-crystal-ball-to-see-the-future-when-hindsight-bias-makes-you-feel-as-if-you-knew-it-all-along/)
+![](images/hindsight-bias.png){fig-align="center"}
 
-## Practice Finding References {.scrollable}
+## Finding a `classic` reference
 
-::: inner-container
-::: post-it
--   **Step 1: Identify `concept` or `construct` of interest**
-    -   Hindsight Bias (construct itself not specific scales or variables!)
--   **Step 2: Find (classic) articles**
-    -   GO to [APA PsychInfo](https://unl.libguides.com/az.php?s=14107)!!!
--   **Step 3: Find MORE (recent) articles!**
-    -   ...within last five years so PsychInfo or Google Scholar
+::: r-stack
+![](images/unl-library-data-search.png){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
+
+![](images/psychinfo-search-term.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
+
+![](images/psych-info-hb1.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
+
+![](images/filter-search.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
+
+![](images/sort-by-date.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="3"}
+
+![](images/older-article.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="4"}
+
 :::
+
+## Finding a `Hot New` reference
+
+::: r-stack
+![](images/psychinfo-search4){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
+
+![](images/psychinfo-newer-article.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
+
+![](images/article-info-annotated){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
+
 :::
 
-------------------------------------------------------------------------
+## Expanding the search 
 
-::: incremental
-> [Hindsight bias]{.rn} is the tendency for individuals to rely on new knowledge when recalling their initial predictions of an event.
 
--   **Step 4:** Identify the larger context to create search terms
+::: r-stack
+![](images/psychinfo-search4){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
 
-    -   ...hindsight bias is a cognitive bias and relates to how people make sense of events
 
--   
+![](images/google-search-terms2){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
 
-    ## **Step 5: Search them terms!**
-
--   **Step 6: Find EVEN MORE (authors) references!**
-
-    -   ...reference section of newer articles is a great place to look
-
--   Step 7: Organize and construct references section in APA format using ZOTERO
-
-    -   ...always double-check meta-data is accurate and includes APA components
 :::
+
+## Using Key Terms
+
+<iframe src="https://pressbooks.nebraska.edu/melissagomistestbook/wp-admin/admin-ajax.php?action=h5p_embed&amp;id=22" width="846" height="501" frameborder="0" allowfullscreen="allowfullscreen" title="AND, OR, NOT: Boolean Operators/Search Connectors">
+
+</iframe>
+
+```{=html}
+<script src="https://pressbooks.nebraska.edu/app/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
+```
 
 ## How to select `good` articles
 
@@ -142,7 +191,24 @@ The goal is to build a section of your final project--taking your time to do thi
 
 [Open Science Badges]()
 
-[Target audience]() \# Questions? {background-image="images/fitz.png" background-opacity="0.1"}
+[Target audience]() 
+
+## Lab 4: Bibliographic Research
+
+::: {.body .nonincremental}
+-   Step 1: Find a stating point (identify topic/concept of interest)
+    -   Find a **"classic"** (older) reference on subject
+    -   Find a **"hot new"** reference
+-   Step 2: Expand the search: Find more **recent** articles
+    -   Identify current state of field (within \~5 years)
+-   Step 3: Expand the search: Find more **older** articles
+    -   Identify articles cited in recent literature (building blocks of field)
+-   Step 4: Defining the “Scope” and “Structure” of your topic
+    -   Locate any review articles or encyclopedia entries
+-   Step 5: Search key **terms** in PsycINFO
+-   Step 6: Expand with key **author** search
+-   Step 7: Organize, track & take notes for each article
+:::
 
 ## Research Project Pre-Proposal {.smaller}
 
@@ -150,19 +216,18 @@ The goal is to build a section of your final project--taking your time to do thi
 You **CANNOT** use **gender** as one of the variables for your project.
 :::
 
+{.body .nonincremental}
 -   Step 0: Select Data Source for project
-
 -   Step 1: Select **CORE** variable
-
 -   Step 2: Find (3) references related to the **CONCEPT** measured by core variable
-
 -   Step 3: Select ~~other~~ variables for RHs in project
-
     -   Var 1 (Quant)
     -   Var 2 (Quant)
     -   Var 3 (Cat)
     -   Var 4 (Cat)
     -   BONUS: Var 5 (Quant) & Var 6 (Cat)
+
+:::
 
 # Questions? {background-image="images/fitz.png" background-opacity="0.1"}
 
