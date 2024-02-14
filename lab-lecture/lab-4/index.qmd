@@ -2,7 +2,6 @@
 title: "Reviewing the Literature"
 author: "Instructor: Emma Marshall, JD, MA"
 subtitle: "Lab 4"
-draft: true
 image: 'https://annotatedgilmoregirls.files.wordpress.com/2022/11/yale-university.jpg'
 from: markdown+emoji
 format:
