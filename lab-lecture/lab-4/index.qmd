@@ -67,10 +67,16 @@ execute:
 ::: vspace
 :::
 
-![](images/source-knowledge.png){fig-align="center" width="700"}
+::: {.columns .v-center-container}
+::: {.column width="45%"}
+![](images/types_psych_papers.png){fig-align="center" width="234"}
+:::
 
-::: inner-container
-::: post-it
+::: {.column width="55%"}
+::: vspace
+:::
+
+::: body
 -   Function of **literature review** is to:
     -   :tada: **define** relevant constructs
     -   :bulb: **build** on prior work
@@ -78,10 +84,30 @@ execute:
     -   :microphone: **demonstrate** credibility
 :::
 :::
+:::
 
 ## Internet-ing as an academic {.smaller}
 
-::: {.body .nonincremental}
+::: vspace
+:::
+
+::: callout-tip
+If you need help or have questions, ask a [Librarian](https://libraries.unl.edu/askus-1)!
+:::
+
+::: {.columns .v-center-container}
+::: {.column width="60%"}
+::: vspace
+:::
+
+![](images/source-knowledge.png){fig-align="center" width="500"}
+:::
+
+::: {.column width="40%"}
+::: vspace
+:::
+
+::: body
 -   UNL [Library Resources](https://unl.libguides.com/researchtools)
     -   [PSYC-350 Guide](https://unl.libguides.com/psyc350)
     -   [Interlibrary loan service](https://unl.illiad.oclc.org/illiad/logon.html)
@@ -89,9 +115,7 @@ execute:
 -   [Boolean Searching](https://libguides.usc.edu/searching/boolean)
     -   Be creative!
 :::
-
-::: callout-tip
-If you need help or have questions, ask a [Librarian](https://libraries.unl.edu/askus-1)!
+:::
 :::
 
 ## IYKYK
@@ -107,21 +131,35 @@ I am definitely not telling you to use an alternative open-source site like [Sci
 
 # Questions? {background-image="images/fitz.png" background-opacity="0.1"}
 
-## Lit Review: Practice {.smaller}
+## Practice: Lit Review {.small}
 
 ::: {.body .nonincremental}
+
 -   **Step 1:** Find a stating point (identify topic/concept of interest)
     -   Find a **"classic"** (older) reference on subject
     -   Find a **"hot new"** reference
+
+::: {.fragment .semi-fade-out fragment-index="1"}
 -   **Step 2:** Expand the search: Find more **recent** articles
     -   Identify current state of field (within \~5 years)
 -   **Step 3:** Expand the search: Find more **older** articles
     -   Identify articles cited in recent literature (building blocks of field)
+:::
+
+::: {.fragment .semi-fade-out fragment-index="1"}
 -   **Step 4:** Defining the “Scope” and “Structure” of your topic
     -   Locate any review articles or encyclopedia entries
 -   **Step 5:** Search key **terms** in PsycINFO
 -   **Step 6:** Expand with key **author** search
+
+:::
+
+::: {.fragment .semi-fade-out fragment-index="1"}
+
 -   **Step 7:** Organize, track & take notes for each article
+    -   Zotero → APA references
+    
+:::
 :::
 
 ## Step 1: Getting started {.smaller}
@@ -141,8 +179,6 @@ I am definitely not telling you to use an alternative open-source site like [Sci
 
 ![](images/psychinfo-search-term.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
 
-![](images/psych-info-hb1.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
-
 ![](images/filter-search.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
 
 ![](images/sort-by-date.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="3"}
@@ -152,23 +188,90 @@ I am definitely not telling you to use an alternative open-source site like [Sci
 
 ## Finding a `Hot New` reference
 
-::: r-stack
-![](images/psychinfo-search4){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
-
-![](images/psychinfo-newer-article.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
-
-![](images/article-info-annotated){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
+::: vspace
 :::
 
-## Expanding the search
+![](images/article-info-annotated.png){fig-align="center" width="700"}
 
-::: r-stack
-![](images/psychinfo-search4){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
+## Practice: Lit Review {.tiny}
 
-![](images/google-search-terms2){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
+::: {.body .nonincremental}
+::: {.fragment .semi-fade-out fragment-index="1"}
+-   **Step 1:** Find a stating point (identify topic/concept of interest)
+    -   Find a **"classic"** (older) reference on subject
+    -   Find a **"hot new"** reference
 :::
 
-## Using Key Terms
+-   **Step 2:** Expand the search: Find more **recent** articles
+    -   Identify current state of field (within \~5 years)
+-   **Step 3:** Expand the search: Find more **older** articles
+    -   Identify articles cited in recent literature (building blocks of field)
+
+::: {.fragment .semi-fade-out fragment-index="1"}
+-   **Step 4:** Defining the “Scope” and “Structure” of your topic
+    -   Locate any review articles or encyclopedia entries
+-   **Step 5:** Search key **terms** in PsycINFO
+-   **Step 6:** Expand with key **author** search
+
+:::
+
+::: {.fragment .semi-fade-out fragment-index="1"}
+
+-   **Step 7:** Organize, track & take notes for each article
+    -   Zotero → APA references
+    
+:::
+:::
+
+## Step 2-3: Expand the search
+
+::: r-stack
+![](images/google-scholar.png){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
+
+![](images/google-scholar1.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
+
+![](images/google-scholar2.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
+
+![](images/google-scholar3.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="3"}
+
+![](images/pdf-newer.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="4"}
+
+![](images/pdf-newer-references.png){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="5"}
+
+:::
+
+## Practice: Lit Review {.tiny}
+
+::: {.body .nonincremental}
+::: {.fragment .semi-fade-out fragment-index="1"}
+-   **Step 1:** Find a stating point (identify topic/concept of interest)
+    -   Find a **"classic"** (older) reference on subject
+    -   Find a **"hot new"** reference
+:::
+
+::: {.fragment .semi-fade-out fragment-index="1"}
+-   **Step 2:** Expand the search: Find more **recent** articles
+    -   Identify current state of field (within \~5 years)
+-   **Step 3:** Expand the search: Find more **older** articles
+    -   Identify articles cited in recent literature (building blocks of field)
+
+:::
+
+-   **Step 4:** Defining the “Scope” and “Structure” of your topic
+    -   Locate any review articles or encyclopedia entries
+-   **Step 5:** Search key **terms** in PsycINFO
+-   **Step 6:** Expand with key **author** search
+
+
+::: {.fragment .semi-fade-out fragment-index="1"}
+
+-   **Step 7:** Organize, track & take notes for each article
+    -   Zotero → APA references
+    
+:::
+
+
+## Step 5-6: Using Key Terms
 
 <iframe src="https://pressbooks.nebraska.edu/melissagomistestbook/wp-admin/admin-ajax.php?action=h5p_embed&amp;id=22" width="846" height="501" frameborder="0" allowfullscreen="allowfullscreen" title="AND, OR, NOT: Boolean Operators/Search Connectors">
 
@@ -177,12 +280,13 @@ I am definitely not telling you to use an alternative open-source site like [Sci
 ```{=html}
 <script src="https://pressbooks.nebraska.edu/app/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
 ```
+
 ## How to select `good` articles
 
+::: vspace
+:::
 ::: callout-tip
-
 Check the [Journal impact factor](https://www.apa.org/pubs/journals/resources/impact-factors)!!
-
 :::
 
 ## Lab 4: Bibliographic Research {.tiny}
@@ -203,6 +307,8 @@ Check the [Journal impact factor](https://www.apa.org/pubs/journals/resources/im
 -   Step 5: Search key **terms** in PsycINFO
 -   Step 6: Expand with key **author** search
 -   Step 7: Organize, track & take notes for each article (use Zotero for APA references)
+
+
 :::
 
 ## Research Project Pre-Proposal {.tiny}
@@ -218,7 +324,6 @@ You **CANNOT** use **gender** as one of the variables for your project.
 :::
 
 ::: {.body .nonincremental}
-
 -   Step 0: Select Data Source for project
 -   Step 1: Select **CORE** variable
 -   Step 2: Find (3) references related to the **CONCEPT** measured by core variable
@@ -228,7 +333,6 @@ You **CANNOT** use **gender** as one of the variables for your project.
     -   Var 3 (Cat)
     -   Var 4 (Cat)
     -   BONUS: Var 5 (Quant) & Var 6 (Cat)
-
 :::
 
 # Questions? {background-image="images/fitz.png" background-opacity="0.1"}
