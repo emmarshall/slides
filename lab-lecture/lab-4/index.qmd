@@ -244,12 +244,15 @@ I am definitely not telling you to use an alternative open-source site like [Sci
 
 ::: {.body .nonincremental}
 ::: {.fragment .semi-fade-out fragment-index="1"}
+
 -   **Step 1:** Find a stating point (identify topic/concept of interest)
     -   Find a **"classic"** (older) reference on subject
     -   Find a **"hot new"** reference
+    
 :::
 
 ::: {.fragment .semi-fade-out fragment-index="1"}
+
 -   **Step 2:** Expand the search: Find more **recent** articles
     -   Identify current state of field (within \~5 years)
 -   **Step 3:** Expand the search: Find more **older** articles
@@ -270,6 +273,7 @@ I am definitely not telling you to use an alternative open-source site like [Sci
     
 :::
 
+:::
 
 ## Step 5-6: Using Key Terms
 
