@@ -2,7 +2,6 @@
 title: "Literature Reviews"
 author: "Instructor: Emma Marshall, JD, MA"
 subtitle: "Lab 6"
-draft: true
 image: 'https://annotatedgilmoregirls.files.wordpress.com/2022/11/yale-university.jpg'
 from: markdown+emoji
 date: '2023-10-20'
@@ -29,76 +28,111 @@ execute:
 
 ## Today's Tasks {background-image="images/fitz.png" background-opacity="0.1"}
 
-::: incremental
--   Wrapping up Research Critiques
+::: body
 -   Today's lab:
+    -   How to read/interpret Research
     -   Lit Review Proposal (some things to think about as you read)
-    -   How to improve your writing
 :::
 
-# Questions? {background-image="images/fitz.png" background-opacity="0.1"}
+## Review: Research Critiques {.tiny}
 
-# How did it go? {background-image="images/fitz.png" background-opacity="0.1"}
+[1]{.circle} Hypotheses.
 
-## Research Critique Assignments
-
-> **Purpose:** Practice identifying and evaluating each of these important parts of a research report.
-
--   Step 1: Read (quickly-ish) the article
--   Step 2: Identify basics and big take-aways (main purpose, key design, etc.)
--   Step 3: Read (CAREFULLY) and take notes
-
-## What to look for {.small}
-
-[1]{.circle}  Hypotheses.
-
-::: {.info-box .fragment .fade-up}
-Look for all statements about the [research hypothesis.]{.highlight} - Remember can be explicit or implied - Common phrases like "lead to"
+::: {.body .fragment .fade-up .nonincremental}
+-   Look for all statements about the research hypothesis.
+    -   Remember can be **explicit** or **implied**
 :::
 
-[2]{.circle}  External validity components.
+[2]{.circle} External validity components.
 
-::: {.info-box .fragment .fade-up}
-What looks good? What raises red flags? What is unclear? Relate [generalizability]{.highlight} back to stated goals of study.
+::: {.body .fragment .fade-up .nonincremental}
+-   What looks **good**? What raises **red flags**? What is **unclear**?
+    -   Relate **generalizability** back to stated **goals** of study & **pop of interest**
 :::
 
-[3]{.circle}   Internal validity components.
+[3]{.circle} Internal validity components.
 
-::: {.info-box .fragment .fade-up}
-What looks good? What raises red flags? What is unclear? Relate [confounds or causal interpretation]{.highlight} back to stated goals of study.
+::: {.body .fragment .fade-up .nonincremental}
+-   What looks **good**? What raises **red flags**? What is **unclear**?
+    -   Relate **confounds** or **causal** interpretation back to stated goals of study & **design/hypotheses**
 :::
 
-## What to look for {.small}
+## Review: Research Critiques {.tiny}
 
-[4]{.circle}  Anything else of interest you find!
+[4]{.circle} Anything else of interest you find!
 
-::: {.info-box .fragment .fade-up}
--   Measurement/Construct validity - how did they [operationalize]{.highlight} key concepts?
--   Statistical Conclusion validity - can findings [replicate?]{.highlight} what about effect sizes?
+::: {.body .fragment .fade-up .nonincremental}
+-   Measurement/Construct validity
+    -   How did they **operationalize** and **measure** key concepts?
+-   Statistical Conclusion validity
+    -   Can findings **replicate?**
+    -   What about **effect sizes?**
 :::
 
-[5]{.circle}  Review your annotations and brainstorm alternatives.
+[5]{.circle} ***Review*** your annotations and ***brainstorm*** alternatives.
 
-::: {.info-box .fragment .fade-up}
-Make suggestions or identify gaps in knowledge, **do not** always want to change the purpose, hypothesis, or overall design.
+::: {.body .fragment .fade-up .nonincremental}
+-   Make suggestions or identify gaps in knowledge, **do not** always want to change the purpose, hypothesis, or overall design.
 :::
 
-## Example
+::: callout-caution
+## Remember
 
-{{< video https://www.youtube.com/embed/bqgVB6Vl-lI?si=dczdRek3q5omMo6a&amp;start=198 >}}
+Your job is to understand/critique the methods & procedures they ***actually*** used, not the ideal study in your head!
+:::
+
+## Review: Experimental Design and Validity
+<center>
+![](images/reliability-validity.png){width="600"} 
+</center>
+
+
+## Review: Variables
+
+<center>
+![](images/var-chart.png){width="600"} 
+</center>
+
+## Practice: Research Designs
+
+::: {.columns .v-center-container} 
+
+::: {.column width="50%"}
+
+[![](images/office-pavlov.png){fig-align="center" width="350"}](https://www.youtube.com/watch?v=PBb1CH18Smg)
+
+:::
+
+::: {.column width="50%"}
+![](images/words.png)
+:::
+
+:::
+
+## Pobodies Nerfect!
+
+::: {.columns .v-center-container} 
+
+::: {.column width="50%"}
+
+![](images/measurement-meme.png)
+:::
+
+
+::: {.column width="50%"}
+
+![](images/int-ext-meme.png)
+
+:::
+:::
+
+::: notes
+This is copied over from the lecture section, week 3. Go through this as a refresher of what kinds of validity there are, and what these mean for interpretation of a study.
+:::
 
 
 
-## Handouts!!
-
--   [Contents of APA-Style Research Report](https://canvas.unl.edu/courses/162540/pages/lab-lectures-and-resources?module_item_id=4365170)
--   [Using Zotero](https://uofnelincoln-my.sharepoint.com/:w:/g/personal/mwilliamson3_unl_edu/EXGqnEpgaT1LoNZOq5sIhhkBMGG6GsGDaLbB2Q_vHAE72Q)
--   [Citations Guide](https://uofnelincoln-my.sharepoint.com/personal/mwilliamson3_unl_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmwilliamson3%5Funl%5Fedu%2FDocuments%2F350%2F350%20Lab%2FUNIT%201%20LABS%2FRevised%5FFall%5F2023%5FUnit%5F1%5FLabs%2Fwk%5F3%5F%26%5F4%5Funit%5F1%5Flabs%5F3%5F%26%5F4%2FAPA%5F7%5Fmore%5Freference%5Fformatting%5Fexamples%2Epdf&parent=%2Fpersonal%2Fmwilliamson3%5Funl%5Fedu%2FDocuments%2F350%2F350%20Lab%2FUNIT%201%20LABS%2FRevised%5FFall%5F2023%5FUnit%5F1%5FLabs%2Fwk%5F3%5F%26%5F4%5Funit%5F1%5Flabs%5F3%5F%26%5F4&ga=1)
--   [Journal Reference Check-list](https://uofnelincoln-my.sharepoint.com/:w:/g/personal/mwilliamson3_unl_edu/EfV_pf-GomxGomzx6csOzu8BncolC6cDBQm58hXXygkgGg)
--   [All the words](https://uofnelincoln-my.sharepoint.com/personal/mwilliamson3_unl_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmwilliamson3%5Funl%5Fedu%2FDocuments%2F350%2F350%20Lab%2FUNIT%201%20LABS%2FRevised%5FFall%5F2023%5FUnit%5F1%5FLabs%2Fwk%5F5%5Funit%5F1%5Flab%5F5%2Fallthewords%5Fans%2Epdf&parent=%2Fpersonal%2Fmwilliamson3%5Funl%5Fedu%2FDocuments%2F350%2F350%20Lab%2FUNIT%201%20LABS%2FRevised%5FFall%5F2023%5FUnit%5F1%5FLabs%2Fwk%5F5%5Funit%5F1%5Flab%5F5&ga=1)
--   [Types of Validity](https://uofnelincoln-my.sharepoint.com/personal/mwilliamson3_unl_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmwilliamson3%5Funl%5Fedu%2FDocuments%2F350%2F350%20Lab%2FUNIT%201%20LABS%2FRevised%5FFall%5F2023%5FUnit%5F1%5FLabs%2Fwk%5F5%5Funit%5F1%5Flab%5F5%2Fvalidity%5Fnet%2Epdf&parent=%2Fpersonal%2Fmwilliamson3%5Funl%5Fedu%2FDocuments%2F350%2F350%20Lab%2FUNIT%201%20LABS%2FRevised%5FFall%5F2023%5FUnit%5F1%5FLabs%2Fwk%5F5%5Funit%5F1%5Flab%5F5&ga=1)
-
-## Validity and Design Practice
+## Practice: Research Designs
 
 ![](images/tik-tok-study.png){.r-stretch fig-align="center"}
 
@@ -120,17 +154,16 @@ Have you ever watched dance challenge videos on TikTok? If so, you probably noti
 
 The theory behind the study is related to the potential of social media to impact body esteem:
 
-::: {.info-box .small .fragmant .fragment-up}
-
-1.  Media, especially its portrayal of the "thin ideal" where extremely slim bodies are considered attractive, has a significant impact on shaping these negative body perceptions.
-
-2.  With the rise of social media platforms like TikTok, researchers are curious about how this new form of media might influence people's body image.
+::: {.body .small .fragmant .fragment-up}
+-   Media, especially its portrayal of the "thin ideal" where extremely slim bodies are considered attractive, has a significant impact on shaping these negative body perceptions.
+-   With the rise of social media platforms like TikTok, researchers are curious about how this new form of media might influence people's body image.
 :::
 
-## Study 1 {.smaller}
+## Study 1: Overview {.smaller}
 
--   Researchers recruited 262 women aged between 18 and 25 years for an online experiment.
--   Ps randomly assigned to watch TikTok videos featuring:
+::: body
+-   Researchers recruited **262 women** aged between 18 and 25 years for an online experiment.
+-   Ps **randomly assigned** to watch TikTok videos featuring:
     -   thin dancers
     -   large dancers
     -   videos of animals (control)
@@ -138,62 +171,57 @@ The theory behind the study is related to the potential of social media to impac
     -   weight satisfaction
     -   overall appearance satisfaction
     -   body shape satisfaction
+:::
 
-# Study 1: What type of Design? {background-image="images/thin-cow.png" background-opacity="0.3"}
+# Study 1: What **type** of Design? {background-image="images/thin-cow.png" background-opacity="0.3"}
 
-## Study 1: What were the Variables? {.smaller}
+## Study 1: What were the Variables?
 
-1.  Variable Name 
-2.  Levels or scale?
-3.  Manipulated or measured? 
-IV or DV or ?? 
-If IV, WG or BG?
+::: body
+-   Variable Name
+-   Levels or scale?
+-   Manipulated or measured?
+    -   IV or DV or ?? If IV, WG or BG?
+:::
 
-## Study 1: What were the Variables? {.smaller}
+## Study 1: What were the Variables?
 
-+------------------------------------------+-----------------------+--------------------------+----------------+------------------+
-| Variable Name                            | Levels or scale?      | Manipulated or measured? | IV or DV or ?? | If IV, WG or BG? |
-+------------------------------------------+-----------------------+--------------------------+----------------+------------------+
-| Dancer size                              | thin/lg/animal        | Man                      | IV             | BG               |
-+------------------------------------------+-----------------------+--------------------------+----------------+------------------+
-| Body satisfaction                        | 3-items               | Meas                     | DV             | \--              |
-|                                          |                       |                          |                |                  |
-|                                          | 0-100%                |                          |                |                  |
-+------------------------------------------+-----------------------+--------------------------+----------------+------------------+
-| State appearance comparison              | 3-items               | Meas                     | DV             | \--              |
-|                                          |                       |                          |                |                  |
-|                                          | 1-7, high             |                          |                |                  |
-+------------------------------------------+-----------------------+--------------------------+----------------+------------------+
-| Direction of appearance comparison scale | 1-5, high better      | Meas                     | DV             | \--              |
-+------------------------------------------+-----------------------+--------------------------+----------------+------------------+
-| Social Media Usage                       | 6-point, never - \>3h | Meas                     | Control        | \--              |
-+------------------------------------------+-----------------------+--------------------------+----------------+------------------+
+```{r}
+library(gt)
+study1 <- data.frame(
+  "Variable Name" = c("Dancer size", "Body satisfaction", "State appearance comparison", "Direction of appearance comparison scale", "Social Media Usage"),
+  "Levels or scale?" = c("thin/lg/animal", "3-items, 0-100%", "3-items, 1-7 high", "1-5 high better", "6-point, never ➭ 3h"),
+  "Manipulated or measured?" = c("Man", "Meas", "Meas", "Meas", "Meas/Control"),
+  "IV or DV or ??" = c("IV", "DV", "DV", "DV", "--"),
+  "If IV, WG or BG?" = c("BG", "--", "--", "--", "--")
+)
+
+tbl1 <- study1 |> 
+  gt()
+tbl1
+```
+
+# Study 1: What are the **Research Hypotheses**? {background-image="images/thin-cow.png" background-opacity="0.3"}
 
 ## Study 1: Results {.smaller}
 
-::: columns
-::: {.column width="70%"}
-![](images/study1_results.png){fig-align="center"}
+<center>![](images/study1_results.png){fig-align="center" width="700"}</center>
+
+::: body
+-   Body satisfaction **increased** after large dancers and control (animal) videos
+    -   But **decreased** after thin dancer videos
 :::
 
-::: {.column width="30%"}
--   Body satisfaction increased after large dancers and control (animal) videos
--   But decreased after thin dancer videos
-:::
-:::
+# Study 1: Are these results **generalizable?** Are they **interpretable**? {background-image="images/thin-cow.png" background-opacity="0.3"}
 
-## Study 2: What was the purpose? {.smaller}
+## Purpose of Study 2 {.smaller}
 
-::: columns
-::: {.column width="50%"}
-![](images/fig_1.png){fig-align="center"}
-:::
+<center>![](images/fig_1.png){fig-align="center" width="700"}</center>
 
-::: {.column width="50%"}
+::: body
 -   Replicate study 1 results
--   Identify **why** IV -\> DV
+-   Identify **why** IV ➭ DV relationship
 -   Task/stimulus
-:::
 :::
 
 ## Study 2: Task/stimulus changes?
@@ -208,48 +236,38 @@ If IV, WG or BG?
 :::
 :::
 
-## [Internal or External validity?
+## Internal or External validity?
 
 ![](images/thin-cow.png){.r-stretch fig-align="center"}
 
 ::: footer
-[Control for potential confounds by turning them into constants...](https://www.youtube.com/watch?v=n-22Ph1ofcI%22)
+[Can ***control*** for potential **confounds** by turning them into **constants**...](https://www.youtube.com/watch?v=n-22Ph1ofcI%22)
 :::
+
 ## Study 2: Variables changes?
 
 ::: r-fit-text
 Internalization...?
 :::
 
-## Study 2: Variables {.smaller .scrollable}
+## Study 2: Variables 
 
-+------------------------------------------+-----------------------+--------------------------+--------------------+------------------+--------------+
-| Variable Name                            | Levels?               | Manipulated or measured? | IV or DV or ??     | If IV, WG or BG? | **Study 1?** |
-+==========================================+=======================+==========================+====================+==================+==============+
-| Dancer size                              | thin/lg/animal        | Man                      | IV \| BG \| Yes \| |                  |              |
-+------------------------------------------+-----------------------+--------------------------+--------------------+------------------+--------------+
-| Body satisfaction                        | 3-items               | Meas                     | DV                 | \--              | Yes          |
-|                                          |                       |                          |                    |                  |              |
-|                                          | 0-100%                |                          |                    |                  |              |
-+------------------------------------------+-----------------------+--------------------------+--------------------+------------------+--------------+
-| State appearance comparison              | 3-items               | Meas                     | DV                 | \--              | Yes          |
-|                                          |                       |                          |                    |                  |              |
-|                                          | 1-7, high             |                          |                    |                  |              |
-+------------------------------------------+-----------------------+--------------------------+--------------------+------------------+--------------+
-| Direction of appearance comparison scale | 1-5, high better      | Meas                     | DV                 | \--              | Yes          |
-+------------------------------------------+-----------------------+--------------------------+--------------------+------------------+--------------+
-| Social Media Usage                       | 6-point, never - \>3h | Meas                     | Control            | \--              | Yes          |
-+------------------------------------------+-----------------------+--------------------------+--------------------+------------------+--------------+
-| Trait appearance comparison (PACS)       | 11-items              | Meas                     | ??                 | \--              | No           |
-|                                          |                       |                          |                    |                  |              |
-|                                          | 0-4, high more        |                          | Mediator/moderator |                  |              |
-+------------------------------------------+-----------------------+--------------------------+--------------------+------------------+--------------+
-| Thin internalization (SATAQ)             | 5-items               | Meas                     | ??                 | \--              | No           |
-|                                          |                       |                          |                    |                  |              |
-|                                          | 1-5, high agree       |                          | Mediator/moderator |                  |              |
-+------------------------------------------+-----------------------+--------------------------+--------------------+------------------+--------------+
-| Video Ratings                            |                       |                          | ??                 |                  | YES          |
-+------------------------------------------+-----------------------+--------------------------+--------------------+------------------+--------------+
+```{r}
+library(gt)
+df <- data.frame(
+  "Variable" = c("Dancer size", "Body satisfaction", "State appearance comparison", "Direction of appearance comparison scale", "Social Media Usage", "Trait appearance comparison (PACS)", "Thin internalization (SATAQ)", "Video Ratings"),
+  "Levels?" = c("thin/lg/animal", "3-items", "3-items", "1-5, high better", "6-point, never - 3h", "11-items", "5-items", NA),
+  "Manipulated or measured?" = c("Man", "Meas", "Meas", "Meas", "Meas", "Meas", "Meas", NA),
+  "IV or DV or ??" = c("IV | BG | Yes |", "DV", "DV", "DV", "Control", "??", "??", "??"),
+  "If IV, WG or BG?" = c(NA, "--", "--", "--", "--", "--", "--", NA),
+  "**Study 1?**" = c(NA, "Yes", "Yes", "Yes", "Yes", "No", "No", "Yes")
+)
+
+tbl <- df |> 
+  gt()
+
+tbl
+```
 
 ## Study 2: Results?
 
@@ -261,15 +279,13 @@ A majority of participants in the thin dancer condition engaged in upward compar
 
 ## Study 3: Purpose?
 
+::: callout-warning
 -   Study 1 & 2:
-
-    1.  Ps aware study about body satisfaction...
-
-    2.  Used pretest-postest design...
-
+    -   Ps aware study about body satisfaction...
+    -   Used pretest-postest design...
 -   Demand characteristics!!
-
     -   Internal or External validity issue?
+:::
 
 ::: notes
 One potential internal validity threat to both Study 1 and Study 2 is that participants were told the study was about body satisfaction. In addition, the pretest-postest nature of the design may have nudged participants to report changes in line with the study's goals.
@@ -284,13 +300,19 @@ Demand characteristics can be a threat to either INTERNAL or EXTERNAL VALIDITY!
 -   Used pretest-postest design...testing effects!
 :::
 
+::: body
 -   Why use a posttest-only design to control for these validity threats?
+
+:::
 
 ## Study 3: Design
 
+
+::: body
 -   Recruited 375 women aged between 18 and 25 years and randomly assigned them to watch either TikTok videos of thin dancers or TikTok videos of large dancers.
 -   Posttest-only design
 -   Told ps study about how engaging different TikTok videos are
+:::
 
 ## Study 3: Task/Stimulus and Procedures
 
@@ -306,13 +328,39 @@ After watching the videos, the participants completed the same measures of body 
 Even after concealing the true purpose of the study, the results consistently indicated that watching videos of thin dancers led to lower body satisfaction compared to videos of large dancers.
 :::
 
-## What do you think of this set of studies?
+---
 
+::: r-stack
+![](images/size-iv-1.svg){.fragment .fade-out fig-align="center" width="700" fragment-index="1"}
+
+![](images/size-iv-1.svg){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="1"}
+
+![](images/size-iv-2.svg){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="2"}
+
+![](images/size-iv-3.svg){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="3"}
+
+![](images/size-iv-4.svg){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="4"}
+
+![](images/sizetype-int-1.svg){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="5"}
+
+![](images/sizetype-int-2.svg){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="6"}
+
+![](images/sizetype-int-3.svg){.fragment .fade-in-then-out fig-align="center" width="700" fragment-index="7"}
+:::
+
+# What do you think of this set of studies?
+
+::: body
 -   How does it do with four types of Validity?
     -   Internal Validity - how does it rule out threats?
-    -   External Validity - samples/task/generalizability?
-    -   Measurement/Construct - how does it measure the key concepts?
-    -   Statistical Conclusion - replicate? effect sizes?
+-   External Validity 
+    - samples/task/generalizability?
+-   Measurement/Construct 
+    - how does it measure the key concepts?
+-   Statistical Conclusion 
+    - replicate? effect sizes?
+
+:::
 
 ::: notes
 -   Specifically, when you address statistical validity, use terms like replication and effect size.
@@ -330,25 +378,24 @@ Here's how the researchers concluded an interview about their studies:
 
 ::: {.info-box .small}
 "The findings also [raise the possibility that TikTok could change its algorithm and show a wider variety of body types]{.highlight}, and this could have a major public health benefits. Body dissatisfaction is major risk factor for eating disorders and eating disorders have the highest mortality rate of all psychiatric diseases due to medical complications or suicide..."
-
-::: 
+:::
 
 ::: {.cream-box .fragment .fade-up}
-## Can we generalize to the algorithm on a users' feed? 
-
+## Can we generalize to the algorithm on a users' feed?
 :::
 
 ## Limits of generalization
 
-
 ::: columns
 ::: {.column width="50%"}
 ## Sample :arrow_right: Population?
+
 ![](images/fig_1.png){fig-align="center"}
 :::
 
 ::: {.column width="50%"}
-## Setting/Task/Stimulus 
+## Setting/Task/Stimulus
+
 ![](images/fig_1.png){fig-align="center"}
 :::
 :::

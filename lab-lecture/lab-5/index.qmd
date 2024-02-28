@@ -2,7 +2,6 @@
 title: "Reading, Writing & Critiquing Research"
 author: "Instructor: Emma Marshall, JD, MA"
 subtitle: "Lab 5"
-draft: true
 image: 'https://annotatedgilmoregirls.files.wordpress.com/2022/11/yale-university.jpg'
 from: markdown+emoji
 format:
@@ -28,159 +27,67 @@ execute:
 
 ## Today's Tasks {background-image="images/fitz.png" background-opacity="0.1"}
 
-::: incremental
--   Wrapping up Lab 4 & 5
+::: v-center-container
+::: post-it
 -   Today's lab:
-    -   Reading & writing research reports (some things to think about as you read)
-    -   Handouts: Contents of a research report, Validity Net, All the words
-    -   Critique 1 -- individual and class work
-    -   Critique 2 - due next week
+    -   Reading & writing research reports
+    -   Review Lecture Material
+        -   Contents of a research report, Validity Net, All the words
 :::
-
-# Questions? {background-image="images/fitz.png" background-opacity="0.1"}
-
-## Reading and Writing Research
-
-::: callout-warning
-## Do this now!!
-
-Download ALL the linked handouts and assignments from canvas
 :::
 
 ::: notes
 Today is about learning to dig into a paper and read it critically. This means extracting information -- especially extracting information that isn't directly given to you in a paper and must be inferred. But, we will also learn when not to make assumptions that cover up potential flaws
 :::
 
+## Reading & Writing: Research Reports {.small}
 
-## Experimental Design: The Basics
+<center>
 
-In general, an **experiment** is a procedure that researchers use to assess the effect of one variable (IV) on another variable (DV).
-
-::: {layout-ncol="2"}
-::: col
-</br>
-
-::: {.fragment fragment-index="1"}
-<p style="font-size: 24px;">
-
-**Independent variable (IV):** In experiments, this is the variable that the researchers manipulate (e.g., randomly assigning participants to 2 different groups).
-
-</p>
-
-<p style="font-size: 24px;">
-
-*synonyms*: Predictor variable, Explanatory variable.
-
-</p>
+::: callout-tip
+Everything we do revolves around these **6** basic things!!
 :::
 
-</br>
+</center>
 
-::: {.fragment fragment-index="2"}
-<p style="font-size: 24px;">
-
-**Dependent variable (DV):** In experiments, this is the variable of interest. This variable is expected to change according to the IV.
-
-</p>
-
-<p style="font-size: 24px;">
-
-*synonyms*: Outcome variable, Response variable.
-
-</p>
-:::
-:::
-
-::: col
-</br>
-
-::: {.fragment fragment-index="3"}
-<p style="font-size: 24px;">
-
-**Control group or control condition:** Baseline group. All other experimental groups are usually compared to this group.
-
-</p>
-
-<p style="font-size: 24px;">
-
-*synonyms*: Comparison group, Placebo condition.
-
-</p>
-:::
-
-</br>
-
-::: {.fragment fragment-index="4"}
-<p style="font-size: 24px;">
-
-**Variable types:**
-
-</p>
-
-<p style="font-size: 24px;">
-
-*Continuous variables*: Essentially numbers (e.g., 5.4).
-
-</p>
-
-<p style="font-size: 24px;">
-
-*Discrete variables*: Gender, experimental condition (e.g., control VS treatment), Hair color, etc...
-
-</p>
-
-<p style="font-size: 18px;">
-
-*Ordinal variables*: Olympic medal (Gold, Silver, Bronze)
-
-</p>
-:::
-:::
-:::
-
-## Reading & Writing <br> Research Reports {.smaller}
-
-::: callout-note
-## Everything we do revolves around these 6 basic things
+::: vspace
 :::
 
 ::: body
-1.  What has the author(s) read that prompted the research?
-2.  What is the purpose of the research being reported ?
-3.  What is the specific research question or research hypothesis ?
-4.  How was the research conducted ?
-    -   who were the participants?
-    -   what equipment and/or materials were used?
-    -   what treatment & data collection procedures were used ?
-5.  What are the results of the statistical analysis of the data as they relate to the research question or research hypothesis?
-6.  How do the current findings integrate with what the author(s) read that prompted the research?
-
-:::
+1.  What has the author(s) read that **prompted** the research?
+2.  What is the **purpose** of the research being reported ?
+3.  What is the specific **research question** or **research hypothesis**?
+4.  How was the research **conducted** ?
+5.  What are the **results** of the statistical analysis of the data as they relate to the research question or research hypothesis?
+6.  How do the current findings **integrate** with what the author(s) read that prompted the research?
 :::
 
-## Standardizing Research: <br> Enter APA
+## Standardizing Research with APA {.tiny}
 
-::: callout-note
-## Everything we do revolves around these 6 basic things
+::: {.columns .v-center-container}
+::: {.column width="50%"}
+![](https://apastyle.apa.org/images/book-collage_tcm11-262933_w1024_n.jpg)
 :::
+
+::: {.column width="50%"}
+::: vspace2
+:::
+
 ::: body
--   APA standardized style and formatting for journals (1928-present)
--   Currently on [APA 7th Ed.](https://apastyle.apa.org/)
+-   APA standardized style & formatting for journals (1928-present)
+    -   Currently on [APA 7th Ed.](https://apastyle.apa.org/)
 -   Three main components to style-guide:
     1.  **Content** of the report
-
-    -   how it is organized
-    -   sections and labels
-
+        -   **Order** of concepts & material
+        -   Rules for **sections** & **labels**
     2.  **Format** of the report
-
-    -   margins, citations, tables, etc.
-
+        -   margins, citations, tables, etc.
     3.  **Style** of the report
-
-    -   language and terminology
-
+        -   language & terminology
 :::
+:::
+:::
+
 ::: notes
 Since there is a nearly universal set of 6 things used to describe one's research and its outcomes, it makes sense to "standardize" those reports -- making it easier to write them clearly and easier to read them.
 
@@ -190,268 +97,219 @@ APA format, as we will apply it, has three components:\
 1) the content of the report and how it is organized and labeled 2) the format of the report (e.g., margins, citations, tables, etc.) 3) the style of the report (e.g., non-sexist language)
 :::
 
-## Structure of an APA paper {.tiny}
+## Elements of APA Style
 
-<center> APA uses 6 main section that correspond with 6 basic components of research reports
+::: {.callout-tip collapse="true"}
+## Basic Rules:
+
+-   Double-space everything
+-   Have uniform margins of at least 1 in. at the top, bottom, right, and left of every page
+-   Write "formally" -- without slang, contractions, etc.
+-   Use sentences and paragraphs (not "lists" unless hypotheses)
+-   Give credit to others for their ideas
+:::
+
+## Structure of an APA-style paper {.tiny}
+
+::: vspace
+:::
+
+::: body
+<center>[APA uses **6** main sections that correspond with **6** basic components of research reports]{.large}</center>
+
 </center>
+
 </br>
 
 ::: {layout-ncol="3"}
-
-:::{.fragment}
-:::col
-<center> <a href="#/abstract">**Abstract:**</a> 
-</br>
-50-120 word summary of the key information of study…
-</center>
+::: fragment
+::: col
+<center>**Abstract:**</br> 50-150 word summary of the key information of study…</center>
 :::
 :::
 
-:::{.fragment}
-:::col
-<center> <a href="#/introduction">**Introduction:**</a>
-</br>
-Review of the literature that prompted the research…
-</center>
-:::
-:::
-:::{.fragment}
-:::col
-<center> <a href="#/method">**Method:**</a> 
-</br>
-*Participants:* Who (what) and how they were selected <br>
-*Materials:* Equipment and materials used to collect data<br>
-*Procedure:* Treatment and data collection details
-</center>
+::: fragment
+::: col
+<center>**Introduction:**</br> Review of the literature that prompted the research…</center>
 :::
 :::
 
+::: fragment
+::: col
+<center>**Method:**</br>*Participants:* Who (what) and how they were selected</br>*Materials:* Equipment, measures, and materials used to collect data </br>*Procedure:* Treatment and data collection process</center>
+:::
+:::
 :::
 
 ::: {layout-ncol="3"}
-
-:::{.fragment}
-:::col
-<center> <a href="#/results">**Results:**</a> 
-</br>
-Description of the data analysis and results
-</center>
+::: fragment
+::: col
+<center>**Results:**</br> Description of the data analysis process and results</center>
 :::
 :::
 
-:::{.fragment}
-:::col
-<center> <a href="#/discussion">**Discussion:**</a> 
-</br>
-Relating the findings to the previous literature, limitations & future directions
-</center>
+::: fragment
+::: col
+<center>**Discussion:**</br> Relating the findings to the previous literature, limitations & future directions</center>
 :::
 :::
-:::{.fragment}
-:::col
-<center> <a href="#/delivery">**References:**</a>
-</br>
-Citations of previous literature referred to in report
-</center>
+
+::: fragment
+::: col
+<center>**References:**</br> Citations of previous literature used to inform study</center>
+:::
 :::
 :::
 :::
 
+## Introduction {.tiny}
 
-------------------------------------------------------------------------
-
-
-::: callout-note
-## Title
-
-The title should capture the intent/results of the study...
+::: {.columns .v-center-container}
+::: {.column width="50%"}
+::: vspace
 :::
 
-<p style="text-align: center;">
-
-Example: 
-</p>
-
-------------------------------------------------------------------------
-
-::: callout-note
-## Abstract
-
-50-120 word summary of the key information of study...
+![](images/funnel.png)
 :::
 
-------------------------------------------------------------------------
+::: {.column width="50%"}
+::: body
+General ➭ Specifics
 
-::: callout-note
-## Introduction
-
-Review of the literature that prompted the research...
+::: fragment
+-   **Background about the topic:**
+    -   Define the topic/context
+    -   What does prior research say about it?
+    -   How has it been examined/operationalized?
 :::
 
-------------------------------------------------------------------------
-
-::: callout-note
-## Method
-
-### Participants
-
-Who (what) and how they were selected
-
-### Materials
-
-Equipment and materials used to collect data
-
-### Procedure
-
-Treatment and data collection details
+::: fragment
+-   **Gaps in the literature:**
+    -   What information is missing?
+    -   What questions remain **unanswered**?
 :::
 
-------------------------------------------------------------------------
-
-::: callout-note
-## Results
-
-Description of the data analysis and results
+::: fragment
+-   **The current study:**
+    -   What is the **gap** or **unanswered question** you plan to study?
+    -   How do **you** plan to study it?
+:::
+:::
+:::
 :::
 
-------------------------------------------------------------------------
+## Method {.tiny}
 
-::: callout-note
-## Discussion
-
-Relating the findings to the previous literature, limitations & future directions
+::: {.columns .v-center-container}
+::: {.column width="50%"}
+![](images/avg_recipe.png)
 :::
 
-------------------------------------------------------------------------
+::: {.column width="50%"}
+::: body
+Research **recipe** ➭ Ingredients + Steps
 
-::: callout-note
-## References
-
-Citations of previous literature referred to in report
+::: fragment
+-   **Participants:**
+    -   **Who** is your sample?
+    -   What is the sample **size**?
+    -   Any demographics **relevant** to pop of interest?
 :::
 
-------------------------------------------------------------------------
-
-
-## Introduction
-
-[<a href="#/presentation-grading-rubric"><i class="fa fa-home fa-sm" aria-hidden="true" style="color:#6971E0; position:absolute;"></i></a>]{.absolute top="99%" left="5%"}
-
-:::{.fragment}
-- **Background about the topic:** What is the topic of the article? What research has been done on it? 
+::: fragment
+-   **Materials:**
+    -   How were the **variables** measured?
+    -   How was the IV **manipulated** (if experiment)?
+    -   What are the **range of values** for each variable?
 :::
 
-:::{.fragment}
-- **Gaps in the literature:** What research is missing? What questions *has not* been explored? 
+::: fragment
+-   **Procedure:**
+    -   What was the **design**?
+    -   **Where** did the experiment take place?
+    -   **How** did the experiment take place?
+:::
+:::
+:::
 :::
 
-:::{.fragment}
-- **The current study:** <strong> Why </strong> is the current study being done? What are the variables involved (IV and DV)? What are the hypotheses (if any)?
+## Results {.tiny}
+
+::: {.columns .v-center-container}
+::: {.column width="50%"}
+![](images/implicit-assumptions.png)
 :::
 
-:::{.fragment}
-<center> suggestion: **1-2 pages**  </center> 
+::: {.column width="50%"}
+::: vspace
 :::
 
+::: body
+<center>Record of all **data analysis**...</center>
 
-## Method
-
-
-[<a href="#/presentation-grading-rubric"><i class="fa fa-home fa-sm" aria-hidden="true" style="color:#6971E0; position:absolute;"></i></a>]{.absolute top="99%" left="5%"}
-
-Usually, the method section is divided into the following subsections: 
-
-
-:::{.fragment}
-- **Participants:** What is the demographic composition of the sample? How many participants are there?
+::: fragment
+-   Univariate statistics:
+    -   How is each **variable** distributed? Central tendency?
+    -   Any **outliers** or **transformations**?
+    -   Reliability of **scales** or control measures?
 :::
 
-:::{.fragment}
-- **Materials:** How were the variables measured? What are the values of the measured variable (e.g., "the possible values of the IV ranged from 0 to 100")? 
+::: fragment
+-   Bivariate or Multivariate analyses:
+    -   What **relationships** exist between variables?
+    -   How did you **test** those relationships?
 :::
 
-:::{.fragment}
-- **Procedure:** What was the experimental design? How did the experiment take place?
+::: fragment
+-   Include all components of APA formatting for **each** analysis!!!!
+:::
+:::
+:::
 :::
 
-:::{.fragment}
-<center> suggestion: **1-2 pages** </center>
+## Discussion {.tiny}
+
+::: {.columns .v-center-container}
+::: {.column width="50%"}
+::: vspace
 :::
 
-
-## Results 
-
-[<a href="#/presentation-grading-rubric"><i class="fa fa-home fa-sm" aria-hidden="true" style="color:#6971E0; position:absolute;"></i></a>]{.absolute top="99%" left="5%"}
-
-<center>  This is the part where you present the statistics (😒) </center>
-
-
-<ul style ="font-size:28px; padding-top: 1em;">
-:::{.fragment}
-<li>  Remember that this is supposed to be a short presentation, so you should only report the most important statistics (i.e., the ones directly related to the main hypotheses). </li> 
+![](images/breakdown.png)
 :::
 
-:::{.fragment}
-<li>  <u> Make use of figures (e.g., bar charts) as much as possible </u>. This always makes it so much easier to understand the results. Tables can also help. </li> 
+::: {.column width="50%"}
+::: vspace
 :::
 
-:::{.fragment}
-<li>  Explain what the statistics mean in *plain English*, do not just say "*this results was significant*". Rather, say something like "*so, this statistic tells use that group A had significantly better recall than group B*." </li> 
+::: body
+<center>Summarize & contextualize findings...</center>
+
+::: fragment
+-   **Results (summarized):** Brief recap of main findings **without** numbers
+
+::: fragment
+-   **Interpretation and Implications:**
+    -   Were the main hypotheses **supported**?
+    -   How do your findings **fit** within the **existing** literature?
 :::
 
-</ul>
-
-:::{.fragment}
-<center> if you struggle with the statistics in your paper (or statistics in general), please, come to my office hours. </center>
+::: fragment
+-   **Limitations:**
+    -   Explain **limits** of interpretability/generalizability
 :::
 
-:::{.fragment}
- <p style ="padding-top: 15px;"> <center> suggestion: **1-2 pages** </center></p>
+::: fragment
+-   **Future directions:**
+    -   What are the next steps?
+:::
+:::
+:::
+:::
 :::
 
-## Discussion
+## Where to look for information {.scrollable}
 
-[<a href="#/presentation-grading-rubric"><i class="fa fa-home fa-sm" aria-hidden="true" style="color:#6971E0; position:absolute;"></i></a>]{.absolute top="99%" left="5%"}
-
-The discussion is usually where the researchers briefly summarize the results and provide personal opinions about the study. The important points to identify are:
-
-
-<ul style = "font-size: 35px">
-
-:::{.fragment}
-<li> **Results Summary:** Briefly recap the main findings. </li>
-:::
-
-:::{.fragment}
-<li> **Interpretation and Implications:** Were the main hypotheses supported? Why were certain results observed? 
-What are the practical implications of the results? </li>
-:::
-
-:::{.fragment}
-<li> **Limitations:** What are some possible issues with the study? </li>
-:::
-
-:::{.fragment}
-<li> **Future directions:** What research should be done next?  </li>
-:::
-</ul>
-
-
-:::{.fragment}
-<p style ="padding-top: 15px;"> <center> suggestion: **1-2 pages** </center></p>
-:::
-
-## Additional Sections
-
-::: callout-note
-## Tables, Figures, Etc.
-
-Usually used to present data & analyses
-:::
-
-## Where to look for information **scroll down**{.scrollable}
-
-> Do not rely on Abstracts!!
+[(scroll down)]{.yellow}
 
 ::: {.callout-tip collapse="true"}
 ## What has the author(s) read that prompted the research ?
@@ -501,89 +359,55 @@ Abstract, Results, Discussion, Tables/Figures
 Abstract, Discussion
 :::
 
-## Elements of APA Style
+## Beware of Abstracts
 
-::: {.callout-tip collapse="true"}
-## Basic Rules:
--   Double-space everything
--   Have uniform margins of at least 1 in. at the top, bottom, right, and left of every page
--   Write "formally" -- without slang, contractions, etc.
--   Use sentences and paragraphs (not "lists" unless hypotheses)
--   Give credit to others for their ideas
+::: callout-caution
+<center>![](images/abstract-publication.png){width="500"}</center>
 :::
 
-## Validity Net {.scrollable}
+# Questions? {background-image="images/fitz.png" background-opacity="0.1"}
 
-![](images/validity.png){.r-stretch}
+## How to `critique` Research Articles {.small}
 
-::: notes
-This is copied over from the lecture section, week 3. Go through this as a refresher of what kinds of validity there are, and what these mean for interpretation of a study.
+::: {.columns .v-center-container}
+::: {.column width="45%"}
+![](images/highlighting.png)
 :::
 
-## All the Words {.scrollable}
-
-![](images/words.png){.r-stretch}
-
-::: notes
-This is also copied from week 3 of the lecture section. This one is more of a checklist of things to extract from the study as you read it. These are the questions they should be trying to answer, but it doesn't end there... they still need to consider the consequences of each item/researcher choice. These last 2 handouts will be important to refer to as they read.
+::: {.column width="55%"}
+::: vspace2
 :::
 
-## Research Critique Assignments
+::: body
+-   ***Step 1:*** Read (quickly-ish) the article
+-   ***Step 2:*** Identify basics and big take-aways (main purpose, key design, etc.)
+-   ***Step 3:*** Read (CAREFULLY) and take notes
+:::
+:::
+:::
 
-[EXTRA CREDIT: Research Critique 1](https://uofnelincoln-my.sharepoint.com/:w:/g/personal/mwilliamson3_unl_edu/EdxkpxmY9yVHha22CLXvr0sBWz_H2V8h14sj9Yo_fj3-DA)
+:::
 
-> **Purpose:** Practice identifying and evaluating each of these important parts of a research report.
+## Research Critiques: What to look for {.tiny}
 
--   Step 1: Read (quickly-ish) the article
--   Step 2: Identify basics and big take-aways (main purpose, key design, etc.)
--   Step 3: Read (CAREFULLY) and take notes
-
-# Step 1: What is the research hypothesis. {background-image="images/fitz.png" background-opacity="0.1"}
-
-
-## Research Critique 1: What to look for {.smaller}
-
-1.  Hypotheses.
-
-    | [Look for all statements about the research hypothesis.]{.rn} Remember can be explicit or implied.
-
-2.  External validity components.
-
-    | What looks good? What raises red flags? What is unclear? Relate [generalizability]{.rn} back to stated goals of study.
-
-3.  Internal validity components.
-
-    | What looks good? What raises red flags? What is unclear? Relate [confounds or causal interpretation]{.rn} back to stated goals of study.
-
-4.  Anything else of interest you find!
-
-5.  Review your annotations and brainstorm alternatives.
-
-    | Make suggestions or identify gaps in knowledge, **do not** change the purpose, hypothesis, or overall design.
+::: body
+-   ***Hypotheses:***
+    -   Look for all statements about the research hypothesis.
+    -   Remember can be **explicit** or **implied**
+-   ***External validity components***
+    -   What looks **good**? What raises **red flags**? What is **unclear**?
+    -   Relate [**generalizability**]{.rn} back to stated **goals** of study (**pop of interest**)
+-   ***Internal validity components***
+    -   What looks **good**? What raises red flags? What is unclear?
+    -   Relate [**confounds** or **causal** interpretation]{.rn} back to stated goals of study (**design/hypotheses**).
+-   ***Anything else*** of interest you find!
+-   ***Review*** your annotations and ***brainstorm*** alternatives.
+    -   Make suggestions or identify gaps in knowledge, **do not** change the purpose, hypothesis, or overall design!
 
 ::: callout-warning
 ## Remember!!
 
-Your job is to critique the methods & procedures they used, not to design a whole new study!
-:::
-
-# How did it go? {background-image="images/fitz.png" background-opacity="0.1"}
-
-::: columns
-::: {.column width="50%"}
-:::
-
-::: {.column width="50%"}
+Your job is to understand/critique the methods & procedures they ***actually*** used, not the ideal study in your head!
 :::
 :::
 
-## [Research Critique 2](https://uofnelincoln-my.sharepoint.com/:w:/g/personal/mwilliamson3_unl_edu/EQ-0R343BJ9BmMOO6F4v170BBkgdRdCB-acvIWY7L4bTEQ)
-
-> Preparing you to critially read the 3 articles you selected for your final project and summarize them for use in your paper
-
--   Part 1: Follow steps of Research Critique 1
--   Part 2: Designing BRAND NEW studies
-
-::: callout-tip
--   Use the handouts!
-:::

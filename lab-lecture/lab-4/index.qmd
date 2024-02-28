@@ -135,23 +135,20 @@ I am definitely not telling you to use an alternative open-source site like [Sci
 
 ::: {.body .nonincremental}
 
--   **Step 1:** Find a stating point (identify topic/concept of interest)
-    -   Find a **"classic"** (older) reference on subject
-    -   Find a **"hot new"** reference
+::: {.fragment .grow fragment-index="1"}
+-   **Step 1:** Find a starting point (identify topic/concept of interest)
+:::
 
 ::: {.fragment .semi-fade-out fragment-index="1"}
 -   **Step 2:** Expand the search: Find more **recent** articles
-    -   Identify current state of field (within \~5 years)
 -   **Step 3:** Expand the search: Find more **older** articles
-    -   Identify articles cited in recent literature (building blocks of field)
+
 :::
 
 ::: {.fragment .semi-fade-out fragment-index="1"}
 -   **Step 4:** Defining the “Scope” and “Structure” of your topic
-    -   Locate any review articles or encyclopedia entries
 -   **Step 5:** Search key **terms** in PsycINFO
 -   **Step 6:** Expand with key **author** search
-
 :::
 
 ::: {.fragment .semi-fade-out fragment-index="1"}
@@ -193,7 +190,7 @@ I am definitely not telling you to use an alternative open-source site like [Sci
 
 ![](images/article-info-annotated.png){fig-align="center" width="700"}
 
-## Practice: Lit Review {.tiny}
+## Practice: Lit Review {.small}
 
 ::: {.body .nonincremental}
 ::: {.fragment .semi-fade-out fragment-index="1"}
@@ -202,14 +199,13 @@ I am definitely not telling you to use an alternative open-source site like [Sci
     -   Find a **"hot new"** reference
 :::
 
+::: {.fragment .grow fragment-index="1"}
 -   **Step 2:** Expand the search: Find more **recent** articles
-    -   Identify current state of field (within \~5 years)
 -   **Step 3:** Expand the search: Find more **older** articles
-    -   Identify articles cited in recent literature (building blocks of field)
+:::
 
 ::: {.fragment .semi-fade-out fragment-index="1"}
--   **Step 4:** Defining the “Scope” and “Structure” of your topic
-    -   Locate any review articles or encyclopedia entries
+-   **Step 4:** Define the “Scope” and “Structure” of your topic
 -   **Step 5:** Search key **terms** in PsycINFO
 -   **Step 6:** Expand with key **author** search
 
@@ -260,11 +256,13 @@ I am definitely not telling you to use an alternative open-source site like [Sci
 
 :::
 
+::: {.fragment .grow fragment-index="1"}
+
 -   **Step 4:** Defining the “Scope” and “Structure” of your topic
-    -   Locate any review articles or encyclopedia entries
 -   **Step 5:** Search key **terms** in PsycINFO
 -   **Step 6:** Expand with key **author** search
 
+:::
 
 ::: {.fragment .semi-fade-out fragment-index="1"}
 
@@ -275,7 +273,7 @@ I am definitely not telling you to use an alternative open-source site like [Sci
 
 :::
 
-## Step 5-6: Using Key Terms
+## Step 4-6: Find & Use Key Terms
 
 <iframe src="https://pressbooks.nebraska.edu/melissagomistestbook/wp-admin/admin-ajax.php?action=h5p_embed&amp;id=22" width="846" height="501" frameborder="0" allowfullscreen="allowfullscreen" title="AND, OR, NOT: Boolean Operators/Search Connectors">
 
@@ -287,16 +285,22 @@ I am definitely not telling you to use an alternative open-source site like [Sci
 
 ## How to select `good` articles
 
-::: vspace
-:::
-::: callout-tip
-Check the [Journal impact factor](https://www.apa.org/pubs/journals/resources/impact-factors)!!
+::: {.callout-caution .nonincremental}
+-   Always check the [Journal impact factor](https://www.apa.org/pubs/journals/resources/impact-factors) if you do not recognize the publication!!
 :::
 
-## Lab 4: Bibliographic Research {.tiny}
-
+<center>
+![](images/journal-articles.jpeg)
+</center>
 ::: vspace
 :::
+
+::: aside
+[Learn more](https://unl.libguides.com/informationliteracytutorials/search)
+:::
+
+## Summary: Steps of Bibliographic Research {.small}
+
 
 ::: {.body .nonincremental}
 -   Step 1: Find a stating point (identify topic/concept of interest)
