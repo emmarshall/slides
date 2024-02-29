@@ -99,15 +99,21 @@ Your job is to understand/critique the methods & procedures they ***actually*** 
 
 ::: {.column width="50%"}
 
-[![](images/office-pavlov.png){fig-align="center" width="350"}](https://www.youtube.com/watch?v=PBb1CH18Smg)
+![](images/office-pavlov.png){fig-align="center" width="300"}
 
 :::
 
 ::: {.column width="50%"}
-![](images/words.png)
+![](images/words.png){fig-align="center" width="400"}
 :::
 
 :::
+
+
+::: aside
+[Link to watch](https://www.youtube.com/watch?v=PBb1CH18Smg)
+:::
+
 
 ## Pobodies Nerfect!
 
@@ -115,13 +121,13 @@ Your job is to understand/critique the methods & procedures they ***actually*** 
 
 ::: {.column width="50%"}
 
-![](images/measurement-meme.png)
+![](images/measurement-meme.png){fig-align="center" width="500"}
 :::
 
 
 ::: {.column width="50%"}
 
-![](images/int-ext-meme.png)
+![](images/int-ext-meme.png){fig-align="center" width="350"}
 
 :::
 :::
@@ -399,278 +405,3 @@ Here's how the researchers concluded an interview about their studies:
 ![](images/fig_1.png){fig-align="center"}
 :::
 :::
-
-## TRAAP Method
-
-> How to evaluate sources but remember that context matters (assignement vs. paper vs. other?)
-
-1.  Timeframe
-2.  Relevance
-3.  Authority
-4.  Accuracy
-5.  Purpose
-
-::: notes
-The TRAAP method is a way to help you critically think about your information and decide whether or not it is appropriate for your needs.
-:::
-
-## Avoiding the TRAAP of relying on bad sources
-
-> How to evaluate sources but remember that context matters (assignement vs. paper vs. other?)
-
-1.  Timeframe - *Is it too old to be useful?*
-2.  Relevance - Does it give me the info I need right now?
-3.  Authority - Who wrote it and why?
-4.  Accuracy - Can claims be verified and how does it relate to other research?
-5.  Purpose - Who is publishing this and why?
-
-# How to Improve your Writing
-
-::: footer
-Adapted from slides How to Improve Your Writing with many thanks to: James A. Burns University of Nebraska-Lincoln
-:::
-
-## Writing Skills Matter {.smaller}
-
--   College performance impacted by the quality of your writing.
-
--   But you can improve your writing by properly organizing and structuring your ideas.
-
--   There are a few myths about writing that should be dispelled before we begin:
-
-    -   Great writers are born, not made by practicing.
-
-    -   I need an IQ in the 130's in order to write well.
-
-    -   I need to have the vocabulary of a rocket scientist in order to write good papers.
-
-    -   My papers need to be over 30 pages in length in order to be acceptable.
-
-    -   I will never be good at writing papers.
-
-## Organization {.smaller}
-
-1.  The most important (and often the most easily improved) aspects of writing are clarity and organization.
-
-2.  The basic element of clarity and organization is a good paragraph.
-
-3.  A good paragraph has 3 parts:
-
-    1.  A TOPIC SENTENCE (to introduce the paragraph)
-
-    2.  3-10 CONTENT SENTENCES
-
-    3.  A TRANSITION SENTENCE (to introduce the next paragraph)
-
-## Topic Sentences {.smaller}
-
--   The paragraph starts with what is called a "TOPIC SENTENCE".
-
--   Introduces topic of paragraph the idea you will be discussing in that paragraph.
-
--   ALL SENTENCES IN THE PARAGRAPH AFTER THE TOPIC SENTENCE MUST PERTAIN TO AND SUPPORT THE TOPIC SENTENCE!
-
-    -   If there are sentences that do not pertain to the topic sentence, they are out of place (they probably belong in a different paragraph) and will only confuse the reader.
-
-    -   There may be three to ten content sentences that support the topic sentence.
-
-## Transitions {.smaller}
-
-> After you have fully explained the topic sentence, you need a sentence to lead the reader into the next paragraph.
-
--   This type of sentence is called a TRANSITION SENTENCE.
-
--   Learning to write good transitions takes practice.
-
--   The transition often relates the idea from the current paragraph with what will be talked about next.
-
--   The transition is ALWAYS the last sentence of a paragraph.
-
-::: callout-tip
-It is much like a "clue" about what you will talk about next.
-:::
-
-## Here is an example {.smaller}
-
-The paragraph talked about the psychological treatment of social phobia in adults.
-
-The transition sentence at the end of the paragraph is:
-
-> "Although much investigation has been done into the treatment of social phobia in adults, very little work has been done to address treatment avenues for children who suffer from the disorder."
-
--   Can you guess what the next paragraph will be about?
-
--   You got it, the next paragraph will be about the treatment of children with social phobia!
-
-## Paragraphs {.smaller}
-
-So, if we look at the format for any given paragraph, it should look like this.
-
-::: columns
-::: {.column width="40%"}
--   TOPIC SENTENCE (new paragraph)
-
-    -   content sentence #1
-
-    -   content sentence #2
-
-    -   content sentence #3
-
-    -   . . .
-
-    -   content sentence #8
-
--   TRANSITION SENTENCE
-:::
-
-::: {.column width="60%"}
--   TOPIC SENTENCE (new paragraph)
-
-    -   content sentence #1
-
-    -   content sentence #2
-
-    -   . . .
-
-    -   content sentence #5
-
--   TRANSITION SENTENCE
-
--   ... and so on until the paper is finished!
-:::
-:::
-
-## There is no limit on how long a paragraph should be {.smaller}
-
-::: callout-warning
-## But remember
-
--   If a paragraph is over 1 double-spaced page, it is probably too long. The reader may forget what idea the paragraph was discussing to begin with.
-
--   Remember that paragraphs that are too big, often are trying to say too much at one time.
-
--   Consider separating these multiple ideas and give each of them a separate paragraph, for a more complete description.
-
-REMEMBER CLARITY IS THE ISSUE !
-:::
-
-::: footer
-CLARITY IS ACHIEVED BY COMBINING SIMPLE, WELL-DESCRIBED IDEAS !!
-:::
-
-## Ordering Paragraphs {.smaller}
-
-> OK, in what order do I put the paragraphs?
-
-::: callout-tip
-The "rule of thumb" is that you begin with the most general idea, then narrow the focus with each successive paragraph, and finally return to remind the reader of the general idea. Here's an example.
-:::
-
-## Ordering Paragraphs {.smaller}
-
-> OK, in what order do I put the paragraphs?
-
-::: callout-tip
-The "rule of thumb" is that you begin with the most general idea, then narrow the focus with each successive paragraph, and finally return to remind the reader of the general idea. Here's an example.
-:::
-
-```         
-Paragraph #1  Define social phobia
-Paragraph #2  Describe the need for treating social phobia
-Paragraph #3  Treatment of adults with social phobia
-Paragraph #4  Treatment of children with social phobia
-Paragraph #5  Inpatient versus outpatient treatment of social 
-        phobia  for children
-Paragraph #6  Proposed study will compare which is better (this
-        paragraph will contain specific hypothesis about
-        which treatment will be better.
-Paragraph #7  A brief review of social phobia and what the
-               proposed research will add to what we know.
-```
-
-::: footer
-Organized papers are easier to read because they provide a road map.
-:::
-
-## Improve your organization {.smaller}
-
--   Make and outline BEFORE you start writing
-
--   Label each idea (paragraph) and which order you believe they should appear in your paper.
-
--   It will also be useful to write your topic sentences and transitions\
-    before you sit down to write the rest of the paper.
-
-::: footer
-"The way to learn to write is to write. There are no short-cuts."
-:::
-
-## Improve your organization
-
-::: callout-tip
-## Two things you should do after you finish your paper
-
--   Let the paper "get cold" for a day or two and re-read it (and probably re-write it - it never looks as good as you remember it being)
-
--   Let someone else read it -- "peer review" brings fresh ideas & options
-:::
-
-::: footer
-"The way to learn to write is to write. There are no short-cuts."
-:::
-
-## Concise Writing {.smaller}
-
--   Most reviews of articles involve reporting a variety of information, including number of participants, materials used, etc. (see grading sheets).
-
--   While it is acceptable to report each "bit" of information in its own sentence, this leads to a bloated paper that is boring to read.
-
--   Good writers learn to integrate ideas and information into concise sentences and paragraphs.
-
--   Think about each "bit" of information you are including. Are they truly separate "bits" or are they describing different aspects of the same idea? Can the bits be combined into more descriptive sentences?
-
-## Examples {.smaller}
-
-::: columns
-::: {.column width="50%"}
-### Nonintegrated (Boring)
-
-> Two hundred and four students participated in the study. All of the students were undergraduates in psychology. Roughly 84% of the participants were female. The materials used were the Beck Depression Inventory and the Beck Anxiety Inventory. The participants were brought into a large classroom and asked to fill out the inventories.
-
-(52 words, 5 sentences)
-:::
-
-::: {.column width="50%"}
-### Concise & Integrated
-
-> Two hundred and four undergraduate psychology students (84% female) participated in the study. The participants were brought into a large classroom and asked to fill out the Beck Depression Inventory and the Beck Anxiety Inventory.
-
-(35 words, 2 sentences)
-:::
-:::
-
-## Overview: Reading Research and Note Taking
-
-::: callout-note
-## Tips and Tricks
-
--   Organize by question
-
--   Record appropriate citation (ZOTERO!!)
-
--   Note **why** this paper is important for your project
-
--   Follow the citations and references you find
-
-    -   Papers that have cited this paper
-
-    -   Papers this paper cites
-
--   *More recent research has more weight*
-
--   Read the results
-
--   Restate findings in own terms
-:::
-
-# Questions? {background-image="images/fitz.png" background-opacity="0.1"}
